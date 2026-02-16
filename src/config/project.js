@@ -1,3 +1,4 @@
+export const SITE_URL = 'https://johannsebastianba.ch';
 export const projectConfig = {
     title: "Matthäus-Passion",
     composer: "Johann Sebastian Bach",

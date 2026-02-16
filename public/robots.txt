@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://matthaeus-passion.vercel.app/sitemap.xml
+Sitemap: https://johannsebastianba.ch/sitemap.xml
