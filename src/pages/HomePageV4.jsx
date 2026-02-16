@@ -21,7 +21,20 @@ const HomePageV4 = () => {
             />
 
             {/* Background Texture */}
-            <div className="absolute inset-0 opacity-10 pointer-events-none bg-[url('/images/texture_noise.png')]" />
+            {/* Background Video */}
+            <div className="absolute inset-0 pointer-events-none overflow-hidden">
+                <video
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="absolute inset-0 w-full h-full object-cover opacity-40 grayscale-[20%]"
+                >
+                    <source src="/videos/hero.mp4" type="video/mp4" />
+                </video>
+                {/* Texture overlay for consistent graininess */}
+                <div className="absolute inset-0 opacity-20 bg-[url('/images/texture_noise.png')] mix-blend-overlay" />
+            </div>
             <div className="absolute inset-0 bg-gradient-to-b from-neutral-900/0 via-neutral-900/50 to-neutral-950 pointer-events-none" />
 
             {/* Main Content */}
