@@ -1,0 +1,38 @@
+{
+    "id": "part_12",
+    "title": "Und sie wurden sehr betrübt",
+    "type": "Recitativo_Chorus",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "Het Laatste Avondmaal",
+        "en": "The Last Supper"
+    },
+    "speaker": "Evangelist, Chorus",
+    "source": "Text: Picander / Music: J.S. Bach",
+    "content": {
+        "de": {
+            "lyrics": "Evangelist: Und sie wurden sehr betrübt und hoben an, ein jeglicher unter ihnen, und sagten zu ihm:\n\nHerr, bin ich's?"
+        },
+        "nl": {
+            "lyrics": "Evangelist: En ze werden zeer bedroefd en begonnen stuk voor stuk tegen hem te zeggen:\n\nHeer, ben ik het?",
+            "modern": "De vrienden werden heel verdrietig en vroegen één voor één aan hem:\n\nBen ik het, Heer?",
+            "interpretation": "De sfeer slaat om. De aankondiging van het verraad komt hard binnen bij de vriendengroep.\n\nEen chaotisch moment (Turba). De discipelen roepen door elkaar heen. Als je goed telt, hoor je de vraag precies **11 keer**. Judas, de 12e, zwijgt hier nog.",
+            "trivia": [
+                {
+                    "category": "symboliek",
+                    "fact": {
+                        "nl": "De vraag wordt 11 keer gesteld. Judas zwijgt, waardoor er 11 discipelen overblijven. Het getal 11 staat symbool voor de zonde (overschrijding van de 10 geboden).",
+                        "en": "The question is asked 11 times. Judas remains silent, leaving 11 disciples. The number 11 symbolizes sin (transgressing the 10 commandments)."
+                    }
+                }
+            ]
+        },
+        "en": {
+            "lyrics": "Evangelist: And they were exceeding sorrowful, and began every one of them to say unto him:\n\nLord, is it I?",
+            "modern": "",
+            "interpretation": "The mood shifts. The announcement of the betrayal hits the group of friends hard.\n\nA chaotic moment (Turba). The disciples call out over each other. If you count carefully, you hear the question exactly **11 times**. Judas, the 12th, remains silent here.",
+            "trivia": []
+        },
+        "original_source": null
+    }
+}

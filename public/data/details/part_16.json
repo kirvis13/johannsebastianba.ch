@@ -1,0 +1,38 @@
+{
+    "id": "part_16",
+    "title": "Wiewohl mein Herz",
+    "type": "Recitativo_Accompagnato",
+    "subtype": "Accompagnato",
+    "scene_label": {
+        "nl": "Het Laatste Avondmaal",
+        "en": "The Last Supper"
+    },
+    "speaker": "Soprano",
+    "source": "Text: Picander / Music: J.S. Bach",
+    "content": {
+        "de": {
+            "lyrics": "Wiewohl mein Herz in Tränen schwimmt,\nDass Jesus von uns Abschied nimmt,\nSo macht mich doch sein Testament erfreut.\nSein Fleisch und Blut, o Kostbarkeit,\nVermacht er mir in meine Hände.\nWie er es auf der Welt mit denen Seinen\nNicht böse können meinen,\nSo liebt er sie bis an das Ende."
+        },
+        "nl": {
+            "lyrics": "Hoewel mijn hart in tranen zwemt,\nomdat Jezus afscheid van ons neemt,\nmaakt zijn testament mij toch blij.\nZijn vlees en bloed, o kostbaarheid,\nlaat hij na in mijn handen.\nZoals hij het in de wereld met de zijnen\nniet kwaad kan menen,\nzo heeft hij hen lief tot aan het einde.",
+            "modern": "Ik moet huilen omdat Jezus weggaat, maar zijn erfenis maakt me blij. Hij laat zichzelf (zijn lichaam en bloed) bij ons achter. Hij houdt van zijn vrienden tot het allerlaatste moment.",
+            "interpretation": "Een recitatief voor de sopraan. Het is een reactie op het Avondmaal. De 'tranen' (verdriet om het afscheid) worden gemengd met vreugde om het 'testament' (het Avondmaal).",
+            "trivia": [
+                {
+                    "category": "muzikaal",
+                    "fact": {
+                        "nl": "Bach wisselt hier tussen mineur (verdriet/tranen) en majeur (blijdschap/testament) om de dubbele emotie van het afscheid weer te geven.",
+                        "en": "Bach alternates here between minor (sorrow/tears) and major (joy/testament) to reflect the dual emotion of the farewell."
+                    }
+                }
+            ]
+        },
+        "en": {
+            "lyrics": "Although my heart swims in tears,\nbecause Jesus takes leave of us,\nyet his testament makes me glad.\nHis flesh and blood, o preciousness,\nhe bequeaths into my hands.\nAs he, in the world with his own,\ncannot mean them evil,\nso he loves them unto the end.",
+            "modern": "",
+            "interpretation": "A recitative for the soprano. It is a reaction to the Last Supper. The 'tears' (sorrow at the parting) are mixed with joy at the 'testament' (the Communion).",
+            "trivia": []
+        },
+        "original_source": null
+    }
+}

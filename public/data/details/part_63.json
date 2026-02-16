@@ -1,0 +1,29 @@
+{
+    "id": "part_63",
+    "title": "Und da sie ihn verspottet hatten",
+    "type": "Recitativo",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "De Kruisweg",
+        "en": "Via Dolorosa"
+    },
+    "speaker": "Evangelist",
+    "nba_no": "58a",
+    "content": {
+        "de": {
+            "lyrics": "Und da sie ihn verspottet hatten, zogen sie ihm den Mantel aus und zogen ihm seine Kleider an und führten ihn hin, dass sie ihn kreuzigten.\n\nUnd indem sie hinausgingen, funden sie einen Menschen von Kyrene mit Namen Simon; den zwangen sie, dass er ihm sein Kreuz trug.",
+            "modern": "Nach dem Spott ziehen sie ihm seine eigenen Kleider wieder an und führen ihn zur Kreuzigung. Unterwegs zwingen sie Simon von Kyrene, das Kreuz für Jesus zu tragen."
+        },
+        "nl": {
+            "lyrics": "En toen zij hem bespot hadden, trokken zij hem de mantel uit en trokken hem zijn kleren aan en leidden hem weg om hem te kruisigen.\n\nEn terwijl zij naar buiten gingen, vonden zij een mens uit Cyrene, genaamd Simon; die dwongen zij zijn kruis te dragen.",
+            "modern": "Na de bespotting trekken ze hem zijn eigen kleren weer aan en voeren hem weg naar het kruis. Onderweg dwingen ze Simon van Cyrene om het kruis voor Jezus te dragen.",
+            "interpretation": "Een kort, feitelijk verslag. Het 'dwingen' van Simon van Cyrene is het opstapje naar de volgende aria, waarin dit 'moeten' verandert in 'willen'."
+        },
+        "en": {
+            "lyrics": "And after that they had mocked him, they took the robe off from him, and put his own raiment on him, and led him away to crucify him.\n\nAnd as they came out, they found a man of Cyrene, Simon by name: him they compelled to bear his cross.",
+            "modern": "After mocking him, they dress him in his own clothes and lead him away to be crucified. On the way, they force Simon of Cyrene to carry the cross for Jesus.",
+            "interpretation": "A short, factual report. The 'compelling' of Simon of Cyrene sets the stage for the following aria, where this 'having to' turns into 'wanting to'."
+        },
+        "trivia": []
+    }
+}

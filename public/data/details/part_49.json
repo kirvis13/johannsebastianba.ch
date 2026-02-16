@@ -1,0 +1,38 @@
+{
+    "id": "part_49",
+    "title": "Gebt mir meinen Jesum wieder",
+    "type": "Aria",
+    "subtype": "Solo",
+    "scene_label": {
+        "nl": "Judas' Einde",
+        "en": "The End of Judas"
+    },
+    "speaker": "Bass",
+    "nba_no": "44",
+    "content": {
+        "de": {
+            "lyrics": "Gebt mir meinen Jesum wieder!\nSeht, das Geld, den Mörderlohn,\nWirft euch der verlorne Sohn\nZu den Füßen nieder.",
+            "modern": "Gebt mir meinen Jesus zurück! Seht, das Geld, diesen Mörderlohn, wirft euch der verlorene Sohn vor die Füße."
+        },
+        "nl": {
+            "lyrics": "Geef mij mijn Jezus terug!\nZie, het geld, het moordenaarsloon,\nwerpt de verloren zoon\nvoor uw voeten neer.",
+            "modern": "Geef me Jezus terug! Hier is jullie bloedgeld; ik gooi het voor jullie voeten neer.",
+            "interpretation": "Een virtuoze aria voor bas en solo-viool. De viool speelt drukke, rollende figuren die de weggeworpen, rollende zilverlingen uitbeelden. De bas (misschien Judas zelf, of een gelovige die namens hem spreekt) eist wanhopig Jezus terug. Het is een contrast met de introverte droefheid van Petrus; hier klinkt actieve wanhoop."
+        },
+        "en": {
+            "lyrics": "Give me my Jesus back again!\nSee, the money, the price of murder,\nThe prodigal son throws\nDown at your feet.",
+            "modern": "Give me my Jesus back! Look, the money, this price of murder, the prodigal son throws down at your feet.",
+            "interpretation": "A virtuosic aria for bass and solo violin. The violin plays busy, rolling figures depicting the rolling silver coins. The bass (perhaps Judas himself, or a believer speaking for him) desperately demands Jesus back. It contrasts with Peter's introverted grief; here sounds active despair."
+        },
+        "trivia": [
+            {
+                "category": "Symbolism",
+                "fact": {
+                    "nl": "De soloviool speelt hier 'scordatura' (niet in dit stuk, maar in andere barokmuziek vaak). Correctie: Hier geen scordatura, maar wel extreem virtuoos arpeggio-spel dat het klinken van de munten op de tempelvloer imiteert.",
+                    "en": "The solo violin plays extremely virtuosic arpeggios here, imitating the sound of the coins clattering on the temple floor.",
+                    "de": "Die Solovioline spielt hier extrem virtuose Arpeggien, die das Klirren der Münzen auf dem Tempelboden imitieren."
+                }
+            }
+        ]
+    }
+}

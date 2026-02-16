@@ -1,0 +1,42 @@
+{
+    "id": "part_17",
+    "title": "Ich will dir mein Herze schenken",
+    "type": "Aria",
+    "subtype": "Solo",
+    "scene_label": {
+        "nl": "Het Laatste Avondmaal",
+        "en": "The Last Supper"
+    },
+    "speaker": "Soprano",
+    "source": "Text: Picander / Music: J.S. Bach",
+    "content": {
+        "de": {
+            "lyrics": "Ich will dir mein Herze schenken,\nSenke dich, mein Heil, hinein!\nIch will mich in dir versenken;\nIst dir gleich die Welt zu klein,\nEi, so sollst du mir allein\nMehr als Welt und Himmel sein."
+        },
+        "nl": {
+            "lyrics": "Ik wil u mijn hart schenken,\ndaal daarin af, mijn heil!\nIk wil mij in u verliezen;\nal is de wereld voor u te klein,\nach, dan zult u voor mij alleen\nmeer dan wereld en hemel zijn.",
+            "modern": "Ik geef mijn hart aan u. Kom erin wonen. U bent voor mij belangrijker dan de hele wereld.",
+            "interpretation": "Een intieme, vreugdevolle aria. Na de zwaarte van het verraad en het Avondmaal, is dit een lichtpuntje. De gelovige accepteert Jezus in haar hart.",
+            "trivia": [
+                {
+                    "category": "muzikaal",
+                    "fact": {
+                        "nl": "Dit is een van de weinige aria's in het eerste deel die in een majeur-toonsoort staat (G-groot). De begeleiding door de hobo d'amore geeft het een warme, liefdevolle klank.",
+                        "en": "This is one of the few arias in the first part written in a major key (G major). The accompaniment by the oboe d'amore gives it a warm, loving sound."
+                    }
+                },
+                {
+                    "category": "instrumentatie",
+                    "fact": "De 'oboe d'amore' betekent letterlijk 'hobo van de liefde'. Het instrument heeft een zachte, serene klank en werd door Bach vaak gebruikt bij thema's van liefde en aanbidding. De naam ís de symboliek."
+                }
+            ]
+        },
+        "en": {
+            "lyrics": "I will give my heart to thee,\nsink thyself within it, my Savior!\nI will sink myself in thee;\nthough the world is too small for thee,\nah, then shalt thou be for me alone\nmore than world and heaven.",
+            "modern": "",
+            "interpretation": "An intimate, joyful aria. After the heaviness of the betrayal and the Last Supper, this is a point of light. The believer accepts Jesus into her heart.",
+            "trivia": []
+        },
+        "original_source": null
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "id": "part_36",
+    "title": "Ach, nun ist mein Jesus hin!",
+    "type": "Aria",
+    "subtype": "Solo_Chorus",
+    "scene_label": {
+        "nl": "Opening Deel 2",
+        "en": "Opening Part 2"
+    },
+    "speaker": "Alto, Chorus",
+    "source": "Text: Picander / Music: J.S. Bach",
+    "content": {
+        "de": {
+            "lyrics": "Ach! nun ist mein Jesus hin!\n(Wo ist denn dein Freund hingegangen,\nO du Schönste unter den Weibern?)\nIst's möglich, kann ich's schauen?\n(Wo hat sich dein Freund hingewandt?)\nAch! mein Lamm in Tigerklauen!\n(So wollen wir mit dir ihn suchen.)\nAch! wo ist mein Jesus hin?\nAch! was soll ich der Seele sagen,\nWenn sie mich wird ängstlich fragen?\nAch! wo ist mein Jesus hin?",
+            "modern": "Ich habe Jesus verloren. Er wurde von seinen Feinden ('Tigerklauen') fortgeschleppt. Freunde, helft mir, ihn zu suchen!"
+        },
+        "nl": {
+            "lyrics": "Ach, nu is mijn Jezus weg.\n(Waar is uw vriend dan heengegaan,\nO jij schoonste onder de vrouwen?)\nIs het mogelijk, kan ik dit aanschouwen?\n(Waar is uw vriend dan heengegaan?)\nAch, mijn lam in tijgerklauwen,\n(Zo willen wij met u hem zoeken.)\nAch, waar is mijn Jezus heen?\nAch, wat moet ik mijn ziel zeggen,\nals ze mij angstig zal vragen:\nach, waar is mijn Jezus heen?",
+            "modern": "Ik ben Jezus kwijt. Hij is weggesleept door zijn vijanden ('tijgerklauwen'). Vrienden, help me hem zoeken!",
+            "interpretation": "Deel 2 begint in verwarring. De Alt-solist is Jezus kwijtgeraakt in de nacht. Het Koor (als de Dochters van Sion) vraagt waar hij is. De dialoog tussen de angstige solist en het behulpzame koor symboliseert de gelovige ziel die op zoek is naar God."
+        },
+        "en": {
+            "lyrics": "Ah! now is my Jesus gone!\n(Whither is thy beloved gone,\nO thou fairest among women?)\nIs it possible? can I behold it?\n(Whither is thy beloved turned aside?)\nAh! my Lamb in tiger's claws!\n(that we may seek him with thee.)\nAh! where is my Jesus gone?\nAh! what shall I say to my soul,\nWhen she anxiously asks me?\nAh! where is my Jesus gone?",
+            "modern": "I have lost Jesus. He has been dragged away by his enemies ('tiger's claws'). Friends, help me find him!",
+            "interpretation": "Part 2 opens in confusion. The Alto soloist has lost Jesus in the night. The Choir asks where he is. This dialogue symbolizes the faithful soul searching for God."
+        },
+        "trivia": []
+    }
+}

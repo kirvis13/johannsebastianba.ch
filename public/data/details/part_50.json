@@ -1,0 +1,29 @@
+{
+    "id": "part_50",
+    "title": "Sie aber hielten Rat",
+    "type": "Recitativo",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "Judas' Einde",
+        "en": "The End of Judas"
+    },
+    "speaker": "Evangelist, Chief Priests",
+    "nba_no": "45",
+    "content": {
+        "de": {
+            "lyrics": "Evangelist: Sie aber hielten Rat und kauften den Töpfersacker darum zum Begräbnis der Pilger. Daher ist derselbige Acker genennet der Blutacker bis auf den heutigen Tag. Da ist erfüllet, das gesagt ist durch den Propheten Jeremias, da er spricht: Sie haben genommen dreißig Silberlinge, den Preis des Verkauften, den sie kauften von den Kindern Israel, und haben sie gegeben um einen Töpfersacker, als mir der Herr befohlen hat.",
+            "modern": "Die Priester kaufen von dem Blutgeld einen Friedhof für Fremde (den Blutacker). Damit erfüllt sich eine alte Prophezeiung über die 30 Silberlinge."
+        },
+        "nl": {
+            "lyrics": "Evangelist: Zij echter hielden raad en kochten daarvoor de akker van de pottenbakker als begraafplaats voor vreemdelingen. Daarom wordt die akker Bloedakker genoemd tot op de dag van vandaag. Toen is vervuld wat gezegd is door de profeet Jeremia, toen hij sprak: Zij hebben de dertig zilverlingen genomen, de prijs van de verkochte, die zij gekocht hadden van de kinderen Israëls, en hebben ze gegeven voor de akker van een pottenbakker, zoals de Heer mij bevolen heeft.",
+            "modern": "De priesters kopen van het bloedgeld een begraafplaats voor vreemdelingen (de Bloedakker). Daarmee komt een oude voorspelling uit over de 30 zilverlingen.",
+            "interpretation": "Een zakelijk recitatief dat de profetie bevestigt. Opvallend is dat de Evangelist hier 'Jeremia' noemt, terwijl de tekst eigenlijk uit Zacharia komt (gecombineerd met Jeremia). Een bekend bijbels detail dat Bach trouw volgt."
+        },
+        "en": {
+            "lyrics": "Evangelist: And they took counsel, and bought with them the potter's field, to bury strangers in. Wherefore that field was called, The field of blood, unto this day. Then was fulfilled that which was spoken by Jeremy the prophet, saying: And they took the thirty pieces of silver, the price of him that was valued, whom they of the children of Israel did value; And gave them for the potter's field, as the Lord appointed me.",
+            "modern": "The priests use the blood money to buy a cemetery for foreigners (the Field of Blood). This fulfills an old prophecy about the 30 pieces of silver.",
+            "interpretation": "A factual recitative confirming the prophecy. Notably, the Evangelist mentions 'Jeremy', although the text actually comes from Zechariah (combined with Jeremiah). A biblical detail that Bach faithfully follows."
+        },
+        "trivia": []
+    }
+}

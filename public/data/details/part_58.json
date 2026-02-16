@@ -1,0 +1,46 @@
+{
+    "id": "part_58",
+    "title": "Sie schrieen aber noch mehr",
+    "type": "Recitativo_Chorus",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "De Veroordeling",
+        "en": "The Condemnation"
+    },
+    "speaker": "Evangelist, Pilate, Chorus",
+    "nba_no": "53",
+    "content": {
+        "de": {
+            "lyrics": "Evangelist: Sie schrieen aber noch mehr und sprachen:\nChor: Lass ihn kreuzigen!\nEvangelist: Da aber Pilatus sahe, dass er nichts schaffete, sondern dass ein viel größer Getümmel ward, nahm er Wasser und wusch die Hände vor dem Volk und sprach:\nPilatus: Ich bin unschuldig an dem Blut dieses Gerechten, sehet ihr zu!\nEvangelist: Da antwortete das ganze Volk und sprach:\nChor: Sein Blut komme über uns und unsre Kinder!\nEvangelist: Da gab er ihnen Barabbam los; aber Jesum ließ er geißeln und überantwortete ihn, dass er gekreuziget würde.",
+            "modern": "Das Volk schreit lauter: 'Kreuzige ihn!' Pilatus wäscht seine Hände in Unschuld: 'Ich bin nicht schuld an seinem Tod.' Das Volk ruft: 'Sein Blut komme über uns!' Da lässt Pilatus Barabbas frei und Jesus geißeln."
+        },
+        "nl": {
+            "lyrics": "Evangelist: Zij schreeuwden echter nog meer en zeiden:\nKoor: Laat hem kruisigen!\nEvangelist: Toen Pilatus echter zag dat hij niets bereikte, maar dat er een veel groter tumult ontstond, nam hij water en waste zijn handen ten overstaan van het volk en sprak:\nPilatus: Ik ben onschuldig aan het bloed van deze rechtvaardige, ziet u maar toe!\nEvangelist: Toen antwoordde het hele volk en zei:\nKoor: Zijn bloed kome over ons en onze kinderen!\nEvangelist: Toen gaf hij Barabbas aan hen vrij; maar Jezus liet hij geselen en leverde hem over om gekruisigd te worden.",
+            "modern": "Het volk schreeuwt harder: 'Kruisig hem!' Pilatus wast zijn handen in onschuld: 'Ik ben niet schuldig aan zijn dood.' Het volk roept: 'Zijn bloed kome over ons!' Dan laat Pilatus Barabbas vrij en laat hij Jezus geselen.",
+            "interpretation": "De agressie bereikt een kookpunt. 'Lass ihn kreuzigen' is een dissonante fuga die als een lawine aanzwelt. De uitroep 'Sein Blut komme über uns' klinkt bijna dansend, wat de waanzin van de menigte onderstreept."
+        },
+        "en": {
+            "lyrics": "Evangelist: But they cried out the more, saying:\nChorus: Let him be crucified!\nEvangelist: When Pilate saw that he could prevail nothing, but that rather a tumult was made, he took water, and washed his hands before the multitude, saying:\nPilate: I am innocent of the blood of this just person: see ye to it.\nEvangelist: Then answered all the people, and said:\nChorus: His blood be on us, and on our children.\nEvangelist: Then released he Barabbas unto them: and when he had scourged Jesus, he delivered him to be crucified.",
+            "modern": "The people shout louder: 'Let him be crucified!' Pilate washes his hands: 'I am innocent of his death.' The people cry: 'His blood be on us!' Then Pilate releases Barabbas and has Jesus scourged.",
+            "interpretation": "The aggression reaches a boiling point. 'Lass ihn kreuzigen' is a dissonant fugue that swells like an avalanche. The shout 'Sein Blut komme über uns' sounds almost dance-like, underlining the madness of the crowd."
+        },
+        "trivia": [
+            {
+                "category": "Musical Painting",
+                "fact": {
+                    "nl": "Bij de woorden 'Lass ihn kreuzigen' gebruikt Bach een 'verminderd septiemakkoord', destijds het akkoord van de duivel en grote spanning. De stemmen vallen over elkaar heen in een chaos.",
+                    "en": "At the words 'Lass ihn kreuzigen', Bach uses a 'diminished seventh chord', associated with the devil and tension. The voices tumble over each other in chaos.",
+                    "de": "Bei den Worten 'Lass ihn kreuzigen' verwendet Bach einen 'verminderten Septakkord', den Akkord der großen Spannung."
+                }
+            },
+            {
+                "category": "toonsoort",
+                "fact": "Bach componeerde 'Lass ihn kreuzigen' in b-mineur - destijds gezien als de zwartste, meest melancholische toonsoort. De donkerste klank voor het donkerste moment."
+            },
+            {
+                "category": "symboliek",
+                "fact": "In het Duits is # (muzikaal kruisteken) = 'Kreuz' = kruis. Bij 'kreuzigen' gebruikt Bach veel kruistekens (#) in de muziek. Het woord 'kruisigen' wordt letterlijk hoorbaar en zichtbaar."
+            }
+        ]
+    }
+}

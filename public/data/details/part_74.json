@@ -1,0 +1,29 @@
+{
+    "id": "part_74",
+    "title": "Am Abend aber kam ein reicher Mann",
+    "type": "Recitativo",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "De Begrafenis",
+        "en": "The Burial"
+    },
+    "speaker": "Evangelist, Pilate",
+    "nba_no": "66b",
+    "content": {
+        "de": {
+            "lyrics": "Evangelist: Am Abend aber kam ein reicher Mann von Arimathia, der hieß Joseph,\nwelcher auch ein Jünger Jesu war.\nDer ging zu Pilatus und bat ihn um den Leichnam Jesu.\nDa befahl Pilatus, man sollte ihm ihn geben.",
+            "modern": "Am Abend bittet Joseph von Arimathia, ein reicher Jünger, Pilatus um den Körper Jesu. Pilatus erlaubt es."
+        },
+        "nl": {
+            "lyrics": "Evangelist: Toen het echter avond werd, kwam er een rijk man uit Arimathea, die Jozef heette,\ndie ook een discipel van Jezus was.\nDeze ging naar Pilatus en vroeg hem om het lichaam van Jezus.\nToen beval Pilatus dat men het hem zou geven.",
+            "modern": "'s Avonds vraagt Jozef van Arimathea, een rijke volgeling, aan Pilatus om het lichaam van Jezus. Pilatus geeft toestemming.",
+            "interpretation": "Jozef van Arimathea durft publiekelijk voor zijn geloof uit te komen door het lichaam op te eisen. Dit leidt de laatste grote aria in."
+        },
+        "en": {
+            "lyrics": "Evangelist: When the even was come, there came a rich man of Arimathaea, named Joseph,\nwho also himself was Jesus' disciple:\nHe went to Pilate, and begged the body of Jesus.\nThen Pilate commanded the body to be delivered.",
+            "modern": "In the evening Joseph of Arimathea, a rich disciple, asks Pilate for Jesus' body. Pilate gives permission.",
+            "interpretation": "Joseph of Arimathea dares to publicly declare his faith by claiming the body. This introduces the final great aria."
+        },
+        "trivia": []
+    }
+}

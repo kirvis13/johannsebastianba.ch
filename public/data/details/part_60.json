@@ -1,0 +1,38 @@
+{
+    "id": "part_60",
+    "title": "Können Tränen meiner Wangen",
+    "type": "Aria",
+    "subtype": "Solo",
+    "scene_label": {
+        "nl": "De Geseling",
+        "en": "The Scourging"
+    },
+    "speaker": "Alto",
+    "nba_no": "55",
+    "content": {
+        "de": {
+            "lyrics": "Können Tränen meiner Wangen\nNichts erlangen,\nO, so nehmt mein Herz hinein!\nAber lasst es bei den Fluten,\nWenn die Wunden milde bluten,\nAuch die Opferschale sein.",
+            "modern": "Wenn meine Tränen nichts bewirken, dann nehmt mein Herz! Lasst es die Schale sein, die das Blut aus seinen Wunden auffängt."
+        },
+        "nl": {
+            "lyrics": "Kunnen de tranen van mijn wangen\nniets verkrijgen,\no, neem dan mijn hart aan!\nMaar laat het bij de stromen,\nals de wonden zacht bloeden,\nook de offerschaal zijn.",
+            "modern": "Als mijn tranen niet genoeg zijn, neem dan mijn hart! Laat mijn hart de schaal zijn die het bloed uit zijn wonden opvangt.",
+            "interpretation": "Een aangrijpende aria. De alt wil het bloed van Jezus opvangen. Het ritme is hortend en stotend, wat het snikken en de pijn uitbeeldt. De tekst is zeer barok en bloedig, maar de muziek maakt het bijna mystiek."
+        },
+        "en": {
+            "lyrics": "If the tears on my cheeks\nCan achieve nothing,\nO, then take my heart instead!\nBut let it, amidst the floods,\nWhen the wounds bleed gently,\nAlso be the sacrificial bowl.",
+            "modern": "If my tears achieve nothing, take my heart! Let it be the cup that catches the blood from his wounds.",
+            "interpretation": "A poignant aria. The alto wants to catch Jesus' blood. The rhythm is jerky, depicting sobbing and pain. The text is very Baroque and bloody, but the music renders it almost mystical."
+        },
+        "trivia": [
+            {
+                "category": "Symbolism",
+                "fact": {
+                    "nl": "Het 'schokkerige' ritme in deze aria is geen fout, maar een bewuste stijlfiguur ('Singultus') om het onbeheersbare snikken uit te beelden.",
+                    "en": "The 'jerky' rhythm in this aria is not a mistake, but a deliberate stylistic figure ('Singultus') to depict uncontrollable sobbing.",
+                    "de": "Der 'ruckartige' Rhythmus in dieser Arie ist kein Fehler, sondern eine bewusste Stilfigur ('Singultus'), um unkontrollierbares Schluchzen darzustellen."
+                }
+            }
+        ]
+    }
+}

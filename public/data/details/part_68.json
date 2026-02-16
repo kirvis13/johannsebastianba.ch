@@ -1,0 +1,34 @@
+{
+    "id": "part_68",
+    "title": "Ach Golgatha, unselges Golgatha",
+    "type": "Arioso",
+    "subtype": "Accompagnato",
+    "scene_label": {
+        "nl": "Kruisiging",
+        "en": "The Crucifixion"
+    },
+    "speaker": "Alto",
+    "nba_no": "69",
+    "content": {
+        "de": {
+            "lyrics": "Ach Golgatha, unsel'ges Golgatha!\nDer Herr der Herrlichkeit\nMuß schimpflich hier verderben,\nDer Segen und das Heil der Welt\nWird als ein Fluch ans Kreuz gestellt.\nDer Schöpfer Himmels und der Erden\nSoll Erd und Luft entzogen werden.\nDie Unschuld muß hier schuldig sterben,\nDas gehet meiner Seele nah;\nAch Golgatha, unsel'ges Golgatha!",
+            "modern": "Ach Golgotha, verfluchter Ort! Der Herr der Herrlichkeit stirbt hier schändlich. Der Schöpfer von Himmel und Erde verliert den Boden unter den Füßen. Die Unschuld stirbt als schuldig. Das geht mir nah."
+        },
+        "nl": {
+            "lyrics": "Ach Golgotha, onfortuinlijk Golgotha!\nDe heer der heerlijkheid\nmoet hier in schande sterven,\nde zegen en het heil van de wereld\nwordt als een vloek aan het kruis geslagen.\nDe schepper van hemel en aarde\nmoet aarde en lucht onttrokken worden.\nDe onschuld moet hier schuldig sterven,\ndat pijnigt mijn ziel;\nAch Golgotha, onfortuinlijk Golgotha!",
+            "modern": "Ach Golgotha, vervloekte plek! De Heer sterft hier als een misdadiger. De maker van hemel en aarde hangt hier tussen hemel en aarde in. Onschuld wordt gestraft. Dit raakt me diep.",
+            "interpretation": "De Oboes da Caccia (jachthobo's) creëren een donkere, benauwende sfeer. De alt zingt met diepe verslagenheid. Het beeld van de Schepper die 'aan aarde en lucht onttrokken wordt' (hij hangt immers aan het kruis) is theologisch en muzikaal zeer sterk uitgebeeld."
+        },
+        "en": {
+            "lyrics": "Ah Golgotha, unhappy Golgotha!\nThe Lord of Glory\nMust perish here in shame,\nThe blessing and salvation of the world\nIs placed on the cross like a curse.\nThe Creator of heaven and earth\nShall be deprived of earth and air.\nInnocence must die here as guilty,\nThat touches my soul deeply;\nAh Golgotha, unhappy Golgotha!",
+            "modern": "Ah Golgotha, cursed place! The Lord of Glory dies here in shame. The Creator of heaven and earth loses the ground beneath his feet. Innocence dies as guilty. This touches my soul deeply.",
+            "interpretation": "The Oboes da Caccia create a dark, oppressive atmosphere. The alto sings with deep dejection. The image of the Creator being 'deprived of earth and air' (hanging on the cross) is powerfully depicted."
+        },
+        "trivia": [
+            {
+                "category": "symboliek",
+                "fact": "In het Duits is 'Kreuz' zowel 'kruis' als het muzikale '#-teken'. In dit Golgotha-stuk schreef Bach exact 59 kruistekens (#) in de noten. Het kruis wordt letterlijk zichtbaar in de muziek."
+            }
+        ]
+    }
+}

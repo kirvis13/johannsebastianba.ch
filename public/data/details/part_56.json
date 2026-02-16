@@ -1,0 +1,29 @@
+{
+    "id": "part_56",
+    "title": "Er hat uns allen wohlgetan",
+    "type": "Arioso",
+    "subtype": "Accompagnato",
+    "scene_label": {
+        "nl": "Barabbas",
+        "en": "Barabbas"
+    },
+    "speaker": "Soprano",
+    "nba_no": "57",
+    "content": {
+        "de": {
+            "lyrics": "Er hat uns allen wohlgetan,\nDen Blinden gab er das Gesicht,\nDie Lahmen macht' er gehend,\nEr sagt' uns seines Vaters Wort,\nEr trieb die Teufel fort,\nBetrübte hat er aufgericht't,\nEr nahm die Sünder auf und an.\nSonst hat mein Jesus nichts getan.",
+            "modern": "Er hat nur Gutes getan: Blinde sehend gemacht, Lahme gehend. Er predigte Gottes Wort und tröstete die Betrübten. Sonst hat er nichts getan."
+        },
+        "nl": {
+            "lyrics": "Hij heeft ons allen welgedaan,\nde blinden gaf hij zicht,\nde verlamden liet hij weer lopen,\nhij bracht ons het woord van zijn vader,\nhij dreef de duivelen uit,\nbedroefden heeft hij moed ingesproken,\nhij ontfermde zich over de zondaars.\nIets anders heeft mijn Jezus niet gedaan.",
+            "modern": "Hij heeft alleen maar goed gedaan: blinden laten zien, lammen laten lopen. Hij vertelde over God en troostte mensen. Verder heeft hij niets gedaan.",
+            "interpretation": "De sopraan antwoordt op Pilatus' vraag ('Wat heeft hij misdaan?'). Ze somt Jezus' wonderen op. De begeleiding is teer en breekbaar (hobo's), wat de onschuld van Jezus benadrukt."
+        },
+        "en": {
+            "lyrics": "He hath done good to us all,\nHe gave sight to the blind,\nHe made the lame to walk,\nHe told us his Father's word,\nHe drove the devils forth,\nThe sorrowful he hath comforted,\nHe received and accepted sinners.\nOtherwise my Jesus hath done nothing.",
+            "modern": "He has done only good: giving sight to the blind, making the lame walk. He preached God's word and comforted the sorrowful. Otherwise he has done nothing.",
+            "interpretation": "The soprano answers Pilate's question ('What evil has he done?'). She lists Jesus' miracles. The accompaniment is tender and fragile (oboes), emphasizing Jesus' innocence."
+        },
+        "trivia": []
+    }
+}

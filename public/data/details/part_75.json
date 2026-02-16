@@ -1,0 +1,29 @@
+{
+    "id": "part_75",
+    "title": "Am Abend, da es kühle war",
+    "type": "Arioso",
+    "subtype": "Accompagnato",
+    "scene_label": {
+        "nl": "De Begrafenis",
+        "en": "The Burial"
+    },
+    "speaker": "Bass",
+    "nba_no": "74",
+    "content": {
+        "de": {
+            "lyrics": "Am Abend, da es kühle war,\nward Adams Fallen offenbar;\nAm Abend drücket ihn der Heiland nieder.\nAm Abend kam die Taube wieder\nund trug ein Ölblatt in dem Munde.\nO schöne Zeit! O Abendstunde!\nDer Friedensschluss ist nun mit Gott gemacht,\nDenn Jesus hat sein Kreuz vollbracht.\nSein Leichnam kommt zur Ruh.\nAch, liebe Seele, bitte du,\nGeh, lasse dir den toten Jesum schenken,\nO heilsames, o köstlichs Angedenken!",
+            "modern": "Am Abend geschah der Sündenfall. Am Abend macht Jesus ihn wieder gut. Wie die Taube mit dem Ölzweig Frieden brachte, bringt dieser Abend Frieden mit Gott. Bitte darum, den toten Jesus empfangen zu dürfen."
+        },
+        "nl": {
+            "lyrics": "'s Avonds, toen het koel was,\nWerd de zondeval van Adam openbaar;\n's Avonds buigt zich de verlosser neer.\n's Avonds keerde de duif terug,\nen bracht een olijftak mee.\nO mooie tijd! O avondstond!\nHet vredesverbond is nu met God gesloten,\nwant Jezus heeft zijn kruis volbracht.\nZijn lichaam komt tot rust.\nAch, lieve ziel, vraag jij,\nga, laat u de dode Jezus schenken,\nO heilzaam, o kostbaar aandenken.",
+            "modern": "In de avond viel Adam in zonde. In de avond maakt Jezus dit weer goed. Zoals de duif (bij Noach) vrede bracht in de avond, brengt deze avond vrede met God. Vraag of je Jezus mag ontvangen.",
+            "interpretation": "Een sfeer van serene rust daalt neer. De tekst legt prachtige verbindingen: de avond van de zondeval (Adam) wordt hersteld door de avond van de begrafenis. De duif van Noach symboliseert de nieuwe vrede."
+        },
+        "en": {
+            "lyrics": "At evening, when it was cool,\nAdam's fall was made manifest;\nAt evening the Savior puts an end to it.\nAt evening the dove returned\nAnd bore an olive leaf in its mouth.\nO beautiful time! O evening hour!\nThe covenant of peace is now made with God,\nFor Jesus has fulfilled his cross.\nHis body comes to rest.\nAh, dear soul, ask thou,\nGo, let the dead Jesus be given to thee,\nO wholesome, o precious memorial!",
+            "modern": "In the evening Adam fell. In the evening Jesus restores it. Like the dove with the olive branch brought peace, this evening brings peace with God. Ask to receive the dead Jesus.",
+            "interpretation": "An atmosphere of serene rest descends. The text makes beautiful connections: the evening of the Fall (Adam) is restored by the evening of the burial. Noah's dove symbolizes the new peace."
+        },
+        "trivia": []
+    }
+}

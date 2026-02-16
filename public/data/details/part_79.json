@@ -1,0 +1,29 @@
+{
+    "id": "part_79",
+    "title": "Nun ist der Herr zur Ruh gebracht",
+    "type": "Recitativo_Chorus",
+    "subtype": "Accompagnato",
+    "scene_label": {
+        "nl": "Slot",
+        "en": "Conclusion"
+    },
+    "speaker": "Bass, Tenor, Alto, Soprano, Chorus",
+    "nba_no": "71",
+    "content": {
+        "de": {
+            "lyrics": "Bass: Nun ist der Herr zur Ruh gebracht.\n\nChor: Mein Jesu, gute Nacht!\n\nTenor: Die Mühe ist vorbei, die unsre Sünden ihm gemacht.\n\nChor: Mein Jesu, gute Nacht!\n\nAlt: O selige Gebeine,\nSeht, wie ich euch mit Buß und Reu beweine,\nDass euch mein Fall in solche Not gebracht!\n\nChor: Mein Jesu, gute Nacht!\n\nSopran: Habt lebenslang\nVor euer Leiden tausend Dank,\nDass ihr mein Seelenheil so wert geacht'.\n\nChor: Mein Jesu, gute Nacht!",
+            "modern": "Der Herr hat nun Ruhe. (Gute Nacht, mein Jesus!) Die Mühe unserer Sünden ist vorbei. (Gute Nacht!) Ich beweine dich mit Reue. (Gute Nacht!) Tausend Dank für dein Leiden, das mich gerettet hat. (Gute Nacht!)"
+        },
+        "nl": {
+            "lyrics": "Bas: Nu is de Heer tot rust gebracht.\n\nKoor: Mijn Jezus, goede nacht!\n\nTenor: De moeite is voorbij, die onze zonden hem bezorgd hebben.\n\nKoor: Mijn Jezus, goede nacht!\n\nAlt: O zalige beenderen,\nzie, hoe ik u met boete en berouw beween,\ndat mijn val u in zo'n nood heeft gebracht!\n\nKoor: Mijn Jezus, goede nacht!\n\nSopraan: Heb levenslang\nvoor uw lijden duizendmaal dank,\ndat u mijn zielenheil zoveel waard achtte.\n\nKoor: Mijn Jezus, goede nacht!",
+            "modern": "De Heer heeft nu rust. (Goede nacht, Jezus.) Het zware werk voor onze zonden zit erop. (Goede nacht.) Ik huil van spijt. (Goede nacht.) Dank u wel dat u voor mij wilde lijden. (Goede nacht.)",
+            "interpretation": "De vier solisten (de mensheid) nemen één voor één afscheid, en het koor antwoordt telkens met een zacht 'Mein Jesu, gute Nacht'. Het is een intiem, persoonlijk afscheid voor het grote slotkoor begint."
+        },
+        "en": {
+            "lyrics": "Bass: Now the Lord is brought to rest.\n\nChorus: My Jesus, good night!\n\nTenor: The trouble is over which our sins caused him.\n\nChorus: My Jesus, good night!\n\nAlto: O blessed bones,\nSee how I weep for you with penitence and remorse,\nThat my fall has brought you to such distress!\n\nChorus: My Jesus, good night!\n\nSoprano: Have lifelong\nA thousand thanks for your suffering,\nThat you valued my soul's salvation so highly.\n\nChorus: My Jesus, good night!",
+            "modern": "The Lord is at rest. (Good night, my Jesus!) The trouble of our sins is over. (Good night!) I weep with remorse. (Good night!) Thank you forever for your suffering that saved me. (Good night!)",
+            "interpretation": "The four soloists (humanity) say goodbye one by one, and the choir answers each time with a soft 'Mein Jesu, gute Nacht'. It is an intimate, personal farewell before the great final chorus begins."
+        },
+        "trivia": []
+    }
+}

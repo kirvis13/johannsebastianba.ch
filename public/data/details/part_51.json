@@ -1,0 +1,29 @@
+{
+    "id": "part_51",
+    "title": "Jesus aber stund vor dem Landpfleger",
+    "type": "Recitativo",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "Voor Pilatus",
+        "en": "Before Pilate"
+    },
+    "speaker": "Evangelist, Jesus, Pilate",
+    "nba_no": "46",
+    "content": {
+        "de": {
+            "lyrics": "Evangelist: Jesus aber stund vor dem Landpfleger; und der Landpfleger fragte ihn und sprach:\nPilatus: Bist du der Juden König?\nEvangelist: Jesus aber sprach zu ihm:\nJesus: Du sagest es.\nEvangelist: Und da er verklagt ward von den Hohenpriestern und Ältesten, antwortete er nichts. Da sprach Pilatus zu ihm:\nPilatus: Hörest du nicht, wie hart sie dich verklagen?\nEvangelist: Und er antwortete ihm nicht auf ein Wort, also, dass sich auch der Landpfleger sehr verwunderte.",
+            "modern": "Jesus steht vor Pilatus. Pilatus fragt: 'Bist du der König der Juden?' Jesus antwortet: 'Du sagst es.' Auf die Anklagen der Priester reagiert er nicht. Pilatus ist erstaunt über sein Schweigen."
+        },
+        "nl": {
+            "lyrics": "Evangelist: Jezus nu stond voor de stadhouder; en de stadhouder vroeg hem en zei:\nPilatus: Bent u de Koning der Joden?\nEvangelist: Jezus echter sprak tot hem:\nJezus: U zegt het.\nEvangelist: En toen hij beschuldigd werd door de hogepriesters en oudsten, antwoordde hij niets. Toen sprak Pilatus tot hem:\nPilatus: Hoort u niet, hoe zwaar zij u beschuldigen?\nEvangelist: En hij antwoordde hem op geen enkel woord, zodat ook de stadhouder zich zeer verwonderde.",
+            "modern": "Jezus staat voor Pilatus. Pilatus vraagt: 'Ben jij de Koning van de Joden?' Jezus antwoordt: 'U zegt het.' Op de zware beschuldigingen van de priesters reageert hij niet. Pilatus is verbaasd over zijn stilzwijgen.",
+            "interpretation": "De stilte van Jezus (die we eerder bij Kajafas zagen) imponeert nu ook de wereldlijke machthebber Pilatus. Bach zet de vraag van Pilatus ('Bist du der Juden König?') neer met een stijgende lijn, als een oprechte, maar sceptische vraag."
+        },
+        "en": {
+            "lyrics": "Evangelist: Now Jesus stood before the governor: and the governor asked him, saying:\nPilate: Art thou the King of the Jews?\nEvangelist: And Jesus said unto him:\nJesus: Thou sayest.\nEvangelist: And when he was accused of the chief priests and elders, he answered nothing. Then said Pilate unto him:\nPilate: Hearest thou not how many things they witness against thee?\nEvangelist: And he answered him to never a word; insomuch that the governor marveled greatly.",
+            "modern": "Jesus stands before Pilate. Pilate asks: 'Are you the King of the Jews?' Jesus answers: 'You say so.' He does not respond to the priests' accusations. Pilate is amazed by his silence.",
+            "interpretation": "Jesus' silence (seen earlier with Caiaphas) now also impresses the secular ruler Pilate. Bach sets Pilate's question ('Bist du der Juden König?') with a rising line, as a sincere but skeptical question."
+        },
+        "trivia": []
+    }
+}

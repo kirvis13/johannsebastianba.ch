@@ -1,0 +1,29 @@
+{
+    "id": "part_73",
+    "title": "Und es waren viel Weiber da",
+    "type": "Recitativo",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "De Begrafenis",
+        "en": "The Burial"
+    },
+    "speaker": "Evangelist",
+    "nba_no": "66a",
+    "content": {
+        "de": {
+            "lyrics": "Evangelist: Und es waren viel Weiber da, die von ferne zusahen, die da waren nachgefolget aus Galiläa und hatten ihm gedienet; unter welchen war Maria Magdalena und Maria, die Mutter Jacobi und Joses, und die Mutter der Kinder Zebedäi.",
+            "modern": "Viele Frauen sehen von weitem zu, darunter Maria Magdalena. Sie waren ihm aus Galiläa gefolgt."
+        },
+        "nl": {
+            "lyrics": "Evangelist: En er waren daar veel vrouwen die Jezus waren gevolgd uit Galilea en hem hadden gediend, die van verre toezagen. Onder hen waren Maria Magdalena en Maria, de moeder van Jacobus en Jozef, en de moeder van de zonen van Zebedeüs.",
+            "modern": "Veel vrouwen kijken van een afstand toe, waaronder Maria Magdalena. Ze waren hem gevolgd vanuit Galilea.",
+            "interpretation": "Een moment van stilte en observatie. Terwijl de mannen (discipelen) zijn gevlucht, blijven de vrouwen trouw op afstand waken."
+        },
+        "en": {
+            "lyrics": "Evangelist: And many women were there beholding afar off, which followed Jesus from Galilee, ministering unto him: among which was Mary Magdalene, and Mary the mother of James and Joses, and the mother of Zebedee's children.",
+            "modern": "Many women watch from afar, including Mary Magdalene. They had followed him from Galilee.",
+            "interpretation": "A moment of silence and observation. While the men (disciples) have fled, the women remain faithfully watching from a distance."
+        },
+        "trivia": []
+    }
+}

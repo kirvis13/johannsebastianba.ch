@@ -1,0 +1,74 @@
+{
+    "id": "part_33",
+    "title": "Sind Blitze, sind Donner",
+    "type": "Chorus",
+    "subtype": "Full",
+    "scene_label": {
+        "nl": "De Arrestatie",
+        "en": "The Arrest"
+    },
+    "speaker": "Chorus I & II",
+    "content": {
+        "de": {
+            "lyrics": "Sind Blitze, sind Donner in Wolken verschwunden?\nEröffne den feurigen Abgrund, o Hölle,\nZertrümmre, verderbe, verschlinge, zerschelle\nMit plötzlicher Wut\nDen falschen Verräter, das mördrische Blut!",
+            "modern": "Wo bleiben Blitz und Donner? Der Himmel schweigt, also rufen wir die Hölle an. Die Erde soll aufreißen und diesen Verräter verschlingen!"
+        },
+        "nl": {
+            "lyrics": "Zijn bliksems en donders in wolken verdwenen?\nOpen uw vurige afgrond, o hel,\nvermorzel, vernietig, verslind, verpletter\nmet plotselinge woede\nde valse verrader, het moorddadige bloed!",
+            "modern": "Waar blijven de bliksem en de donder? De hemel zwijgt, dus roepen we de hel aan. Laat de aarde openscheuren en deze verrader verzwelgen!",
+            "interpretation": "Dit is een van de meest woeste en dramatische koren uit de hele Passion. De twee koren zingen elkaar razendsnel toe in een 'Turba' (menigte) effect. De leerlingen zijn niet alleen verdrietig, maar woedend. Bach schildert de tekst muzikaal. Bij 'Blitze' en 'Donner' hoor je de rommelende bassen en schichtige violen. Het contrast met de daaropvolgende stilte van Jezus kan niet groter zijn."
+        },
+        "en": {
+            "lyrics": "Have lightnings and thunders vanished in the clouds?\nOpen your fiery pit, O hell,\nWreck, ruin, engulf, shatter\nWith sudden rage\nThe false betrayer, the murderous blood!",
+            "modern": "Where are the lightning and thunder? The heavens are silent, so we call upon hell. Let the earth crack open and swallow this traitor!",
+            "interpretation": "This is one of the most ferocious movements in the entire Passion. The two choirs shout back and forth in a rapid-fire 'Turba' (crowd) effect. The disciples are furious. Bach paints the text musically. You can hear the rolling thunder in the basses and lightning strikes in the violins."
+        },
+        "trivia": [
+            {
+                "category": "Music Theory",
+                "fact": {
+                    "nl": "Dit stuk is een schoolvoorbeeld van 'Stile Concitato' (opgewonden stijl). De korte, hamerende noten en snelle uitwisselingen tussen de koren creëren een sfeer van chaos en paniek.",
+                    "en": "This piece is a prime example of 'Stile Concitato' (agitated style). The short, hammering notes and rapid exchanges between the choirs create an atmosphere of chaos and panic.",
+                    "de": "Dieses Stück ist ein Musterbeispiel für den 'Stile Concitato' (erregter Stil). Die kurzen, hämmernden Noten und der schnelle Wechsel zwischen den Chören erzeugen eine Atmosphäre von Chaos und Panik."
+                }
+            }
+        ],
+        "visual_cues": [
+            {
+                "time": 3609.5,
+                "type": "lightning",
+                "duration": 0.3
+            },
+            {
+                "time": 3611.2,
+                "type": "lightning",
+                "duration": 0.3
+            },
+            {
+                "time": 3613.5,
+                "type": "thunder",
+                "duration": 1.5
+            },
+            {
+                "time": 3615.0,
+                "type": "lightning",
+                "duration": 0.2
+            },
+            {
+                "time": 3618.0,
+                "type": "abyss_open",
+                "duration": 5.0
+            },
+            {
+                "time": 3625.0,
+                "type": "storm_intensity_high",
+                "duration": 15.0
+            },
+            {
+                "time": 3645.0,
+                "type": "calm",
+                "duration": 2.0
+            }
+        ]
+    }
+}

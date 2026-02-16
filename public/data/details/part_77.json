@@ -1,0 +1,29 @@
+{
+    "id": "part_77",
+    "title": "Und Joseph nahm den Leib",
+    "type": "Recitativo",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "De Begrafenis",
+        "en": "The Burial"
+    },
+    "speaker": "Evangelist",
+    "nba_no": "69",
+    "content": {
+        "de": {
+            "lyrics": "Und Joseph nahm den Leib und wickelte ihn in ein rein Leinwand\nund legte ihn in sein eigen neu Grab, welches er hatte lassen in einen Fels hauen,\nund wälzete einen großen Stein vor die Tür des Grabes und ging davon.\nEs war aber allda Maria Magdalena und die andere Maria,\ndie setzten sich gegen das Grab.",
+            "modern": "Joseph wickelt Jesus in Leinen, legt ihn in sein eigenes Felsengrab, rollt einen Stein davor und geht. Maria Magdalena und die andere Maria bleiben sitzen und wachen."
+        },
+        "nl": {
+            "lyrics": "En Jozef nam het lichaam, wikkelde het in zuiver linnen\nen legde het in zijn eigen nieuwe graf, dat hij in een rots had laten uithouwen,\nen hij wentelde een grote steen voor de deur van het graf en ging weg.\nEr waren daar echter Maria Magdalena en de andere Maria,\ndie tegenover het graf gingen zitten.",
+            "modern": "Jozef wikkelt Jezus in linnen, legt hem in zijn eigen rotsgraf, rolt er een steen voor en gaat weg. Maria Magdalena en de andere Maria blijven tegenover het graf zitten waken.",
+            "interpretation": "Een verstild beeld: het graf is dicht, de mannen zijn weg, alleen de twee vrouwen blijven zitten. Bach tekent dit 'zitten' en 'blijven' muzikaal uit."
+        },
+        "en": {
+            "lyrics": "And when Joseph had taken the body, he wrapped it in a clean linen cloth,\nand laid it in his own new tomb, which he had hewn out in the rock:\nand he rolled a great stone to the door of the sepulchre, and departed.\nAnd there was Mary Magdalene, and the other Mary,\nsitting over against the sepulchre.",
+            "modern": "Joseph wraps Jesus in linen, lays him in his own rock tomb, rolls a stone in front, and leaves. Mary Magdalene and the other Mary remain sitting opposite the tomb.",
+            "interpretation": "A quiet image: the tomb is closed, the men are gone, only the two women remain sitting. Bach musically depicts this 'sitting' and 'staying'."
+        },
+        "trivia": []
+    }
+}

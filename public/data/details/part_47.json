@@ -1,0 +1,29 @@
+{
+    "id": "part_47",
+    "title": "Bin ich gleich von dir gewichen",
+    "type": "Choral",
+    "subtype": "Congregational",
+    "scene_label": {
+        "nl": "De Verloochening",
+        "en": "Peter's Denial"
+    },
+    "speaker": "Congregation",
+    "nba_no": "42",
+    "content": {
+        "de": {
+            "lyrics": "Bin ich gleich von dir gewichen,\nStell ich mich doch wieder ein;\nHat uns doch dein Sohn verglichen\nDurch sein Angst und Todespein.\nIch verleugne nicht die Schuld;\nAber deine Gnad und Huld\nIst viel größer als die Sünde,\nDie ich stets in mir befinde.",
+            "modern": "Auch wenn ich mich von dir entfernt habe, komme ich doch wieder zurück. Dein Sohn hat uns versöhnt. Ich leugne meine Schuld nicht, aber deine Gnade ist größer als meine Sünde."
+        },
+        "nl": {
+            "lyrics": "Ben ik al van U geweken,\nik keer toch weer tot U terug;\nuw Zoon heeft ons immers verzoend\ndoor zijn angst en doodspijn.\nIk ontken de schuld niet;\nmaar uw genade en goedheid\nis veel groter dan de zonde,\ndie ik steeds in mij vind.",
+            "modern": "Ook al ben ik bij U weggelopen, ik kom weer terug. Uw zoon heeft het weer goedgemaakt. Ik geef mijn fout toe, maar uw genade is groter dan mijn zonde.",
+            "interpretation": "Na de intense emotie van de aria keert het koraal terug naar de zekerheid van het geloof. Het verbindt het falen van Petrus met de ervaring van elke gelovige: we vallen, maar Gods genade is groter."
+        },
+        "en": {
+            "lyrics": "Though I have departed from thee,\nYet I return again;\nFor thy Son hath reconciled us\nThrough his anguish and mortal pain.\nI deny not the guilt;\nBut thy grace and favor\nIs much greater than the sin\nWhich I constantly find in myself.",
+            "modern": "Even if I have strayed from you, I come back. Your Son has reconciled us. I do not deny my guilt, but your grace is greater than my sin.",
+            "interpretation": "After the intense emotion of the aria, the chorale returns to the certainty of faith. It connects Peter's failure with the experience of every believer: we fall, but God's grace is greater."
+        },
+        "trivia": []
+    }
+}

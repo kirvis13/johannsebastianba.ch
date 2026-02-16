@@ -1,0 +1,31 @@
+{
+    "id": "part_27",
+    "title": "Gerne will ich mich bequemen",
+    "type": "Aria",
+    "subtype": "Solo",
+    "scene_label": {
+        "nl": "Gethsemane",
+        "en": "Gethsemane"
+    },
+    "speaker": "Bass",
+    "nba_no": "29",
+    "content": {
+        "de": {
+            "lyrics": "Gerne will ich mich bequemen,\nKreuz und Becher anzunehmen,\nTrink ich doch dem Heiland nach.\nDenn sein Mund,\nDer mit Milch und Honig fließet,\nHat den Grund\nUnd des Leidens herbe Schmach\nDurch den ersten Trunk versüßet.",
+            "modern": "Ich bin bereit, Kreuz und Becher anzunehmen, denn ich folge dem Heiland. Sein Mund, der von Milch und Honig fließt, hat das Leiden durch den ersten Schluck versüßt."
+        },
+        "nl": {
+            "lyrics": "Graag ben ik bereid,\nkruis en beker te aanvaarden,\ndaarmee volg ik immers de verlosser.\nWant zijn mond,\ndie van melk en honing overvloeit,\nheeft de bittere smaak\nvan het lijden\ndoor die eerste teug verzoet.",
+            "modern": "Ik ben bereid kruis en beker te aanvaarden, want ik volg de Heiland. Hij heeft het lijden voor mij verzacht.",
+            "interpretation": "Na de strijd komt de berusting. De bas zingt dat hij bereid is zijn lot (\"de beker\") te aanvaarden, net als Jezus. De muziek is vastberaden maar ook vredig.",
+            "trivia": []
+        },
+        "en": {
+            "lyrics": "Gladly will I be fitting,\nCross and cup to take,\nFor I drink after the Saviour.\nFor His mouth,\nWhich with milk and honey floweth,\nHath the grounds\nAnd the suffering's sharp shame\nBy the first drink sweetened.",
+            "modern": "I am willing to accept the cross and cup, for I follow the Savior. He has sweetened the suffering for me.",
+            "interpretation": "After the struggle comes resignation. The bass sings that he is willing to accept his fate ('the cup'), just like Jesus. The music is determined but also peaceful.",
+            "trivia": []
+        },
+        "original_source": null
+    }
+}

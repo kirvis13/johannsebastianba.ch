@@ -1,0 +1,39 @@
+{
+    "id": "part_10",
+    "title": "Aber am ersten Tage",
+    "type": "Recitativo_Chorus",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "Het Laatste Avondmaal",
+        "en": "The Last Supper"
+    },
+    "speaker": "Evangelist, Chorus",
+    "source": "Text: Picander / Music: J.S. Bach",
+    "content": {
+        "de": {
+            "lyrics": "Evangelist: Aber am ersten Tage der süßen Brot traten die Jünger zu Jesu und sprachen zu ihm:\n\nKoor I: Wo willst du, dass wir dir bereiten, das Osterlamm zu essen?"
+        },
+        "nl": {
+            "lyrics": "Evangelist: Maar op de eerste dag van het feest van de ongezuurde broden kwamen de discipelen naar Jezus toe en zeiden tegen hem:\n\nKoor I: Waar wilt u dat wij het paaslam voor u gereedmaken om te eten?",
+            "modern": "Het feest van de ongezuurde broden begon. De vrienden van Jezus kwamen naar hem toe met een praktische vraag.\n\nWaar wil je dat we de paasmaaltijd voor je klaarmaken?",
+            "interpretation": "De sfeer slaat om van het verraad naar de voorbereiding van het Pascha (het Joodse paasfeest). Het is een kort moment van rust en ritueel voordat de storm losbreekt.\n\nDe discipelen spreken hier als groep (Turba-koor). Hun vraag is praktisch, maar beladen met symboliek: ze vragen waar ze het 'paaslam' moeten bereiden, terwijl Jezus zelf het uiteindelijke paaslam is dat geofferd zal worden.",
+            "trivia": [
+                {
+                    "category": "context",
+                    "fact": "Het feest van de ongezuurde broden herinnert aan de haastige uittocht uit Egypte, waarbij er geen tijd was om het brood te laten rijzen."
+                },
+                {
+                    "category": "symboliek",
+                    "fact": "Dit is een van de rustigere volkskoren. De discipelen zijn hier nog in harmonie met hun meester."
+                }
+            ]
+        },
+        "en": {
+            "lyrics": "Evangelist: Now the first day of the feast of unleavened bread the disciples came to Jesus, saying unto him:\n\nChorus I: Where wilt thou that we prepare for thee to eat the passover?",
+            "modern": "The festival of unleavened bread began. Jesus' friends came to him with a practical question.\n\nWhere do you want us to prepare the Passover meal for you?",
+            "interpretation": "The mood shifts from the betrayal to the preparation of the Passover (the Jewish spring festival). It is a brief moment of rest and ritual before the storm breaks.\n\nThe disciples speak here as a group (Turba choir). Their question is practical, but laden with symbolism: they ask where they should prepare the 'passover lamb', while Jesus himself is the ultimate passover lamb that will be sacrificed.",
+            "trivia": []
+        },
+        "original_source": null
+    }
+}

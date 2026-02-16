@@ -1,0 +1,38 @@
+{
+    "id": "part_21",
+    "title": "Ich will hier bei dir stehen",
+    "type": "Choral",
+    "subtype": "Congregational",
+    "scene_label": {
+        "nl": "Naar de Olijfberg",
+        "en": "To the Mount of Olives"
+    },
+    "speaker": "Congregation",
+    "source": "Text: Picander / Music: J.S. Bach",
+    "content": {
+        "de": {
+            "lyrics": "Ich will hier bei dir stehen,\nVerachte mich doch nicht;\nVon dir will ich nicht gehen,\nWenn dir dein Herze bricht."
+        },
+        "nl": {
+            "lyrics": "Ik wil hier bij u blijven,\nveracht mij toch niet;\nBij u wil ik niet weggaan,\nwanneer uw hart breekt.",
+            "modern": "Ik blijf hier bij u staan, stuur me niet weg. Ik blijf bij u als het moeilijk wordt.",
+            "interpretation": "Het koor reageert direct op Petrus. In plaats van het hoogmoedige 'ik zal nooit...' van Petrus, zingen zij nederig: 'Ik wil bij u blijven'.",
+            "trivia": []
+        },
+        "en": {
+            "lyrics": "I will stand here beside thee,\ndo not despise me;\nI will not leave thee,\nwhen thy heart breaks.",
+            "modern": "",
+            "interpretation": "The choir responds directly to Peter. Instead of Peter's arrogant 'I will never...', they sing humbly: 'I want to stay with you'.",
+            "trivia": []
+        },
+        "original_source": {
+            "title": "Befiehl du deine Wege",
+            "melody_origin": "Hans Leo Hassler (1601)",
+            "text_origin": "Paul Gerhardt (1656)",
+            "info": {
+                "nl": "Dit koraal gebruikt dezelfde melodie als deel 22, maar is nu een terts lager gezet (in C-groot), wat een warmere, meer intieme klank geeft.",
+                "en": "This chorale uses the same melody as part 22, but is transposed a third lower (to C major), giving it a warmer, more intimate sound."
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "id": "part_22",
+    "title": "Da kam Jesus mit ihnen",
+    "type": "Recitativo",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "Gethsemane",
+        "en": "Gethsemane"
+    },
+    "speaker": "Evangelist, Jesus",
+    "source": "Text: Picander / Music: J.S. Bach",
+    "content": {
+        "de": {
+            "lyrics": "Evangelist: Da kam Jesus mit ihnen zu einem Hofe, der hieß Gethsemane, und sprach zu seinen Jüngern:\nJesus: Setzet euch hier, bis dass ich dorthin gehe und bete.\nEvangelist: Und nahm zu sich Petrus und die zwei Söhne Zebedäi und fing an zu trauern und zu zagen."
+        },
+        "nl": {
+            "lyrics": "Evangelist: Toen kwam Jezus met hen bij een hof die Gethsemane heette, en zei tegen zijn discipelen:\nJezus: Ga hier zitten, totdat ik daarheen ga en bid.\nEvangelist: En hij nam Petrus en de twee zonen van Zebedeüs mee en begon te treuren en angstig te worden.",
+            "modern": "Ze kwamen bij een tuin genaamd Gethsemane. Jezus zei: 'Wacht hier, ik ga bidden.' Hij werd bang en somber.",
+            "interpretation": "De aankomst in de tuin. Jezus wordt bang en bedroefd. De muziek wordt donkerder en onstabiel.",
+            "trivia": [
+                {
+                    "category": "muzikaal",
+                    "fact": {
+                        "nl": "Bij het woord 'trauern' (treuren) en 'zagen' (sidderen) gebruikt Bach wringende, dissonante akkoorden in de begeleiding om de innerlijke pijn van Jezus voelbaar te maken.",
+                        "en": "At the words 'trauern' (mourn) and 'zagen' (tremble), Bach uses twisting, dissonant chords in the accompaniment to make Jesus' inner pain palpable."
+                    }
+                }
+            ]
+        },
+        "en": {
+            "lyrics": "Evangelist: Then cometh Jesus with them unto a place called Gethsemane, and saith unto the disciples:\nJesus: Sit ye here, while I go and pray yonder.\nEvangelist: And he took with him Peter and the two sons of Zebedee, and began to be sorrowful and very heavy.",
+            "modern": "",
+            "interpretation": "Arrival in the garden. Jesus becomes afraid and sorrowful. The music turns darker and unstable.",
+            "trivia": []
+        },
+        "original_source": null
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "id": "part_69",
+    "title": "Sehet, Jesus hat die Hand",
+    "type": "Aria",
+    "subtype": "Solo_Chorus",
+    "scene_label": {
+        "nl": "Kruisiging",
+        "en": "The Crucifixion"
+    },
+    "speaker": "Alto, Chorus",
+    "nba_no": "62",
+    "content": {
+        "de": {
+            "lyrics": "Alt: Sehet, Jesus hat die Hand,\nUns zu fassen, ausgespannt,\nKommt!\n\nChor: Wohin?\n\nAlt: In Jesu Armen.\nSucht Erlösung, nehmt Erbarmen,\nSuchet!\n\nChor: Wo?\n\nAlt: In Jesu Armen.\nLebet, sterbet, ruhet hier,\nIhr verlassnen Küchlein ihr,\nBleibet!\n\nChor: Wo?\n\nAlt: In Jesu Armen.",
+            "modern": "Seht, Jesus breitet die Arme aus, um uns zu umfangen. Kommt! (Wohin?) In Jesu Arme. Sucht Erlösung! (Wo?) In Jesu Armen. Lebt und sterbt hier, bleibt hier! (Wo?) In Jesu Armen."
+        },
+        "nl": {
+            "lyrics": "Alt: Zie, Jezus heeft de hand,\nom ons te pakken, uitgestrekt,\nkom!\n\nKoor: Waarheen?\n\nAlt: In Jezus' armen.\nZoek verlossing, neem ontferming aan,\nzoek!\n\nKoor: Waar?\n\nAlt: In Jezus' armen.\nLeef, sterf, rust hier,\njullie verlaten kuikentjes,\nblijf!\n\nKoor: Waar?\n\nAlt: In Jezus' armen.",
+            "modern": "Kijk, Jezus spreidt zijn armen (aan het kruis) om ons te omhelzen. Kom! (Waarheen?) In Jezus' armen. Zoek verlossing! (Waar?) Bij Jezus. Blijf hier veilig, als jonge vogeltjes. (Waar?) In Jezus' armen.",
+            "interpretation": "Een intiem gesprek tussen de gelovige (alt) en de gemeente (koor). De uitgestrekte armen van Jezus aan het kruis worden hier niet gezien als marteling, maar als een uitnodigend gebaar van liefde. De sfeer is warm en beschermend, in schril contrast met de situatie op Golgotha."
+        },
+        "en": {
+            "lyrics": "Alto: See, Jesus has his hand,\nStretched out to grasp us,\nCome!\n\nChorus: Whither?\n\nAlto: In Jesus' arms.\nSeek redemption, accept mercy,\nSeek!\n\nChorus: Where?\n\nAlto: In Jesus' arms.\nLive, die, rest here,\nYe forsaken chicks,\nStay!\n\nChorus: Where?\n\nAlto: In Jesus' arms.",
+            "modern": "Look, Jesus spreads his arms (on the cross) to embrace us. Come! (Where?) Into Jesus' arms. Seek redemption! (Where?) With Jesus. Stay here safely. (Where?) In Jesus' arms.",
+            "interpretation": "An intimate conversation between the believer (alto) and the congregation (choir). Jesus' outstretched arms on the cross are seen here not as torture, but as an inviting gesture of love. The atmosphere is warm and protective."
+        },
+        "trivia": []
+    }
+}

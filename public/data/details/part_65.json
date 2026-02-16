@@ -1,0 +1,42 @@
+{
+    "id": "part_65",
+    "title": "Komm, süßes Kreuz",
+    "type": "Aria",
+    "subtype": "Solo",
+    "scene_label": {
+        "nl": "De Kruisweg",
+        "en": "Via Dolorosa"
+    },
+    "speaker": "Bass",
+    "nba_no": "59",
+    "content": {
+        "de": {
+            "lyrics": "Komm, süßes Kreuz, so will ich sagen,\nMein Jesu, gib es immer her!\nWird mir mein Leiden einst zu schwer,\nSo hilfst du mir es selber tragen.",
+            "modern": "Komm, süßes Kreuz! Jesus, gib es mir. Wenn mir das Leiden zu schwer wird, hilfst du mir, es zu tragen."
+        },
+        "nl": {
+            "lyrics": "Kom, zoet kruis, zo wil ik zeggen,\nmijn Jezus, geef het maar hier!\nWordt mijn lijden mij eens te zwaar,\ndan help jij mij het zelf te dragen.",
+            "modern": "Kom maar, zoet kruis! Jezus, geef het aan mij. Als het lijden mij te zwaar wordt, help jij me het te dragen.",
+            "interpretation": "Dit is een van de technisch zwaarste aria's in de Passion, niet alleen voor de zanger maar vooral voor de Viola da Gamba solist. De gamba moet vreselijk moeilijke akkoorden en sprongen spelen, wat het fysieke 'slepen' en 'struikelen' onder het kruis uitbeeldt. Het kruis wordt 'zoet' genoemd omdat het navolging van Jezus betekent."
+        },
+        "en": {
+            "lyrics": "Come, sweet cross, thus will I say,\nMy Jesus, give it to me!\nIf my suffering one day becomes too heavy,\nThen thou thyself wilt help me bear it.",
+            "modern": "Come, sweet cross! Jesus, give it to me. If suffering becomes too heavy for me, you will help me carry it.",
+            "interpretation": "This is one of the most technically demanding arias, especially for the Viola da Gamba soloist. The gamba has to play terribly difficult chords and leaps, depicting the physical 'dragging' and 'stumbling' under the cross. The cross is called 'sweet' because it means following Jesus."
+        },
+        "trivia": [
+            {
+                "category": "Instrumentation",
+                "fact": {
+                    "nl": "Bach schrijft hier een solo voor de Viola da Gamba, een instrument dat in zijn tijd al ouderwets was. De klank is hees en kwetsbaar, perfect voor de uitputting van de kruisdraging. De virtuoze partij vereist dat de speler over 3 of 4 snaren tegelijk strijkt.",
+                    "en": "Bach writes a solo for the Viola da Gamba here, an instrument already old-fashioned in his time. Its sound is husky and fragile, perfect for the exhaustion of carrying the cross. The virtuosic part requires the player to bow across 3 or 4 strings simultaneously.",
+                    "de": "Bach schreibt hier ein Solo für die Viola da Gamba. Ihr Klang ist heiser und zerbrechlich, perfekt für die Erschöpfung der Kreuztragung. Die virtuose Partie verlangt dem Spieler alles ab."
+                }
+            },
+            {
+                "category": "instrumentkeuze",
+                "fact": "In 1736 verving Bach de luit door de viola da gamba. De gamba was toen al een 'antiek' Renaissance-instrument. Bach kiest bewust dit verouderde, koninklijke instrument voor de aria over het tijdloze kruis."
+            }
+        ]
+    }
+}

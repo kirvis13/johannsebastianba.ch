@@ -1,0 +1,38 @@
+{
+    "id": "part_76",
+    "title": "Mache dich, mein Herze, rein",
+    "type": "Aria",
+    "subtype": "Solo",
+    "scene_label": {
+        "nl": "De Begrafenis",
+        "en": "The Burial"
+    },
+    "speaker": "Bass",
+    "nba_no": "68",
+    "content": {
+        "de": {
+            "lyrics": "Mache dich, mein Herze, rein,\nIch will Jesum selbst begraben.\nDenn er soll nunmehr in mir\nFür und für\nSeine süße Ruhe haben.\nWelt, geh aus, lass Jesum ein!",
+            "modern": "Mach dich rein, mein Herz, ich will Jesus in mir selbst begraben. Er soll für immer in mir ruhen. Welt, geh raus, lass Jesus rein!"
+        },
+        "nl": {
+            "lyrics": "Maak u, mijn hart, rein,\nik wil Jezus zelf begraven.\nWant hij zal voortaan in mij\nvoor en na\nzijn zoete rust hebben.\nWereld, ga eruit, laat Jezus erin!",
+            "modern": "Maak jezelf schoon, mijn hart, want ik wil Jezus in mij begraven. Hij moet voor altijd veilig in mij rusten. Wereld, ga weg, laat Jezus binnen!",
+            "interpretation": "De laatste aria is een wiegelied. De gelovige wil Jezus niet in een stenen graf leggen, maar in zijn eigen hart. Het ritme is een kalme 'Siciliano' (12/8 maat), wat troost en zuivering uitdrukt. Na alle stormen is er nu vrede."
+        },
+        "en": {
+            "lyrics": "Make thyself, my heart, pure,\nI myself will bury Jesus.\nFor he shall henceforth in me\nFor ever and ever\nHave his sweet rest.\nWorld, go out, let Jesus in!",
+            "modern": "Cleanse yourself, my heart, I want to bury Jesus inside myself. He shall rest in me forever. World, get out, let Jesus in!",
+            "interpretation": "The final aria is a lullaby. The believer wants to bury Jesus not in a stone tomb, but in his own heart. The rhythm is a calm 'Siciliano' (12/8 time), expressing comfort and purification. After all the storms, there is now peace."
+        },
+        "trivia": [
+            {
+                "category": "Structure",
+                "fact": {
+                    "nl": "Deze aria vormt de afsluiting van het drama. Na het woeden van de elementen en de mensenmassa, keert de muziek terug naar de intimiteit van het individu.",
+                    "en": "This aria concludes the drama. After the raging of the elements and the crowd, the music returns to the intimacy of the individual.",
+                    "de": "Diese Arie bildet den Abschluss des Dramas. Nach dem Toben der Elemente und der Menschenmenge kehrt die Musik zur Intimität des Einzelnen zurück."
+                }
+            }
+        ]
+    }
+}

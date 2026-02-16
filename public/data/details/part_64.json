@@ -1,0 +1,29 @@
+{
+    "id": "part_64",
+    "title": "Ja freilich will in uns das Fleisch und Blut",
+    "type": "Arioso",
+    "subtype": "Accompagnato",
+    "scene_label": {
+        "nl": "De Kruisweg",
+        "en": "Via Dolorosa"
+    },
+    "speaker": "Bass",
+    "nba_no": "65",
+    "content": {
+        "de": {
+            "lyrics": "Ja, freilich will in uns das Fleisch und Blut\nZum Kreuz gezwungen sein;\nJe mehr es unsrer Seele gut,\nJe herber geht es ein.",
+            "modern": "Unser Körper wehrt sich natürlich gegen das Kreuz und das Leiden. Aber was bitter für den Körper ist, ist oft gut für die Seele."
+        },
+        "nl": {
+            "lyrics": "Ja, vanzelfsprekend wil in ons het vlees en bloed\ntot het kruis gedwongen worden;\nHoe beter het is voor onze ziel,\ndes te bitter is het te aanvaarden.",
+            "modern": "Natuurlijk verzet ons lichaam zich tegen het kruis. Maar wat pijnlijk is voor het lichaam, is vaak genezend voor de ziel.",
+            "interpretation": "De bas reflecteert op Simon van Cyrene. Niemand draagt 'het kruis' (lijden) vrijwillig; ons 'vlees en bloed' moet gedwongen worden. De strijkers spelen hier een moeizaam, slepend ritme, alsof ze het gewicht meedragen."
+        },
+        "en": {
+            "lyrics": "Yes, indeed, our flesh and blood\nMust be forced to the cross;\nThe more it is good for our soul,\nThe more bitterly it is received.",
+            "modern": "Our body naturally resists the cross and suffering. But what is bitter for the body is often good for the soul.",
+            "interpretation": "The bass reflects on Simon of Cyrene. No one carries 'the cross' (suffering) voluntarily; our 'flesh and blood' must be forced. The strings play a laborious, dragging rhythm here, as if carrying the weight."
+        },
+        "trivia": []
+    }
+}

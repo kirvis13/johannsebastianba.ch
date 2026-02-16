@@ -1,0 +1,38 @@
+{
+    "id": "part_41",
+    "title": "Geduld, Geduld",
+    "type": "Aria",
+    "subtype": "Solo",
+    "scene_label": {
+        "nl": "Voor Kajafas",
+        "en": "Before Caiaphas"
+    },
+    "speaker": "Tenor",
+    "nba_no": "37",
+    "content": {
+        "de": {
+            "lyrics": "Geduld, Geduld!\nWenn mich falsche Zungen stechen.\nLeid ich wider meine Schuld\nSchimpf und Spott,\nEi, so mag der liebe Gott\nMeines Herzens Unschuld rächen.",
+            "modern": "Geduld! Auch wenn Menschen Lügen über mich verbreiten. Wenn ich unschuldig verspottet werde, wird Gott meine Unschuld beweisen."
+        },
+        "nl": {
+            "lyrics": "Geduld, geduld!\nAls valse tongen mij steken.\nLijd ik buiten mijn schuld\nschimp en spot,\nwelnu, dan mag de lieve God\nde onschuld van mijn hart wreken.",
+            "modern": "Geduld! Ook al verspreiden mensen leugens over mij. Als ik onschuldig bespot word, zal God mijn onschuld bewijzen.",
+            "interpretation": "Na de stilte van Jezus (in het vorige deel) zingt de tenor over 'Geduld'. De begeleiding is sober: alleen basso continuo (cello/orgel). Dit dwingt de luisteraar tot concentratie. De muziek is weerbarstig en soms lastig, wat de moeite symboliseert die het kost om geduldig te blijven te midden van onrecht."
+        },
+        "en": {
+            "lyrics": "Patience, patience!\nWhen false tongues sting me.\nIf I suffer against my guilt\nScorn and mockery,\nOh, then may the dear God\nAvenge the innocence of my heart.",
+            "modern": "Patience! Even if people spread lies about me. If I am mocked while innocent, God will prove my innocence.",
+            "interpretation": "After Jesus' silence, the tenor sings of 'Patience'. The accompaniment is stark: only basso continuo. This forces concentration. The music is stubborn and difficult at times, symbolizing the effort required to remain patient amidst injustice."
+        },
+        "trivia": [
+            {
+                "category": "Instrumentation",
+                "fact": {
+                    "nl": "Dit is een van de weinige aria's met alleen continuo-begeleiding (zonder andere instrumenten). Bach gebruikt dit vaak om standvastigheid of eenzaamheid uit te beelden.",
+                    "en": "This is one of the few arias with only continuo accompaniment (no other instruments). Bach often uses this to depict steadfastness or loneliness.",
+                    "de": "Dies ist eine der wenigen Arien mit reiner Continuo-Begleitung. Bach nutzt dies oft, um Standhaftigkeit oder Einsamkeit darzustellen."
+                }
+            }
+        ]
+    }
+}

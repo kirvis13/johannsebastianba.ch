@@ -1,0 +1,35 @@
+{
+    "id": "part_08",
+    "title": "Da ging hin der Zwölfen einer",
+    "type": "Recitativo",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "Judas' Verraad",
+        "en": "Judas' Betrayal"
+    },
+    "speaker": "Evangelist, Judas",
+    "source": "Text: Picander / Music: J.S. Bach",
+    "content": {
+        "de": {
+            "lyrics": "Evangelist: Da ging hin der Zwölfen einer, mit Namen Judas Ischariot, zu den Hohenpriestern und sprach:\nJudas: Was wollt ihr mir geben? Ich will ihn euch verraten.\nEvangelist: Und sie wogen ihm dreißig Silberlinge dar. Und von dem an suchte er Gelegenheit, dass er ihn verriete."
+        },
+        "nl": {
+            "lyrics": "Evangelist: Toen ging een van de twaalf, die Judas Iskariot heette, naar de hogepriesters en zei:\nJudas: Wat wilt u mij geven? Ik zal hem aan u verraden.\nEvangelist: En zij boden hem dertig zilverlingen aan. En van toen af zocht hij een gelegenheid om hem te verraden.",
+            "modern": "Judas stapt naar de vijand en vraagt simpelweg: 'Wat schuift het als ik hem aan jullie uitlever?' Voor dertig zilverstukken is de deal rond.",
+            "interpretation": "Judas zet de definitieve stap naar het verraad. Het contrast is pijnlijk: direct na de liefdevolle zalving in Bethanië (stuk 8) volgt de kille zakelijkheid van Judas die vraagt 'Wat wilt u mij geven?'. De dertig zilverlingen was in die tijd de prijs voor een slaaf, wat de diepe vernedering van Jezus onderstreept.",
+            "trivia": [
+                {
+                    "category": "historisch",
+                    "fact": "Dertig zilverlingen was een bescheiden bedrag, wat aangeeft dat het verraad van Judas misschien meer om teleurstelling dan om puur geldelijk gewin ging."
+                }
+            ]
+        },
+        "en": {
+            "lyrics": "Evangelist: Then one of the twelve, called Judas Iscariot, went unto the chief priests, And said unto them:\nJudas: What will ye give me, and I will deliver him unto you?\nEvangelist: And they covenanted with him for thirty pieces of silver. And from that time he sought opportunity to betray him.",
+            "modern": "Judas goes to the enemy and simply asks: 'What's in it for me if I hand him over to you?' The deal is closed for thirty silver coins.",
+            "interpretation": "Judas takes the definitive step towards betrayal. The contrast is painful: right after the loving anointing in Bethany (Part 8) follows the cold, businesslike nature of Judas asking 'What will ye give me?'. Thirty pieces of silver was the price of a slave at that time, which underscores the deep humiliation of Jesus.",
+            "trivia": []
+        },
+        "original_source": null
+    }
+}

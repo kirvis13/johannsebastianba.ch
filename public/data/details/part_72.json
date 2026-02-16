@@ -1,0 +1,51 @@
+{
+    "id": "part_72",
+    "title": "Und siehe da, der Vorhang",
+    "type": "Recitativo_Chorus",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "Na de Dood",
+        "en": "After the Death"
+    },
+    "speaker": "Evangelist, Chorus",
+    "nba_no": "65",
+    "content": {
+        "de": {
+            "lyrics": "Evangelist: Und siehe da, der Vorhang im Tempel zerriss in zwei Stück von obenan bis untenaus. Und die Erde erbebete, und die Felsen zerrissen, und die Gräber taten sich auf, und stunden auf viel Leiber der Heiligen, die da schliefen, und gingen aus den Gräbern nach seiner Auferstehung und kamen in die heilige Stadt und erschienen vielen. Aber der Hauptmann und die bei ihm waren und bewahreten Jesum, da sie sahen das Erdbeben und was da geschah, erschraken sie sehr und sprachen:\nChor (Hauptmann): Wahrlich, dieser ist Gottes Sohn gewesen.",
+            "modern": "Der Vorhang im Tempel zerreißt, die Erde bebt, Felsen springen und Gräber öffnen sich. Der römische Hauptmann sieht das und sagt erschrocken: 'Wahrhaftig, dieser war Gottes Sohn.'"
+        },
+        "nl": {
+            "lyrics": "Evangelist: En zie, het voorhangsel in de tempel scheurde in twee stukken, van boven tot beneden. En de aarde beefde, en de rotsen scheurden, en de graven gingen open, en vele lichamen van heiligen die sliepen, stonden op, en zij gingen uit de graven na zijn opstanding en kwamen in de heilige stad en verschenen aan velen. Maar de hoofdman en die bij hem waren en Jezus bewaakten, toen zij de aardbeving zagen en wat er gebeurde, schrokken zij zeer en zeiden:\nKoor (Hoofdman): Waarlijk, deze is Gods Zoon geweest.",
+            "modern": "Het tempelgordijn scheurt doormidden, de aarde beeft, rotsen splijten en graven gaan open. De Romeinse hoofdman ziet het en zegt geschrokken: 'Echt waar, dit was de Zoon van God.'",
+            "interpretation": "Bach schildert de natuurkrachten zeer beeldend. Bij 'der Vorhang zerriss' hoor je een snelle scheurende beweging in de bas (van hoog naar laag). Bij 'die Erde erbebete' horen we een aanhoudend tremolo (gerommel) in de lage registers."
+        },
+        "en": {
+            "lyrics": "Evangelist: And, behold, the veil of the temple was rent in twain from the top to the bottom; and the earth did quake, and the rocks rent; And the graves were opened; and many bodies of the saints which slept arose, and came out of the graves after his resurrection, and went into the holy city, and appeared to many. Now when the centurion, and they that were with him, watching Jesus, saw the earthquake, and those things that were done, they feared greatly, saying:\nChorus (Centurion): Truly this was the Son of God.",
+            "modern": "The temple curtain tears in two, the earth shakes, rocks split, and graves open. The Roman centurion sees this and says in fear: 'Truly this was the Son of God.'",
+            "interpretation": "Bach depicts the forces of nature vividly. At 'der Vorhang zerriss', you hear a rapid tearing motion in the bass (from high to low). At 'die Erde erbebete', we hear a sustained tremolo (rumbling) in the low registers."
+        },
+        "trivia": [
+            {
+                "category": "muzikaal",
+                "fact": "Bij het scheuren van het tempelvoorhangsel gebruikt Bach snelle 'Tirata' (rennende noten) in dalende lijn. De muziek 'scheurt' letterlijk van hoog naar laag, synchroon met de tekst."
+            }
+        ],
+        "visual_cues": [
+            {
+                "time": 8636.0,
+                "type": "curtain_tear",
+                "duration": 2.0
+            },
+            {
+                "time": 8640.0,
+                "type": "earthquake",
+                "duration": 5.0
+            },
+            {
+                "time": 8675.0,
+                "type": "halo_glow",
+                "duration": 3.0
+            }
+        ]
+    }
+}

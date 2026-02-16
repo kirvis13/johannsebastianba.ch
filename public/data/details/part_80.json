@@ -1,0 +1,38 @@
+{
+    "id": "part_80",
+    "title": "Wir setzen uns mit Tränen nieder",
+    "type": "Chorus",
+    "subtype": "Full",
+    "scene_label": {
+        "nl": "Slot",
+        "en": "Conclusion"
+    },
+    "speaker": "Chorus I & II",
+    "nba_no": "72",
+    "content": {
+        "de": {
+            "lyrics": "Wir setzen uns mit Tränen nieder\nUnd rufen dir im Grabe zu -\nRuhe sanfte, sanfte ruh!\nRuht, ihr ausgesognen Glieder!\nRuhet sanfte, ruhet wohl!\nEuer Grab und Leichenstein\nSoll dem ängstlichen Gewissen\nEin bequemes Ruhekissen\nUnd der Seelen Ruhstatt sein.\nHöchst vergnügt schlummern da die Augen ein.\nWir setzen uns mit Tränen nieder\nUnd rufen dir im Grabe zu -\nRuhe sanfte, sanfte ruh!",
+            "modern": "Wir setzen uns weinend nieder und rufen dir im Grab zu: Ruhe sanft! Dein Grab soll für unser ängstliches Gewissen ein Ruhekissen sein. Hier finden wir Frieden."
+        },
+        "nl": {
+            "lyrics": "Huilend gaan wij zitten\nen roepen u in het graf toe -\nRust in vrede, rust zacht.\nRust nu, uitgeputte ledenmaten.\nRust zacht, rust goed.\nUw graf en uw grafsteen\nzullen voor het angstige geweten\neen aangenaam hoofdkussen\nen rustplaats voor de ziel zijn.\nVergenoegd sluimeren de ogen toe.\nHuilend gaan wij zitten\nen roepen u in het graf toe -\nRust in vrede, rust zacht.",
+            "modern": "Huilend gaan we bij uw graf zitten en roepen: Rust zacht! Uw graf is voor ons geen plek van angst, maar een zacht kussen waar ons geweten rust vindt. Hier vinden we vrede.",
+            "interpretation": "Het slotkoor is een monumentale Sarabande (een dansvorm), ondanks de mineur-toonsoort (c-klein). Het drukt geen wanhoop uit, maar een diepe, troostrijke berusting. De Matthäus Passion eindigt niet met de opstanding (Pasen), maar met de zaterdagrust: de tijd van bezinning. De tekst 'Ruhe sanfte' wordt als een mantra herhaald."
+        },
+        "en": {
+            "lyrics": "We sit down with tears\nAnd call to thee in the grave -\nRest softly, softly rest!\nRest, ye exhausted limbs!\nRest softly, rest well!\nThy grave and tombstone\nShall be for the anxious conscience\nA comfortable pillow\nAnd the soul's resting place.\nMost contentedly the eyes slumber there.\nWe sit down with tears\nAnd call to thee in the grave -\nRest softly, softly rest!",
+            "modern": "We sit down weeping and call to you in the grave: Rest softly! Your grave shall be a pillow of rest for our anxious conscience. Here we find peace.",
+            "interpretation": "The final chorus is a monumental Sarabande (a dance form), despite the minor key (C minor). It expresses not despair, but deep, comforting resignation. The St Matthew Passion ends not with the Resurrection (Easter), but with the Saturday rest: the time for reflection. The text 'Ruhe sanfte' is repeated like a mantra."
+        },
+        "trivia": [
+            {
+                "category": "Structure",
+                "fact": {
+                    "nl": "Het werk eindigt in c-klein, een toonsoort die vaak staat voor rouw maar ook voor plechtige ernst. De laatste noot in de bas is een lage C, de grondtoon, die zorgt voor een ultiem gevoel van thuiskomen.",
+                    "en": "The work ends in C minor, a key often representing mourning but also solemnity. The final note in the bass is a low C, the root note, providing an ultimate sense of coming home.",
+                    "de": "Das Werk endet in c-Moll. Die letzte Note im Bass ist ein tiefes C, der Grundton, der für ein ultimatives Gefühl des Nachhausekommens sorgt."
+                }
+            }
+        ]
+    }
+}

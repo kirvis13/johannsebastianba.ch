@@ -1,0 +1,29 @@
+{
+    "id": "part_43",
+    "title": "Da speieten sie aus",
+    "type": "Recitativo_Chorus",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "De Bespotting",
+        "en": "The Mocking"
+    },
+    "speaker": "Evangelist, Chorus",
+    "nba_no": "38c",
+    "content": {
+        "de": {
+            "lyrics": "Evangelist: Da speieten sie aus in sein Angesicht und schlugen ihn mit Fäusten. Etliche aber schlugen ihn ins Angesicht und sprachen:\nChor: Weissage uns, Christe, wer ist's, der dich schlug?",
+            "modern": "Sie spuckten ihn an, schlugen ihn und riefen spöttisch: 'Hey Prophet, sag uns doch, wer dich gerade geschlagen hat!'"
+        },
+        "nl": {
+            "lyrics": "Evangelist: Toen spuwden zij hem in het gezicht en sloegen hem met vuisten. Sommigen echter sloegen hem in het gezicht en zeiden:\nKoor: Profeteer ons, Christus, wie is het die u sloeg?",
+            "modern": "Ze spuugden hem in het gezicht, sloegen hem en riepen spottend: 'Hé profeet, zeg ons eens wie je net geslagen heeft!'",
+            "interpretation": "De bespotting wordt muzikaal uitgebeeld in het koortje 'Weissage uns'. Het klinkt honend en chaotisch, alsof ze om hem heen dansen en duwen."
+        },
+        "en": {
+            "lyrics": "Evangelist: Then did they spit in his face, and buffeted him; and others smote him with the palms of their hands, saying:\nChorus: Prophesy unto us, thou Christ, Who is he that smote thee?",
+            "modern": "They spat in his face, hit him and shouted mockingly: 'Hey Prophet, tell us who just hit you!'",
+            "interpretation": "The mocking is musically depicted in the chorus 'Weissage uns'. It sounds scornful and chaotic, as if they are dancing and pushing around him."
+        },
+        "trivia": []
+    }
+}

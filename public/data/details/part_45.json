@@ -1,0 +1,38 @@
+{
+    "id": "part_45",
+    "title": "Petrus aber saß draußen",
+    "type": "Recitativo",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "De Verloochening",
+        "en": "Peter's Denial"
+    },
+    "speaker": "Evangelist, Maids, Peter, Chorus",
+    "nba_no": "40",
+    "content": {
+        "de": {
+            "lyrics": "Evangelist: Petrus aber saß draußen im Palast; und es trat zu ihm eine Magd und sprach:\nMagd I: Und du warest auch mit dem Jesus aus Galiläa.\nEvangelist: Er leugnete aber vor ihnen allen und sprach:\nPetrus: Ich weiß nicht, was du sagest.\nEvangelist: Als er aber zur Tür hinausging, sah ihn eine andere und sprach zu denen, die da waren:\nMagd II: Dieser war auch mit dem Jesus von Nazareth.\nEvangelist: Und er leugnete abermal und schwur dazu:\nPetrus: Ich kenne des Menschen nicht.\nEvangelist: Und über eine kleine Weile traten hinzu, die da stunden, und sprachen zu Petro:\nChor: Wahrlich, du bist auch einer von denen; denn deine Sprache verrät dich.\nEvangelist: Da hub er an, sich zu verfluchen und zu schwören:\nPetrus: Ich kenne des Menschen nicht.\nEvangelist: Und alsbald krähete der Hahn. Da dachte Petrus an die Worte Jesu, da er zu ihm sagte: Ehe der Hahn krähen wird, wirst du mich dreimal verleugnen. Und ging heraus und weinete bitterlich.",
+            "modern": "Petrus wird dreimal erkannt ('Du gehörst doch zu Jesus!'). Dreimal leugnet er es, zuletzt mit einem Schwur. Dann kräht der Hahn. Petrus erinnert sich an Jesu Vorhersage, rennt weg und weint bitterlich."
+        },
+        "nl": {
+            "lyrics": "Evangelist: Petrus echter zat buiten in het hof; en er kwam een dienstmeisje naar hem toe en zei:\nDienstmeisje I: Ook jij was bij die Jezus uit Galilea.\nEvangelist: Maar hij ontkende het ten overstaan van allen en zei:\nPetrus: Ik weet niet wat je zegt.\nEvangelist: Toen hij echter naar de poort ging, zag een andere hem en zei tegen degenen die daar waren:\nDienstmeisje II: Deze was ook bij die Jezus van Nazareth.\nEvangelist: En hij ontkende het opnieuw en zwoer erbij:\nPetrus: Ik ken de mens niet.\nEvangelist: En even later kwamen de omstanders naar hem toe en zeiden tegen Petrus:\nKoor: Waarlijk, jij bent ook een van hen; want jouw spraak verraadt je.\nEvangelist: Toen begon hij zichzelf te vervloeken en te zweren:\nPetrus: Ik ken de mens niet.\nEvangelist: En onmiddellijk kraaide de haan. Toen dacht Petrus aan de woorden van Jezus, die tegen hem gezegd had: Voordat de haan kraait, zul je mij driemaal verloochenen. En hij ging naar buiten en weende bitter.",
+            "modern": "Petrus wordt driemaal herkend ('Jij hoort toch bij Jezus!'). Driemaal ontkent hij het, de laatste keer zelfs met een eed. Dan kraait de haan. Petrus herinnert zich Jezus' voorspelling, vlucht weg en huilt bittere tranen.",
+            "interpretation": "Een van de meest aangrijpende scènes. Let op hoe Petrus' ontkenning steeds feller wordt (de muziek stijgt in toonhoogte). Het kraaien van de haan is realistisch in de piano-partij (of cello) te horen. De laatste zin, 'weinete bitterlich', is een chromatische, dalende lijn vol wroeging."
+        },
+        "en": {
+            "lyrics": "Evangelist: Now Peter sat without in the palace and a damsel came unto him, saying:\nMaid I: Thou also wast with Jesus of Galilee.\nEvangelist: But he denied before them all, saying:\nPeter: I know not what thou sayest.\nEvangelist: And when he was gone out into the porch, another maid saw him, and said unto them that were there:\nMaid II: This fellow was also with Jesus of Nazareth.\nEvangelist: And again he denied with an oath:\nPeter: I do not know the man.\nEvangelist: And after a while came unto him they that stood by, and said to Peter:\nChorus: Surely thou also art one of them; for thy speech bewrayeth thee.\nEvangelist: Then began he to curse and to swear, saying:\nPeter: I know not the man.\nEvangelist: And immediately the cock crew. And Peter remembered the word of Jesus, which said unto him: Before the cock crow, thou shalt deny me thrice. And he went out, and wept bitterly.",
+            "modern": "Peter is recognized three times ('You belong to Jesus!'). Three times he denies it, finally with an oath. Then the rooster crows. Peter remembers Jesus' prediction, runs out and cries bitterly.",
+            "interpretation": "One of the most moving scenes. Note how Peter's denial becomes increasingly vehement. The crowing of the rooster is realistically depicted. The final phrase, 'wept bitterly', is a chromatic, descending line full of remorse."
+        },
+        "trivia": [
+            {
+                "category": "Musical Painting",
+                "fact": {
+                    "nl": "Bij de woorden 'weinete bitterlich' (weende bitter) schrijft Bach een zeer complexe, melismatische lijn voor de Evangelist. Het is alsof de zanger zelf breekt van verdriet. Dit is het emotionele hoogtepunt van de rol van de Evangelist.",
+                    "en": "At the words 'weinete bitterlich' (wept bitterly), Bach writes a very complex, melismatic line for the Evangelist. It is as if the singer himself breaks with grief.",
+                    "de": "Bei den Worten 'weinete bitterlich' schreibt Bach eine sehr komplexe, melismatische Linie für den Evangelisten. Es ist, als ob der Sänger selbst vor Kummer bricht."
+                }
+            }
+        ]
+    }
+}

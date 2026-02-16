@@ -1,0 +1,27 @@
+{
+    "id": "part_39",
+    "title": "Und wiewohl viel falsche Zeugen",
+    "type": "Recitativo",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "Voor Kajafas",
+        "en": "Before Caiaphas"
+    },
+    "speaker": "Evangelist, Witnesses, High Priest",
+    "content": {
+        "de": {
+            "lyrics": "Evangelist: Und wiewohl viel falsche Zeugen herzutraten, fanden sie doch keines. Zuletzt traten herzu zwei falsche Zeugen und sprachen:\nZwei Zeugen: Er hat gesagt, ich kann den Tempel Gottes abbrechen und in dreien Tagen denselben bauen.\nEvangelist: Und der Hohepriester stund auf und sprach zu ihm:\nHohepriester: Antwortest du nichts zu dem, das diese wider dich zeugen?\nEvangelist: Aber Jesus schwieg.",
+            "modern": "Schließlich treten zwei Zeugen auf, die Jesu Worte über den Tempelbau verdrehen. Kaiphas fordert Jesus zur Verteidigung auf, aber Jesus schweigt."
+        },
+        "nl": {
+            "lyrics": "Evangelist: En hoewel veel valse getuigen naar voren kwamen, vonden zij toch niets. Ten slotte traden er twee valse getuigen naar voren en zeiden:\nTwee Getuigen: Hij heeft gezegd: Ik kan de tempel van God afbreken en in drie dagen deze weer opbouwen.\nEvangelist: En de hogepriester stond op en sprak tot hem:\nHogepriester: Antwoordt u niets op wat dezen tegen u getuigen?\nEvangelist: Maar Jezus zweeg.",
+            "modern": "Uiteindelijk komen er twee getuigen met een verdraaiing van Jezus' woorden over de tempelbouw. Kajafas vraagt Jezus om verweer, maar Jezus zwijgt.",
+            "interpretation": "Hier horen we de valse getuigen zingen. Bach geeft ze een canon-vorm (ze zingen na elkaar), wat suggereert dat ze hun leugens hebben ingestudeerd, maar niet helemaal synchroon lopen. Het is een subtiele muzikale grap die hun onbetrouwbaarheid toont."
+        },
+        "en": {
+            "lyrics": "Evangelist: Yea, though many false witnesses came, yet found they none. At the last came two false witnesses, and said:\nTwo Witnesses: This fellow said, I am able to destroy the temple of God, and to build it in three days.\nEvangelist: And the high priest arose, and said unto him:\nHigh Priest: Answerest thou nothing? what is it which these witness against thee?\nEvangelist: But Jesus held his peace.",
+            "modern": "Finally, two witnesses come forward twisting Jesus' words about rebuilding the temple. Caiaphas asks Jesus for a defense, but Jesus remains silent.",
+            "interpretation": "We hear the false witnesses singing in a canon, suggesting they rehearsed their lies but aren't quite synchronized. A subtle musical joke by Bach to show their unreliability."
+        }
+    }
+}

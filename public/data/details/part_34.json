@@ -1,0 +1,27 @@
+{
+    "id": "part_34",
+    "title": "Und siehe, einer aus denen",
+    "type": "Recitativo",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "De Arrestatie",
+        "en": "The Arrest"
+    },
+    "speaker": "Evangelist, Jesus",
+    "content": {
+        "de": {
+            "lyrics": "Evangelist: Und siehe, einer aus denen, die mit Jesu waren, reckete die Hand aus und schlug des Hohenpriesters Knecht und hieb ihm ein Ohr ab. Da sprach Jesus zu ihm:\nJesus: Stecke dein Schwert an seinen Ort! denn wer das Schwert nimmt, der soll durchs Schwert umkommen. Oder meinest du, dass ich nicht könnte meinen Vater bitten, dass er mir zuschickte mehr denn zwölf Legion Engel? Wie würde aber die Schrift erfüllet? Es muss also gehen.\nEvangelist: Zu der Stund sprach Jesus zu den Scharen:\nJesus: Ihr seid ausgegangen als zu einem Mörder, mit Schwerten und mit Stangen, mich zu fangen; bin ich doch täglich bei euch gesessen und habe gelehret im Tempel, und ihr habt mich nicht gegriffen.\nEvangelist: Aber das ist alles geschehen, dass die Schriften der Propheten erfüllet würden. Da verließen ihn alle Jünger und flohen.",
+            "modern": "Ein Jünger (Petrus) zieht sein Schwert und schlägt einem Knecht das Ohr ab. Jesus geht dazwischen. 'Halt! Wer das Schwert nimmt, wird durch das Schwert umkommen. Dies muss geschehen, wie es geschrieben steht.'"
+        },
+        "nl": {
+            "lyrics": "Evangelist: En zie, een van hen die bij Jezus waren, stak zijn hand uit, sloeg de knecht van de hogepriester en hieuw hem een oor af. Toen sprak Jezus tot hem:\nJezus: Steek je zwaard op zijn plaats! Want wie het zwaard neemt, zal door het zwaard vergaan. Of meen je dat ik mijn Vader niet zou kunnen bidden, dat hij mij meer dan twaalf legioenen engelen zou sturen? Hoe zou dan de Schrift vervuld worden? Het moet aldus geschieden.\nEvangelist: Op dat moment sprak Jezus tot de scharen:\nJezus: Zijn jullie eropuit getrokken als tegen een moordenaar, met zwaarden en stokken om mij te vangen? Ik heb toch dagelijks bij jullie gezeten en geleerd in de tempel, en jullie hebben mij niet gegrepen.\nEvangelist: Maar dit is allemaal gebeurd, opdat de geschriften van de profeten vervuld zouden worden. Toen verlieten alle discipelen hem en vluchtten.",
+            "modern": "Een discipel (Petrus) trekt zijn zwaard en hakt het oor van een knecht af. Jezus grijpt in: 'Stop! Wie het zwaard opneemt, zal door het zwaard vergaan. Dit moet gebeuren zoals het geschreven staat.'",
+            "interpretation": "Na het muzikale geweld van het vorige koor keert de rust terug met de stem van de Evangelist. Jezus stopt het geweld. Let op de plechtige cadans wanneer Jezus spreekt over de 'Schriften der Profeten' – dit is het goddelijke plan dat zich voltrekt."
+        },
+        "en": {
+            "lyrics": "Evangelist: And behold, one of them which were with Jesus, stretched out his hand, and struck a servant of the high priest's, and smote off his ear. Then said Jesus unto him:\nJesus: Put up again thy sword into his place! for all they that take the sword shall perish with the sword. Thinkest thou that I cannot now pray to my Father, and he shall presently give me more than twelve legions of angels? But how then shall the scriptures be fulfilled, that thus it must be?\nEvangelist: In that same hour said Jesus to the multitudes:\nJesus: Are ye come out as against a thief with swords and staves for to take me? I sat daily with you teaching in the temple, and ye laid no hold on me.\nEvangelist: But all this was done, that the scriptures of the prophets might be fulfilled. Then all the disciples forsook him, and fled.",
+            "modern": "A disciple (Peter) draws his sword and cuts off a servant's ear. Jesus intervenes: 'Stop! He who takes up the sword shall perish by the sword. This must happen as it is written.'",
+            "interpretation": "After the musical violence of the previous chorus, calm returns. Jesus halts the violence. Note the solemn cadence when Jesus speaks of the 'Scriptures of the Prophets' – this is the divine plan unfolding."
+        }
+    }
+}

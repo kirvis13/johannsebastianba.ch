@@ -1,0 +1,35 @@
+{
+    "id": "part_07",
+    "title": "Buß und Reu",
+    "type": "Aria",
+    "subtype": "Solo",
+    "scene_label": {
+        "nl": "De zalving in Bethanië",
+        "en": "The Anointing at Bethany"
+    },
+    "speaker": "Alto",
+    "source": "Text: Picander / Music: J.S. Bach",
+    "content": {
+        "de": {
+            "lyrics": "Buß und Reu\nKnirscht das Sündenherz entzwei,\nDass die Tropfen meiner Zähren\nAngenehme Spezerei,\nTreuer Jesu, dir gewähren."
+        },
+        "nl": {
+            "lyrics": "Boete en berouw\nkneuzen het zondige hart,\nzodat de druppels van mijn tranen\nals aangename specerijen\naan u, trouwe Jezus, worden aangeboden.",
+            "modern": "Mijn hart breekt van spijt over alles wat ik fout heb gedaan. Ik hoop dat mijn tranen voor u waarde hebben, net als die dure olie.",
+            "interpretation": "Dit is de eerste aria van de passie. Het thema is de diepste emotionele reactie op de eigen zonden. De 'specerijen' waarover gezongen wordt, zijn opnieuw een verwijzing naar de balseming van Jezus. De zangeres hoopt dat haar berouw (haar tranen) net zo waardevol is als de kostbare olie van de vrouw in Bethanië.",
+            "trivia": [
+                {
+                    "category": "muzikaal",
+                    "fact": "De fluiten spelen korte, staccato noten. Bach doet dit om het 'knirschen' (het breken of kneuzen) van het hart uit de tekst hoorbaar te maken."
+                }
+            ]
+        },
+        "en": {
+            "lyrics": "Penitence and remorse\ngrind the sinful heart in two,\nso that the drops of my tears\nas an acceptable spice,\nfaithful Jesus, to thee are offered.",
+            "modern": "My heart breaks with regret over everything I have done wrong. I hope my tears have value for you, just like that expensive oil.",
+            "interpretation": "This is the first aria of the Passion. The theme is the deepest emotional reaction to one's own sins. The 'spices' sung about are again a reference to the embalming of Jesus. The singer hopes that her repentance (her tears) is just as valuable as the precious oil of the woman in Bethany.",
+            "trivia": []
+        },
+        "original_source": null
+    }
+}

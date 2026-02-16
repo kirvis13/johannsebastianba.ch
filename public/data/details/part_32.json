@@ -1,0 +1,35 @@
+{
+    "id": "part_32",
+    "title": "So ist mein Jesus nun gefangen",
+    "type": "Aria_Duetto",
+    "subtype": "Duet_Chorus",
+    "scene_label": {
+        "nl": "De Arrestatie",
+        "en": "The Arrest"
+    },
+    "speaker": "Soprano, Alto, Chorus",
+    "source": "Text: Picander / Music: J.S. Bach",
+    "content": {
+        "de": {
+            "lyrics": "Soprano & Alto: So ist mein Jesus nun gefangen.\n\nChor: Laßt ihn, haltet, bindet nicht!\n\nSoprano & Alto: Mond und Licht ist vor Schmerzen untergangen, weil mein Jesus ist gefangen.\n\nChor: Laßt ihn, haltet, bindet nicht!\n\nSoprano & Alto: Sie führen ihn, er ist gebunden.\n\nChor: Sind Blitze, sind Donner in Wolken verschwunden? Eröffne den feurigen Abgrund, o Hölle!"
+        },
+        "nl": {
+            "lyrics": "Sopraan & Alt: Zo is mijn Jezus nu gevangen.\n\nKoor: Laat hem, houdt op, bindt hem niet!\n\nSopraan & Alt: Maan en sterren zijn van verdriet ondergegaan, omdat mijn Jezus is gevangen.\n\nKoor: Laat hem, houdt op, bindt hem niet!\n\nSopraan & Alt: Ze voeren hem weg, hij is geboeid.\n\nKoor: Zijn bliksem en donder in wolken verdwenen? Open uw vurige afgrond, o hel!",
+            "modern": "Mijn Jezus is gevangen! Laat hem los! Maan en licht zijn ondergegaan van verdriet. Ze voeren hem weg, gebonden. Waar zijn bliksem en donder? Open je afgrond, hel! Vernietig deze verrader!",
+            "interpretation": "Dit is een van de meest gecompliceerde en dramatische stukken uit de hele Matthäus-Passion. Het duet van sopraan en alt (de gelovige zielen) klaagt over de arrestatie, terwijl het koor (de discipelen/het volk) er tussendoor schreeuwt van woede.\n\nDe twee partijen zingen tegelijkertijd maar zeggen verschillende dingen. Het duet is poëtisch en reflectief ('Mond und Licht ist vor Schmerzen untergangen'), terwijl het koor explosief is ('Sind Blitze, sind Donner'). Bach creëert hiermee een chaos die de wanhoop en verwarring van dat moment perfect weergeeft.",
+            "trivia": [
+                {
+                    "category": "muzikaal",
+                    "fact": "Dit stuk wordt vaak beschouwd als een van de technisch meest uitdagende nummers voor koren, omdat beide partijen volkomen onafhankelijk van elkaar moeten zingen terwijl ze toch samen moeten blijven."
+                }
+            ]
+        },
+        "en": {
+            "lyrics": "Soprano & Alto: So is my Jesus now taken captive.\n\nChorus: Leave him, halt, bind him not!\n\nSoprano & Alto: Moon and light have set in sorrow, because my Jesus is taken captive.\n\nChorus: Leave him, halt, bind him not!\n\nSoprano & Alto: They lead him away, he is bound.\n\nChorus: Have lightnings and thunders vanished in the clouds? Open your fiery pit, O hell!",
+            "modern": "My Jesus is captured! Let him go! Moon and light have set in grief. They lead him away, bound. Where are lightning and thunder? Open your abyss, hell! Destroy this traitor!",
+            "interpretation": "This is one of the most complicated and dramatic pieces in the entire St. Matthew Passion. The duet of soprano and alto (the believing souls) laments the arrest, while the chorus (the disciples/the people) shouts with rage in between.\n\nThe two parties sing simultaneously but say different things. The duet is poetic and reflective ('Moon and light have set in sorrow'), while the chorus is explosive ('Have lightnings and thunders'). Bach creates a chaos that perfectly captures the despair and confusion of that moment.",
+            "trivia": []
+        },
+        "original_source": null
+    }
+}

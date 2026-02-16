@@ -1,0 +1,38 @@
+{
+    "id": "part_26",
+    "title": "Der Heiland fällt vor seinem Vater nieder",
+    "type": "Recitativo_Accompagnato",
+    "subtype": "Accompagnato",
+    "scene_label": {
+        "nl": "Gethsemane",
+        "en": "Gethsemane"
+    },
+    "speaker": "Bass",
+    "nba_no": "23",
+    "content": {
+        "de": {
+            "lyrics": "Der Heiland fällt vor seinem Vater nieder,\nDadurch erhebt er mich und alle\nVon unserm Falle\nHinauf zu Gottes Gnade wieder.\nEr ist bereit,\nDen Kelch, des Todes Bitterkeit zu trinken,\nIn welchen Sünden dieser Welt\nGegossen sind und häßlich stinken,\nWeil es dem lieben Gott gefällt.",
+            "modern": "Der Retter fällt vor seinem Vater nieder. Dadurch hebt er uns alle aus unserem Fall wieder zu Gottes Gnade empor. Er ist bereit, den bitteren Kelch des Todes zu trinken, gefüllt mit den Sünden der Welt, weil es Gott so will."
+        },
+        "nl": {
+            "lyrics": "De Heiland valt voor zijn Vader neer,\ndaardoor verheft hij mij en allen\nvan onze val\nweer omhoog tot Gods genade.\nHij is bereid\nde beker, de bitterheid van de dood, te drinken,\nwaarin de zonden van deze wereld\ngegoten zijn en afschuwelijk stinken,\nomdat het de lieve God behaagt.",
+            "modern": "De Redder knielt voor zijn Vader. Door zelf te vallen, tilt hij ons op uit onze ellende. Hij is bereid de bittere beker van de dood te drinken, vol met de zonden van de wereld, omdat God het wil.",
+            "interpretation": "De bas geeft hier een theologische duiding aan het lijden in Gethsemane. De dalende lijnen in de muziek (bij 'fällt' en 'nieder') beelden de val van Jezus uit, die paradoxaal genoeg leidt tot de verheffing ('erhebt', stijgende lijn) van de mensheid. Het is een spiegeling: zijn vernedering is onze redding."
+        },
+        "en": {
+            "lyrics": "The Savior falls down before his Father,\nThereby he raises me and all\nFrom our fall\nUp to God's grace again.\nHe is ready\nTo drink the cup, the bitterness of death,\nIn which the sins of this world\nAre poured and stink foully,\nBecause it pleases dear God.",
+            "modern": "The Savior falls down before his Father. By doing so, he lifts us all from our fall back up to God's grace. He is ready to drink the bitter cup of death, filled with the sins of the world, because God wills it.",
+            "interpretation": "The bass provides a theological explanation for the suffering in Gethsemane. The descending lines in the music (at 'fällt' and 'nieder') depict Jesus' fall, which paradoxically leads to the elevation ('erhebt', rising line) of humanity. It is a mirroring: his humiliation is our salvation."
+        },
+        "trivia": [
+            {
+                "category": "Figurenlehre",
+                "fact": {
+                    "nl": "Bach gebruikt hier 'Katabasis' (dalende noten) om het vallen van Jezus uit te beelden, direct gevolgd door 'Anabasis' (stijgende noten) bij de tekst 'erhebt er mich' (verheft hij mij).",
+                    "en": "Bach uses 'Katabasis' (descending notes) here to depict Jesus falling, immediately followed by 'Anabasis' (ascending notes) at the text 'erhebt er mich' (he raises me).",
+                    "de": "Bach verwendet hier eine 'Katabasis' (absteigende Noten), um das Fallen Jesu darzustellen, direkt gefolgt von einer 'Anabasis' (aufsteigende Noten) bei 'erhebt er mich'."
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "id": "part_44",
+    "title": "Wer hat dich so geschlagen",
+    "type": "Choral",
+    "subtype": "Congregational",
+    "scene_label": {
+        "nl": "De Bespotting",
+        "en": "The Mocking"
+    },
+    "speaker": "Congregation",
+    "nba_no": "39",
+    "content": {
+        "de": {
+            "lyrics": "Wer hat dich so geschlagen,\nMein Heil, und dich mit Plagen\nSo übel zugericht'?\nDu bist ja nicht ein Sünder\nWie wir und unsre Kinder,\nVon Missetaten weißt du nicht.",
+            "modern": "Wer hat dich so geschlagen, mein Heiland? Du bist doch kein Sünder wie wir; du bist vollkommen unschuldig."
+        },
+        "nl": {
+            "lyrics": "Wie heeft u zo geslagen,\nmijn Heil, en u met plagen\nzo slecht toegetakeld?\nU bent immers geen zondaar\nzoals wij en onze kinderen,\nvan misdaden weet u niet.",
+            "modern": "Wie heeft u zo geslagen, mijn redder? U bent toch geen zondaar zoals wij; u bent volkomen onschuldig.",
+            "interpretation": "Dit koraal is het directe antwoord op de spottende vraag van de beulen ('Wie heeft u geslagen?'). De gemeente antwoordt in feite: 'WIJ hebben dat gedaan, door onze zonden.' De melodie is weer 'O Welt, ich muss dich lassen', wat de tragiek onderstreept."
+        },
+        "en": {
+            "lyrics": "Who hath thee so stricken,\nMy Savior, and with torments\nSo ill treated thee?\nThou art indeed no sinner,\nLike us and our children;\nOf misdeeds thou knowest not.",
+            "modern": "Who has beaten you like this, my Savior? You are no sinner like us; you are completely innocent.",
+            "interpretation": "This chorale is the direct answer to the mockers' question ('Who hit you?'). The congregation effectively answers: 'WE did it, through our sins.' The melody is again 'O Welt, ich muss dich lassen'."
+        },
+        "trivia": [
+            {
+                "category": "Theology",
+                "fact": {
+                    "nl": "Bach gebruikt hier een slimme tekst-truc. De beulen vragen: 'Wie heeft u geslagen?' (bedoeld als raadselspelletje). Het koraal antwoordt serieus: 'Wie heeft u geslagen... (ik ben het geweest)'.",
+                    "en": "Bach uses a clever textual device here. The torturers ask: 'Who hit you?' (as a game). The chorale answers seriously: 'Who hit you... (it was I)'.",
+                    "de": "Bach verwendet hier einen klugen Textkniff. Die Peiniger fragen: 'Wer hat dich geschlagen?' (als Ratespiel). Der Choral antwortet ernst: 'Wer hat dich geschlagen... (ich bin es gewesen)'."
+                }
+            }
+        ]
+    }
+}

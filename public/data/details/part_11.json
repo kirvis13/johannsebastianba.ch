@@ -1,0 +1,35 @@
+{
+    "id": "part_11",
+    "title": "Er sprach: Gehet hin",
+    "type": "Recitativo",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "Het Laatste Avondmaal",
+        "en": "The Last Supper"
+    },
+    "speaker": "Evangelist, Jesus",
+    "source": "Text: Picander / Music: J.S. Bach",
+    "content": {
+        "de": {
+            "lyrics": "Evangelist: Er sprach:\nJesus: Gehet hin in die Stadt zu einem und sprecht zu ihm: Der Meister lässt dir sagen: Meine Zeit ist hie, ich will bei dir die Ostern halten met meinen Jüngern.\nEvangelist: Und die Jünger taten, wie ihnen Jesus befohlen hatte, und bereiteten das Osterlamm. Und am Abend setzte er sich zu Tische met den Zwölfen. Und da sie aßen, sprach er:\nJesus: Wahrlich ich sage euch: Einer unter euch wird mich verraten."
+        },
+        "nl": {
+            "lyrics": "Evangelist: Hij zei:\nJesus: Ga naar de stad, naar een zeker iemand, en zeg tegen hem: De meester laat u weten: mijn tijd is gekomen, ik wil bij u het Pascha vieren met mijn discipelen.\nEvangelist: En de discipelen deden zoals Jezus hun bevolen had en maakten het paaslam gereed. En toen het avond was geworden, ging hij aan tafel met de twaalf. En terwijl zij aten, zei hij:\nJesus: Ik verzeker jullie: een van jullie zal mij verraden.",
+            "modern": "Jezus gaf instructies voor de maaltijd. Eenmaal aan tafel zei hij plotseling iets wat insloeg als een bom: 'Een van jullie die hier nu met mij eet, gaat mij verraden.'",
+            "interpretation": "Dit is het begin van het Laatste Avondmaal. Jezus kondigt aan dat 'zijn tijd gekomen is'. De sfeer aan tafel wordt in één klap ijzig wanneer hij de bom laat vallen: er zit een verrader aan tafel. Bach laat hier de spanning tussen het heilige ritueel en het menselijke verraad voelen.",
+            "trivia": [
+                {
+                    "category": "muzikaal",
+                    "fact": "Let op hoe Jezus hier spreekt zonder de gebruikelijke 'halo' van strijkers wanneer hij over het verraad spreekt; de toon wordt naakt en direct."
+                }
+            ]
+        },
+        "en": {
+            "lyrics": "Evangelist: And he said:\nJesus: Go into the city to such a man, and say unto him, The Master saith, My time is at hand; I will keep the passover at thy house with my disciples.\nEvangelist: And the disciples did as Jesus had appointed them; and they made ready the passover. Now when the even was come, he sat down with the twelve. And as they did eat, he said:\nJesus: Verily I say unto you, that one of you shall betray me.",
+            "modern": "Jesus gave instructions for the meal. Once at the table, he suddenly said something that dropped like a bomb: 'One of you eating here with me now is going to betray me.'",
+            "interpretation": "This is the beginning of the Last Supper. Jesus announces that 'his time is at hand'. The atmosphere at the table instantly turns icy when he drops the bombshell: there is a traitor at the table. Bach lets us feel the tension between the holy ritual and the human betrayal here.",
+            "trivia": []
+        },
+        "original_source": null
+    }
+}

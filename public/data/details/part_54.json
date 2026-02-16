@@ -1,0 +1,38 @@
+{
+    "id": "part_54",
+    "title": "Wie wunderbarlich ist doch diese Strafe",
+    "type": "Choral",
+    "subtype": "Congregational",
+    "scene_label": {
+        "nl": "Barabbas",
+        "en": "Barabbas"
+    },
+    "speaker": "Congregation",
+    "nba_no": "49",
+    "content": {
+        "de": {
+            "lyrics": "Wie wunderbarlich ist doch diese Strafe!\nDer gute Hirte leidet für die Schafe,\nDie Schuld bezahlt der Herre, der Gerechte,\nFür seine Knechte.",
+            "modern": "Wie sonderbar ist diese Strafe! Der gute Hirte leidet für die Schafe. Der Herr bezahlt die Schuld für seine Diener."
+        },
+        "nl": {
+            "lyrics": "Hoe wonderbaarlijk is toch deze straf!\nDe goede herder lijdt voor de schapen,\nde Heer, de rechtvaardige, betaalt de schuld\nvoor zijn knechten.",
+            "modern": "Wat een wonderlijke straf! De herder sterft voor zijn schapen. De meester betaalt de schuld van zijn knechten.",
+            "interpretation": "Direct na de schreeuw om Barabbas volgt dit verstilde koraal. Het reflecteert op de 'wonderlijke ruil': de moordenaar Barabbas gaat vrij, de onschuldige Jezus wordt gestraft."
+        },
+        "en": {
+            "lyrics": "How wonderful is this punishment!\nThe good Shepherd suffers for the sheep,\nThe Lord, the Righteous One, pays the debt\nFor his servants.",
+            "modern": "How strange is this punishment! The good Shepherd suffers for the sheep. The Lord pays the debt for his servants.",
+            "interpretation": "Immediately after the shout for Barabbas follows this quiet chorale. It reflects on the 'marvelous exchange': the murderer Barabbas goes free, the innocent Jesus is punished."
+        },
+        "trivia": [
+            {
+                "category": "Melody",
+                "fact": {
+                    "nl": "Dit is het vierde couplet van 'Herzliebster Jesu'. De melodie keert hier terug (eerder gehoord in Deel 1), wat muzikale eenheid schept.",
+                    "en": "This is the fourth verse of 'Herzliebster Jesu'. The melody returns here (heard earlier in Part 1), creating musical unity.",
+                    "de": "Dies ist die vierte Strophe von 'Herzliebster Jesu'. Die Melodie kehrt hier zurück (bereits in Teil 1 gehört) und schafft musikalische Einheit."
+                }
+            }
+        ]
+    }
+}

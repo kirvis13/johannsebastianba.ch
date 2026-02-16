@@ -1,0 +1,44 @@
+{
+    "id": "part_52",
+    "title": "Befiehl du deine Wege",
+    "type": "Choral",
+    "subtype": "Congregational",
+    "scene_label": {
+        "nl": "Voor Pilatus",
+        "en": "Before Pilate"
+    },
+    "speaker": "Congregation",
+    "nba_no": "47",
+    "content": {
+        "de": {
+            "lyrics": "Befiehl du deine Wege\nUnd was dein Herze kränkt\nDer allertreusten Pflege\nDes, der den Himmel lenkt.\nDer Wolken, Luft und Winden\nGibt Wege, Lauf und Bahn,\nDer wird auch Wege finden,\nDa dein Fuß gehen kann.",
+            "modern": "Vertraue deinen Weg und deinen Schmerz Gott an. Er, der Wolken und Winde lenkt, wird auch für dich einen Weg finden."
+        },
+        "nl": {
+            "lyrics": "Beveel uw wegen\nen wat uw hart krenkt\naan bij de aller-trouwste zorg\nvan Hem, die de hemel bestuurt.\nHij die wolken, lucht en winden\nhun weg, loop en baan geeft,\nzal ook wel wegen vinden,\nwaarop uw voet kan gaan.",
+            "modern": "Vertrouw je levenspad en je verdriet toe aan God. Hij die de wolken en de wind stuurt, zal ook voor jou een begaanbare weg vinden.",
+            "interpretation": "Dit is de beroemdste melodie uit de Passion (dezelfde als 'O Haupt voll Blut und Wunden'), maar hier in een harmonisatie die vertrouwen uitstraalt. Tegenover de oneerlijke rechtszaak stelt de gemeente haar vertrouwen op God die alles bestuurt.",
+            "trivia": [
+                {
+                    "category": "architectuur",
+                    "fact": "Dit koraal staat in E-majeur (4 kruisen). Bach gebruikt dezelfde koraalmelodie vijf keer door de Passion heen, elke keer in een lagere toonsoort. Het begint in E-majeur (helder, hemels) en eindigt in a-mineur (donker, aards). Bach laat de toonsoort letterlijk 'dalen' parallel aan Jezus' lijden."
+                }
+            ]
+        },
+        "en": {
+            "lyrics": "Commit thy ways,\nAnd what grieves thy heart,\nTo the most faithful care\nOf Him who directs the heavens.\nHe who gives clouds, air, and winds\nTheir path, course, and track,\nHe will also find ways\nWhere thy foot can go.",
+            "modern": "Entrust your path and your pain to God. He who directs the clouds and winds will also find a way for you.",
+            "interpretation": "This is the most famous melody of the Passion (same as 'O Haupt voll Blut und Wunden'), but here in a harmonization that radiates trust. Against the unfair trial, the congregation places its trust in God who controls everything."
+        },
+        "trivia": [
+            {
+                "category": "Melody",
+                "fact": {
+                    "nl": "Deze melodie (oorspronkelijk een liefdeslied van Hans Leo Hassler) komt vijf keer voor in de Matthäus Passion. Dit is de eerste keer in Deel 2.",
+                    "en": "This melody (originally a love song by Hans Leo Hassler) appears five times in the St Matthew Passion. This is the first time in Part 2.",
+                    "de": "Diese Melodie (ursprünglich ein Liebeslied von Hans Leo Hassler) kommt fünfmal in der Matthäus-Passion vor. Dies ist das erste Mal im zweiten Teil."
+                }
+            }
+        ]
+    }
+}

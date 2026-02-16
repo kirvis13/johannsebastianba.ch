@@ -1,0 +1,36 @@
+{
+    "id": "part_24",
+    "title": "Ich will bei meinem Jesu wachen",
+    "type": "Aria_Chorus",
+    "subtype": "Solo_Chorus",
+    "scene_label": {
+        "nl": "Gethsemane",
+        "en": "Gethsemane"
+    },
+    "speaker": "Tenor, Chorus",
+    "source": "Text: Picander / Music: J.S. Bach",
+    "content": {
+        "de": {
+            "lyrics": "Ich will bei meinem Jesu wachen.\n(So schlafen unsre Sünden ein.)\nMeinen Tod\nBüßet seiner Seelen Not;\nSein Trauren machet mich voll Freuden.\n(Drum muß uns sein verdienstlich Leiden,\nRecht bitter und doch süße sein.)",
+            "modern": "Ich will bei meinem Jesus wachen. (So schlafen unsere Sünden ein.)"
+        },
+        "nl": {
+            "lyrics": "Ik wil bij mijn Jezus waken.\n(Dan slapen onze zonden in.)\nVoor mijn dood\nBoet hij in zijn zielenood\nZijn treuren schenkt mij de zaligheid.\n(Daarom moet ons zijn dienstbaar lijden,\nzeer bitter en toch zoet zijn.)",
+            "modern": "Ik wil bij Jezus wakker blijven. Zo slapen onze zonden in.",
+            "interpretation": "Een van de hoogtepunten. De tenor probeert wakker te blijven terwijl de discipelen slapen. De hobo speelt een prachtige, bijna hypnotiserende solo die de strijd tegen de slaap uitbeeldt. Het koor antwoordt steeds zachtjes: \"Zo slapen onze zonden in\".",
+            "trivia": [
+                {
+                    "category": "muzikaal",
+                    "fact": "De hobo-partij is extreem veeleisend en staat bekend als een van de mooiste solo's in de barokmuziek."
+                }
+            ]
+        },
+        "en": {
+            "lyrics": "I will watch with my Jesus.\n(Thus our sins fall asleep.)\nMy death\nHe atones for in his soul's distress;\nHis mourning makes me full of joy.\n(Therefore must his meritorious suffering,\nRight bitter and yet sweet be.)",
+            "modern": "",
+            "interpretation": "One of the highlights. The tenor tries to stay awake while the disciples sleep. The oboe plays a beautiful, almost hypnotic solo depicting the struggle against sleep. The choir answers softly each time: 'Thus our sins fall asleep'.",
+            "trivia": []
+        },
+        "original_source": null
+    }
+}

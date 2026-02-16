@@ -1,0 +1,29 @@
+{
+    "id": "part_48",
+    "title": "Des Morgens aber",
+    "type": "Recitativo",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "Judas' Einde",
+        "en": "The End of Judas"
+    },
+    "speaker": "Evangelist, Judas, Chief Priests",
+    "nba_no": "43",
+    "content": {
+        "de": {
+            "lyrics": "Evangelist: Des Morgens aber hielten alle Hohenpriester und die Ältesten des Volks einen Rat über Jesum, dass sie ihn töteten. Und banden ihn, führeten ihn hin und überantworteten ihn dem Landpfleger Pontius Pilatus. Da das sah Judas, der ihn verraten hatte, dass er verdammt war zum Tode, gereuete es ihn und brachte herwieder die dreißig Silberlinge den Hohenpriestern und Ältesten und sprach:\nJudas: Ich habe übel getan, dass ich unschuldig Blut verraten habe.\nEvangelist: Sie sprachen:\nHohenpriester: Was geht uns das an? Da siehe du zu!\nEvangelist: Und er warf die Silberlinge in den Tempel, hub sich davon, ging hin und erhängete sich.",
+            "modern": "Am Morgen beschließt der Rat den Tod Jesu und übergibt ihn an Pilatus. Judas bereut seinen Verrat und gibt das Geld zurück: 'Ich habe unschuldiges Blut verraten!' Die Priester antworten kalt: 'Nicht unser Problem.' Judas wirft das Geld weg und erhängt sich."
+        },
+        "nl": {
+            "lyrics": "Evangelist: Toen het ochtend werd, hielden alle hogepriesters en oudsten van het volk raad over Jezus, om hem te doden. En zij bonden hem, voerden hem weg en leverden hem over aan de landvoogd Pontius Pilatus. Toen Judas, die hem verraden had, zag dat hij ter dood veroordeeld was, kreeg hij berouw en bracht de dertig zilverlingen terug naar de hogepriesters en oudsten en zei:\nJudas: Ik heb kwaad gedaan, dat ik onschuldig bloed verraden heb.\nEvangelist: Zij zeiden:\nHogepriesters: Wat gaat ons dat aan? Zoek jij het maar uit!\nEvangelist: En hij wierp de zilverlingen in de tempel, ging weg en verhing zich.",
+            "modern": "'s Ochtends besluit de Raad dat Jezus dood moet en stuurt hem naar Pilatus. Judas krijgt spijt en brengt het geld terug: 'Ik heb een onschuldige verraden!' De priesters reageren ijskoud: 'Niet ons probleem.' Judas gooit het geld weg en pleegt zelfmoord.",
+            "interpretation": "De tragedie van Judas. Zijn wroeging klinkt oprecht, maar de reactie van de priesters is cynisch en kortaf ('Da siehe du zu' - twee korte akkoorden). De muziek schildert het 'werpen' van de munten (snelle toonladder) en het 'verhangen' (dalende lijn)."
+        },
+        "en": {
+            "lyrics": "Evangelist: When the morning was come, all the chief priests and elders of the people took counsel against Jesus to put him to death: And when they had bound him, they led him away, and delivered him to Pontius Pilate the governor. Then Judas, which had betrayed him, when he saw that he was condemned, repented himself, and brought again the thirty pieces of silver to the chief priests and elders, saying:\nJudas: I have sinned in that I have betrayed the innocent blood.\nEvangelist: And they said:\nChief Priests: What is that to us? see thou to that.\nEvangelist: And he cast down the pieces of silver in the temple, and departed, and went and hanged himself.",
+            "modern": "In the morning, the Council condemns Jesus and sends him to Pilate. Judas regrets his betrayal and returns the money: 'I have betrayed innocent blood!' The priests respond coldly: 'Not our problem.' Judas throws the money away and hangs himself.",
+            "interpretation": "The tragedy of Judas. His remorse sounds genuine, but the priests' reaction is cynical and curt ('Da siehe du zu' - two short chords). The music depicts the 'throwing' of the coins (rapid scale) and the 'hanging' (descending line)."
+        },
+        "trivia": []
+    }
+}

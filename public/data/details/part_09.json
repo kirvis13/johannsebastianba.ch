@@ -1,0 +1,35 @@
+{
+    "id": "part_09",
+    "title": "Blute nur, du liebes Herz",
+    "type": "Aria",
+    "subtype": "Solo",
+    "scene_label": {
+        "nl": "Judas' Verraad",
+        "en": "Judas' Betrayal"
+    },
+    "speaker": "Soprano",
+    "source": "Text: Picander / Music: J.S. Bach",
+    "content": {
+        "de": {
+            "lyrics": "Blute nur, du liebes Herz!\nAch! ein Kind, das du erzogen,\nDas an deiner Brust gesogen,\nSucht den Pfleger zu ermorden,\nDenn es ist zur Schlange worden."
+        },
+        "nl": {
+            "lyrics": "Bloed nu maar, u liefdevol hart!\nAch! een kind dat u hebt grootgebracht,\ndat aan uw borst heeft gelegen,\nprobeert zijn verzorger te vermoorden,\nwant het is in een slang veranderd.",
+            "modern": "Je hart bloedt van verdriet. Iemand die je altijd hebt vertrouwd en beschermd, keert zich nu als een slang tegen je.",
+            "interpretation": "Deze aria van de sopraan is een felle reactie op het verraad van Judas. De tekst gebruikt schokkende beelden: Judas wordt vergeleken met een kind dat zijn eigen ouder ('verzorger') probeert te vermoorden en is veranderd in een giftige slang. De muziek is onrustig en vol sprongen, wat de verontwaardiging over dit verraad weerspiegelt.",
+            "trivia": [
+                {
+                    "category": "muzikaal",
+                    "fact": "Bach laat de strijkers snelle, bijtende motieven spelen die het kronkelen van de slang en de scherpe pijn van het verraad uitbeelden."
+                }
+            ]
+        },
+        "en": {
+            "lyrics": "Bleed now, thou loving heart!\nAh! a child that thou hast raised,\nthat hath sucked at thy breast,\nseeks to murder its caretaker,\nfor it hath become a serpent.",
+            "modern": "Your heart bleeds with sorrow. Someone you have always trusted and protected now turns against you like a snake.",
+            "interpretation": "This soprano aria is a fierce reaction to the betrayal of Judas. The text uses shocking imagery: Judas is compared to a child trying to murder its own parent ('caretaker') and has turned into a venomous snake. The music is restless and full of leaps, reflecting the indignation over this betrayal.",
+            "trivia": []
+        },
+        "original_source": null
+    }
+}

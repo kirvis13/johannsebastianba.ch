@@ -1,0 +1,31 @@
+{
+    "id": "part_23",
+    "title": "O Schmerz! hier zittert",
+    "type": "Recitativo_Accompagnato",
+    "subtype": "Accompagnato",
+    "scene_label": {
+        "nl": "Gethsemane",
+        "en": "Gethsemane"
+    },
+    "speaker": "Tenor, Chorus",
+    "source": "Text: Picander / Music: J.S. Bach",
+    "content": {
+        "de": {
+            "lyrics": "O Schmerz! hier zittert das gequälte Herz;\nWie sinkt es hin, wie bleichet sein Gesicht!\nDer Richter führt ihn vor Gericht.\nDa ist kein Trost, kein Helfer nicht.",
+            "modern": "O Schmerz! Das gequälte Herz zittert. Der Richter führt ihn vor Gericht. Es gibt keinen Trost, keinen Helfer."
+        },
+        "nl": {
+            "lyrics": "O smart, hier beeft het gekwelde hart... De rechter brengt hem voor het gerecht. Er is geen troost, geen helper.",
+            "modern": "O pijn! Het gekwelde hart beeft. De rechter brengt hem voor het gerecht. Geen troost, geen helper.",
+            "interpretation": "Een diep treurig recitatief voor de tenor. Het koor zingt er zachtjes doorheen met de vraag \"Wat is de oorzaak?\". Het bereidt de weg voor de grote aria die volgt.",
+            "trivia": []
+        },
+        "en": {
+            "lyrics": "O agony! Here trembles the tormented heart... The judge brings him before the judgment. There is no comfort, no helper.",
+            "modern": "",
+            "interpretation": "A deeply sad recitative for the tenor. The choir sings softly through it with the question 'What is the cause?'. It prepares the way for the great aria that follows.",
+            "trivia": []
+        },
+        "original_source": null
+    }
+}

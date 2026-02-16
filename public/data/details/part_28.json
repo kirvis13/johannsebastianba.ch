@@ -1,0 +1,35 @@
+{
+    "id": "part_28",
+    "title": "Und er kam zu seinen Jüngern",
+    "type": "Recitativo",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "Gethsemane",
+        "en": "Gethsemane"
+    },
+    "speaker": "Evangelist, Jesus",
+    "source": "Text: Picander / Music: J.S. Bach",
+    "content": {
+        "de": {
+            "lyrics": "Evangelist: Und er kam zu seinen Jüngern, und fand sie schlafend, und sprach zu ihnen:\nJesus: Könnet ihr denn nicht eine Stunde mit mir wachen?\nWachet und betet, daß ihr nicht in Anfechtung fallet! Der Geist ist willig, aber das Fleisch ist schwach.\nEvangelist: Zum andern Mal ging er hin, betete und sprach:\nJesus: Mein Vater, ist's nicht möglich, daß dieser Kelch von mir gehe, ich trinke ihn denn, so geschehe dein Wille."
+        },
+        "nl": {
+            "lyrics": "Evangelist: En hij kwam bij zijn discipelen, en vond ze in slaap, en zei tegen hen:\nJezus: Kunnen jullie dan niet één uur met mij waken?\nBlijf wakker, en bid dat je niet in verleiding komt. De geest is gewillig, maar het vlees is zwak.\nEvangelist: Nogmaals ging hij verderop, en bad:\nJezus: Mijn vader, indien het niet mogelijk is dat deze beker aan mij voorbijgaat, tenzij ik hem drink, zo zal uw wil gebeuren.",
+            "modern": "Jezus vond zijn vrienden slapend. 'Kunnen jullie niet één uur wakker blijven bij mij? Blijf alert en bid om kracht, want jullie geest wil wel, maar je lichaam is zwak.' Hij ging opnieuw bidden: 'Vader, als deze beproeving niet voorbijgaat, laat dan uw wil geschieden.'",
+            "interpretation": "Dit is het tweede deel van de Gethsemane-scène. Jezus vindt zijn discipelen in slaap, ondanks zijn vraag om te waken. Zijn woorden 'Der Geist ist willig, aber das Fleisch ist schwach' zijn beroemd geworden en vatten de menselijke conditie perfect samen: we willen wel het goede doen, maar vallen vaak door in onze zwakheid.\n\nJezus gaat voor de tweede keer bidden en spreekt nu een gebed van overgave uit. Hij aanvaardt Gods wil, zelfs als dat betekent dat hij de bittere kelch moet drinken. Dit is het keerpunt: van verzet naar acceptatie.",
+            "trivia": [
+                {
+                    "category": "muzikaal",
+                    "fact": "De tenorstem van de Evangelist krijgt hier een meer verhalende, neutrale melodie, terwijl de basstem van Jezus ondersteund wordt door de strijkers (het 'aureool') om zijn goddelijke natuur te benadrukken."
+                }
+            ]
+        },
+        "en": {
+            "lyrics": "Evangelist: And he came to his disciples and found them sleeping, and said to them:\nJesus: Could you not watch with me one hour?\nWatch and pray, that you enter not into temptation. The spirit indeed is willing, but the flesh is weak.\nEvangelist: He went away again the second time, and prayed, saying:\nJesus: O my Father, if this cup may not pass away from me, except I drink it, thy will be done.",
+            "modern": "Jesus found his friends asleep. 'Can't you stay awake with me for just one hour? Stay alert and pray for strength, because your spirit is willing but your body is weak.' He prayed again: 'Father, if this trial cannot pass, let your will be done.'",
+            "interpretation": "This is the second part of the Gethsemane scene. Jesus finds his disciples asleep, despite his request to watch with him. His words 'The spirit is willing, but the flesh is weak' have become famous and perfectly capture the human condition: we want to do good, but often fail in our weakness.\n\nJesus prays for the second time and now speaks a prayer of surrender. He accepts God's will, even if it means he must drink the bitter cup. This is the turning point: from resistance to acceptance.",
+            "trivia": []
+        },
+        "original_source": null
+    }
+}

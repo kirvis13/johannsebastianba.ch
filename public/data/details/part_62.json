@@ -1,0 +1,44 @@
+{
+    "id": "part_62",
+    "title": "O Haupt voll Blut und Wunden",
+    "type": "Choral",
+    "subtype": "Congregational",
+    "scene_label": {
+        "nl": "De Doornenkroon",
+        "en": "The Crown of Thorns"
+    },
+    "speaker": "Congregation",
+    "nba_no": "57",
+    "content": {
+        "de": {
+            "lyrics": "O Haupt voll Blut und Wunden,\nVoll Schmerz und voller Hohn,\nO Haupt, zu Spott gebunden\nMit einer Dornenkron,\nO Haupt, sonst schön gezieret\nMit höchster Ehr und Zier,\nJetzt aber hoch schimpfieret,\nGegrüßet seist du mir!\n\nDu edles Angesichte,\nVor dem sonst schrickt und scheut\nDas große Weltgerichte,\nWie bist du so bespeit;\nWie bist du so erbleichet !\nWer hat dein Augenlicht,\nDem sonst kein Licht nicht gleichet,\nSo schändlich zugericht't ?",
+            "modern": "O Haupt voller Blut und Wunden, voller Schmerz und Spott. Früher mit Ehre gekrönt, jetzt mit Dornen. Ich grüße dich ehrfurchtsvoll in deinem Leiden."
+        },
+        "nl": {
+            "lyrics": "O hoofd vol bloed en wonden,\nvol smart en vol hoon,\no hoofd, tot spot omwonden\nmet een doornenkroon,\no hoofd, anders mooi versierd\nmet de hoogste eer en sier,\nnu echter zeer onteerd,\ngegroet bent u door mij!\n\nU edel aangezicht,\naanbeden en geschuwd\ndoor al dat leeft op aarde,\nhoe wordt u nu bespuwd.\nHoe bent u thans verbleekt.\nWie heeft het licht van uw ogen,\ndat anders met geen enkel licht is te vergelijken,\nzo vreselijk geschonden ?",
+            "modern": "O hoofd vol bloed en wonden, bespot en bekroond met doornen. Vroeger droeg u een kroon van eer, nu een van schande. Ik groet u met diep respect.",
+            "interpretation": "Dit is het beroemdste koraal van de Matthäus Passion. De melodie hebben we al vier keer eerder gehoord (o.a. 'Erkenne mich, mein Hüter'), maar hier klinkt hij in zijn meest pure en tragische vorm. Waar de soldaten spottend 'Gegrüßet' riepen, zingt de gemeente nu oprecht 'Gegrüßet seist du mir' (Ik groet u). Het is een ultieme daad van troost.",
+            "trivia": [
+                {
+                    "category": "architectuur",
+                    "fact": "Dit koraal staat in a-mineur (geen voortekens). Bach gebruikt dezelfde koraalmelodie vijf keer door de Passion heen, elke keer in een lagere toonsoort. Het begint in E-majeur (helder, hemels) en eindigt in a-mineur (donker, aards). Bach laat de toonsoort letterlijk 'dalen' parallel aan Jezus' lijden."
+                }
+            ]
+        },
+        "en": {
+            "lyrics": "O sacred head, now wounded,\nWith grief and shame weighed down,\nNow scornfully surrounded\nWith thorns, thine only crown;\nO sacred head, what glory,\nWhat bliss till now was thine!\nYet, though despised and gory,\nI joy to call thee mine.\n\nThy noble countenance,\nBefore which once did quake\nThe judgment of the world,\nHow is it now bespat!\nHow pale thou art become!\nWho hath thy radiant eyes,\nTo which no light compareth,\nSo shamefully defaced?",
+            "modern": "O head full of blood and wounds, full of pain and mockery. Once crowned with honor, now with thorns. I greet you reverently in your suffering.",
+            "interpretation": "This is the most famous chorale of the St Matthew Passion. We have heard the melody four times before, but here it appears in its most pure and tragic form. Where the soldiers shouted 'Hail' in mockery, the congregation now sings sincerely 'I greet thee'. It is an ultimate act of comfort."
+        },
+        "trivia": [
+            {
+                "category": "Melody",
+                "fact": {
+                    "nl": "De melodie 'O Haupt voll Blut und Wunden' komt in totaal vijf keer voor in de Passion, telkens met een andere harmonisatie die de emotie van het moment weerspiegelt. Hier klinkt hij een halve toon lager dan de eerste keer, wat vermoeidheid en berusting suggereert.",
+                    "en": "The melody 'O Haupt voll Blut und Wunden' appears five times in total, each time with a different harmonization reflecting the emotion of the moment. Here it sounds a semitone lower than the first time, suggesting fatigue and resignation.",
+                    "de": "Die Melodie taucht insgesamt fünfmal auf. Hier erklingt sie einen Halbton tiefer als beim ersten Mal, was Erschöpfung und Resignation suggeriert."
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-mp-gold: #D4AF37;
+  --color-mp-dark: #1a1a1a;
+  --color-mp-darker: #111111;
+  --color-mp-text: #e0e0e0;
+  --color-mp-green: #8F9779;
+  --color-mp-red: #CB4154;
+  --color-mp-blue: #4A6B8A;
+
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: '"Playfair Display"', serif;
+}
+
+body {
+  background-color: var(--color-mp-dark);
+  color: var(--color-mp-text);
+}

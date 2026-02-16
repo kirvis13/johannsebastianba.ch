@@ -1,0 +1,44 @@
+{
+    "id": "part_19",
+    "title": "Erkenne mich, mein Hüter",
+    "type": "Choral",
+    "subtype": "Congregational",
+    "scene_label": {
+        "nl": "Naar de Olijfberg",
+        "en": "To the Mount of Olives"
+    },
+    "speaker": "Congregation",
+    "source": "Text: Picander / Music: J.S. Bach",
+    "content": {
+        "de": {
+            "lyrics": "Erkenne mich, mein Hüter,\nMein Hirte, nimm mich an.\nVon dir, Quell aller Güter,\nIst mir viel Gut's getan;\nDein Mund hat mich gelabet\nMit Milch und süßer Kost,\nDein Geist hat mich begabet\nMit mancher Himmelslust.",
+            "modern": "Erkenne mich, mein Beschützer, mein Hirte, nimm mich an. Von dir, Quelle aller Güter, ist mir viel Gutes geschehen; dein Mund hat mich gelabt mit Milch und süßer Kost, dein Geist hat mich mit vieler Himmelslust beschenkt."
+        },
+        "nl": {
+            "lyrics": "Zie mij aan, mijn beschermer,\nmijn herder, aanvaard mij.\nDoor u, bron van alle weldaden,\nis mij veel goeds gedaan;\nUw mond heeft mij gelaafd\nmet melk en zoete spijs,\nuw Geest heeft mij begaafd\nmet menige hemelse vreugd.",
+            "modern": "Zie mij, mijn beschermer en herder, en neem mij aan. Door u, bron van alle goeds, is mij veel gedaan; uw mond heeft mij gelaafd met zoete spijs, uw Geest heeft mij begiftigd met hemelse vreugde.",
+            "interpretation": "De eerste keer dat de beroemde melodie van het 'Passie-koraal' klinkt (bekend van O Haupt voll Blut), maar hier nog hoopvol en fris in E-groot.",
+            "trivia": [
+                {
+                    "category": "architectuur",
+                    "fact": "Dit koraal staat in D-majeur (2 kruisen). Bach gebruikt dezelfde koraalmelodie vijf keer door de Passion heen, elke keer in een lagere toonsoort. Het begint in E-majeur (helder, hemels) en eindigt in a-mineur (donker, aards). Bach laat de toonsoort letterlijk 'dalen' parallel aan Jezus' lijden."
+                }
+            ]
+        },
+        "en": {
+            "lyrics": "Recognize me, my keeper,\nmy shepherd, accept me.\nFrom thee, source of all goodness,\nhave I received much good;\nThy mouth hath refreshed me\nwith milk and sweet sustenance,\nthy Spirit hath endowed me\nwith many a heavenly joy.",
+            "modern": "Recognize me, my protector and shepherd, and accept me. From you, source of all good, I have received much; your mouth has refreshed me with sweet sustenance, your Spirit has blessed me with heavenly joy.",
+            "interpretation": "The first time the famous melody of the 'Passion Chorale' is heard (known from O Haupt voll Blut), but here still hopeful and fresh in E major.",
+            "trivia": []
+        },
+        "original_source": {
+            "title": "Befiehl du deine Wege / Herzlich tut mich verlangen",
+            "melody_origin": "Hans Leo Hassler (1601)",
+            "text_origin": "Paul Gerhardt (1656)",
+            "info": {
+                "nl": "De melodie was oorspronkelijk een wereldlijk liefdeslied: 'Mijn gemoed is verward door een teder meisje'. Het werd later door de kerk geadopteerd.",
+                "en": "The melody was originally a secular love song: 'My mind is confused by a tender maiden'. It was later adopted by the church."
+            }
+        }
+    }
+}

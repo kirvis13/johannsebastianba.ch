@@ -1,0 +1,29 @@
+{
+    "id": "part_78",
+    "title": "Des anderen Tages",
+    "type": "Recitativo_Chorus",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "De Grafbewaking",
+        "en": "The Guard at the Tomb"
+    },
+    "speaker": "Evangelist, Pilate, Chorus",
+    "nba_no": "70",
+    "content": {
+        "de": {
+            "lyrics": "Evangelist: Des andern Tages, der da folget nach dem Rüsttage, kamen die Hohenpriester und Pharisäer sämtlich zu Pilato und sprachen:\n\nChor: Herr, wir haben gedacht, daß dieser Verführer sprach, da er noch lebete: Ich will nach dreien Tagen wieder auferstehen. Darum befiehl, daß man das Grab verwahre bis an den dritten Tag, auf daß nicht seine Jünger kommen, und stehlen ihn, und sagen zu dem Volk: Er ist auferstanden von den Toten, und werde der letzte Betrug ärger denn der erste!\n\nEvangelist: Pilatus sprach zu ihnen:\n\nPilatus: Da habt ihr die Hüter; gehet hin und verwahret's, wie ihr wisset!\n\nEvangelist: Sie gingen hin und verwahreten das Grab mit Hütern, und versiegelten den Stein.",
+            "modern": "Am nächsten Tag fordern die Priester von Pilatus eine Wache, damit die Jünger den Leichnam nicht stehlen und eine Auferstehung vortäuschen können. Pilatus sagt: 'Hier habt ihr Wachen.' Sie versiegeln das Grab."
+        },
+        "nl": {
+            "lyrics": "Evangelist: De volgende morgen, na de voorbereiding voor het feest, kwamen de hogepriesters en farizeeërs samen bij Pilatus, en zeiden:\n\nKoor: Heer, wij herinneren ons dat deze verleider bij zijn leven heeft gezegd: Ik zal na drie dagen wederopstaan. Geef daarom opdracht dat het graf bewaakt wordt tot op de derde dag. Zodat zijn discipelen hem niet kunnen komen stelen, en tegen het volk zeggen: hij is opgestaan uit de doden. Zo zou de laatste leugen nog erger zijn dan de eerste.\n\nEvangelist: Pilatus sprak tot hen:\n\nPilatus: Hier hebben jullie de bewakers, vertrek en bewaak het graf zoals jullie dat willen.\n\nEvangelist: Zij vertrokken, zetten wachtposten neer bij het graf, en verzegelden de steen.",
+            "modern": "De volgende dag eisen de priesters bewaking bij het graf, bang dat de discipelen het lichaam stelen en een opstanding in scène zetten. Pilatus zegt: 'Hier heb je bewakers. Regel het maar.' Ze verzegelen het graf.",
+            "interpretation": "Vreemd genoeg eindigt de Passie niet met de begrafenis, maar met deze politieke intrige. De hogepriesters noemen Pilatus hypocriet 'Heer' (Herr), iets wat ze nooit eerder deden. Het koor zingt streng en formeel."
+        },
+        "en": {
+            "lyrics": "Evangelist: Now the next day, that followed the day of the preparation, the chief priests and Pharisees came together unto Pilate, saying:\n\nChorus: Sir, we remember that that deceiver said, while he was yet alive, After three days I will rise again. Command therefore that the sepulchre be made sure until the third day, lest his disciples come by night, and steal him away, and say unto the people, He is risen from the dead: so the last error shall be worse than the first.\n\nEvangelist: Pilate said unto them:\n\nPilate: Ye have a watch: go your way, make it as sure as ye can.\n\nEvangelist: So they went, and made the sepulchre sure, sealing the stone, and setting a watch.",
+            "modern": "The next day, the priests demand a guard for the tomb, fearing the disciples might steal the body and fake a resurrection. Pilate says: 'Here are guards. Secure it.' They seal the tomb.",
+            "interpretation": "Strangely, the Passion does not end with the burial, but with this political intrigue. The priests hypocritically call Pilate 'Sir' (Herr), something they never did before. The chorus sings sternly and formally."
+        },
+        "trivia": []
+    }
+}

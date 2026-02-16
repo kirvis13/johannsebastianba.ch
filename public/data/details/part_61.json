@@ -1,0 +1,29 @@
+{
+    "id": "part_61",
+    "title": "Da nahmen die Kriegsknechte",
+    "type": "Recitativo_Chorus",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "De Doornenkroon",
+        "en": "The Crown of Thorns"
+    },
+    "speaker": "Evangelist, Chorus",
+    "nba_no": "56",
+    "content": {
+        "de": {
+            "lyrics": "Evangelist: Da nahmen die Kriegsknechte des Landpflegers Jesum zu sich in das Richthaus und sammelten über ihn die ganze Schar und zogen ihn aus und legten ihm einen Purpurmantel an und flochten eine Dornenkrone und setzten sie auf sein Haupt und ein Rohr in seine rechte Hand und beugeten die Knie vor ihm und spotteten ihn und sprachen:\nChor: Gegrüßet seist du, Judenkönig!\nEvangelist: Und speieten ihn an und nahmen das Rohr und schlugen damit sein Haupt.",
+            "modern": "Die Soldaten ziehen Jesus einen purpurnen Mantel an, setzen ihm eine Dornenkrone auf und geben ihm ein Schilfrohr als Zepter. Sie verspotten ihn: 'Heil dir, König der Juden!' Dann schlagen sie ihn."
+        },
+        "nl": {
+            "lyrics": "Evangelist: Toen namen de soldaten van de stadhouder Jezus mee in het pretorium en verzamelden de hele afdeling rondom hem. En zij kleedden hem uit en deden hem een purperen mantel om, en vlochten een doornenkroon en zetten die op zijn hoofd, en gaven hem een rietstok in zijn rechterhand, en bogen de knie voor hem, bespotten hem en zeiden:\nKoor: Gegroet bent u, Jodenkoning!\nEvangelist: En zij spuwden hem aan, namen de rietstok en sloegen daarmee op zijn hoofd.",
+            "modern": "De soldaten trekken Jezus een purperen mantel aan, zetten hem een doornenkroon op en geven hem een rietstok als scepter. Ze bespotten hem: 'Gefeliciteerd, Koning van de Joden!' Dan slaan ze hem.",
+            "interpretation": "De soldaten maken een karikatuur van een koning. Het koor 'Gegrüßet seist du' klinkt sarcastisch en bombastisch. Bach gebruikt hier instrumenten om de spot te benadrukken."
+        },
+        "en": {
+            "lyrics": "Evangelist: Then the soldiers of the governor took Jesus into the common hall, and gathered unto him the whole band of soldiers. And they stripped him, and put on him a scarlet robe. And when they had platted a crown of thorns, they put it upon his head, and a reed in his right hand: and they bowed the knee before him, and mocked him, saying:\nChorus: Hail, King of the Jews!\nEvangelist: And they spit upon him, and took the reed, and smote him on the head.",
+            "modern": "The soldiers put a purple robe on Jesus, place a crown of thorns on his head, and give him a reed as a scepter. They mock him: 'Hail, King of the Jews!' Then they beat him.",
+            "interpretation": "The soldiers create a caricature of a king. The chorus 'Gegrüßet seist du' sounds sarcastic and bombastic. Bach uses instruments here to emphasize the mockery."
+        },
+        "trivia": []
+    }
+}

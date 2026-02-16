@@ -1,0 +1,38 @@
+{
+    "id": "part_57",
+    "title": "Aus Liebe will mein Heiland sterben",
+    "type": "Aria",
+    "subtype": "Solo",
+    "scene_label": {
+        "nl": "Barabbas",
+        "en": "Barabbas"
+    },
+    "speaker": "Soprano",
+    "nba_no": "52",
+    "content": {
+        "de": {
+            "lyrics": "Aus Liebe will mein Heiland sterben,\nVon einer Sünde weiß er nichts,\nDass das ewige Verderben\nUnd die Strafe des Gerichts\nNicht auf meiner Seele bliebe.",
+            "modern": "Aus Liebe will mein Retter sterben. Er ist ohne Sünde, damit das ewige Gericht nicht mich trifft."
+        },
+        "nl": {
+            "lyrics": "Uit liefde wil mijn Heiland sterven,\nvan zonde weet hij niets,\nopdat het eeuwig verderf\nen de straf van het gericht\nniet op mijn ziel zouden blijven.",
+            "modern": "Uit pure liefde wil mijn redder sterven. Hij is onschuldig, maar sterft zodat ik niet veroordeeld word.",
+            "interpretation": "Het spirituele hart van de Passion. De sopraan zingt over de 'Liefde' als motief voor Jezus' offer. De muziek is van een onaardse sereniteit, een schril contrast met het geschreeuw om Barabbas dat hierna volgt."
+        },
+        "en": {
+            "lyrics": "Out of love my Savior is willing to die,\nOf any sin he knows nothing,\nSo that eternal ruin\nAnd the punishment of judgment\nMay not remain upon my soul.",
+            "modern": "Out of pure love my Savior wants to die. He is innocent, so that eternal judgment does not fall on me.",
+            "interpretation": "The spiritual heart of the Passion. The soprano sings of 'Love' as the motive for Jesus' sacrifice. The music is unearthly serene, a stark contrast to the shouting for Barabbas that follows."
+        },
+        "trivia": [
+            {
+                "category": "Instrumentation",
+                "fact": {
+                    "nl": "Uniek aan deze aria is het ontbreken van de 'Basso Continuo' (de baslijn). Er is geen cello of orgel, alleen een fluit en twee hobo's da caccia. Dit creëert een zwevend, hemels effect, alsof de muziek de aarde niet raakt.",
+                    "en": "Unique to this aria is the absence of the 'Basso Continuo' (bass line). There is no cello or organ, only a flute and two oboes da caccia. This creates a floating, heavenly effect, as if the music does not touch the ground.",
+                    "de": "Einzigartig an dieser Arie ist das Fehlen des 'Basso Continuo'. Es gibt kein Cello oder Orgel, nur eine Flöte und zwei Oboen da caccia. Dies erzeugt einen schwebenden Effekt."
+                }
+            }
+        ]
+    }
+}

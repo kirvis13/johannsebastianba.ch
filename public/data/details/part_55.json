@@ -1,0 +1,29 @@
+{
+    "id": "part_55",
+    "title": "Der Landpfleger sagte",
+    "type": "Recitativo",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "Barabbas",
+        "en": "Barabbas"
+    },
+    "speaker": "Evangelist, Pilate",
+    "nba_no": "50",
+    "content": {
+        "de": {
+            "lyrics": "Evangelist: Der Landpfleger sagte:\nPilatus: Was hat er denn Übels getan?",
+            "modern": "Pilatus fragt: 'Was hat er denn Böses getan?'"
+        },
+        "nl": {
+            "lyrics": "Evangelist: De stadhouder zei:\nPilatus: Wat heeft hij dan voor kwaad gedaan?",
+            "modern": "Pilatus vraagt: 'Wat heeft hij dan misdaan?'",
+            "interpretation": "Een ultrakort recitatief met een cruciale vraag. Pilatus vindt geen schuld."
+        },
+        "en": {
+            "lyrics": "Evangelist: The governor said:\nPilate: Why, what evil hath he done?",
+            "modern": "Pilate asks: 'Why, what evil has he done?'",
+            "interpretation": "An ultra-short recitative with a crucial question. Pilate finds no guilt."
+        },
+        "trivia": []
+    }
+}

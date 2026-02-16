@@ -1,0 +1,29 @@
+{
+    "id": "part_40",
+    "title": "Mein Jesus schweigt",
+    "type": "Arioso",
+    "subtype": "Accompagnato",
+    "scene_label": {
+        "nl": "Voor Kajafas",
+        "en": "Before Caiaphas"
+    },
+    "speaker": "Tenor",
+    "nba_no": "40",
+    "content": {
+        "de": {
+            "lyrics": "Mein Jesus schweigt zu falschen Lügen stille,\nUm uns damit zu zeigen,\nDass sein erbarmensvoller Wille\nVor uns zum Leiden sei geneigt,\nUnd dass wir in dergleichen Pein\nIhm sollen ähnlich sein\nUnd in Verfolgung stille schweigen.",
+            "modern": "Jesus erwidert nichts. Sein Schweigen ist keine Schwäche, sondern eine bewusste Entscheidung, dieses Leiden für uns zu tragen."
+        },
+        "nl": {
+            "lyrics": "Mijn Jezus zwijgt op leugens stil,\nom ons daarmee te tonen,\ndat zijn barmhartige houding\nbereid is om voor ons te lijden,\nen dat wij in diezelfde pijn\nop hem dienen te gelijken\nen bij vervolging ook stil te zwijgen.",
+            "modern": "Jezus zegt niets terug. Zijn stilte is geen zwakte, maar een bewuste keuze om dit lijden voor ons te dragen.",
+            "interpretation": "Een prachtig Accompagnato (Arioso) met hobo-begeleiding. De ritmische, pulserende noten van de hobo (vaak staccato) symboliseren mogelijk de hartenklop van de bange toeschouwer, of de 'tikken' die Jezus moet verduren. De stilte van Jezus wordt muzikaal vertaald in korte rustpauzes."
+        },
+        "en": {
+            "lyrics": "My Jesus is silent at false lies,\nto show us thereby,\nthat his merciful will\nis bent on suffering for our sake,\nand that we in like pain\nshould be like him\nand quiet in persecution.",
+            "modern": "Jesus says nothing in return. His silence is not weakness, but a conscious choice to bear this suffering for us.",
+            "interpretation": "A beautiful Accompagnato (Arioso) with oboe accompaniment. The pulsing notes might symbolize the heartbeat of the spectator or the blows Jesus endures. Jesus' silence is translated into musical rests."
+        },
+        "trivia": []
+    }
+}

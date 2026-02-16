@@ -1,0 +1,29 @@
+{
+    "id": "part_67",
+    "title": "Desgleichen auch die Hohenpriester",
+    "type": "Recitativo_Chorus",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "Kruisiging",
+        "en": "The Crucifixion"
+    },
+    "speaker": "Evangelist, Chorus",
+    "nba_no": "61a-c",
+    "content": {
+        "de": {
+            "lyrics": "Evangelist: Desgleichen auch die Hohenpriester spotteten samt den Schriftgelehrten und Ältesten und sprachen:\nChor: Andern hat er geholfen, und kann sich selber nicht helfen. Ist er der König Israel, so steige er nun vom Kreuz, so wollen wir ihm glauben. Er hat Gott vertrauet, der erlöse ihn nun, lüstet's ihn; denn er hat gesagt: Ich bin Gottes Sohn.\nEvangelist: Desgleichen schmäheten ihn auch die Mörder, die mit ihm gekreuziget wurden.",
+            "modern": "Auch die Priester spotten: 'Anderen hat er geholfen, sich selbst kann er nicht helfen. Wenn er Israels König ist, soll er vom Kreuz steigen, dann glauben wir ihm. Er hat Gott vertraut? Soll der ihn doch retten!' Auch die Mörder, die mit ihm gekreuzigt wurden, beschimpften ihn."
+        },
+        "nl": {
+            "lyrics": "Evangelist: Evenzo bespotten hem ook de hogepriesters en de schriftgeleerden en oudsten, die zeiden:\nKoor: Anderen heeft hij geholpen, maar zichzelf kan hij niet helpen. Als hij de koning van Israël is, laat hem dan van dat kruis afkomen, dan zullen wij hem geloven. Hij vertrouwde toch op God? Laat God hem dan verlossen, als God dat zint. Want hij heeft gezegd ik ben de zoon van God.\nEvangelist: Ook de moordenaars die met hem gekruisigd werden, beschimpten hem.",
+            "modern": "Ook de priesters spotten: 'Anderen heeft hij geholpen, maar zichzelf redden lukt niet. Als hij de koning is, laat hem dan naar beneden komen, dan geloven we hem. Laat God hem maar redden!' Ook de misdadigers die samen met hem gekruisigd zijn, bespotten hem.",
+            "interpretation": "De spot gaat door in drie korte koorgedeelten. Ze klinken bijna vrolijk en dansend, wat het cynisme benadrukt. Het is muzikaal heel knap hoe Bach deze gruwelijke teksten in een bijna elegante vorm giet."
+        },
+        "en": {
+            "lyrics": "Evangelist: Likewise also the chief priests mocking him, with the scribes and elders, said:\nChorus: He saved others; himself he cannot save. If he be the King of Israel, let him now come down from the cross, and we will believe him. He trusted in God; let him deliver him now, if he will have him: for he said, I am the Son of God.\nEvangelist: The thieves also, which were crucified with him, cast the same in his teeth.",
+            "modern": "The priests also mock: 'He saved others, but cannot save himself. If he is Israel's King, let him come down from the cross, then we will believe him. He trusted God? Let God save him now!' Even the robbers who were crucified with him heaped insults on him.",
+            "interpretation": "The mockery continues in three short choral sections. They sound almost cheerful and dancing, emphasizing the cynicism. It is musically brilliant how Bach casts these gruesome texts in an almost elegant form."
+        },
+        "trivia": []
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "id": "part_53",
+    "title": "Auf das Fest aber",
+    "type": "Recitativo_Chorus",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "Barabbas",
+        "en": "Barabbas"
+    },
+    "speaker": "Evangelist, Pilate, Pilate's Wife, Chorus",
+    "nba_no": "48",
+    "content": {
+        "de": {
+            "lyrics": "Evangelist: Auf das Fest aber hatte der Landpfleger Gewohnheit, dem Volk einen Gefangenen loszugeben, welchen sie wollten. Er hatte aber zu der Zeit einen Gefangenen, einen sonderlichen, der hieß Barabbas. Und da sie versammelt waren, sprach Pilatus zu ihnen:\nPilatus: Welchen wollt ihr, dass ich euch losgebe? Barabbam oder Jesum, von dem gesagt wird, er sei Christus?\nEvangelist: Denn er wusste wohl, dass sie ihn aus Neid überantwortet hatten. Und da er auf dem Richtstuhl saß, schickte sein Weib zu ihm und ließ ihm sagen:\nPilatus' Weib: Habe du nichts zu schaffen mit diesem Gerechten; ich habe heute viel erlitten im Traum von seinetwegen.\nEvangelist: Aber die Hohenpriester und die Ältesten überredeten das Volk, dass sie um Barabbam bitten sollten und Jesum umbrächten. Da antwortete nun der Landpfleger und sprach zu ihnen:\nPilatus: Welchen wollt ihr unter diesen zweien, den ich euch soll losgeben?\nEvangelist: Sie sprachen:\nChor: Barabbam!",
+            "modern": "Pilatus bietet dem Volk an, einen Gefangenen freizulassen: Barabbas oder Jesus? Pilatus' Frau warnt ihn wegen eines Traums. Aber die Priester hetzen das Volk auf. Auf Pilatus' Frage 'Wen soll ich freilassen?' schreit die Menge: 'Barabbas!'"
+        },
+        "nl": {
+            "lyrics": "Evangelist: Op het feest echter had de stadhouder de gewoonte, het volk een gevangene vrij te geven, wie zij maar wilden. Hij had echter in die tijd een beruchte gevangene, die Barabbas heette. En toen zij bijeen waren, sprak Pilatus tot hen:\nPilatus: Wie wilt u, dat ik u vrijgeef? Barabbas of Jezus, van wie gezegd wordt dat hij Christus is?\nEvangelist: Want hij wist wel, dat zij hem uit afgunst overgeleverd hadden. En toen hij op de rechterstoel zat, stuurde zijn vrouw iemand naar hem en liet hem zeggen:\nVrouw van Pilatus: Heb niets van doen met deze rechtvaardige; ik heb vandaag veel geleden in een droom omwille van hem.\nEvangelist: Maar de hogepriesters en de oudsten haalden het volk over, dat zij om Barabbas zouden vragen en Jezus zouden ombrengen. Toen antwoordde de stadhouder en sprak tot hen:\nPilatus: Wie van deze twee wilt u, dat ik u zal vrijgeven?\nEvangelist: Zij zeiden:\nKoor: Barabbas!",
+            "modern": "Pilatus biedt het volk aan één gevangene vrij te laten: Barabbas of Jezus? De vrouw van Pilatus waarschuwt hem vanwege een droom. Maar de priesters hitsen het volk op. Op Pilatus' vraag 'Wie moet ik vrijlaten?' schreeuwt de menigte: 'Barabbas!'",
+            "interpretation": "Een uiterst dramatisch moment. De waarschuwing van Pilatus' vrouw is een zeldzaam moment van menselijkheid. Dan volgt de schokkende keuze van het volk. Het woord 'Barabbam!' klinkt als een enkele, harde schreeuw (een verminderd septiemakkoord), wat de blindheid van de massa symboliseert."
+        },
+        "en": {
+            "lyrics": "Evangelist: Now at that feast the governor was wont to release unto the people a prisoner, whom they would. And they had then a notable prisoner, called Barabbas. Therefore when they were gathered together, Pilate said unto them:\nPilate: Whom will ye that I release unto you? Barabbas, or Jesus which is called Christ?\nEvangelist: For he knew that for envy they had delivered him. When he was set down on the judgment seat, his wife sent unto him, saying:\nPilate's Wife: Have thou nothing to do with that just man: for I have suffered many things this day in a dream because of him.\nEvangelist: But the chief priests and elders persuaded the multitude that they should ask Barabbas, and destroy Jesus. The governor answered and said unto them:\nPilate: Whether of the twain will ye that I release unto you?\nEvangelist: They said:\nChorus: Barabbas!",
+            "modern": "Pilate offers to release one prisoner: Barabbas or Jesus? Pilate's wife warns him because of a dream. But the priests incite the crowd. When Pilate asks 'Who shall I release?', the crowd screams: 'Barabbas!'",
+            "interpretation": "An extremely dramatic moment. The warning from Pilate's wife is a rare moment of humanity. Then follows the shocking choice of the people. The word 'Barabbam!' sounds like a single, harsh shout (a diminished seventh chord), symbolizing the blindness of the crowd."
+        },
+        "trivia": []
+    }
+}

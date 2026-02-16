@@ -1,0 +1,29 @@
+{
+    "id": "part_59",
+    "title": "Erbarm es Gott!",
+    "type": "Arioso",
+    "subtype": "Accompagnato",
+    "scene_label": {
+        "nl": "De Geseling",
+        "en": "The Scourging"
+    },
+    "speaker": "Alto",
+    "nba_no": "60",
+    "content": {
+        "de": {
+            "lyrics": "Erbarm es Gott!\nHier steht der Heiland angebunden.\nO Geißelung, o Schläg, o Wunden!\nIhr Henker, haltet ein!\nErweichet euch der Seelen Schmerz,\nDer Anblick solches Jammers nicht?\nAch ja! ihr habt ein Herz,\nDas muß der Martersäule gleich\nUnd noch viel härter sein.\nErbarmt euch, haltet ein!",
+            "modern": "Gott, hab Erbarmen! Hier steht der Heiland gefesselt. O Schläge, o Wunden! Henker, hört auf! Habt ihr denn kein Herz? Es muss härter sein als der Marterpfahl."
+        },
+        "nl": {
+            "lyrics": "Heb medelijden, God!\nHier staat de verlosser, vastgebonden.\nO geseling, o slagen, o wonden!\nJullie beulen, houd op!\nVerweekt jullie zielensmart dan niet,\nbij de aanblik van zulk lijden?\nAch ja, jij hebt een hart,\ndat nog veel harder dan\nde martelpaal moet zijn.\nHeb medelijden, houd op!",
+            "modern": "God, heb medelijden! Hier staat de Heiland vastgebonden. O, die slagen en wonden! Beulen, stop toch! Hebben jullie dan geen hart? Het lijkt wel harder dan steen.",
+            "interpretation": "De alt ziet hoe Jezus gegeseld wordt. Het gepunteerde ritme (kort-lang) in de strijkers imiteert de slagen van de zweep. Het is een rauwe, fysieke weergave van het lijden."
+        },
+        "en": {
+            "lyrics": "Have mercy, God!\nHere stands the Savior bound.\nO scourging, o blows, o wounds!\nYe executioners, stop!\nDoes not the anguish of soul,\nThe sight of such misery move you?\nAh yes! you have a heart,\nThat must be like the torture stake,\nAnd even much harder.\nHave mercy, stop!",
+            "modern": "God, have mercy! Here stands the Savior bound. O scourging, o wounds! Executioners, stop! Do you have no heart? It must be harder than the torture stake.",
+            "interpretation": "The alto watches Jesus being scourged. The dotted rhythm (short-long) in the strings imitates the lashes of the whip. It is a raw, physical depiction of suffering."
+        },
+        "trivia": []
+    }
+}

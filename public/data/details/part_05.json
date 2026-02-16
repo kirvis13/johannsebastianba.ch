@@ -1,0 +1,43 @@
+{
+    "id": "part_05",
+    "title": "Da nun Jesus war zu Bethanien",
+    "type": "Recitativo_Chorus",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "De zalving in Bethanië",
+        "en": "The Anointing at Bethany"
+    },
+    "speaker": "Evangelist, Jesus, Chorus",
+    "source": "Text: Picander / Music: J.S. Bach",
+    "content": {
+        "de": {
+            "lyrics": "Evangelist: Da nun Jesus war zu Bethanien, im Hause Simons des Aussätzigen, trat zu ihm ein Weib, das hatte ein Glas mit köstlichem Wasser und goß es auf sein Haupt, da er zu Tische saß. Da das seine Jünger sahen, wurden sie unwillig und sprachen:\n\nKoor I: Wozu dienet dieser Unrat? Dieses Wasser hätte mögen teuer verkauft und den Armen gegeben werden.\n\nEvangelist: Da das Jesus merkete, sprach er zu ihnen:\nJesus: Was bekümmert ihr das Weib? Sie hat ein gut Werk an mir getan. Ihr habet allezeit Armen bei euch, mich aber habet ihr nicht allezeit. Dass sie dies Wasser hat auf meinen Leib gegossen, hat sie getan, dass man mich begraben wird. Wahrlich ich sage euch: Wo dies Evangelium gepredigt wird in der ganzen Welt, da wird man auch sagen zu ihrem Gedächtnis, was sie getan hat."
+        },
+        "nl": {
+            "lyrics": "Evangelist: Toen Jezus in Bethanië was, in het huis van Simon de melaatse, kwam er een vrouw naar hem toe. Zij had een kruikje met zeer kostbare olie en goot die uit over zijn hoofd, terwijl hij aan tafel zat. Toen zijn discipelen dat zagen, waren zij verontwaardigd en zeiden:\n\nKoor I: Waarom deze verspilling? Deze olie had voor veel geld verkocht en aan de armen gegeven kunnen worden.\n\nEvangelist: Toen Jezus dat merkte, zei hij tegen hen:\nJesus: Waarom vallen jullie deze vrouw lastig? Zij heeft iets goeds voor mij gedaan. Armen hebben jullie altijd bij je, maar mij hebben jullie niet altijd. Dat zij deze olie over mijn lichaam heeft gegoten, heeft zij gedaan om mij voor te bereiden op mijn begrafenis. Ik verzeker jullie: overal ter wereld waar dit evangelie wordt verkondigd, zal ook ter herinnering aan haar worden verteld wat zij heeft gedaan.",
+            "modern": "Terwijl Jezus bij een vriend op bezoek was, kwam er een vrouw die een flesje peperdure olie over hem heen goot. Zijn vrienden vonden het maar verspilling.\n\nWat een zonde van dat geld! Die olie had goud waard kunnen zijn voor de armen.\n\nJezus zei: 'Laat haar met rust. Ze heeft me geëerd. Armen zijn er altijd, maar ik ben er niet lang meer. Ze bereidt mijn lichaam voor op mijn graf.'",
+            "interpretation": "De setting verschuift naar een intiem moment in Bethanië. De zalving door de vrouw is een cruciaal symbool van liefde en toewijding. In contrast met de haat van de priesters en de hebzucht van de discipelen, eert zij hem als de 'gezalfde' (Christus).\n\nOpnieuw een Turba-koor, maar nu van de discipelen. Hun reactie is puur materieel en zakelijk. Ze missen de spirituele betekenis van het gebaar van de vrouw. Bach gebruikt dit moment om de menselijke kortzichtigheid te tonen: we focussen op geld terwijl er iets veel groters gebeurt.\n\nJezus verdedigt de vrouw en koppelt haar daad direct aan zijn naderende dood. De olie is niet alleen een eerbetoon, maar een voorbereiding op zijn graflegging. Hij erkent hier openlijk dat zijn tijd op aarde bijna voorbij is. Het is een van de meest menselijke en tegelijkertijd profetische momenten in de passie.",
+            "trivia": [
+                {
+                    "category": "naam",
+                    "fact": "De olie die werd gebruikt was waarschijnlijk nardusolie, een extreem dure geurstof die uit de Himalaya kwam."
+                },
+                {
+                    "category": "symboliek",
+                    "fact": "De discipelen gebruiken de armen als een excuus voor hun eigen onbegrip. Dit is een thema dat Bach vaker aanstipt: valse vroomheid."
+                },
+                {
+                    "category": "muzikaal",
+                    "fact": "Let op hoe de strijkers (de halo) de stem van Jezus hier ondersteunen met lange, warme akkoorden die de rust en waardigheid van zijn woorden benadrukken."
+                }
+            ]
+        },
+        "en": {
+            "lyrics": "Evangelist: Now when Jesus was in Bethany, in the house of Simon the leper, There came unto him a woman having an alabaster box of very precious ointment, and poured it on his head, as he sat at meat. But when his disciples saw it, they had indignation, saying:\n\nChorus I: To what purpose is this waste? For this ointment might have been sold for much, and given to the poor.\n\nEvangelist: When Jesus understood it, he said unto them:\nJesus: Why trouble ye the woman? for she hath wrought a good work upon me. For ye have the poor always with you; but me ye have not always. For in that she hath poured this ointment on my body, she did it for my burial. Verily I say unto you, Wheresoever this gospel shall be preached in the whole world, there shall also this, that this woman hath done, be told for a memorial of her.",
+            "modern": "While Jesus was visiting a friend, a woman came and poured a bottle of very expensive oil over him. His friends thought it was a waste.\n\nWhat a waste of that expensive oil! We could have given that money to the poor.\n\nJesus said: 'Leave her alone. She has honored me. The poor are always with you, but I will not be here much longer. She is preparing my body for my grave.'",
+            "interpretation": "The setting shifts to an intimate moment in Bethany. The anointing by the woman is a crucial symbol of love and devotion. In contrast to the hatred of the priests and the greed of the disciples, she honors him as the 'anointed one' (Christ).\n\nEven his own disciples do not understand him here. They only see the monetary value of the oil, not the emotional value of the gesture. The 'waste' they complain about is actually an expression of pure love that they cannot comprehend at that moment.\n\nJesus defends the woman and directly links her careful gesture to his approaching death. In his eyes, the oil is not a waste, but an anointing for his grave. He acknowledges that his time on earth is almost over and honors her loyalty above the criticism of his friends.",
+            "trivia": []
+        },
+        "original_source": null
+    }
+}

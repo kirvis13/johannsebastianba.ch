@@ -1,0 +1,42 @@
+{
+    "id": "part_46",
+    "title": "Erbarme dich, mein Gott",
+    "type": "Aria",
+    "subtype": "Solo",
+    "scene_label": {
+        "nl": "De Verloochening",
+        "en": "Peter's Denial"
+    },
+    "speaker": "Alto",
+    "nba_no": "41",
+    "content": {
+        "de": {
+            "lyrics": "Erbarme dich,\nMein Gott, um meiner Zähren willen!\nSchaue hier,\nHerz und Auge weint vor dir\nBitterlich.",
+            "modern": "Hab Mitleid, mein Gott, um meiner Tränen willen! Sieh her: Mein Herz und meine Augen weinen bitterlich vor dir."
+        },
+        "nl": {
+            "lyrics": "Ontferm U,\nmijn God, omwille van mijn tranen!\nKijk hier,\nhart en ogen wenen voor U\nbitter.",
+            "modern": "Heb medelijden, mijn God, vanwege mijn tranen! Kijk toch: mijn hart en ogen huilen bitter voor U.",
+            "interpretation": "Misschien wel de beroemdste aria van Bach. De solo-viool speelt een melodie die klinkt als menselijk snikken. Het symboliseert het berouw van Petrus (en van ons allemaal). De Alt-stem en de viool gaan een intiem duet aan, waarbij ze elkaar omstrengelen in verdriet."
+        },
+        "en": {
+            "lyrics": "Have mercy,\nMy God, for the sake of my tears!\nLook here,\nHeart and eyes weep before thee\nBitterly.",
+            "modern": "Have mercy, my God, for the sake of my tears! Look here: My heart and eyes weep bitterly before you.",
+            "interpretation": "Perhaps Bach's most famous aria. The solo violin plays a melody that sounds like human sobbing. It symbolizes Peter's remorse (and that of us all). The Alto voice and the violin engage in an intimate duet, intertwining in grief."
+        },
+        "trivia": [
+            {
+                "category": "Instrumentation",
+                "fact": {
+                    "nl": "De vioolsolo in dit stuk wordt beschouwd als een van de mooiste in de hele muziekgeschiedenis. Bach gebruikt een 12/8 maatsoort (siciliano ritme), wat vaak geassocieerd wordt met pastorale muziek, maar hier een wiegende, troostende sfeer geeft aan het verdriet.",
+                    "en": "The violin solo in this piece is considered one of the most beautiful in music history. Bach uses a 12/8 time signature (siciliano rhythm), which adds a rocking, comforting atmosphere to the grief.",
+                    "de": "Das Violinsolo in diesem Stück gilt als eines der schönsten der Musikgeschichte. Bach verwendet einen 12/8-Takt (Siciliano-Rhythmus), der dem Schmerz eine wiegende, tröstende Atmosphäre verleiht."
+                }
+            },
+            {
+                "category": "muzikaal",
+                "fact": "De viool gebruikt korte pauzes tussen de noten. Dit heet 'Suspiratio' (zuchtfiguur). De pauzes zijn er niet voor ademhaling, maar stellen tranen voor - muzikale snikken."
+            }
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "id": "part_37",
+    "title": "Die aber Jesum gegriffen hatten",
+    "type": "Recitativo",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "Voor Kajafas",
+        "en": "Before Caiaphas"
+    },
+    "speaker": "Evangelist",
+    "nba_no": "37",
+    "content": {
+        "de": {
+            "lyrics": "Evangelist: Die aber Jesum gegriffen hatten, führeten ihn zu dem Hohenpriester Caiphas, dahin die Schriftgelehrten und Ältesten sich versammlet hatten. Petrus aber folgete ihm nach von ferne, bis in den Palast des Hohenpriesters, und ging hinein, und satzte siech bei die Knechten, auf daß er sähe, wo es hinaus wollte. Die Hohenpriester aber und Ältesten und der ganze Rat suchten falsches Zeugnis wider Jesum, auf daß sie ihn töteten, und funden keines.",
+            "modern": "Jesus wird dem Hohepriester Kaiphas vorgeführt. Der Rat sucht falsche Zeugen, um ihn zum Tode verurteilen zu können, findet aber nichts Überzeugendes."
+        },
+        "nl": {
+            "lyrics": "Evangelist: Degenen die Jezus gevangen genomen hadden, brachten hem naar de hogepriester Kajafas bij wie de schriftgeleerden en oudsten zich verzameld hadden. Petrus volgde hem van verre tot in het paleis van de hogepriesters, en ging naar binnen en ging bij de knechten zitten, om te zien waar het op uit zou lopen. De hogepriester nu en de oudsten en de gehele raad zochten een valse getuigenis tegen Jezus om hem ter dood te brengen, en vonden er geen.",
+            "modern": "Jezus wordt voorgeleid aan Hogepriester Kajafas. De Raad zoekt valse getuigen om hem ter dood te kunnen veroordelen, maar ze vinden niets overtuigends.",
+            "interpretation": "De rechtszaak begint. Bach benadrukt de oneerlijkheid door de tekst 'aber sie fanden keines' (maar zij vonden niets) droog en kaal te laten klinken. Petrus volgt op afstand, wat de opmaat is voor zijn verloochening."
+        },
+        "en": {
+            "lyrics": "Evangelist: And they that had laid hold on Jesus led him away to Caiaphas the high priest, where the scribes and the elders were assembled. But Peter followed him afar off unto the high priest's palace, and went in, and sat with the servants, to see the end. Now the chief priests, and elders, and all the council, sought false witness against Jesus, to put him to death, but found none.",
+            "modern": "Jesus is brought before High Priest Caiaphas. The Council seeks false witnesses to condemn him to death, but they find nothing convincing.",
+            "interpretation": "The trial begins. Bach emphasizes the dishonesty of the proceedings. Peter follows from a distance, setting the stage for his denial."
+        },
+        "trivia": []
+    }
+}

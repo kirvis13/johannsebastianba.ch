@@ -1,0 +1,41 @@
+{
+    "id": "part_35",
+    "title": "O Mensch, bewein dein Sünde groß",
+    "type": "Chorus",
+    "subtype": "Choral_Fantasia",
+    "scene_label": {
+        "nl": "Slotkoor Deel 1",
+        "en": "Closing Chorus Part 1"
+    },
+    "speaker": "Chorus, Ripieno",
+    "content": {
+        "de": {
+            "lyrics": "O Mensch, bewein dein Sünde groß,\nDarum Christus seins Vaters Schoß\nÄußert und kam auf Erden;\nVon einer Jungfrau rein und zart\nFür uns er hier geboren ward,\nEr wollt der Mittler werden.\nDen Toten er das Leben gab\nUnd legt dabei all Krankheit ab,\nBis sich die Zeit herdränge,\nDass er für uns geopfert würd,\nTrüg unsrer Sünden schwere Bürd\nWohl an dem Kreuze lange.",
+            "modern": "O Mensch, beweine deine Sünden. Um diese Sünden wegzunehmen, verließ Christus den Himmel, wurde Mensch und opferte sich am Kreuz."
+        },
+        "nl": {
+            "lyrics": "O mens, beween uw grote zonde,\nwaarvoor Christus de schoot van zijn Vader verliet\nen op aarde kwam;\nVan een maagd rein en teder\nwerd hij hier voor ons geboren,\nhij wilde de middelaar worden.\nAan de doden gaf hij het leven\nen nam daarbij alle ziekte weg,\ntotdat de tijd drong,\ndat hij voor ons geofferd zou worden,\nen onze zware zondenlast droeg\nlangdurig aan het kruis.",
+            "modern": "O mens, huil om je zonden. Om die zonden weg te nemen, verliet Christus de hemel om mens te worden en zich te offeren aan het kruis.",
+            "interpretation": "Dit monumentale koraal sluit het Eerste Deel af. Het is een 'Koraalfantasie': de sopranen zingen de melodie in lange noten (cantus firmus), terwijl de andere stemmen en het orkest eromheen weven. De tekst vat de theologische kern van het eerste deel samen: de onschuldige Jezus offert zich op voor de schuldige mensheid."
+        },
+        "en": {
+            "lyrics": "O man, bewail thy grievous sin,\nFor which Christ left his Father's bosom,\nAnd came upon earth;\nOf a virgin pure and tender\nHe was born here for us,\nHe would become the Intercessor.\nTo the dead he gave life\nAnd laid aside all sickness,\nUntil the time pressed,\nThat he should be sacrificed for us,\nBearing the heavy burden of our sins\nLong upon the cross.",
+            "modern": "O man, weep for your sins. To take away those sins, Christ left heaven to become human and sacrifice himself on the cross.",
+            "interpretation": "This monumental chorale concludes Part One. It is a 'Chorale Fantasia': the sopranos sing the melody in long notes (cantus firmus), while the other voices and orchestra weave around it. The text summarizes the theological core: the innocent Jesus sacrifices himself for guilty humanity."
+        },
+        "trivia": [
+            {
+                "category": "History",
+                "fact": {
+                    "nl": "Oorspronkelijk schreef Bach dit stuk als openingskoor voor zijn Johannes Passion (1724). Later verplaatste hij het naar het einde van Deel 1 van de Matthäus, waar het dient als een groots moment van bezinning.",
+                    "en": "Bach originally wrote this piece as the opening chorus for his St John Passion (1724). He later moved it to the end of Part 1 of the St Matthew, where it serves as a grand moment of reflection.",
+                    "de": "Ursprünglich schrieb Bach dieses Stück als Eingangschor für seine Johannes-Passion (1724). Später verlegte er es an das Ende des ersten Teils der Matthäus-Passion, wo es als großartiger Moment der Besinnung dient."
+                }
+            },
+            {
+                "category": "architectuur",
+                "fact": "Bach schreef dit koor in precies 123 maten. Dat is 41 × 3. Bach 'signeerde' zijn werken soms met getallen: JSBACH = 41 (optelling van letters). De × 3 staat voor de Triniteit."
+            }
+        ]
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "id": "part_03",
+    "title": "Herzliebster Jesu",
+    "type": "Choral",
+    "subtype": "Congregational",
+    "scene_label": {
+        "nl": "Aankondiging van het lijden",
+        "en": "Announcement of the Passion"
+    },
+    "speaker": "Congregation",
+    "source": "Text: Picander / Music: J.S. Bach",
+    "content": {
+        "de": {
+            "lyrics": "Herzliebster Jesu, was hast du verbrochen,\nDass man ein solch scharf Urteil hat gesprochen?\nWas ist die Schuld, in was für Missetaten\nBist du geraten?"
+        },
+        "nl": {
+            "lyrics": "Hartverwarmende Jezus, wat hebt gij misdaan,\nDat men zo'n scherp oordeel heeft uitgesproken?\nWat is de schuld, in wat voor misdaden\nBent u vervallen?",
+            "modern": "Lieve Jezus, wat heb je gedaan om zo'n hard vonnis te verdienen? Wat is de reden dat je in deze ellende zit?",
+            "interpretation": "Dit is het eerste koraal in de Passion. Waar het openingskoor een grootschalig drama was, is dit het moment waarop de christelijke gemeente (het koor) direct reageert. De functie van dit stuk is zelfreflectie: men vraagt zich af hoe het mogelijk is dat iemand die onschuldig is, zo zwaar gestraft wordt. Het zet de toon voor het idee van het 'plaatsvervangend lijden': de schuld ligt niet bij hem, maar bij de mensheid.",
+            "trivia": [
+                {
+                    "category": "muzikaal",
+                    "fact": "Bach gebruikt dit koraal als een rustpunt na de heftige opening. De melodie was in die tijd voor iedereen in de kerk bekend, wat de betrokkenheid van het publiek vergrootte."
+                }
+            ]
+        },
+        "en": {
+            "lyrics": "Beloved Jesus, what have you done wrong,\nThat such a sharp sentence has been pronounced?\nWhat is the guilt, into what kind of misdeeds\nHave you fallen?",
+            "modern": "Dear Jesus, what did you do to deserve such a harsh verdict? What is the reason you are in this misery?",
+            "interpretation": "This is the first chorale in the Passion. While the opening chorus was a large-scale drama, this is the moment where the Christian community (the choir) responds directly. The function of this piece is self-reflection: one wonders how it is possible that someone who is innocent is punished so severely. It sets the tone for the idea of 'vicarious suffering': the guilt lies not with him, but with humanity.",
+            "trivia": []
+        },
+        "original_source": {
+            "title": "Herzliebster Jesu, was hast du verbrochen",
+            "melody_origin": "Johann Crüger (1640)",
+            "text_origin": "Johann Heermann (1630)",
+            "time_gap": "reeds 87 jaar in gebruik voor Bachs Passie",
+            "info": {
+                "nl": "Dit was een 'hit' in de Lutherse kerk. Bach harmoniseerde deze bekende melodie zodat de gemeente zich direct verbonden voelde met het lijden.",
+                "en": "This was a 'hit' in the Lutheran church. Bach harmonized this well-known melody so the congregation felt immediately connected to the suffering."
+            }
+        }
+    }
+}

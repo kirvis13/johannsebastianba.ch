@@ -1,0 +1,30 @@
+{
+    "id": "part_14",
+    "title": "Er antwortete und sprach",
+    "type": "Recitativo",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "Het Laatste Avondmaal",
+        "en": "The Last Supper"
+    },
+    "speaker": "Evangelist, Jesus, Judas",
+    "source": "Text: Picander / Music: J.S. Bach",
+    "content": {
+        "de": {
+            "lyrics": "Evangelist: Er antwortete und sprach:\nJesus: Der mit der Hand mit mir in die Schüssel tauchet, der wird mich verraten. Des Menschen Sohn geht zwar dahin, wie von ihm geschrieben steht; doch weh dem Menschen, durch welchen des Menschen Sohn verraten wird! Es wäre ihm besser, dass derselbige Mensch noch nie geboren wäre.\nEvangelist: Da antwortete Judas, der ihn verriet, und sprach:\nJudas: Bin ich's, Rabbi?\nEvangelist: Er sprach zu ihm:\nJesus: Du sagst es."
+        },
+        "nl": {
+            "lyrics": "Evangelist: Hij antwoordde en zei:\nJezus: Degene die met de hand met mij in de schaal doopt, die zal mij verraden... Wee de mens door wie de Zoon des mensen verraden wordt! Het zou beter voor hem zijn als hij nooit geboren was.\nEvangelist: Toen antwoordde Judas, die hem verraadde, en zei:\nJudas: Ben ik het, Rabbi?\nEvangelist: Hij zei tegen hem:\nJezus: Je zegt het.",
+            "modern": "Jezus zei: 'Degene die met mij eet...' Judas vroeg: 'Ben ik het, Meester?' Jezus zei: 'Jij zegt het.'",
+            "interpretation": "Het cruciale Judas-moment. Waar de anderen 'Heer' zeiden, zegt hij 'Rabbi' (Meester/Leraar). Hij erkent de goddelijkheid van Jezus niet en isoleert zichzelf.",
+            "trivia": []
+        },
+        "en": {
+            "lyrics": "Evangelist: He answered and said:\nJesus: He that dippeth his hand with me in the dish, the same shall betray me... woe unto that man by whom the Son of man is betrayed! it had been good for that man if he had not been born.\nEvangelist: Then Judas, which betrayed him, answered and said:\nJudas: Master, is it I?\nEvangelist: He said unto him:\nJesus: Thou hast said.",
+            "modern": "",
+            "interpretation": "The crucial Judas moment. Where the others said 'Lord', he says 'Rabbi' (Master/Teacher). He does not acknowledge Jesus' divinity and isolates himself.",
+            "trivia": []
+        },
+        "original_source": null
+    }
+}

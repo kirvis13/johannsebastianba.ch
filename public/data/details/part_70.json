@@ -1,0 +1,38 @@
+{
+    "id": "part_70",
+    "title": "Und von der sechsten Stunde",
+    "type": "Recitativo",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "De Dood van Jezus",
+        "en": "The Death of Jesus"
+    },
+    "speaker": "Evangelist, Jesus, Chorus",
+    "nba_no": "63a-b",
+    "content": {
+        "de": {
+            "lyrics": "Evangelist: Und von der sechsten Stunde an ward eine Finsternis über das ganze Land bis zu der neunten Stunde. Und um die neunte Stunde schriee Jesus laut und sprach:\nJesus: Eli, Eli, lama asabthani?\nEvangelist: Das ist: Mein Gott, mein Gott, warum hast du mich verlassen? Etliche aber, die da stunden, da sie das höreten, sprachen sie:\nChor: Der rufet dem Elias!\nEvangelist: Und bald lief einer unter ihnen, nahm einen Schwamm und füllete ihn mit Essig und steckte ihn auf ein Rohr und tränkete ihn. Die andern aber sprachen:\nChor: Halt, lass sehen, ob Elias komme und ihm helfe.",
+            "modern": "Es wird dunkel. Jesus schreit: 'Mein Gott, warum hast du mich verlassen?' Manche denken, er ruft den Propheten Elia. Einer gibt ihm Essig zu trinken, die anderen spotten: 'Warte, mal sehen ob Elia ihn rettet.'"
+        },
+        "nl": {
+            "lyrics": "Evangelist: En vanaf het zesde uur was er een duisternis over het hele land tot aan het negende uur. En omtrent het negende uur riep Jezus luid:\nJesus: Eli, Eli, lama sabachtani?\nEvangelist: Dat is: mijn God, mijn God, waarom hebt u mij verlaten? Sommigen die daar stonden en dat hoorden, zeiden:\nKoor: Hij roept Elia!\nEvangelist: En meteen liep een van hen weg, nam een spons, vulde die met azijn, stak hem op een rietstok en gaf hem te drinken. De anderen echter zeiden:\nKoor: Halt, laten we zien of Elia komt en hem helpt.",
+            "modern": "Het wordt donker. Jezus schreeuwt in het Aramees: 'Mijn God, waarom hebt u mij verlaten?' De omstanders verstaan het verkeerd en denken dat hij de profeet Elia roept. Iemand geeft hem zure wijn, anderen wachten spottend af.",
+            "interpretation": "De duisternis valt. Let op: Jezus zingt de Aramese woorden ('Eli, Eli...') luid en ongekunsteld. Normaal heeft Jezus altijd een strijkers-halo (het aureool), maar **hier zwijgen de strijkers**. Voor het eerst en het laatst in de Passion is Jezus muzikaal 'verlaten' door God (de strijkers). Hij zingt alleen met de basso continuo, als een gewoon mens."
+        },
+        "en": {
+            "lyrics": "Evangelist: Now from the sixth hour there was darkness over all the land unto the ninth hour. And about the ninth hour Jesus cried with a loud voice, saying:\nJesus: Eli, Eli, lama sabachthani?\nEvangelist: That is to say, My God, my God, why hast thou forsaken me? Some of them that stood there, when they heard that, said:\nChorus: He calleth for Elias.\nEvangelist: And straightway one of them ran, and took a sponge, and filled it with vinegar, and put it on a reed, and gave him to drink. The rest said:\nChorus: Let be, let us see whether Elias will come to save him.",
+            "modern": "It turns dark. Jesus cries out: 'My God, why have you forsaken me?' Bystanders think he is calling Elijah. One gives him vinegar, others mockingly wait.",
+            "interpretation": "Darkness falls. Note: Jesus sings the Aramaic words ('Eli, Eli...') loud and plain. Usually Jesus has a 'string halo', but **here the strings are silent**. For the first and last time, Jesus is musically 'forsaken' by God (the strings). He sings only with the basso continuo, like a mortal man."
+        },
+        "trivia": [
+            {
+                "category": "Symbolism",
+                "fact": {
+                    "nl": "Dit is het enige moment in de hele Passion waar Jezus zingt zónder zijn 'Muzikale Halo' (de strijkers). Dit symboliseert zijn totale verlatenheid door God.",
+                    "en": "This is the only moment in the entire Passion where Jesus sings without his 'Musical Halo' (the strings). This symbolizes his total abandonment by God.",
+                    "de": "Dies ist der einzige Moment, in dem Jesus ohne seinen 'musikalischen Heiligenschein' (die Streicher) singt. Dies symbolisiert seine totale Verlassenheit von Gott."
+                }
+            }
+        ]
+    }
+}

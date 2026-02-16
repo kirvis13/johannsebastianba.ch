@@ -1,0 +1,31 @@
+{
+    "id": "part_18",
+    "title": "Und da sie den Lobgesang",
+    "type": "Recitativo",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "Naar de Olijfberg",
+        "en": "To the Mount of Olives"
+    },
+    "speaker": "Evangelist, Jesus",
+    "source": "Text: Picander / Music: J.S. Bach",
+    "content": {
+        "de": {
+            "lyrics": "Evangelist: Und da sie den Lobgesang gesprochen hatten, gingen sie hinaus an den Ölberg. Da sprach Jesus zu ihnen:\nJesus: In dieser Nacht werdet ihr euch alle ärgern an mir. Denn es stehet geschrieben: Ich werde den Hirten schlagen, und die Schafe der Herde werden sich zerstreuen. Wenn ich aber auferstehe, will ich vor euch hingehen in Galiläam.",
+            "modern": "Nach dem Lobgesang gingen sie zum Ölberg. Jesus sprach: In dieser Nacht werdet ihr alle an mir irre werden. Denn es steht geschrieben: Ich werde den Hirten schlagen, und die Schafe werden sich zerstreuen. Aber wenn ich auferstehe, gehe ich vor euch her nach Galiläa."
+        },
+        "nl": {
+            "lyrics": "Evangelist: En toen ze de lofzang hadden gezongen, gingen ze naar de Olijfberg. Toen zei Jezus tot hen:\nJezus: In deze nacht zullen jullie allemaal aan mij ergeren. Want er staat geschreven: Ik zal de herder slaan, en de schapen van de kudde zullen verstrooid worden. Maar nadat ik ben opgestaan, zal ik jullie voorgaan naar Galilea.",
+            "modern": "Na de lofzang vertrokken ze naar de Olijfberg. Jezus zei: Vannacht zullen jullie allemaal aan mij twijfelen. Want er staat geschreven: Ik zal de herder slaan, en de schapen zullen verstrooid worden. Maar als ik ben opgestaan, ga ik jullie voor naar Galilea.",
+            "interpretation": "De overgang van de besloten bovenzaal naar de nachtelijke kou van Gethsemane.",
+            "trivia": []
+        },
+        "en": {
+            "lyrics": "Evangelist: And when they had sung an hymn, they went out into the mount of Olives. Then saith Jesus unto them:\nJesus: All ye shall be offended because of me this night. For it is written: I will smite the shepherd, and the sheep of the flock shall be scattered abroad. But after I am risen again, I will go before you into Galilee.",
+            "modern": "After the hymn they went to the Mount of Olives. Jesus said: Tonight you will all lose faith in me. For it is written: I will strike the shepherd, and the sheep will be scattered. But after I am risen, I will go before you to Galilee.",
+            "interpretation": "The transition from the secluded upper room to the nocturnal cold of Gethsemane.",
+            "trivia": []
+        },
+        "original_source": null
+    }
+}

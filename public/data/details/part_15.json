@@ -1,0 +1,38 @@
+{
+    "id": "part_15",
+    "title": "Da sie aber aßen",
+    "type": "Recitativo",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "Het Laatste Avondmaal",
+        "en": "The Last Supper"
+    },
+    "speaker": "Evangelist, Jesus",
+    "source": "Text: Picander / Music: J.S. Bach",
+    "content": {
+        "de": {
+            "lyrics": "Evangelist: Da sie aber aßen, nahm Jesus das Brot, dankete und brach's und gab es den Jüngern und sprach:\nJesus: Nehmet, esset; das ist mein Leib.\nEvangelist: Und er nahm den Kelch und dankete, gab ihnen den und sprach:\nJesus: Trinket alle daraus; das ist mein Blut des neuen Testaments, welches vergossen wird für viele zur Vergebung der Sünden. Ich sage euch: Ich werde von nun an nicht mehr von diesem Gewächs des Weinstocks trinken bis an den Tag, da ich's neu trinken werde mit euch in meines Vaters Reich."
+        },
+        "nl": {
+            "lyrics": "Evangelist: En toen ze aten, nam Jezus het brood, dankte en brak het en gaf het aan de discipelen en zei:\nJezus: Neem, eet, dit is mijn lichaam.\nEvangelist: En hij nam de beker en dankte, gaf hun die en zei:\nJezus: Drink hier allemaal uit; dit is mijn bloed van het nieuwe testament... Ik zeg jullie: Ik zal vanaf nu niet meer van de wijnstok drinken tot de dag dat ik het nieuw zal drinken met jullie in het rijk van mijn Vader.",
+            "modern": "Tijdens het eten nam Jezus brood: 'Neem en eet, dit is mijn lichaam.' Ook nam hij de wijn: 'Drink hieruit, dit is mijn bloed.'",
+            "interpretation": "De instelling van het Heilig Avondmaal. Let op de 'muzikale halo' van de strijkers die Jezus' woorden omlijsten en heiligheid verlenen.",
+            "trivia": [
+                {
+                    "category": "muzikaal",
+                    "fact": {
+                        "nl": "In de Matthäus Passion worden de woorden van Jezus bijna altijd begeleid door lang aangehouden strijkersakkoorden. Dit wordt de 'halo' genoemd. Alleen aan het kruis valt deze weg.",
+                        "en": "In the St Matthew Passion, Jesus' words are almost always accompanied by sustained string chords. This is called the 'halo'. Only on the cross does this disappear."
+                    }
+                }
+            ]
+        },
+        "en": {
+            "lyrics": "Evangelist: And as they were eating, Jesus took bread, and blessed it, and brake it, and gave it to the disciples, and said:\nJesus: Take, eat; this is my body.\nEvangelist: And he took the cup, and gave thanks, and gave it to them, saying:\nJesus: Drink ye all of it; For this is my blood of the new testament... I say unto you, I will not drink henceforth of this fruit of the vine, until that day when I drink it new with you in my Father's kingdom.",
+            "modern": "",
+            "interpretation": "The institution of the Holy Communion. Note the 'musical halo' of the strings framing Jesus' words, lending them sanctity.",
+            "trivia": []
+        },
+        "original_source": null
+    }
+}

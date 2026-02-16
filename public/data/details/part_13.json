@@ -1,0 +1,43 @@
+{
+    "id": "part_13",
+    "title": "Ich bin's, ich sollte büßen",
+    "type": "Choral",
+    "subtype": "Congregational",
+    "scene_label": {
+        "nl": "Het Laatste Avondmaal",
+        "en": "The Last Supper"
+    },
+    "speaker": "Congregation",
+    "source": "Text: Picander / Music: J.S. Bach",
+    "content": {
+        "de": {
+            "lyrics": "Ich bin's, ich sollte büßen,\nAn Händen und an Füßen\nGebunden in der Höll.\nDie Geißeln und die Banden\nUnd was du ausgestanden,\nDas hat verdienet meine Seel."
+        },
+        "nl": {
+            "lyrics": "Ik ben het, ik zou moeten boeten,\naan handen en aan voeten\ngeboeid in de hel.\nDe gesels en de banden\nen wat u hebt doorstaan,\ndat heeft mijn ziel verdiend.",
+            "modern": "Ik ben het eigenlijk. Ik heb straf verdiend en zou in de hel moeten zitten voor wat ik heb gedaan.",
+            "interpretation": "Het directe antwoord van de gelovige op de vraag van de discipelen. Niet 'ben ik het?', maar 'ik ben het'. Wij zijn allemaal schuldig.",
+            "trivia": [
+                {
+                    "category": "architectuur",
+                    "fact": "Dit koraal staat in E-majeur (4 kruisen). Bach gebruikt dezelfde koraalmelodie vijf keer door de Passion heen, elke keer in een lagere toonsoort. Het begint in E-majeur (helder, hemels) en eindigt in a-mineur (donker, aards). Bach laat de toonsoort letterlijk 'dalen' parallel aan Jezus' lijden."
+                }
+            ]
+        },
+        "en": {
+            "lyrics": "'Tis I, I should be doing penance,\nbound hand and foot in hell.\nThe scourges and the bonds\nand what thou hast endured,\nmy soul has earned that.",
+            "modern": "",
+            "interpretation": "The believer's direct answer to the disciples' question. Not 'is it I?', but 'it is I'. We are all guilty.",
+            "trivia": []
+        },
+        "original_source": {
+            "title": "O Welt, ich muss dich lassen",
+            "melody_origin": "Heinrich Isaac (ca. 1490)",
+            "text_origin": "Paul Gerhardt (1647)",
+            "info": {
+                "nl": "De melodie was oorspronkelijk het wereldlijke afscheidslied 'Innsbruck, ich muss dich lassen'. Bach gebruikt deze melodie later ook voor 'O Haupt voll Blut und Wunden'.",
+                "en": "The melody was originally the secular farewell song 'Innsbruck, I must leave thee'. Bach later uses this melody for 'O Haupt voll Blut und Wunden'."
+            }
+        }
+    }
+}

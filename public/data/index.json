@@ -1,0 +1,1124 @@
+{
+  "chapters": [
+    {
+      "id": "part_01",
+      "volgorde": 1,
+      "nba_no": "1",
+      "title": "Kommt, ihr Töchter",
+      "type": "Chorus",
+      "subtype": "Full",
+      "scene_label": {
+        "nl": "Openingskoor",
+        "en": "Opening Chorus"
+      },
+      "speaker": "Chorus I & II",
+      "start": 0
+    },
+    {
+      "id": "part_02",
+      "volgorde": 2,
+      "nba_no": "2",
+      "title": "Da Jesus diese Rede vollendet hatte",
+      "type": "Recitativo",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "Aankondiging van het lijden",
+        "en": "Announcement of the Passion"
+      },
+      "speaker": "Evangelist, Jesus",
+      "start": 485
+    },
+    {
+      "id": "part_03",
+      "volgorde": 3,
+      "nba_no": "3",
+      "title": "Herzliebster Jesu",
+      "type": "Choral",
+      "subtype": "Congregational",
+      "scene_label": {
+        "nl": "Aankondiging van het lijden",
+        "en": "Announcement of the Passion"
+      },
+      "speaker": "Congregation",
+      "start": 528
+    },
+    {
+      "id": "part_04",
+      "volgorde": 4,
+      "nba_no": "4a-b",
+      "title": "Da versammelten sich die Hohenpriester",
+      "type": "Recitativo_Chorus",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "Het Complot",
+        "en": "The Conspiracy"
+      },
+      "speaker": "Evangelist, Chorus",
+      "start": 579
+    },
+    {
+      "id": "part_05",
+      "volgorde": 5,
+      "nba_no": "4c-e",
+      "title": "Da nun Jesus war zu Bethanien",
+      "type": "Recitativo_Chorus",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "De zalving in Bethanië",
+        "en": "The Anointing at Bethany"
+      },
+      "speaker": "Evangelist, Jesus, Chorus",
+      "start": 617
+    },
+    {
+      "id": "part_06",
+      "volgorde": 6,
+      "nba_no": "5",
+      "title": "Du lieber Heiland du",
+      "type": "Recitativo_Accompagnato",
+      "subtype": "Accompagnato",
+      "scene_label": {
+        "nl": "De zalving in Bethanië",
+        "en": "The Anointing at Bethany"
+      },
+      "speaker": "Alto",
+      "start": 773
+    },
+    {
+      "id": "part_07",
+      "volgorde": 7,
+      "nba_no": "6",
+      "title": "Buß und Reu",
+      "type": "Aria",
+      "subtype": "Solo",
+      "scene_label": {
+        "nl": "De zalving in Bethanië",
+        "en": "The Anointing at Bethany"
+      },
+      "speaker": "Alto",
+      "start": 825
+    },
+    {
+      "id": "part_08",
+      "volgorde": 8,
+      "nba_no": "7",
+      "title": "Da ging hin der Zwölfen einer",
+      "type": "Recitativo",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "Judas' Verraad",
+        "en": "Judas' Betrayal"
+      },
+      "speaker": "Evangelist, Judas",
+      "start": 1051
+    },
+    {
+      "id": "part_09",
+      "volgorde": 9,
+      "nba_no": "8",
+      "title": "Blute nur, du liebes Herz",
+      "type": "Aria",
+      "subtype": "Solo",
+      "scene_label": {
+        "nl": "Judas' Verraad",
+        "en": "Judas' Betrayal"
+      },
+      "speaker": "Soprano",
+      "start": 1088
+    },
+    {
+      "id": "part_10",
+      "volgorde": 10,
+      "nba_no": "9a-b",
+      "title": "Aber am ersten Tage",
+      "type": "Recitativo_Chorus",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "Het Laatste Avondmaal",
+        "en": "The Last Supper"
+      },
+      "speaker": "Evangelist, Chorus",
+      "start": 1369
+    },
+    {
+      "id": "part_11",
+      "volgorde": 11,
+      "nba_no": "9c-d",
+      "title": "Er sprach: Gehet hin",
+      "type": "Recitativo",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "Het Laatste Avondmaal",
+        "en": "The Last Supper"
+      },
+      "speaker": "Evangelist, Jesus",
+      "start": 1405
+    },
+    {
+      "id": "part_12",
+      "volgorde": 12,
+      "nba_no": "9e",
+      "title": "Und sie wurden sehr betrübt",
+      "type": "Recitativo_Chorus",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "Het Laatste Avondmaal",
+        "en": "The Last Supper"
+      },
+      "speaker": "Evangelist, Chorus",
+      "start": 1479
+    },
+    {
+      "id": "part_13",
+      "volgorde": 13,
+      "nba_no": "10",
+      "title": "Ich bin's, ich sollte büßen",
+      "type": "Choral",
+      "subtype": "Congregational",
+      "scene_label": {
+        "nl": "Het Laatste Avondmaal",
+        "en": "The Last Supper"
+      },
+      "speaker": "Congregation",
+      "start": 1504
+    },
+    {
+      "id": "part_14",
+      "volgorde": 14,
+      "nba_no": "11",
+      "title": "Er antwortete und sprach",
+      "type": "Recitativo",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "Het Laatste Avondmaal",
+        "en": "The Last Supper"
+      },
+      "speaker": "Evangelist, Jesus, Judas",
+      "start": 1554
+    },
+    {
+      "id": "part_15",
+      "volgorde": 15,
+      "nba_no": "12",
+      "title": "Da sie aber aßen",
+      "type": "Recitativo",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "Het Laatste Avondmaal",
+        "en": "The Last Supper"
+      },
+      "speaker": "Evangelist, Jesus",
+      "start": 1626
+    },
+    {
+      "id": "part_16",
+      "volgorde": 16,
+      "nba_no": "13",
+      "title": "Wiewohl mein Herz",
+      "type": "Recitativo_Accompagnato",
+      "subtype": "Accompagnato",
+      "scene_label": {
+        "nl": "Het Laatste Avondmaal",
+        "en": "The Last Supper"
+      },
+      "speaker": "Soprano",
+      "start": 1731
+    },
+    {
+      "id": "part_17",
+      "volgorde": 17,
+      "nba_no": "14",
+      "title": "Ich will dir mein Herze schenken",
+      "type": "Aria",
+      "subtype": "Solo",
+      "scene_label": {
+        "nl": "Het Laatste Avondmaal",
+        "en": "The Last Supper"
+      },
+      "speaker": "Soprano",
+      "start": 1807
+    },
+    {
+      "id": "part_18",
+      "volgorde": 18,
+      "nba_no": "15",
+      "title": "Und da sie den Lobgesang",
+      "type": "Recitativo",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "Naar de Olijfberg",
+        "en": "To the Mount of Olives"
+      },
+      "speaker": "Evangelist, Jesus",
+      "start": 1999
+    },
+    {
+      "id": "part_19",
+      "volgorde": 19,
+      "nba_no": "16",
+      "title": "Erkenne mich, mein Hüter",
+      "type": "Choral",
+      "subtype": "Congregational",
+      "scene_label": {
+        "nl": "Naar de Olijfberg",
+        "en": "To the Mount of Olives"
+      },
+      "speaker": "Congregation",
+      "start": 2064
+    },
+    {
+      "id": "part_20",
+      "volgorde": 20,
+      "nba_no": "17",
+      "title": "Petrus aber antwortete",
+      "type": "Recitativo",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "Naar de Olijfberg",
+        "en": "To the Mount of Olives"
+      },
+      "speaker": "Evangelist, Jesus, Peter",
+      "start": 2133
+    },
+    {
+      "id": "part_21",
+      "volgorde": 21,
+      "nba_no": "18",
+      "title": "Ich will hier bei dir stehen",
+      "type": "Choral",
+      "subtype": "Congregational",
+      "scene_label": {
+        "nl": "Naar de Olijfberg",
+        "en": "To the Mount of Olives"
+      },
+      "speaker": "Congregation",
+      "start": 2200
+    },
+    {
+      "id": "part_22",
+      "volgorde": 22,
+      "nba_no": "19",
+      "title": "Da kam Jesus mit ihnen",
+      "type": "Recitativo",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "Gethsemane",
+        "en": "Gethsemane"
+      },
+      "speaker": "Evangelist, Jesus",
+      "start": 2268
+    },
+    {
+      "id": "part_23",
+      "volgorde": 23,
+      "nba_no": "20",
+      "title": "O Schmerz! hier zittert",
+      "type": "Recitativo_Accompagnato",
+      "subtype": "Accompagnato",
+      "scene_label": {
+        "nl": "Gethsemane",
+        "en": "Gethsemane"
+      },
+      "speaker": "Tenor, Chorus",
+      "start": 2376
+    },
+    {
+      "id": "part_24",
+      "volgorde": 24,
+      "nba_no": "21",
+      "title": "Ich will bei meinem Jesu wachen",
+      "type": "Aria_Chorus",
+      "subtype": "Solo_Chorus",
+      "scene_label": {
+        "nl": "Gethsemane",
+        "en": "Gethsemane"
+      },
+      "speaker": "Tenor, Chorus",
+      "start": 2470
+    },
+    {
+      "id": "part_25",
+      "volgorde": 25,
+      "nba_no": "22",
+      "title": "Und ging hin ein wenig",
+      "type": "Recitativo",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "Gethsemane",
+        "en": "Gethsemane"
+      },
+      "speaker": "Evangelist, Jesus",
+      "start": 2776
+    },
+    {
+      "id": "part_26",
+      "volgorde": 26,
+      "nba_no": "23",
+      "title": "Der Heiland fällt vor seinem Vater nieder",
+      "type": "Recitativo_Accompagnato",
+      "subtype": "Accompagnato",
+      "scene_label": {
+        "nl": "Gethsemane",
+        "en": "Gethsemane"
+      },
+      "speaker": "Bass",
+      "start": 2818
+    },
+    {
+      "id": "part_27",
+      "volgorde": 27,
+      "nba_no": "24",
+      "title": "Gerne will ich mich bequemen",
+      "type": "Aria",
+      "subtype": "Solo",
+      "scene_label": {
+        "nl": "Gethsemane",
+        "en": "Gethsemane"
+      },
+      "speaker": "Bass",
+      "start": 2871
+    },
+    {
+      "id": "part_28",
+      "volgorde": 28,
+      "nba_no": "25",
+      "title": "Und er kam zu seinen Jüngern",
+      "type": "Recitativo",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "Gethsemane",
+        "en": "Gethsemane"
+      },
+      "speaker": "Evangelist, Jesus",
+      "start": 3127
+    },
+    {
+      "id": "part_29",
+      "volgorde": 29,
+      "nba_no": "26",
+      "title": "Was mein Gott will, das g'scheh allzeit",
+      "type": "Choral",
+      "subtype": "Congregational",
+      "scene_label": {
+        "nl": "Gethsemane",
+        "en": "Gethsemane"
+      },
+      "speaker": "Congregation",
+      "start": 3208
+    },
+    {
+      "id": "part_30",
+      "volgorde": 30,
+      "nba_no": "27a",
+      "title": "Und er kam und fand sie aber schlafend",
+      "type": "Recitativo",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "Gethsemane",
+        "en": "Gethsemane"
+      },
+      "speaker": "Evangelist, Jesus",
+      "start": 3272
+    },
+    {
+      "id": "part_31",
+      "volgorde": 31,
+      "nba_no": "27b",
+      "title": "Und als er noch redete",
+      "type": "Recitativo_Chorus",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "De Arrestatie",
+        "en": "The Arrest"
+      },
+      "speaker": "Evangelist, Jesus, Judas",
+      "start": 3342
+    },
+    {
+      "id": "part_32",
+      "volgorde": 32,
+      "nba_no": "28",
+      "title": "So ist mein Jesus nun gefangen",
+      "type": "Aria_Duetto",
+      "subtype": "Duet_Chorus",
+      "scene_label": {
+        "nl": "De Arrestatie",
+        "en": "The Arrest"
+      },
+      "speaker": "Soprano, Alto, Chorus",
+      "start": 3468
+    },
+    {
+      "id": "part_33",
+      "volgorde": 33,
+      "nba_no": "29",
+      "title": "Sind Blitze, sind Donner",
+      "type": "Chorus",
+      "subtype": "Full",
+      "scene_label": {
+        "nl": "De Arrestatie",
+        "en": "The Arrest"
+      },
+      "speaker": "Chorus",
+      "start": 3609
+    },
+    {
+      "id": "part_34",
+      "volgorde": 34,
+      "nba_no": "30",
+      "title": "Und siehe, einer aus denen",
+      "type": "Recitativo",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "De Arrestatie",
+        "en": "The Arrest"
+      },
+      "speaker": "Evangelist, Jesus",
+      "start": 3676
+    },
+    {
+      "id": "part_35",
+      "volgorde": 35,
+      "nba_no": "31",
+      "title": "O Mensch, bewein dein Sünde groß",
+      "type": "Chorus",
+      "subtype": "Choral_Fantasia",
+      "scene_label": {
+        "nl": "Slotkoor Deel 1",
+        "en": "Closing Chorus Part 1"
+      },
+      "speaker": "Chorus, Ripieno",
+      "start": 3872
+    },
+    {
+      "id": "part_36",
+      "volgorde": 36,
+      "nba_no": "32",
+      "title": "Ach, nun ist mein Jesus hin!",
+      "type": "Aria",
+      "subtype": "Solo_Chorus",
+      "scene_label": {
+        "nl": "Opening Deel 2",
+        "en": "Opening Part 2"
+      },
+      "speaker": "Alto, Chorus",
+      "start": 4173
+    },
+    {
+      "id": "part_37",
+      "volgorde": 37,
+      "nba_no": "33",
+      "title": "Die aber Jesum gegriffen hatten",
+      "type": "Recitativo",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "Voor Kajafas",
+        "en": "Before Caiaphas"
+      },
+      "speaker": "Evangelist",
+      "start": 4351
+    },
+    {
+      "id": "part_38",
+      "volgorde": 38,
+      "nba_no": "34",
+      "title": "Mir hat die Welt trüglich gericht't",
+      "type": "Choral",
+      "subtype": "Congregational",
+      "scene_label": {
+        "nl": "Voor Kajafas",
+        "en": "Before Caiaphas"
+      },
+      "speaker": "Congregation",
+      "start": 4413
+    },
+    {
+      "id": "part_39",
+      "volgorde": 39,
+      "nba_no": "35",
+      "title": "Und wiewohl viel falsche Zeugen",
+      "type": "Recitativo",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "Voor Kajafas",
+        "en": "Before Caiaphas"
+      },
+      "speaker": "Evangelist, Witnesses, High Priest",
+      "start": 4457
+    },
+    {
+      "id": "part_40",
+      "volgorde": 40,
+      "nba_no": "40",
+      "title": "Mein Jesus schweigt",
+      "type": "Arioso",
+      "subtype": "Accompagnato",
+      "scene_label": {
+        "nl": "Voor Kajafas",
+        "en": "Before Caiaphas"
+      },
+      "speaker": "Tenor",
+      "start": 4533
+    },
+    {
+      "id": "part_41",
+      "volgorde": 41,
+      "nba_no": "37",
+      "title": "Geduld, Geduld",
+      "type": "Aria",
+      "subtype": "Solo",
+      "scene_label": {
+        "nl": "Voor Kajafas",
+        "en": "Before Caiaphas"
+      },
+      "speaker": "Tenor",
+      "start": 4617
+    },
+    {
+      "id": "part_42",
+      "volgorde": 42,
+      "nba_no": "38a-b",
+      "title": "Und der Hohepriester antwortete",
+      "type": "Recitativo",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "Voor Kajafas",
+        "en": "Before Caiaphas"
+      },
+      "speaker": "Evangelist, High Priest, Jesus",
+      "start": 4839
+    },
+    {
+      "id": "part_43",
+      "volgorde": 43,
+      "nba_no": "38c",
+      "title": "Da speieten sie aus",
+      "type": "Recitativo_Chorus",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "De Bespotting",
+        "en": "The Mocking"
+      },
+      "speaker": "Evangelist, Chorus",
+      "start": 4931
+    },
+    {
+      "id": "part_44",
+      "volgorde": 44,
+      "nba_no": "39",
+      "title": "Wer hat dich so geschlagen",
+      "type": "Choral",
+      "subtype": "Congregational",
+      "scene_label": {
+        "nl": "De Bespotting",
+        "en": "The Mocking"
+      },
+      "speaker": "Congregation",
+      "start": 4967
+    },
+    {
+      "id": "part_45",
+      "volgorde": 45,
+      "nba_no": "40",
+      "title": "Petrus aber saß draußen",
+      "type": "Recitativo",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "De Verloochening",
+        "en": "Peter's Denial"
+      },
+      "speaker": "Evangelist, Maids, Peter, Chorus",
+      "start": 5022
+    },
+    {
+      "id": "part_46",
+      "volgorde": 46,
+      "nba_no": "41",
+      "title": "Erbarme dich, mein Gott",
+      "type": "Aria",
+      "subtype": "Solo",
+      "scene_label": {
+        "nl": "De Verloochening",
+        "en": "Peter's Denial"
+      },
+      "speaker": "Alto",
+      "start": 5232
+    },
+    {
+      "id": "part_47",
+      "volgorde": 47,
+      "nba_no": "42",
+      "title": "Bin ich gleich von dir gewichen",
+      "type": "Choral",
+      "subtype": "Congregational",
+      "scene_label": {
+        "nl": "De Verloochening",
+        "en": "Peter's Denial"
+      },
+      "speaker": "Congregation",
+      "start": 5555
+    },
+    {
+      "id": "part_48",
+      "volgorde": 48,
+      "nba_no": "43",
+      "title": "Des Morgens aber",
+      "type": "Recitativo",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "Judas' Einde",
+        "en": "The End of Judas"
+      },
+      "speaker": "Evangelist, Judas, Chief Priests",
+      "start": 5621
+    },
+    {
+      "id": "part_49",
+      "volgorde": 49,
+      "nba_no": "44",
+      "title": "Gebt mir meinen Jesum wieder",
+      "type": "Aria",
+      "subtype": "Solo",
+      "scene_label": {
+        "nl": "Judas' Einde",
+        "en": "The End of Judas"
+      },
+      "speaker": "Bass",
+      "start": 5752
+    },
+    {
+      "id": "part_50",
+      "volgorde": 50,
+      "nba_no": "45",
+      "title": "Sie aber hielten Rat",
+      "type": "Recitativo",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "Judas' Einde",
+        "en": "The End of Judas"
+      },
+      "speaker": "Evangelist, Chief Priests",
+      "start": 5882
+    },
+    {
+      "id": "part_51",
+      "volgorde": 51,
+      "nba_no": "46",
+      "title": "Jesus aber stund vor dem Landpfleger",
+      "type": "Recitativo",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "Voor Pilatus",
+        "en": "Before Pilate"
+      },
+      "speaker": "Evangelist, Jesus, Pilate",
+      "start": 5951
+    },
+    {
+      "id": "part_52",
+      "volgorde": 52,
+      "nba_no": "47",
+      "title": "Befiehl du deine Wege",
+      "type": "Choral",
+      "subtype": "Congregational",
+      "scene_label": {
+        "nl": "Voor Pilatus",
+        "en": "Before Pilate"
+      },
+      "speaker": "Congregation",
+      "start": 6016
+    },
+    {
+      "id": "part_53",
+      "volgorde": 53,
+      "nba_no": "48",
+      "title": "Auf das Fest aber",
+      "type": "Recitativo_Chorus",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "Barabbas",
+        "en": "Barabbas"
+      },
+      "speaker": "Evangelist, Pilate, Pilate's Wife, Chorus",
+      "start": 6086
+    },
+    {
+      "id": "part_54",
+      "volgorde": 54,
+      "nba_no": "49",
+      "title": "Wie wunderbarlich ist doch diese Strafe",
+      "type": "Choral",
+      "subtype": "Congregational",
+      "scene_label": {
+        "nl": "Barabbas",
+        "en": "Barabbas"
+      },
+      "speaker": "Congregation",
+      "start": 6228
+    },
+    {
+      "id": "part_55",
+      "volgorde": 55,
+      "nba_no": "50",
+      "title": "Der Landpfleger sagte",
+      "type": "Recitativo",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "Barabbas",
+        "en": "Barabbas"
+      },
+      "speaker": "Evangelist, Pilate",
+      "start": 6279
+    },
+    {
+      "id": "part_56",
+      "volgorde": 56,
+      "nba_no": "57",
+      "title": "Er hat uns allen wohlgetan",
+      "type": "Arioso",
+      "subtype": "Accompagnato",
+      "scene_label": {
+        "nl": "Barabbas",
+        "en": "Barabbas"
+      },
+      "speaker": "Soprano",
+      "start": 6297
+    },
+    {
+      "id": "part_57",
+      "volgorde": 57,
+      "nba_no": "52",
+      "title": "Aus Liebe will mein Heiland sterben",
+      "type": "Aria",
+      "subtype": "Solo",
+      "scene_label": {
+        "nl": "Barabbas",
+        "en": "Barabbas"
+      },
+      "speaker": "Soprano",
+      "start": 6411
+    },
+    {
+      "id": "part_58",
+      "volgorde": 58,
+      "nba_no": "53",
+      "title": "Sie schrieen aber noch mehr",
+      "type": "Recitativo_Chorus",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "De Veroordeling",
+        "en": "The Condemnation"
+      },
+      "speaker": "Evangelist, Pilate, Chorus",
+      "start": 6649
+    },
+    {
+      "id": "part_59",
+      "volgorde": 59,
+      "nba_no": "60",
+      "title": "Erbarm es Gott!",
+      "type": "Arioso",
+      "subtype": "Accompagnato",
+      "scene_label": {
+        "nl": "De Geseling",
+        "en": "The Scourging"
+      },
+      "speaker": "Alto",
+      "start": 6751
+    },
+    {
+      "id": "part_60",
+      "volgorde": 60,
+      "nba_no": "55",
+      "title": "Können Tränen meiner Wangen",
+      "type": "Aria",
+      "subtype": "Solo",
+      "scene_label": {
+        "nl": "De Geseling",
+        "en": "The Scourging"
+      },
+      "speaker": "Alto",
+      "start": 6805
+    },
+    {
+      "id": "part_61",
+      "volgorde": 61,
+      "nba_no": "56",
+      "title": "Da nahmen die Kriegsknechte",
+      "type": "Recitativo_Chorus",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "De Doornenkroon",
+        "en": "The Crown of Thorns"
+      },
+      "speaker": "Evangelist, Chorus",
+      "start": 7242
+    },
+    {
+      "id": "part_62",
+      "volgorde": 62,
+      "nba_no": "57",
+      "title": "O Haupt voll Blut und Wunden",
+      "type": "Choral",
+      "subtype": "Congregational",
+      "scene_label": {
+        "nl": "De Doornenkroon",
+        "en": "The Crown of Thorns"
+      },
+      "speaker": "Congregation",
+      "start": 7310
+    },
+    {
+      "id": "part_63",
+      "volgorde": 63,
+      "nba_no": "58a",
+      "title": "Und da sie ihn verspottet hatten",
+      "type": "Recitativo",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "De Kruisweg",
+        "en": "Via Dolorosa"
+      },
+      "speaker": "Evangelist",
+      "start": 7454
+    },
+    {
+      "id": "part_64",
+      "volgorde": 64,
+      "nba_no": "65",
+      "title": "Ja freilich will in uns das Fleisch und Blut",
+      "type": "Arioso",
+      "subtype": "Accompagnato",
+      "scene_label": {
+        "nl": "De Kruisweg",
+        "en": "Via Dolorosa"
+      },
+      "speaker": "Bass",
+      "start": 7507
+    },
+    {
+      "id": "part_65",
+      "volgorde": 65,
+      "nba_no": "59",
+      "title": "Komm, süßes Kreuz",
+      "type": "Aria",
+      "subtype": "Solo",
+      "scene_label": {
+        "nl": "De Kruisweg",
+        "en": "Via Dolorosa"
+      },
+      "speaker": "Bass",
+      "start": 7543
+    },
+    {
+      "id": "part_66",
+      "volgorde": 66,
+      "nba_no": "60",
+      "title": "Und da sie an die Stätte kamen",
+      "type": "Recitativo_Chorus",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "Kruisiging",
+        "en": "The Crucifixion"
+      },
+      "speaker": "Evangelist, Chorus",
+      "start": 7904
+    },
+    {
+      "id": "part_67",
+      "volgorde": 67,
+      "nba_no": "61a-c",
+      "title": "Desgleichen auch die Hohenpriester",
+      "type": "Recitativo_Chorus",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "Kruisiging",
+        "en": "The Crucifixion"
+      },
+      "speaker": "Evangelist, Chorus",
+      "start": 8034
+    },
+    {
+      "id": "part_68",
+      "volgorde": 68,
+      "nba_no": "69",
+      "title": "Ach Golgatha, unselges Golgotha",
+      "type": "Arioso",
+      "subtype": "Accompagnato",
+      "scene_label": {
+        "nl": "Kruisiging",
+        "en": "The Crucifixion"
+      },
+      "speaker": "Alto",
+      "start": 8110
+    },
+    {
+      "id": "part_69",
+      "volgorde": 69,
+      "nba_no": "62",
+      "title": "Sehet, Jesus hat die Hand",
+      "type": "Aria",
+      "subtype": "Solo_Chorus",
+      "scene_label": {
+        "nl": "Kruisiging",
+        "en": "The Crucifixion"
+      },
+      "speaker": "Alto, Chorus",
+      "start": 8217
+    },
+    {
+      "id": "part_70",
+      "volgorde": 70,
+      "nba_no": "63a-b",
+      "title": "Und von der sechsten Stunde",
+      "type": "Recitativo",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "De Dood van Jezus",
+        "en": "The Death of Jesus"
+      },
+      "speaker": "Evangelist, Jesus, Chorus",
+      "start": 8389
+    },
+    {
+      "id": "part_71",
+      "volgorde": 71,
+      "nba_no": "64",
+      "title": "Wenn ich einmal soll scheiden",
+      "type": "Choral",
+      "subtype": "Congregational",
+      "scene_label": {
+        "nl": "De Dood van Jezus",
+        "en": "The Death of Jesus"
+      },
+      "speaker": "Congregation",
+      "start": 8545
+    },
+    {
+      "id": "part_72",
+      "volgorde": 72,
+      "nba_no": "65",
+      "title": "Und siehe da, der Vorhang",
+      "type": "Recitativo_Chorus",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "Na de Dood",
+        "en": "After the Death"
+      },
+      "speaker": "Evangelist, Chorus",
+      "start": 8635
+    },
+    {
+      "id": "part_73",
+      "volgorde": 73,
+      "nba_no": "66a",
+      "title": "Und es waren viel Weiber da",
+      "type": "Recitativo",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "De Begrafenis",
+        "en": "The Burial"
+      },
+      "speaker": "Evangelist",
+      "start": 8718
+    },
+    {
+      "id": "part_74",
+      "volgorde": 74,
+      "nba_no": "66b",
+      "title": "Am Abend aber kam ein reicher Mann",
+      "type": "Recitativo",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "De Begrafenis",
+        "en": "The Burial"
+      },
+      "speaker": "Evangelist, Pilate",
+      "start": 8759
+    },
+    {
+      "id": "part_75",
+      "volgorde": 75,
+      "nba_no": "74",
+      "title": "Am Abend, da es kühle war",
+      "type": "Arioso",
+      "subtype": "Accompagnato",
+      "scene_label": {
+        "nl": "De Begrafenis",
+        "en": "The Burial"
+      },
+      "speaker": "Bass",
+      "start": 8796
+    },
+    {
+      "id": "part_76",
+      "volgorde": 76,
+      "nba_no": "68",
+      "title": "Mache dich, mein Herze, rein",
+      "type": "Aria",
+      "subtype": "Solo",
+      "scene_label": {
+        "nl": "De Begrafenis",
+        "en": "The Burial"
+      },
+      "speaker": "Bass",
+      "start": 8941
+    },
+    {
+      "id": "part_77",
+      "volgorde": 77,
+      "nba_no": "69",
+      "title": "Und Joseph nahm den Leib",
+      "type": "Recitativo",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "De Begrafenis",
+        "en": "The Burial"
+      },
+      "speaker": "Evangelist",
+      "start": 9244
+    },
+    {
+      "id": "part_78",
+      "volgorde": 78,
+      "nba_no": "70",
+      "title": "Des anderen Tages",
+      "type": "Recitativo_Chorus",
+      "subtype": "Secco",
+      "scene_label": {
+        "nl": "De Grafbewaking",
+        "en": "The Guard at the Tomb"
+      },
+      "speaker": "Evangelist, Pilate, Chorus",
+      "start": 9300
+    },
+    {
+      "id": "part_79",
+      "volgorde": 79,
+      "nba_no": "71",
+      "title": "Nun ist der Herr zur Ruh gebracht",
+      "type": "Recitativo_Chorus",
+      "subtype": "Accompagnato",
+      "scene_label": {
+        "nl": "Slot",
+        "en": "Conclusion"
+      },
+      "speaker": "Bass, Tenor, Alto, Soprano, Chorus",
+      "start": 9412
+    },
+    {
+      "id": "part_80",
+      "volgorde": 80,
+      "nba_no": "72",
+      "title": "Wir setzen uns mit Tränen nieder",
+      "type": "Chorus",
+      "subtype": "Full",
+      "scene_label": {
+        "nl": "Slot",
+        "en": "Conclusion"
+      },
+      "speaker": "Chorus I & II",
+      "start": 9557
+    }
+  ]
+}

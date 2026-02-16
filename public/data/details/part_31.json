@@ -1,0 +1,35 @@
+{
+    "id": "part_31",
+    "title": "Und als er noch redete",
+    "type": "Recitativo_Chorus",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "De Arrestatie",
+        "en": "The Arrest"
+    },
+    "speaker": "Evangelist, Jesus, Judas",
+    "source": "Text: Picander / Music: J.S. Bach",
+    "content": {
+        "de": {
+            "lyrics": "Evangelist: Und als er noch redete, siehe, da kam Judas, der Zwölfen einer, und mit ihm eine große Schar mit Schwertern und mit Stangen, von den Hohenpriestern und Ältesten des Volks. Und der Verräter hatte ihnen ein Zeichen gegeben, und gesagt: \"Welchen ich küssen werde, der ist's, den greifet!\" Und alsbald trat er zu Jesum, und sprach:\nJudas: Gegrüßet seist du, Rabbi!\nEvangelist: Und küssete ihn. Jesus aber sprach zu ihm:\nJesus: Mein Freund, warum bist du kommen?\nEvangelist: Da traten sie hinzu, und legten die Hände an Jesum, und griffen ihn."
+        },
+        "nl": {
+            "lyrics": "Evangelist: En terwijl hij nog sprak, zie, daar kwam Judas, een van de twaalf, en met hem een grote schare met zwaarden en stokken van de hogepriesters en oudsten van het volk. En de verrader had hen een teken gegeven en gezegd: \"Degene die ik kus, die is het, die moet je grijpen\" En meteen ging hij op Jezus af, en sprak:\nJudas: Wees gegroet, Rabbi\nEvangelist: En kuste hem. Maar Jezus zei tegen hem:\nJezus: Mijn vriend, waarom ben je gekomen?\nEvangelist: Daarop traden zij naar voren, sloegen de handen aan Jezus, en grepen hem.",
+            "modern": "Terwijl Jezus nog aan het praten was, kwam Judas met een grote groep gewapende mannen. De verrader had afgesproken: 'Degene die ik kus, dat is hem.' Hij liep naar Jezus toe, zei 'Gegroet, Rabbi' en kuste hem. Jezus vroeg: 'Vriend, waarom ben je hier?' Toen grepen ze hem vast.",
+            "interpretation": "De beroemde Judaskus. Dit is een van de meest dramatische momenten in het hele evangelieverhaal. Judas gebruikt een teken van liefde en respect (de kus) als wapen van verraad.\n\nJezus' reactie is opmerkelijk: hij noemt Judas 'mijn vriend' (Mein Freund). Geen veroordeling, geen woede, alleen een vraag. Dit toont Jezus' menselijkheid en vergevensgezindheid, zelfs in het moment van zijn arrestatie. De muziek hier is kort en zakelijk, zonder veel emotie in de Evangelistspartij.",
+            "trivia": [
+                {
+                    "category": "symboliek",
+                    "fact": "De kus van Judas is door de eeuwen heen het ultieme symbool geworden van verraad en dubbelhartigheid."
+                }
+            ]
+        },
+        "en": {
+            "lyrics": "Evangelist: And while he yet spake, lo, Judas, one of the twelve, came, and with him a great multitude with swords and staves, from the chief priests and elders of the people. Now he that betrayed him gave them a sign, saying: \"Whomsoever I shall kiss, that same is he: hold him fast.\" And forthwith he came to Jesus, and said:\nJudas: Hail, Master!\nEvangelist: And kissed him. And Jesus said unto him:\nJesus: Friend, wherefore art thou come?\nEvangelist: Then came they, and laid hands on Jesus, and took him.",
+            "modern": "While Jesus was still talking, Judas arrived with a large group of armed men. The betrayer had arranged: 'The one I kiss, that's him.' He walked up to Jesus, said 'Greetings, Rabbi' and kissed him. Jesus asked: 'Friend, why are you here?' Then they seized him.",
+            "interpretation": "The famous Judas kiss. This is one of the most dramatic moments in the entire gospel story. Judas uses a sign of love and respect (the kiss) as a weapon of betrayal.\n\nJesus' response is remarkable: he calls Judas 'my friend' (Mein Freund). No condemnation, no anger, only a question. This shows Jesus' humanity and forgiveness, even in the moment of his arrest. The music here is brief and matter-of-fact, without much emotion in the Evangelist's part.",
+            "trivia": []
+        },
+        "original_source": null
+    }
+}

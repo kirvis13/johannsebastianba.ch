@@ -1,0 +1,35 @@
+{
+    "id": "part_30",
+    "title": "Und er kam und fand sie aber schlafend",
+    "type": "Recitativo",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "Gethsemane",
+        "en": "Gethsemane"
+    },
+    "speaker": "Evangelist, Jesus",
+    "source": "Text: Picander / Music: J.S. Bach",
+    "content": {
+        "de": {
+            "lyrics": "Evangelist: Und er kam und fand sie aber schlafend, und ihre Augen waren voll Schlaf's, Und er ließ sie, und ging abermals hin und betete zum dritten Mal und redete dieselbigen Worte. Da kam er zu seinen Jüngern, und sprach zu ihnen:\nJesus: Ach! Wollt ihr nun schlafen und ruhen? Siehe, die Stunde ist hier, daß des Menschen Sohn in der Sünder Hände überantwortet wird. Stehet auf, lasset uns gehen; siehe, er ist da, der mich verrät."
+        },
+        "nl": {
+            "lyrics": "Evangelist: En bij terugkomst vond hij hen opnieuw slapend, ze konden hun ogen niet openhouden. En hij liet hen daar, ging wederom verderop, en bad voor de derde maal, waarbij hij dezelfde woorden sprak. Toen kwam hij bij zijn discipelen en zei tegen hen:\nJezus: Ach, willen jullie nu slapen en rusten? Zie, het uur is nabij dat de mensenzoon in de handen van zondaren wordt overgeleverd. Sta op, laten we gaan. Kijk, hij is nabij, die mij verraadt.",
+            "modern": "Opnieuw vond hij ze slapend, ze konden hun ogen niet openhouden. Hij bad voor de derde keer hetzelfde gebed. Toen kwam hij terug en zei: 'Slapen jullie nog steeds? Het moment is gekomen. Ik word verraden. Sta op, we gaan. Mijn verrader is er al.'",
+            "interpretation": "Dit is het derde en laatste gebed in Gethsemane. De discipelen blijven maar in slaap vallen, ondanks Jezus' herhaalde verzoeken om wakker te blijven. Hun zwakheid wordt pijnlijk duidelijk.\n\nJezus' woorden krijgen nu een urgente toon: 'Ach!' is een kreet van teleurstelling en pijn. Het moment van zijn arrestatie breekt aan. De tijd van waken is voorbij, nu komt de tijd van lijden. 'Siehe, er ist da' markeert de overgang van contemplatie naar actie.",
+            "trivia": [
+                {
+                    "category": "muzikaal",
+                    "fact": "De strijkers die Jezus normaal begeleiden (het aureool) worden hier zachter en zwakker, alsof zijn goddelijke kracht begint te tanen nu het lijden nadert."
+                }
+            ]
+        },
+        "en": {
+            "lyrics": "Evangelist: And he came and found them asleep again, for their eyes were heavy, And he left them, and went away again, and prayed the third time, saying the same words. Then came he to his disciples, and said unto them:\nJesus: Sleep on now, and take your rest! Behold, the hour is at hand, and the Son of Man is betrayed into the hands of sinners. Rise, let us be going: behold, he is at hand that doth betray me.",
+            "modern": "Again he found them sleeping, their eyes too heavy to stay open. He prayed the same prayer a third time. Then he returned and said: 'Still sleeping? The moment has come. I am being betrayed. Get up, we're going. My betrayer is already here.'",
+            "interpretation": "This is the third and final prayer in Gethsemane. The disciples keep falling asleep, despite Jesus' repeated requests to stay awake. Their weakness becomes painfully clear.\n\nJesus' words now take on an urgent tone: 'Ach!' is a cry of disappointment and pain. The moment of his arrest is breaking. The time of watching is over, now comes the time of suffering. 'Behold, he is at hand' marks the transition from contemplation to action.",
+            "trivia": []
+        },
+        "original_source": null
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "id": "part_42",
+    "title": "Und der Hohepriester antwortete",
+    "type": "Recitativo",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "Voor Kajafas",
+        "en": "Before Caiaphas"
+    },
+    "speaker": "Evangelist, High Priest, Jesus",
+    "nba_no": "38a-b",
+    "content": {
+        "de": {
+            "lyrics": "Evangelist: Und der Hohepriester antwortete und sprach zu ihm:\nHohepriester: Ich beschwöre dich bei dem lebendigen Gott, dass du uns sagest, ob du seiest Christus, der Sohn Gottes?\nEvangelist: Jesus sprach zu ihm:\nJesus: Du sagest es. Doch sage ich euch: Von nun an wird's geschehen, dass ihr sehen werdet des Menschen Sohn sitzen zur Rechten der Kraft und kommen in den Wolken des Himmels.\nEvangelist: Da zerriss der Hohepriester seine Kleider und sprach:\nHohepriester: Er hat Gott gelästert, was dürfen wir weiter Zeugnis? Siehe, jetzt habt ihr seine Gotteslästerung gehöret. Was dünket euch?\nEvangelist: Sie antworteten und sprachen:\nChor: Er ist des Todes schuldig!",
+            "modern": "Der Hohepriester fragt unter Eid: 'Bist du der Christus?' Jesus antwortet: 'Du sagst es. Und ihr werdet mich sehen an Gottes Seite.' Daraufhin zerreißt der Priester sein Gewand und ruft: 'Gotteslästerung!' Der Rat schreit: 'Er muss sterben!'"
+        },
+        "nl": {
+            "lyrics": "Evangelist: En de hogepriester antwoordde en sprak tot hem:\nHogepriester: Ik bezweer u bij de levende God, dat u ons zegt of u de Christus bent, de Zoon van God?\nEvangelist: Jezus sprak tot hem:\nJezus: U zegt het. Toch zeg ik u: Van nu aan zal het geschieden, dat u de Zoon des mensen zult zien zitten aan de rechterhand der Macht en komen op de wolken des hemels.\nEvangelist: Toen scheurde de hogepriester zijn kleren en sprak:\nHogepriester: Hij heeft God gelasterd, waarom hebben wij nog getuigen nodig? Zie, nu hebt u zijn godslastering gehoord. Wat dunkt u?\nEvangelist: Zij antwoordden en zeiden:\nKoor: Hij is schuldig aan de dood!",
+            "modern": "De hogepriester vraagt onder ede: 'Ben jij de Christus?' Jezus antwoordt: 'U zegt het. En jullie zullen mij zien aan Gods zijde.' Daarop scheurt de priester zijn gewaad en roept: 'Godslastering!' De Raad schreeuwt: 'Hij moet dood!'",
+            "interpretation": "Dit is het keerpunt in het proces. Jezus verbreekt zijn stilzwijgen met een plechtige profetie. Let op de uitbarsting van de Hogepriester (snelle noten) en de korte, felle reactie van het koor ('Er ist des Todes schuldig!')."
+        },
+        "en": {
+            "lyrics": "Evangelist: And the high priest answered and said unto him:\nHigh Priest: I adjure thee by the living God, that thou tell us whether thou be the Christ, the Son of God.\nEvangelist: Jesus saith unto him:\nJesus: Thou hast said. Nevertheless I say unto you: Hereafter shall ye see the Son of man sitting on the right hand of power, and coming in the clouds of heaven.\nEvangelist: Then the high priest rent his clothes, saying:\nHigh Priest: He hath spoken blasphemy; what further need have we of witnesses? behold, now ye have heard his blasphemy. What think ye?\nEvangelist: They answered and said:\nChorus: He is guilty of death!",
+            "modern": "The High Priest asks under oath: 'Are you the Christ?' Jesus answers: 'You say so. And you will see me at God's side.' The Priest tears his robes and cries: 'Blasphemy!' The Council shouts: 'He deserves death!'",
+            "interpretation": "This is the turning point. Jesus breaks his silence with a solemn prophecy. Note the High Priest's outburst (rapid notes) and the choir's short, fierce reaction ('He is guilty of death!')."
+        },
+        "trivia": []
+    }
+}

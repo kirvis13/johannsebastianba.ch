@@ -1,0 +1,35 @@
+{
+    "id": "part_02",
+    "title": "Da Jesus diese Rede vollendet hatte",
+    "type": "Recitativo",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "Aankondiging van het lijden",
+        "en": "Announcement of the Passion"
+    },
+    "speaker": "Evangelist, Jesus",
+    "source": "Text: Picander / Music: J.S. Bach",
+    "content": {
+        "de": {
+            "lyrics": "Evangelist: Da Jesus diese Rede vollendet hatte, sprach er zu seinen Jüngern:\nJesus: Ihr wisset, dass nach zweien Tagen Ostern wird, und des Menschen Sohn wird überantwortet werden, dass er gekreuziget werde."
+        },
+        "nl": {
+            "lyrics": "Evangelist: Toen Jezus deze rede geëindigd had, sprak hij tot zijn discipelen:\nJezus: Gij weet, dat over twee dagen het Pascha is, en de Zoon des mensen zal overgeleverd worden, opdat hij gekruisigd worde.",
+            "modern": "Zodra Jezus was uitgesproken, vertelde hij zijn vrienden de harde waarheid: over twee dagen word ik gedood.",
+            "interpretation": "Na de overweldigende emotie van het openingskoor, begint hier het feitelijke verhaal. Jezus kondigt met kalme zekerheid zijn eigen dood aan. \n\nHet is een kantelpunt in het evangelie: Jezus stopt met onderwijzen en begint aan zijn lijdensweg. De tekst benadrukt dat Jezus niet verrast wordt door de gebeurtenissen; hij weet precies wat er gaat gebeuren en accepteert dit als zijn lot.",
+            "trivia": [
+                {
+                    "category": "muzikaal",
+                    "fact": "Hoor je de strijkers die meespelen bij de woorden van Jezus? Bach gebruikt dit 'strijkerskruis' of 'halo' om aan te geven dat Jezus een goddelijk figuur is. Pas aan het kruis zal dit aureool verdwijnen."
+                }
+            ]
+        },
+        "en": {
+            "lyrics": "Evangelist: When Jesus had finished all these sayings, he said to his disciples:\nJesus: Ye know that after two days is the feast of the Passover, and the Son of Man is betrayed to be crucified.",
+            "modern": "As soon as Jesus finished speaking, he told his friends the hard truth: in two days I will be killed.",
+            "interpretation": "After the overwhelming emotion of the opening chorus, the factual account begins here. Jesus announces his own death with calm certainty. \n\nIt is a turning point in the gospel: Jesus stops teaching and begins his path to the cross. The text emphasizes that Jesus is not surprised by the events; he knows exactly what is going to happen and accepts this as his destiny.",
+            "trivia": []
+        },
+        "original_source": null
+    }
+}

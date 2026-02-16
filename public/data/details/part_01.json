@@ -1,0 +1,39 @@
+{
+    "id": "part_01",
+    "title": "Kommt, ihr Töchter",
+    "type": "Chorus",
+    "subtype": "Full",
+    "scene_label": {
+        "nl": "Openingskoor",
+        "en": "Opening Chorus"
+    },
+    "speaker": "Chorus I & II",
+    "source": "Text: Picander / Music: J.S. Bach",
+    "content": {
+        "de": {
+            "lyrics": "Kommt, ihr Töchter, helft mir klagen,\nSehet – Wen? – den Bräutigam,\nSeht ihn – Wie? – als wie ein Lamm!\nSehet – Was? – seht die Geduld,\nSeht – Wohin? – auf unsere Schuld;\nSehet ihn aus Lieb und Huld\nHolz zum Kreuze selber tragen."
+        },
+        "nl": {
+            "lyrics": "Kom, dochters, help mij klagen,\nZie - Wie? - de Bruidegom,\nZie hem - Hoe? - als een lam!\nZie - Wat? - zie zijn geduld,\nZie - Waarheen? - op onze schuld;\nZie hem uit liefde en genade\nZelf het hout voor het kruis dragen.",
+            "modern": "Kom erbij en deel in het verdriet. Kijk naar de pure onschuld die zichzelf opoffert voor de fouten van anderen.",
+            "interpretation": "In dit openingskoor worden we direct geconfronteerd met twee krachtige beelden uit de barokke mystiek: de **Bruidegom** en het **Lam**. \n\n1. **De Bruidegom:** Dit verwijst naar de spirituele eenwording tussen Jezus en de gelovigen. Jezus wordt gezien als de Bruidegom die uit pure liefde zijn leven geeft voor de mensheid (zijn bruid).\n2. **Het Lam:** Dit is het beeld van het onschuldige offerdier. Zoals in het Oude Testament een lam werd geofferd om zonden weg te nemen, zo wordt Jezus hier gepresenteerd als het ultieme offer dat de schuld van de wereld ('onze schuld') op zich neemt.\n\nDe vragen van het tweede koor ('Wie?', 'Hoe?', 'Wat?') zijn bedoeld om ons als luisteraar 'wakker' te schudden en ons ooggetuige te maken van de lijdensweg die hier begint.",
+            "trivia": [
+                {
+                    "category": "muzikaal",
+                    "fact": "Bach gebruikt een dwingend 12/8 ritme in de baslijn. Dit stelt de moeizame, zware voetstappen voor van Jezus die het kruis de berg op sleept."
+                },
+                {
+                    "category": "instrumentatie",
+                    "fact": "Bach schreef dit voor twee aparte orkesten en koren die tegen elkaar in zingen - een stereofonisch effect uit 1727. Dit wordt soms geïnterpreteerd als twee perspectieven: de gelovigen versus de wereld."
+                }
+            ]
+        },
+        "en": {
+            "lyrics": "Come, ye daughters, help me lament,\nBehold - Whom? - the Bridegroom,\nBehold him - How? - like a lamb!\nBehold - What? - behold his patience,\nBehold - Where? - on our guilt;\nBehold him, out of love and grace,\nBearing the wood for the cross himself.",
+            "modern": "Come closer and share in the grief. Look at the pure innocence sacrificing itself for the mistakes of others.",
+            "interpretation": "In this monumental opening chorus, we are immediately confronted with two powerful images from Baroque mysticism: the **Bridegroom** and the **Lamb**. \n\n1. **The Bridegroom:** This refers to the spiritual union between Jesus and the believers. Jesus is seen as the Bridegroom who gives his life out of pure love for humanity (his bride).\n2. **The Lamb:** This is the image of the innocent sacrificial animal. Just as a lamb was sacrificed in the Old Testament to take away sins, Jesus is presented here as the ultimate sacrifice taking 'our guilt' upon Himself.\n\nThe questions from the second choir ('Whom?', 'How?', 'What?') are meant to shake us awake as listeners and make us active witnesses to the passion that begins here.",
+            "trivia": []
+        },
+        "original_source": null
+    }
+}

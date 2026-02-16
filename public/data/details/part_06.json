@@ -1,0 +1,35 @@
+{
+    "id": "part_06",
+    "title": "Du lieber Heiland du",
+    "type": "Recitativo_Accompagnato",
+    "subtype": "Accompagnato",
+    "scene_label": {
+        "nl": "De zalving in Bethanië",
+        "en": "The Anointing at Bethany"
+    },
+    "speaker": "Alto",
+    "source": "Text: Picander / Music: J.S. Bach",
+    "content": {
+        "de": {
+            "lyrics": "Du lieber Heiland du,\nWenn deine Jünger töricht streiten,\nDass dieses fromme Weib\nMit Salben deinen Leib\nZum Grabe will bereiten,\nSo lasse mir die Tränenflüsse\nDer Augen angenehme Salbe sein."
+        },
+        "nl": {
+            "lyrics": "Mijn lieve Heiland,\nterwijl uw discipelen dwaas ruziën,\nomdat deze vrome vrouw\nmet balsem uw lichaam\nvoor het graf wil bereiden,\nlaat dan de tranenvloed van mijn ogen\neen aangename balsem voor u zijn.",
+            "modern": "Lieve Heiland, laat die anderen maar ruziën. Ik wil geen dure olie geven, maar mijn eigen tranen zijn voor u genoeg.",
+            "interpretation": "In dit recitatief voor de alt-stem reageert de individuele gelovige op de zalving. De ruzie van de discipelen wordt afgewezen als 'dwaas'. De zangeres wil geen olie geven, maar haar eigen tranen van berouw en liefde als balsem aanbieden. Het is een intiem, breekbaar moment dat de overgang vormt naar de aria die volgt.",
+            "trivia": [
+                {
+                    "category": "muzikaal",
+                    "fact": "De fluiten spelen hier zachte, dalende lijnen die de 'tranenvloed' uit de tekst letterlijk verklanken."
+                }
+            ]
+        },
+        "en": {
+            "lyrics": "Thou dear Savior thou,\nwhile thy disciples foolishly quarrel,\nbecause this pious woman\nwith ointment thy body\nfor the grave would prepare,\nso let the flowing tears\nfrom my eyes be an acceptable ointment.",
+            "modern": "Dear Savior, let the others quarrel. I do not want to give expensive oil, but my own tears are enough for you.",
+            "interpretation": "In this recitative for the alto voice, the individual believer reacts to the anointing. The quarreling of the disciples is rejected as 'foolish'. The singer does not want to give oil, but offers her own tears of repentance and love as a balm. It is an intimate, fragile moment that forms the transition to the aria that follows.",
+            "trivia": []
+        },
+        "original_source": null
+    }
+}

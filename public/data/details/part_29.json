@@ -1,0 +1,38 @@
+{
+    "id": "part_29",
+    "title": "Was mein Gott will, das g'scheh allzeit",
+    "type": "Choral",
+    "subtype": "Congregational",
+    "scene_label": {
+        "nl": "Gethsemane",
+        "en": "Gethsemane"
+    },
+    "speaker": "Congregation",
+    "source": "Text: Picander / Music: J.S. Bach",
+    "content": {
+        "de": {
+            "lyrics": "Was mein Gott will, das g'scheh allzeit,\nSein Will, der ist der beste,\nZu helfen den'n er ist bereit,\nDie an ihn glauben feste.\nEr hilft aus Not,\nDer fromme Gott,\nUnd züchtiget mit Maßen.\nWer Gott vertraut,\nFest auf ihn baut,\nDen will er nicht verlassen."
+        },
+        "nl": {
+            "lyrics": "Wat mijn God wil, dat gebeurt altijd.\nZijn wil, dat is de beste,\nhij is bereid om hen te helpen,\ndie vast in hem geloven.\nHij helpt uit nood,\nde goede God,\nen straft met mate.\nWie God vertrouwt,\nvast op hem bouwt,\ndie zal hij niet verlaten.",
+            "modern": "Wat God wil, gebeurt. Zijn wil is het beste. Hij helpt degenen die in hem geloven. Hij redt uit nood en straft met maat. Wie op God vertrouwt en op hem bouwt, wordt niet verlaten.",
+            "interpretation": "Dit koraal is een moment van rust en overgave na de intense angst in Gethsemane. De gemeente zingt over totale overgave aan Gods wil. Het is een antwoord op Jezus' gebed 'Uw wil geschiede'. \n\nDe tekst benadrukt dat Gods wil altijd het beste is, ook al begrijpen we het niet. Het thema van vertrouwen ('Wer Gott vertraut') staat centraal. Bach gebruikt hier een eenvoudige, troostende melodie die iedereen kon meezingen.",
+            "trivia": [
+                {
+                    "category": "herkomst",
+                    "fact": "Deze koraalmelodie is van Claudin de Sermisy (1529) en de tekst van Albert, Markgraf von Brandenburg (1547). Het was een geliefd lied in lutherse kringen."
+                }
+            ]
+        },
+        "en": {
+            "lyrics": "What my God wills, let that always be,\nHis will, that is the best,\nTo help those he is ready,\nWho believe firmly in him.\nHe helps from need,\nThe faithful God,\nAnd chastens with measure.\nWho trusts in God,\nFirmly builds on him,\nHim he will not forsake.",
+            "modern": "Whatever God wills, happens. His will is best. He helps those who believe in him. He rescues from distress and punishes with moderation. Those who trust in God and build on him will not be abandoned.",
+            "interpretation": "This chorale is a moment of rest and surrender after the intense anguish in Gethsemane. The congregation sings about total surrender to God's will. It is an answer to Jesus' prayer 'Thy will be done'.\n\nThe text emphasizes that God's will is always best, even when we don't understand it. The theme of trust ('Who trusts in God') is central. Bach uses a simple, comforting melody that everyone could sing along to.",
+            "trivia": []
+        },
+        "original_source": {
+            "melody_origin": "Claudin de Sermisy (1529)",
+            "text_origin": "Albert, Markgraf von Brandenburg (1547)"
+        }
+    }
+}

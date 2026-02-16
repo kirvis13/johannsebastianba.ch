@@ -1,0 +1,29 @@
+{
+    "id": "part_66",
+    "title": "Und da sie an die Stätte kamen",
+    "type": "Recitativo_Chorus",
+    "subtype": "Secco",
+    "scene_label": {
+        "nl": "Kruisiging",
+        "en": "The Crucifixion"
+    },
+    "speaker": "Evangelist, Chorus",
+    "nba_no": "60",
+    "content": {
+        "de": {
+            "lyrics": "Evangelist: Und da sie an die Stätte kamen mit Namen Golgatha, das ist verdeutschet Schädelstätt, gaben sie ihm Essig zu trinken mit Gallen vermischet; und da er's schmeckete, wollte er's nicht trinken. Da sie ihn aber gekreuziget hatten, teilten sie seine Kleider und wurfen das Los darum, auf dass erfüllet würde, das gesagt ist durch den Propheten: Sie haben meine Kleider unter sich geteilet, und über mein Gewand haben sie das Los geworfen. Und sie saßen allda und hüteten sein. Und oben zu seinem Haupte hefteten sie die Ursach seines Todes beschrieben, nämlich: Dies ist Jesus, der Juden König. Da wurden zween Mörder mit ihm gekreuziget, einer zur Rechten und einer zur Linken. Die aber vorübergingen, lästerten ihn und schüttelten ihre Köpfe und sprachen:\nChor: Der du den Tempel Gottes zerbrichst und bauest ihn in dreien Tagen, hilf dir selber! Bist du Gottes Sohn, so steig herab vom Kreuz!",
+            "modern": "Auf Golgatha (Schädelstätte) kreuzigen sie ihn. Sie würfeln um seine Kleider. Über seinem Kopf steht das Schild: 'Dies ist Jesus, König der Juden'. Passanten spotten: 'Du wolltest den Tempel neu bauen? Hilf dir doch selbst und komm vom Kreuz herunter!'"
+        },
+        "nl": {
+            "lyrics": "Evangelist: En toen zij op de plaats kwamen, met de naam Golgota, ofwel schedelplaats, gaven zij hem wijn te drinken met gal vermengd; en toen hij het proefde, wilde hij het niet drinken. Toen zij hem gekruisigd hadden, verlootten zij zijn kleren, opdat vervuld werd wat gezegd is door de profeet: Zij hebben mijn klederen onder elkaar verdeeld, en over mijn gewaad hebben zij het lot geworpen. En zij zaten daar en bewaakten hem. En boven zijn hoofd bevestigden zij de reden van zijn dood, beschreven, namelijk: Dit is Jezus, de koning van de Joden. En met hem werden twee moordenaars gekruisigd, een aan zijn rechterhand en een aan zijn linkerhand. En degenen die voorbij liepen lasterden hem, en schudden hun hoofd, en zeiden:\nKoor: Jij die de tempel van God afbreekt en in drie dagen weer opbouwt, red jezelf! Als Je de zoon van God bent, kom dan van dat kruis af!",
+            "modern": "Op Golgotha kruisigen ze hem. Ze dobbelen om zijn kleren. Boven zijn hoofd hangt het bordje: 'Dit is Jezus, Koning der Joden'. Voorbijgangers spotten: 'Jij kon toch de tempel herbouwen? Red jezelf dan en kom van dat kruis af!'",
+            "interpretation": "De kruisiging zelf wordt door de Evangelist bijna terloops verteld. Bach focust niet op de fysieke daad, maar op de reactie van de omstanders. Het koor 'Der du den Tempel Gottes zerbrichst' is opnieuw een spottende 'Turba', vol scherpe, stekelige noten."
+        },
+        "en": {
+            "lyrics": "Evangelist: And when they were come unto a place called Golgotha, that is to say, a place of a skull, they gave him vinegar to drink mingled with gall: and when he had tasted thereof, he would not drink. And they crucified him, and parted his garments, casting lots: that it might be fulfilled which was spoken by the prophet, They parted my garments among them, and upon my vesture did they cast lots. And sitting down they watched him there; And set up over his head his accusation written, THIS IS JESUS THE KING OF THE JEWS. Then were there two thieves crucified with him, one on the right hand, and another on the left. And they that passed by reviled him, wagging their heads, and saying:\nChorus: Thou that destroyest the temple of God, and buildest it in three days, save thyself. If thou be the Son of God, come down from the cross.",
+            "modern": "At Golgotha they crucify him. They gamble for his clothes. Above his head hangs the sign: 'This is Jesus, King of the Jews'. Passers-by mock: 'You wanted to rebuild the temple? Save yourself and come down from the cross!'",
+            "interpretation": "The crucifixion itself is told almost casually by the Evangelist. Bach does not focus on the physical act, but on the reaction of the bystanders. The chorus 'Der du den Tempel Gottes zerbrichst' is another mocking 'Turba', full of sharp, prickly notes."
+        },
+        "trivia": []
+    }
+}
