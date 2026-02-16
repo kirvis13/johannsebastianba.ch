@@ -122,11 +122,18 @@ const DiscoverPage = ({ chapters }) => {
                         </p>
                     </div>
                     <div className="flex-1 w-full flex justify-center">
-                        <div className="relative w-full max-w-md aspect-square rounded-full border border-neutral-800 flex items-center justify-center bg-neutral-900/50 shadow-2xl">
-                            <div className="absolute inset-4 rounded-full border border-neutral-800 opacity-50" />
-                            <div className="text-center p-8">
-                                <Users size={48} className="mx-auto text-mp-gold/20 mb-4" />
-                                <p className="text-sm uppercase tracking-widest text-neutral-500">1727 Leipzig<br />St. Thomas Church</p>
+                        <div className="relative w-full max-w-md aspect-square rounded-full border border-neutral-800 flex items-center justify-center bg-neutral-900 shadow-2xl overflow-hidden group">
+                            <img
+                                src="/images/thomaskirche.webp"
+                                alt="St. Thomas Church Leipzig"
+                                className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-80 transition-opacity duration-700 scale-105 group-hover:scale-110"
+                            />
+                            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/40" />
+
+                            <div className="relative z-10 text-center p-8">
+                                <p className="text-sm uppercase tracking-widest text-white/90 font-medium drop-shadow-md">
+                                    1727 Leipzig<br />St. Thomas Church
+                                </p>
                             </div>
                         </div>
                     </div>

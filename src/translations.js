@@ -180,9 +180,9 @@ export const translations = {
                 title: "3. The Building Blocks",
                 intro: "To hold attention for three hours, Bach constantly intertwines three 'worlds' or perspectives. If you recognize them, the music comes alive.",
                 items: [
-                    { title: "The Reporter (Recitative)", subtitle: "The Action", text: "The Evangelist (tenor) sings the literal Bible text. It sounds like speaking on pitch. Fast-paced and story-driven.", play_id: "part_02", play_start: 0, play_end: 20 },
-                    { title: "The Crowd (Turba)", subtitle: "The Chaos", text: "Short, chaotic, and aggressive interruptions by the groups of people (disciples, soldiers, mob).", play_id: "part_58", play_start: 0, play_end: 25 },
-                    { title: "The Emotion (Aria)", subtitle: "Time Stands Still", text: "Bach hits the brakes. A soloist steps forward to reflect on the moment in poetic words. Personal and intimate.", play_id: "part_46", play_start: 0, play_end: 45 },
+                    { title: "The Reporter (Recitative)", subtitle: "The Action", text: "The Evangelist (tenor) sings the literal Bible text. It sounds like speaking on pitch. Fast-paced and story-driven.", play_id: "part_02", play_start: 0, play_end: 9.5 },
+                    { title: "The Crowd (Turba)", subtitle: "The Chaos", text: "Short, chaotic, and aggressive interruptions by the groups of people (disciples, soldiers, mob).", play_id: "part_58", play_start: 4.1, play_end: 20.5 },
+                    { title: "The Emotion (Aria)", subtitle: "Time Stands Still", text: "Bach hits the brakes. A soloist steps forward to reflect on the moment in poetic words. Personal and intimate.", play_id: "part_46", play_start: 0.40, play_end: 45 },
                     { title: "The Community (Chorale)", subtitle: "We All", text: "The choir sings a calm, recognizable hymn. This is the moment for the audience to reflect collectively.", play_id: "part_03", play_start: 0, play_end: 30 }
                 ]
             },
@@ -193,8 +193,8 @@ export const translations = {
                 halo: {
                     title: "The Halo of Jesus",
                     text: "When ordinary people speak, they are accompanied only by 'dry' chords. But **when Jesus speaks**, a soft carpet of strings lights up around him. This 'Musical Halo' sets him apart—until his dying moment.",
-                    play_halo: { text: "With Halo", id: "part_14", start: 0, end: 30 },
-                    play_human: { text: "Without Halo (Death)", id: "part_70", start: 15, end: 40 }
+                    play_halo: { text: "With Halo", id: "part_14", start: 5, end: 37 },
+                    play_human: { text: "Without Halo (Death)", id: "part_70", start: 50.63, end: 72 }
                 },
                 ohaupt: {
                     title: "The Red Thread",
