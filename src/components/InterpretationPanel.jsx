@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { ChevronDown } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
-const InterpretationPanel = ({ details }) => {
+const InterpretationPanel = ({ details, collapsible = false }) => {
     const { language, t } = useLanguage();
+    const [isOpen, setIsOpen] = useState(false);
 
-    // Extract interpretation data based on language if possible, defaulting to NL
-    // Support both old structure (content.nl.interpretation) and new structure (content.interpretation.nl)
     const interpretation =
         details?.content?.[language]?.interpretation ||
         details?.content?.nl?.interpretation ||
@@ -16,12 +16,10 @@ const InterpretationPanel = ({ details }) => {
         return null;
     }
 
-    // Helper to format text with **bold** and newlines
     const formatText = (text) => {
         return text.split('\n').map((line, i) => {
-            if (!line) return <div key={i} className="h-4" />; // Spacer for empty lines
+            if (!line) return <div key={i} className="h-4" />;
 
-            // Parse bold **text**
             const parts = line.split(/(\*\*.*?\*\*)/g);
             return (
                 <p key={i} className="mb-2">
@@ -35,6 +33,30 @@ const InterpretationPanel = ({ details }) => {
             );
         });
     };
+
+    if (collapsible) {
+        return (
+            <div className="border-t border-mp-dark/50 bg-mp-darker">
+                <button
+                    onClick={() => setIsOpen(v => !v)}
+                    className="w-full flex items-center justify-between px-6 py-4 text-left"
+                >
+                    <span className="text-sm font-serif text-mp-gold tracking-wide font-light">
+                        {t('interpretation')}
+                    </span>
+                    <ChevronDown
+                        size={16}
+                        className={`text-mp-gold transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
+                    />
+                </button>
+                {isOpen && (
+                    <div className="px-6 pb-6 text-base leading-relaxed font-light text-gray-300 font-serif">
+                        {formatText(interpretation)}
+                    </div>
+                )}
+            </div>
+        );
+    }
 
     return (
         <div className="p-6 bg-mp-darker border-t border-mp-dark/50 overflow-y-auto h-full text-mp-text">

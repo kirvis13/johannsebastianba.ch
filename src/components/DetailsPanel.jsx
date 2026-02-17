@@ -90,6 +90,12 @@ const DetailsPanel = ({ chapters, currentChapter, details, onChapterClick, curre
     const scrollRef = useRef(null);
     const { language, t } = useLanguage();
     const [showSourceModal, setShowSourceModal] = useState(false);
+    const [lyricsTab, setLyricsTab] = useState('translation');
+
+    // Reset tab when chapter changes so we always start on translation
+    useEffect(() => {
+        setLyricsTab('translation');
+    }, [currentChapter]);
 
     // Auto-scroll to top when chapter changes
     useEffect(() => {
@@ -103,7 +109,6 @@ const DetailsPanel = ({ chapters, currentChapter, details, onChapterClick, curre
         const cues = details?.visual_cues || details?.content?.visual_cues || [];
         if (!cues.length) return null;
 
-        // Find the cue that is currently active based on time and duration
         const activeCue = cues.find(cue => {
             const endpoint = cue.time + cue.duration;
             return currentTime >= cue.time && currentTime < endpoint;
@@ -122,7 +127,7 @@ const DetailsPanel = ({ chapters, currentChapter, details, onChapterClick, curre
             case 'thunder':
                 return {
                     overlay: 'bg-red-900/20',
-                    container: 'translate-x-[2px] translate-y-[2px]' // Simple shake displacement
+                    container: 'translate-x-[2px] translate-y-[2px]'
                 };
             case 'abyss_open':
                 return {
@@ -141,7 +146,6 @@ const DetailsPanel = ({ chapters, currentChapter, details, onChapterClick, curre
     };
 
     const { overlay: overlayClasses, container: containerClasses } = getEffectStyles(activeEffect);
-    // ----------------------------
 
     // Helper to render text with markdown speakers (**Name:**)
     const TextRenderer = ({ text, className }) => {
@@ -150,7 +154,6 @@ const DetailsPanel = ({ chapters, currentChapter, details, onChapterClick, curre
         return (
             <div className={className}>
                 {text.split('\n').map((line, i) => {
-                    // 1. Check for legacy "Role:" prefix (fallback)
                     const legacyMatch = line.match(/^([A-Za-zäöüÄÖÜß\s]+):(.*)/);
                     if (legacyMatch && !line.includes('**')) {
                         const role = legacyMatch[1];
@@ -165,14 +168,12 @@ const DetailsPanel = ({ chapters, currentChapter, details, onChapterClick, curre
                         );
                     }
 
-                    // 2. Check for Markdown bold (**Name:**)
                     const parts = line.split(/(\*\*.*?\*\*)/g);
                     if (parts.length > 1) {
                         return (
                             <div key={i} className="mb-2">
                                 {parts.map((part, j) => {
                                     if (part.startsWith('**') && part.endsWith('**')) {
-                                        // Speaker tag
                                         return (
                                             <span key={j} className="text-mp-gold uppercase text-xs tracking-widest font-bold mr-2 opacity-80">
                                                 {part.slice(2, -2)}
@@ -185,18 +186,15 @@ const DetailsPanel = ({ chapters, currentChapter, details, onChapterClick, curre
                         );
                     }
 
-                    // 3. Regular Line
                     return <div key={i} className="mb-1">{line}</div>;
                 })}
             </div>
         );
     };
 
-    // Check if we have source data
     const hasSourceData = details?.content?.original_source;
 
-    // Safe access to localized content
-    const localizedContent = details?.content?.[language] || details?.content?.nl; // fallback to NL
+    const localizedContent = details?.content?.[language] || details?.content?.nl;
     const germanContent = details?.content?.de;
 
     // --- Alignment Logic ---
@@ -207,10 +205,8 @@ const DetailsPanel = ({ chapters, currentChapter, details, onChapterClick, curre
         let currentSegment = null;
 
         lines.forEach(line => {
-            // Match Speaker: or **Speaker:** at start of line (including & for "Soprano & Alto")
             const match = line.match(/^([A-Za-zäöüÄÖÜß\s&]+):(.*)/) || line.match(/^(\*\*.*?\*\*):?(.*)/);
             if (match && !line.includes('**') || (line.includes('**') && match)) {
-                // Push previous segment if exists
                 if (currentSegment) segments.push(currentSegment);
 
                 let speaker = match[1].replace(/\*/g, '').trim();
@@ -221,14 +217,12 @@ const DetailsPanel = ({ chapters, currentChapter, details, onChapterClick, curre
                 if (currentSegment) {
                     currentSegment.content += '\n' + line;
                 } else {
-                    // No speaker yet (e.g. initial text or chorus/aria without speaker label)
                     currentSegment = { speaker: '', content: line };
                 }
             }
         });
         if (currentSegment) segments.push(currentSegment);
 
-        // Fallback for text without any speakers (e.g. straight Chorale text)
         if (segments.length === 0 && text) {
             return [{ speaker: '', content: text }];
         }
@@ -239,17 +233,21 @@ const DetailsPanel = ({ chapters, currentChapter, details, onChapterClick, curre
     const germanSegments = parseLyrics(germanContent?.lyrics || details?.german);
     const localizedSegments = parseLyrics(localizedContent?.lyrics || details?.content?.nl?.lyrics || details?.dutch);
 
-    // Helper to render segment content
     const SegmentContent = ({ content, className }) => (
         <div className={`whitespace-pre-line ${className}`}>
             {content}
         </div>
     );
 
-    return (
-        <div ref={scrollRef} className={`w-full md:w-1/2 h-[50vh] md:h-full overflow-y-auto bg-mp-darker text-mp-text p-8 border-l border-mp-dark/50 scroll-smooth relative transition-transform duration-100 ${containerClasses}`}>
+    const translationLabel = language === 'en' ? 'English' : t('dutch');
 
-            {/* Lightning Flash Overlay (Flash on top of everything) */}
+    return (
+        <div
+            ref={scrollRef}
+            className={`w-full flex-1 min-h-0 overflow-y-auto bg-mp-darker text-mp-text p-8 border-l border-mp-dark/50 scroll-smooth relative transition-transform duration-100 ${containerClasses}`}
+        >
+
+            {/* Lightning Flash Overlay */}
             {activeEffect === 'lightning' && (
                 <div className="absolute inset-0 bg-white/5 pointer-events-none animate-pulse z-50"></div>
             )}
@@ -259,7 +257,6 @@ const DetailsPanel = ({ chapters, currentChapter, details, onChapterClick, curre
 
             <div className="max-w-2xl mx-auto space-y-8 animate-fadeIn pb-24 relative z-10">
 
-                {/* Extracted Header Component */}
                 <PlayerHeader
                     currentChapter={currentChapter}
                     details={details}
@@ -268,25 +265,63 @@ const DetailsPanel = ({ chapters, currentChapter, details, onChapterClick, curre
                     onNextClick={onNextClick}
                 />
 
-                {/* Content Content - German/Dutch split */}
                 {details || currentChapter ? (
                     details ? (
                         <div className="space-y-8">
 
-                            {/* Headers */}
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-4">
-                                <h3 className="text-xs uppercase tracking-widest text-gray-500">{t('german')}</h3>
-                                <h3 className="text-xs uppercase tracking-widest text-gray-500">
-                                    {language === 'en' ? 'English' : t('dutch')}
-                                </h3>
+                            {/* ── MOBILE: Tab toggle for lyrics ── */}
+                            <div className="md:hidden">
+                                {/* Tab bar */}
+                                <div className="flex border-b border-mp-dark/70 mb-5">
+                                    <button
+                                        onClick={() => setLyricsTab('translation')}
+                                        className={`flex-1 py-2 text-xs uppercase tracking-widest transition-colors ${lyricsTab === 'translation'
+                                            ? 'text-mp-gold border-b-2 border-mp-gold'
+                                            : 'text-gray-500'}`}
+                                    >
+                                        {translationLabel}
+                                    </button>
+                                    <button
+                                        onClick={() => setLyricsTab('de')}
+                                        className={`flex-1 py-2 text-xs uppercase tracking-widest transition-colors ${lyricsTab === 'de'
+                                            ? 'text-mp-gold border-b-2 border-mp-gold'
+                                            : 'text-gray-500'}`}
+                                    >
+                                        {t('german')}
+                                    </button>
+                                </div>
+
+                                {/* Single-column lyrics for active tab */}
+                                <div className="space-y-4">
+                                    {(lyricsTab === 'de' ? germanSegments : localizedSegments).map((seg, i) => (
+                                        <div key={i} className="space-y-1">
+                                            {seg.speaker && (
+                                                <div className="text-mp-gold uppercase text-xs tracking-widest font-bold opacity-80 mb-1">
+                                                    {seg.speaker}
+                                                </div>
+                                            )}
+                                            <SegmentContent
+                                                content={seg.content}
+                                                className={`font-serif text-lg leading-relaxed ${lyricsTab === 'de' ? 'text-white/90' : 'text-white/70 italic'}`}
+                                            />
+                                        </div>
+                                    ))}
+                                </div>
                             </div>
 
-                            {/* Synchronized Rows */}
-                            <div className="space-y-4">
+                            {/* ── DESKTOP: Two-column side-by-side lyrics ── */}
+                            <div className="hidden md:block space-y-4">
+                                {/* Headers */}
+                                <div className="grid grid-cols-2 gap-8 mb-4">
+                                    <h3 className="text-xs uppercase tracking-widest text-gray-500">{t('german')}</h3>
+                                    <h3 className="text-xs uppercase tracking-widest text-gray-500">{translationLabel}</h3>
+                                </div>
+
+                                {/* Synchronized rows */}
                                 {germanSegments.map((gerSeg, i) => {
                                     const locSeg = localizedSegments[i] || { speaker: '', content: '' };
                                     return (
-                                        <div key={i} className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                                        <div key={i} className="grid grid-cols-2 gap-8">
                                             {/* German Column */}
                                             <div className="space-y-1">
                                                 {gerSeg.speaker && (
@@ -302,24 +337,15 @@ const DetailsPanel = ({ chapters, currentChapter, details, onChapterClick, curre
 
                                             {/* Localized Column */}
                                             <div className="space-y-1">
-                                                {/* Only show speaker if it exists or matches structure */}
                                                 {locSeg.speaker && (
                                                     <div className="text-mp-gold uppercase text-xs tracking-widest font-bold opacity-80 mb-1">
-                                                        {locSeg.speaker === gerSeg.speaker ? locSeg.speaker : locSeg.speaker}
+                                                        {locSeg.speaker}
                                                     </div>
                                                 )}
-                                                <div className="space-y-2">
-                                                    <SegmentContent
-                                                        content={locSeg.content}
-                                                        className="font-serif text-lg leading-relaxed text-white/70 italic"
-                                                    />
-                                                    {/* Show explanation only on the first segment or specific ones? 
-                                                    Ideally explanation is separate, but data attaches it to 'nl' object.
-                                                    We'll put it at the very bottom of the localized text block if it exists, 
-                                                    but here we are inside a loop. 
-                                                    Let's move explanation OUT of the loop.
-                                                */}
-                                                </div>
+                                                <SegmentContent
+                                                    content={locSeg.content}
+                                                    className="font-serif text-lg leading-relaxed text-white/70 italic"
+                                                />
                                             </div>
                                         </div>
                                     );
@@ -337,7 +363,6 @@ const DetailsPanel = ({ chapters, currentChapter, details, onChapterClick, curre
 
                             {/* Modern & Trivia */}
                             <div className="grid grid-cols-1 gap-6 pt-6 border-t border-mp-dark/50">
-                                {/* Modern translation */}
                                 {(localizedContent?.modern || details.content?.modern || details.modern) && (
                                     <div className="bg-mp-dark p-6 rounded-sm border-l-2 border-mp-gold/50">
                                         <h3 className="text-sm font-semibold text-mp-gold mb-2 uppercase tracking-wide">{t('modern')}</h3>
