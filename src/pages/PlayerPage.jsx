@@ -36,11 +36,9 @@ const PlayerPage = ({ chapters, currentChapter, setCurrentChapter, videoPlayerRe
                 const targetChapter = chapters.find(c => c.id === location.state.autoPlayPart);
                 if (targetChapter) {
                     setCurrentChapter(targetChapter);
-                    // Small timeout to ensure player is ready
                     setTimeout(() => {
                         if (videoPlayerRef.current) {
                             videoPlayerRef.current.seekTo(targetChapter.start);
-                            // Ensure it plays
                             if (videoPlayerRef.current.internalPlayer) {
                                 videoPlayerRef.current.internalPlayer.playVideo();
                             }
@@ -48,14 +46,11 @@ const PlayerPage = ({ chapters, currentChapter, setCurrentChapter, videoPlayerRe
                     }, 500);
                 }
             } else if (location.state?.autoplay) {
-                // Generic autoplay (start from beginning if no chapter set, or just play)
-                // If currentChapter is already set, just play. If not, set to first.
                 if (!currentChapter) {
                     setCurrentChapter(chapters[0]);
                 }
                 setTimeout(() => {
                     if (videoPlayerRef.current) {
-                        // Just play
                         if (videoPlayerRef.current.internalPlayer) {
                             videoPlayerRef.current.internalPlayer.playVideo();
                         }
@@ -63,13 +58,12 @@ const PlayerPage = ({ chapters, currentChapter, setCurrentChapter, videoPlayerRe
                 }, 500);
             }
 
-            // Clear state to prevent looping on re-renders
             window.history.replaceState({}, document.title);
         }
     }, [location.state, chapters, setCurrentChapter]);
 
     const handleTimeUpdate = useCallback((time) => {
-        setCurrentTime(time); // Update current time for visual effects
+        setCurrentTime(time);
 
         const current = chapters.find((chapter, index) => {
             const nextChapter = chapters[index + 1];
@@ -108,11 +102,12 @@ const PlayerPage = ({ chapters, currentChapter, setCurrentChapter, videoPlayerRe
                 description={currentChapter ? `Listen to ${currentChapter.title} - Johann Sebastian Bach.` : "Interactive Player"}
                 image={currentChapter ? `/images/story/story_${currentChapter.id.toString().padStart(2, '0')}.webp` : undefined}
             />
-            {/* Left Column: Video & Interpretation */}
-            <div className="w-full md:w-1/2 flex flex-col h-[50vh] md:h-full border-b md:border-b-0 md:border-r border-mp-dark/50">
 
-                {/* Top: Video Player - Fixed Aspect Ratio */}
-                <div className="w-full aspect-video bg-black shadow-2xl relative z-10">
+            {/* Left Column: Video + Interpretation (desktop) / Video only (mobile) */}
+            <div className="w-full md:w-1/2 flex-shrink-0 flex flex-col md:h-full md:border-r border-mp-dark/50">
+
+                {/* Video Player */}
+                <div className="w-full aspect-video bg-black shadow-2xl relative z-10 flex-shrink-0">
                     <VideoPlayer
                         url={videoUrl}
                         onTimeUpdate={handleTimeUpdate}
@@ -121,27 +116,34 @@ const PlayerPage = ({ chapters, currentChapter, setCurrentChapter, videoPlayerRe
                     />
                 </div>
 
-                {/* Bottom: Interpretation Panel (Scrollable) */}
-                <div className="flex-1 overflow-y-auto bg-mp-darker relative">
+                {/* Interpretation Panel — desktop only, scrollable below video */}
+                <div className="hidden md:flex flex-1 overflow-y-auto bg-mp-darker relative">
                     <InterpretationPanel details={details} />
                 </div>
             </div>
 
-            {/* Right Column: Details & Lyrics */}
-            <DetailsPanel
-                chapters={chapters}
-                currentChapter={currentChapter}
-                details={details}
-                currentTime={currentTime}
-                onPrevClick={handlePrevChapter}
-                onNextClick={handleNextChapter}
-                onChapterClick={(chapter) => {
-                    setCurrentChapter(chapter);
-                    if (videoPlayerRef.current) {
-                        videoPlayerRef.current.seekTo(chapter.start);
-                    }
-                }}
-            />
+            {/* Right area: Details + mobile collapsible Interpretation */}
+            <div className="flex-1 min-h-0 md:w-1/2 flex flex-col md:h-full overflow-hidden">
+                <DetailsPanel
+                    chapters={chapters}
+                    currentChapter={currentChapter}
+                    details={details}
+                    currentTime={currentTime}
+                    onPrevClick={handlePrevChapter}
+                    onNextClick={handleNextChapter}
+                    onChapterClick={(chapter) => {
+                        setCurrentChapter(chapter);
+                        if (videoPlayerRef.current) {
+                            videoPlayerRef.current.seekTo(chapter.start);
+                        }
+                    }}
+                />
+
+                {/* Interpretation — mobile only, collapsible at the bottom */}
+                <div className="md:hidden flex-shrink-0">
+                    <InterpretationPanel details={details} collapsible={true} />
+                </div>
+            </div>
         </div>
     );
 };
