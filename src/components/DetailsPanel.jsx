@@ -375,7 +375,7 @@ const DetailsPanel = ({ chapters, currentChapter, details, onChapterClick, curre
 
                             {/* Trivia / Wist je dat? */}
                             <TriviaCard
-                                trivia={localizedContent?.trivia}
+                                trivia={details?.content?.trivia || localizedContent?.trivia}
                                 language={language}
                                 t={t}
                             />
