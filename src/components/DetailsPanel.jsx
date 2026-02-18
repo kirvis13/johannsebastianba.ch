@@ -35,6 +35,18 @@ const TriviaCard = ({ trivia, language, t }) => {
                     label = 'Muziektheorie';
                 }
 
+                // Helper to render text with *italics*
+                const formatTriviaText = (text) => {
+                    if (!text) return null;
+                    const parts = text.split(/(\*.*?\*)/g);
+                    return parts.map((part, i) => {
+                        if (part.startsWith('*') && part.endsWith('*') && part.length > 2) {
+                            return <span key={i} className="italic text-white/90">{part.slice(1, -1)}</span>;
+                        }
+                        return part;
+                    });
+                };
+
                 return (
                     <div key={index} className={`bg-mp-dark p-4 rounded-sm border-l-4 ${borderColor} animate-fadeIn`}>
                         <div className="flex items-center space-x-2 mb-2 opacity-80">
@@ -42,7 +54,7 @@ const TriviaCard = ({ trivia, language, t }) => {
                             <span className="text-xs uppercase tracking-widest font-semibold text-gray-400">{label}</span>
                         </div>
                         <p className="text-gray-300 text-sm leading-relaxed mb-2">
-                            {factText}
+                            {formatTriviaText(factText)}
                         </p>
                         {item.source && (
                             <div className="text-xs text-gray-600 italic text-right">
