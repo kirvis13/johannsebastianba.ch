@@ -20,6 +20,7 @@ export default {
     next: "Volgende",
     german: "Duits",
     dutch: "Nederlands",
+    french: "Frans",
     loading: "Details laden...",
     select_chapter: "Selecteer een hoofdstuk uit het menu of start de video.",
     about_title: "Over J.S. Bach & De Matthäus",

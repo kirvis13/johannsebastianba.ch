@@ -166,7 +166,7 @@ const DetailsPanel = ({ chapters, currentChapter, details, onChapterClick, curre
         return (
             <div className={className}>
                 {text.split('\n').map((line, i) => {
-                    const legacyMatch = line.match(/^([A-Za-zäöüÄÖÜß\s]+):(.*)/);
+const legacyMatch = line.match(/^([\p{L}\s]+):(.*)/u);
                     if (legacyMatch && !line.includes('**')) {
                         const role = legacyMatch[1];
                         const content = legacyMatch[2];
@@ -217,7 +217,8 @@ const DetailsPanel = ({ chapters, currentChapter, details, onChapterClick, curre
         let currentSegment = null;
 
         lines.forEach(line => {
-            const match = line.match(/^([A-Za-zäöüÄÖÜß\s&]+):(.*)/) || line.match(/^(\*\*.*?\*\*):?(.*)/);
+// Match Speaker: or **Speaker:** at start of line (including & for "Soprano & Alto")
+            const match = line.match(/^([\p{L}\s&]+):(.*)/u) || line.match(/^(\*\*.*?\*\*):?(.*)/);
             if (match && !line.includes('**') || (line.includes('**') && match)) {
                 if (currentSegment) segments.push(currentSegment);
 
@@ -251,7 +252,7 @@ const DetailsPanel = ({ chapters, currentChapter, details, onChapterClick, curre
         </div>
     );
 
-    const translationLabel = language === 'en' ? 'English' : t('dutch');
+    const translationLabel = { en: 'English', nl: t('dutch'), fr: t('french') }[language] || t('dutch');
 
     return (
         <div
@@ -319,7 +320,7 @@ const DetailsPanel = ({ chapters, currentChapter, details, onChapterClick, curre
                                         </div>
                                     ))}
                                 </div>
-                            </div>
+
 
                             {/* ── DESKTOP: Two-column side-by-side lyrics ── */}
                             <div className="hidden md:block space-y-4">

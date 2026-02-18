@@ -20,6 +20,7 @@ export default {
     next: "Suivant",
     german: "Allemand",
     dutch: "Néerlandais",
+    french: "Français",
     loading: "Chargement des détails...",
     select_chapter: "Sélectionnez un chapitre dans le menu ou lancez la vidéo.",
     about_title: "À propos de J.S. Bach & la Passion",

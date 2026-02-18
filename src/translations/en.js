@@ -20,6 +20,7 @@ export default {
     next: "Next",
     german: "German",
     dutch: "Dutch",
+    french: "French",
     loading: "Loading details...",
     select_chapter: "Select a chapter from the menu or start the video.",
     about_title: "About J.S. Bach & The Passion",
