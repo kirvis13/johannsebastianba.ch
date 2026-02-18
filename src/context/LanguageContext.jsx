@@ -6,8 +6,13 @@ const LanguageContext = createContext();
 export const LanguageProvider = ({ children }) => {
     const [language, setLanguage] = useState('en'); // Default to English as requested
 
+    const availableLanguages = ['en', 'nl', 'fr'];
+
     const toggleLanguage = () => {
-        setLanguage((prev) => (prev === 'en' ? 'nl' : 'en'));
+        setLanguage((prev) => {
+            const idx = availableLanguages.indexOf(prev);
+            return availableLanguages[(idx + 1) % availableLanguages.length];
+        });
     };
 
     const t = (key) => {

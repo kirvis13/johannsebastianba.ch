@@ -9,7 +9,8 @@
       "subtype": "Full",
       "scene_label": {
         "nl": "Openingskoor",
-        "en": "Opening Chorus"
+        "en": "Opening Chorus",
+        "fr": "Chœur d'ouverture"
       },
       "speaker": "Chorus I & II",
       "start": 0
@@ -23,7 +24,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "Aankondiging van het lijden",
-        "en": "Announcement of the Passion"
+        "en": "Announcement of the Passion",
+        "fr": "Annonce de la Passion"
       },
       "speaker": "Evangelist, Jesus",
       "start": 485
@@ -37,7 +39,8 @@
       "subtype": "Congregational",
       "scene_label": {
         "nl": "Aankondiging van het lijden",
-        "en": "Announcement of the Passion"
+        "en": "Announcement of the Passion",
+        "fr": "Annonce de la Passion"
       },
       "speaker": "Congregation",
       "start": 528
@@ -51,7 +54,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "Het Complot",
-        "en": "The Conspiracy"
+        "en": "The Conspiracy",
+        "fr": "Le Complot"
       },
       "speaker": "Evangelist, Chorus",
       "start": 579
@@ -65,7 +69,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "De zalving in Bethanië",
-        "en": "The Anointing at Bethany"
+        "en": "The Anointing at Bethany",
+        "fr": "L'Onction à Béthanie"
       },
       "speaker": "Evangelist, Jesus, Chorus",
       "start": 617
@@ -79,7 +84,8 @@
       "subtype": "Accompagnato",
       "scene_label": {
         "nl": "De zalving in Bethanië",
-        "en": "The Anointing at Bethany"
+        "en": "The Anointing at Bethany",
+        "fr": "L'Onction à Béthanie"
       },
       "speaker": "Alto",
       "start": 773
@@ -93,7 +99,8 @@
       "subtype": "Solo",
       "scene_label": {
         "nl": "De zalving in Bethanië",
-        "en": "The Anointing at Bethany"
+        "en": "The Anointing at Bethany",
+        "fr": "L'Onction à Béthanie"
       },
       "speaker": "Alto",
       "start": 825
@@ -107,7 +114,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "Judas' Verraad",
-        "en": "Judas' Betrayal"
+        "en": "Judas' Betrayal",
+        "fr": "La Trahison de Judas"
       },
       "speaker": "Evangelist, Judas",
       "start": 1051
@@ -121,7 +129,8 @@
       "subtype": "Solo",
       "scene_label": {
         "nl": "Judas' Verraad",
-        "en": "Judas' Betrayal"
+        "en": "Judas' Betrayal",
+        "fr": "La Trahison de Judas"
       },
       "speaker": "Soprano",
       "start": 1088
@@ -135,7 +144,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "Het Laatste Avondmaal",
-        "en": "The Last Supper"
+        "en": "The Last Supper",
+        "fr": "La Dernière Cène"
       },
       "speaker": "Evangelist, Chorus",
       "start": 1369
@@ -149,7 +159,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "Het Laatste Avondmaal",
-        "en": "The Last Supper"
+        "en": "The Last Supper",
+        "fr": "La Dernière Cène"
       },
       "speaker": "Evangelist, Jesus",
       "start": 1405
@@ -163,7 +174,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "Het Laatste Avondmaal",
-        "en": "The Last Supper"
+        "en": "The Last Supper",
+        "fr": "La Dernière Cène"
       },
       "speaker": "Evangelist, Chorus",
       "start": 1479
@@ -177,7 +189,8 @@
       "subtype": "Congregational",
       "scene_label": {
         "nl": "Het Laatste Avondmaal",
-        "en": "The Last Supper"
+        "en": "The Last Supper",
+        "fr": "La Dernière Cène"
       },
       "speaker": "Congregation",
       "start": 1504
@@ -191,7 +204,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "Het Laatste Avondmaal",
-        "en": "The Last Supper"
+        "en": "The Last Supper",
+        "fr": "La Dernière Cène"
       },
       "speaker": "Evangelist, Jesus, Judas",
       "start": 1554
@@ -205,7 +219,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "Het Laatste Avondmaal",
-        "en": "The Last Supper"
+        "en": "The Last Supper",
+        "fr": "La Dernière Cène"
       },
       "speaker": "Evangelist, Jesus",
       "start": 1626
@@ -219,7 +234,8 @@
       "subtype": "Accompagnato",
       "scene_label": {
         "nl": "Het Laatste Avondmaal",
-        "en": "The Last Supper"
+        "en": "The Last Supper",
+        "fr": "La Dernière Cène"
       },
       "speaker": "Soprano",
       "start": 1731
@@ -233,7 +249,8 @@
       "subtype": "Solo",
       "scene_label": {
         "nl": "Het Laatste Avondmaal",
-        "en": "The Last Supper"
+        "en": "The Last Supper",
+        "fr": "La Dernière Cène"
       },
       "speaker": "Soprano",
       "start": 1807
@@ -247,7 +264,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "Naar de Olijfberg",
-        "en": "To the Mount of Olives"
+        "en": "To the Mount of Olives",
+        "fr": "Vers le Mont des Oliviers"
       },
       "speaker": "Evangelist, Jesus",
       "start": 1999
@@ -261,7 +279,8 @@
       "subtype": "Congregational",
       "scene_label": {
         "nl": "Naar de Olijfberg",
-        "en": "To the Mount of Olives"
+        "en": "To the Mount of Olives",
+        "fr": "Vers le Mont des Oliviers"
       },
       "speaker": "Congregation",
       "start": 2064
@@ -275,7 +294,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "Naar de Olijfberg",
-        "en": "To the Mount of Olives"
+        "en": "To the Mount of Olives",
+        "fr": "Vers le Mont des Oliviers"
       },
       "speaker": "Evangelist, Jesus, Peter",
       "start": 2133
@@ -289,7 +309,8 @@
       "subtype": "Congregational",
       "scene_label": {
         "nl": "Naar de Olijfberg",
-        "en": "To the Mount of Olives"
+        "en": "To the Mount of Olives",
+        "fr": "Vers le Mont des Oliviers"
       },
       "speaker": "Congregation",
       "start": 2200
@@ -303,7 +324,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "Gethsemane",
-        "en": "Gethsemane"
+        "en": "Gethsemane",
+        "fr": "Gethsémani"
       },
       "speaker": "Evangelist, Jesus",
       "start": 2268
@@ -317,7 +339,8 @@
       "subtype": "Accompagnato",
       "scene_label": {
         "nl": "Gethsemane",
-        "en": "Gethsemane"
+        "en": "Gethsemane",
+        "fr": "Gethsémani"
       },
       "speaker": "Tenor, Chorus",
       "start": 2376
@@ -331,7 +354,8 @@
       "subtype": "Solo_Chorus",
       "scene_label": {
         "nl": "Gethsemane",
-        "en": "Gethsemane"
+        "en": "Gethsemane",
+        "fr": "Gethsémani"
       },
       "speaker": "Tenor, Chorus",
       "start": 2470
@@ -345,7 +369,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "Gethsemane",
-        "en": "Gethsemane"
+        "en": "Gethsemane",
+        "fr": "Gethsémani"
       },
       "speaker": "Evangelist, Jesus",
       "start": 2776
@@ -359,7 +384,8 @@
       "subtype": "Accompagnato",
       "scene_label": {
         "nl": "Gethsemane",
-        "en": "Gethsemane"
+        "en": "Gethsemane",
+        "fr": "Gethsémani"
       },
       "speaker": "Bass",
       "start": 2818
@@ -373,7 +399,8 @@
       "subtype": "Solo",
       "scene_label": {
         "nl": "Gethsemane",
-        "en": "Gethsemane"
+        "en": "Gethsemane",
+        "fr": "Gethsémani"
       },
       "speaker": "Bass",
       "start": 2871
@@ -387,7 +414,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "Gethsemane",
-        "en": "Gethsemane"
+        "en": "Gethsemane",
+        "fr": "Gethsémani"
       },
       "speaker": "Evangelist, Jesus",
       "start": 3127
@@ -401,7 +429,8 @@
       "subtype": "Congregational",
       "scene_label": {
         "nl": "Gethsemane",
-        "en": "Gethsemane"
+        "en": "Gethsemane",
+        "fr": "Gethsémani"
       },
       "speaker": "Congregation",
       "start": 3208
@@ -415,7 +444,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "Gethsemane",
-        "en": "Gethsemane"
+        "en": "Gethsemane",
+        "fr": "Gethsémani"
       },
       "speaker": "Evangelist, Jesus",
       "start": 3272
@@ -429,7 +459,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "De Arrestatie",
-        "en": "The Arrest"
+        "en": "The Arrest",
+        "fr": "L'Arrestation"
       },
       "speaker": "Evangelist, Jesus, Judas",
       "start": 3342
@@ -443,7 +474,8 @@
       "subtype": "Duet_Chorus",
       "scene_label": {
         "nl": "De Arrestatie",
-        "en": "The Arrest"
+        "en": "The Arrest",
+        "fr": "L'Arrestation"
       },
       "speaker": "Soprano, Alto, Chorus",
       "start": 3468
@@ -457,7 +489,8 @@
       "subtype": "Full",
       "scene_label": {
         "nl": "De Arrestatie",
-        "en": "The Arrest"
+        "en": "The Arrest",
+        "fr": "L'Arrestation"
       },
       "speaker": "Chorus",
       "start": 3609
@@ -471,7 +504,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "De Arrestatie",
-        "en": "The Arrest"
+        "en": "The Arrest",
+        "fr": "L'Arrestation"
       },
       "speaker": "Evangelist, Jesus",
       "start": 3676
@@ -485,7 +519,8 @@
       "subtype": "Choral_Fantasia",
       "scene_label": {
         "nl": "Slotkoor Deel 1",
-        "en": "Closing Chorus Part 1"
+        "en": "Closing Chorus Part 1",
+        "fr": "Chœur de clôture — Partie 1"
       },
       "speaker": "Chorus, Ripieno",
       "start": 3872
@@ -499,7 +534,8 @@
       "subtype": "Solo_Chorus",
       "scene_label": {
         "nl": "Opening Deel 2",
-        "en": "Opening Part 2"
+        "en": "Opening Part 2",
+        "fr": "Ouverture — Partie 2"
       },
       "speaker": "Alto, Chorus",
       "start": 4173
@@ -513,7 +549,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "Voor Kajafas",
-        "en": "Before Caiaphas"
+        "en": "Before Caiaphas",
+        "fr": "Devant Caïphe"
       },
       "speaker": "Evangelist",
       "start": 4351
@@ -527,7 +564,8 @@
       "subtype": "Congregational",
       "scene_label": {
         "nl": "Voor Kajafas",
-        "en": "Before Caiaphas"
+        "en": "Before Caiaphas",
+        "fr": "Devant Caïphe"
       },
       "speaker": "Congregation",
       "start": 4413
@@ -541,7 +579,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "Voor Kajafas",
-        "en": "Before Caiaphas"
+        "en": "Before Caiaphas",
+        "fr": "Devant Caïphe"
       },
       "speaker": "Evangelist, Witnesses, High Priest",
       "start": 4457
@@ -555,7 +594,8 @@
       "subtype": "Accompagnato",
       "scene_label": {
         "nl": "Voor Kajafas",
-        "en": "Before Caiaphas"
+        "en": "Before Caiaphas",
+        "fr": "Devant Caïphe"
       },
       "speaker": "Tenor",
       "start": 4533
@@ -569,7 +609,8 @@
       "subtype": "Solo",
       "scene_label": {
         "nl": "Voor Kajafas",
-        "en": "Before Caiaphas"
+        "en": "Before Caiaphas",
+        "fr": "Devant Caïphe"
       },
       "speaker": "Tenor",
       "start": 4617
@@ -583,7 +624,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "Voor Kajafas",
-        "en": "Before Caiaphas"
+        "en": "Before Caiaphas",
+        "fr": "Devant Caïphe"
       },
       "speaker": "Evangelist, High Priest, Jesus",
       "start": 4839
@@ -597,7 +639,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "De Bespotting",
-        "en": "The Mocking"
+        "en": "The Mocking",
+        "fr": "La Moquerie"
       },
       "speaker": "Evangelist, Chorus",
       "start": 4931
@@ -611,7 +654,8 @@
       "subtype": "Congregational",
       "scene_label": {
         "nl": "De Bespotting",
-        "en": "The Mocking"
+        "en": "The Mocking",
+        "fr": "La Moquerie"
       },
       "speaker": "Congregation",
       "start": 4967
@@ -625,7 +669,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "De Verloochening",
-        "en": "Peter's Denial"
+        "en": "Peter's Denial",
+        "fr": "Le Reniement de Pierre"
       },
       "speaker": "Evangelist, Maids, Peter, Chorus",
       "start": 5022
@@ -639,7 +684,8 @@
       "subtype": "Solo",
       "scene_label": {
         "nl": "De Verloochening",
-        "en": "Peter's Denial"
+        "en": "Peter's Denial",
+        "fr": "Le Reniement de Pierre"
       },
       "speaker": "Alto",
       "start": 5232
@@ -653,7 +699,8 @@
       "subtype": "Congregational",
       "scene_label": {
         "nl": "De Verloochening",
-        "en": "Peter's Denial"
+        "en": "Peter's Denial",
+        "fr": "Le Reniement de Pierre"
       },
       "speaker": "Congregation",
       "start": 5555
@@ -667,7 +714,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "Judas' Einde",
-        "en": "The End of Judas"
+        "en": "The End of Judas",
+        "fr": "La Fin de Judas"
       },
       "speaker": "Evangelist, Judas, Chief Priests",
       "start": 5621
@@ -681,7 +729,8 @@
       "subtype": "Solo",
       "scene_label": {
         "nl": "Judas' Einde",
-        "en": "The End of Judas"
+        "en": "The End of Judas",
+        "fr": "La Fin de Judas"
       },
       "speaker": "Bass",
       "start": 5752
@@ -695,7 +744,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "Judas' Einde",
-        "en": "The End of Judas"
+        "en": "The End of Judas",
+        "fr": "La Fin de Judas"
       },
       "speaker": "Evangelist, Chief Priests",
       "start": 5882
@@ -709,7 +759,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "Voor Pilatus",
-        "en": "Before Pilate"
+        "en": "Before Pilate",
+        "fr": "Devant Pilate"
       },
       "speaker": "Evangelist, Jesus, Pilate",
       "start": 5951
@@ -723,7 +774,8 @@
       "subtype": "Congregational",
       "scene_label": {
         "nl": "Voor Pilatus",
-        "en": "Before Pilate"
+        "en": "Before Pilate",
+        "fr": "Devant Pilate"
       },
       "speaker": "Congregation",
       "start": 6016
@@ -737,7 +789,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "Barabbas",
-        "en": "Barabbas"
+        "en": "Barabbas",
+        "fr": "Barabbas"
       },
       "speaker": "Evangelist, Pilate, Pilate's Wife, Chorus",
       "start": 6086
@@ -751,7 +804,8 @@
       "subtype": "Congregational",
       "scene_label": {
         "nl": "Barabbas",
-        "en": "Barabbas"
+        "en": "Barabbas",
+        "fr": "Barabbas"
       },
       "speaker": "Congregation",
       "start": 6228
@@ -765,7 +819,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "Barabbas",
-        "en": "Barabbas"
+        "en": "Barabbas",
+        "fr": "Barabbas"
       },
       "speaker": "Evangelist, Pilate",
       "start": 6279
@@ -779,7 +834,8 @@
       "subtype": "Accompagnato",
       "scene_label": {
         "nl": "Barabbas",
-        "en": "Barabbas"
+        "en": "Barabbas",
+        "fr": "Barabbas"
       },
       "speaker": "Soprano",
       "start": 6297
@@ -793,7 +849,8 @@
       "subtype": "Solo",
       "scene_label": {
         "nl": "Barabbas",
-        "en": "Barabbas"
+        "en": "Barabbas",
+        "fr": "Barabbas"
       },
       "speaker": "Soprano",
       "start": 6411
@@ -807,7 +864,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "De Veroordeling",
-        "en": "The Condemnation"
+        "en": "The Condemnation",
+        "fr": "La Condamnation"
       },
       "speaker": "Evangelist, Pilate, Chorus",
       "start": 6649
@@ -821,7 +879,8 @@
       "subtype": "Accompagnato",
       "scene_label": {
         "nl": "De Geseling",
-        "en": "The Scourging"
+        "en": "The Scourging",
+        "fr": "La Flagellation"
       },
       "speaker": "Alto",
       "start": 6751
@@ -835,7 +894,8 @@
       "subtype": "Solo",
       "scene_label": {
         "nl": "De Geseling",
-        "en": "The Scourging"
+        "en": "The Scourging",
+        "fr": "La Flagellation"
       },
       "speaker": "Alto",
       "start": 6805
@@ -849,7 +909,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "De Doornenkroon",
-        "en": "The Crown of Thorns"
+        "en": "The Crown of Thorns",
+        "fr": "La Couronne d'Épines"
       },
       "speaker": "Evangelist, Chorus",
       "start": 7242
@@ -863,7 +924,8 @@
       "subtype": "Congregational",
       "scene_label": {
         "nl": "De Doornenkroon",
-        "en": "The Crown of Thorns"
+        "en": "The Crown of Thorns",
+        "fr": "La Couronne d'Épines"
       },
       "speaker": "Congregation",
       "start": 7310
@@ -877,7 +939,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "De Kruisweg",
-        "en": "Via Dolorosa"
+        "en": "Via Dolorosa",
+        "fr": "Via Dolorosa"
       },
       "speaker": "Evangelist",
       "start": 7454
@@ -891,7 +954,8 @@
       "subtype": "Accompagnato",
       "scene_label": {
         "nl": "De Kruisweg",
-        "en": "Via Dolorosa"
+        "en": "Via Dolorosa",
+        "fr": "Via Dolorosa"
       },
       "speaker": "Bass",
       "start": 7507
@@ -905,7 +969,8 @@
       "subtype": "Solo",
       "scene_label": {
         "nl": "De Kruisweg",
-        "en": "Via Dolorosa"
+        "en": "Via Dolorosa",
+        "fr": "Via Dolorosa"
       },
       "speaker": "Bass",
       "start": 7543
@@ -919,7 +984,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "Kruisiging",
-        "en": "The Crucifixion"
+        "en": "The Crucifixion",
+        "fr": "La Crucifixion"
       },
       "speaker": "Evangelist, Chorus",
       "start": 7904
@@ -933,7 +999,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "Kruisiging",
-        "en": "The Crucifixion"
+        "en": "The Crucifixion",
+        "fr": "La Crucifixion"
       },
       "speaker": "Evangelist, Chorus",
       "start": 8034
@@ -947,7 +1014,8 @@
       "subtype": "Accompagnato",
       "scene_label": {
         "nl": "Kruisiging",
-        "en": "The Crucifixion"
+        "en": "The Crucifixion",
+        "fr": "La Crucifixion"
       },
       "speaker": "Alto",
       "start": 8110
@@ -961,7 +1029,8 @@
       "subtype": "Solo_Chorus",
       "scene_label": {
         "nl": "Kruisiging",
-        "en": "The Crucifixion"
+        "en": "The Crucifixion",
+        "fr": "La Crucifixion"
       },
       "speaker": "Alto, Chorus",
       "start": 8217
@@ -975,7 +1044,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "De Dood van Jezus",
-        "en": "The Death of Jesus"
+        "en": "The Death of Jesus",
+        "fr": "La Mort de Jésus"
       },
       "speaker": "Evangelist, Jesus, Chorus",
       "start": 8389
@@ -989,7 +1059,8 @@
       "subtype": "Congregational",
       "scene_label": {
         "nl": "De Dood van Jezus",
-        "en": "The Death of Jesus"
+        "en": "The Death of Jesus",
+        "fr": "La Mort de Jésus"
       },
       "speaker": "Congregation",
       "start": 8545
@@ -1003,7 +1074,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "Na de Dood",
-        "en": "After the Death"
+        "en": "After the Death",
+        "fr": "Après la Mort"
       },
       "speaker": "Evangelist, Chorus",
       "start": 8635
@@ -1017,7 +1089,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "De Begrafenis",
-        "en": "The Burial"
+        "en": "The Burial",
+        "fr": "La Sépulture"
       },
       "speaker": "Evangelist",
       "start": 8718
@@ -1031,7 +1104,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "De Begrafenis",
-        "en": "The Burial"
+        "en": "The Burial",
+        "fr": "La Sépulture"
       },
       "speaker": "Evangelist, Pilate",
       "start": 8759
@@ -1045,7 +1119,8 @@
       "subtype": "Accompagnato",
       "scene_label": {
         "nl": "De Begrafenis",
-        "en": "The Burial"
+        "en": "The Burial",
+        "fr": "La Sépulture"
       },
       "speaker": "Bass",
       "start": 8796
@@ -1059,7 +1134,8 @@
       "subtype": "Solo",
       "scene_label": {
         "nl": "De Begrafenis",
-        "en": "The Burial"
+        "en": "The Burial",
+        "fr": "La Sépulture"
       },
       "speaker": "Bass",
       "start": 8941
@@ -1073,7 +1149,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "De Begrafenis",
-        "en": "The Burial"
+        "en": "The Burial",
+        "fr": "La Sépulture"
       },
       "speaker": "Evangelist",
       "start": 9244
@@ -1087,7 +1164,8 @@
       "subtype": "Secco",
       "scene_label": {
         "nl": "De Grafbewaking",
-        "en": "The Guard at the Tomb"
+        "en": "The Guard at the Tomb",
+        "fr": "La Garde au Tombeau"
       },
       "speaker": "Evangelist, Pilate, Chorus",
       "start": 9300
@@ -1101,7 +1179,8 @@
       "subtype": "Accompagnato",
       "scene_label": {
         "nl": "Slot",
-        "en": "Conclusion"
+        "en": "Conclusion",
+        "fr": "Conclusion"
       },
       "speaker": "Bass, Tenor, Alto, Soprano, Chorus",
       "start": 9412
@@ -1115,7 +1194,8 @@
       "subtype": "Full",
       "scene_label": {
         "nl": "Slot",
-        "en": "Conclusion"
+        "en": "Conclusion",
+        "fr": "Conclusion"
       },
       "speaker": "Chorus I & II",
       "start": 9557
