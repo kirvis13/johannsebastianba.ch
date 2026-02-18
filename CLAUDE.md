@@ -31,7 +31,11 @@ No test suite is configured.
 src/
 ├── App.jsx                  # Root: router + providers
 ├── main.jsx                 # Entry point
-├── translations.js          # ALL UI text for all languages (82 KB)
+├── translations/
+│   ├── index.js             # Re-exports { translations } combining all languages
+│   ├── en.js                # English UI text (~225 lines)
+│   ├── nl.js                # Dutch UI text (~225 lines)
+│   └── de.js                # German UI text, partial (~203 lines)
 ├── context/
 │   └── LanguageContext.jsx  # Language state + t() function
 ├── config/
@@ -88,8 +92,9 @@ public/
 
 ### Where text lives
 
-**UI text** → `src/translations.js`
-One large export object: `{ en: {...}, nl: {...}, de: {...} }`. Sections:
+**UI text** → `src/translations/`
+One file per language (`en.js`, `nl.js`, `de.js`), combined in `index.js` as `{ en, nl, de }`.
+To add a language, create `fr.js` and import it in `index.js`. Sections per language file:
 - Navigation, labels, buttons
 - `anatomy` — "Anatomy of a Masterpiece" scroll section (5 stages)
 - `intro_page` — intro/guide page content
@@ -155,7 +160,7 @@ Each route has a `label: { en, nl, de }` object — add new languages here too.
 
 To add a language (e.g. French `fr`):
 
-1. **`src/translations.js`** — add `fr: { ... }` section (~5,000 words)
+1. **`src/translations/fr.js`** — create new file with `export default { ... }` (~225 lines), then import it in `src/translations/index.js`
 2. **`public/data/details/part_*.json`** — add `"fr"` block to `content` in all 81 files (~38,000 words; scriptable)
 3. **`public/data/index.json`** — add `fr` to each `scene_label` object (~400 words)
 4. **`src/data/glossary.js`** — add `fr` to each term (~100 words)
