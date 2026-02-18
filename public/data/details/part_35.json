@@ -27,6 +27,9 @@
                 "category": "architectuur",
                 "fact": "Bach schreef dit koor in precies 123 maten. Dat is 41 × 3. Bach 'signeerde' zijn werken soms met getallen: JSBACH = 41 (optelling van letters). De × 3 staat voor de Triniteit."
             }
-        ]
+        ],
+        "fr": {
+            "lyrics": "Homme, pleure ton grand péché,\nPour lequel le Christ quitta le sein de son Père,\nS'est vidé de lui-même et vint sur la terre ;\nD'une vierge pure et tendre,\nPour nous, il est né ici.\nIl voulut devenir notre médiateur.\nAux morts il donna la vie,\nEt, en même temps, écarte toute maladie ;\nJusqu'à ce que se presse le temps\nOù pour nous il soit sacrifié,\nPortant le lourd fardeau de nos péchés,\nSur la croix, longuement."
+        }
     }
 }
