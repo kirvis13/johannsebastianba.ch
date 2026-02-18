@@ -68,7 +68,7 @@ const Layout = ({ chapters, currentChapter, onChapterClick }) => {
                         className="flex items-center space-x-2 text-sm uppercase tracking-wider hover:text-mp-gold transition-colors"
                     >
                         <Globe size={16} />
-                        <span>{language === 'en' ? 'EN' : 'NL'}</span>
+                        <span>{language.toUpperCase()}</span>
                     </button>
 
                     {/* Hamburger Menu - Only on /play */}
