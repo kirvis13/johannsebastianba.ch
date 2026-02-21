@@ -1,13 +1,4 @@
 {
-    "id": "part_32",
-    "title": "So ist mein Jesus nun gefangen",
-    "type": "Aria_Duetto",
-    "subtype": "Duet_Chorus",
-    "scene_label": {
-        "nl": "De Arrestatie",
-        "en": "The Arrest"
-    },
-    "speaker": "Soprano, Alto, Chorus",
     "source": "Text: Picander / Music: J.S. Bach",
     "content": {
         "de": {

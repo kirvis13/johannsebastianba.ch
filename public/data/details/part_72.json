@@ -1,13 +1,4 @@
 {
-    "id": "part_72",
-    "title": "Und siehe da, der Vorhang",
-    "type": "Recitativo_Chorus",
-    "subtype": "Secco",
-    "scene_label": {
-        "nl": "Na de Dood",
-        "en": "After the Death"
-    },
-    "speaker": "Evangelist, Chorus",
     "nba_no": "65",
     "content": {
         "de": {

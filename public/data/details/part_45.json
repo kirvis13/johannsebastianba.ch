@@ -1,13 +1,4 @@
 {
-    "id": "part_45",
-    "title": "Petrus aber saß draußen",
-    "type": "Recitativo",
-    "subtype": "Secco",
-    "scene_label": {
-        "nl": "De Verloochening",
-        "en": "Peter's Denial"
-    },
-    "speaker": "Evangelist, Maids, Peter, Chorus",
     "nba_no": "40",
     "content": {
         "de": {

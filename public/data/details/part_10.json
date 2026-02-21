@@ -1,13 +1,4 @@
 {
-    "id": "part_10",
-    "title": "Aber am ersten Tage",
-    "type": "Recitativo_Chorus",
-    "subtype": "Secco",
-    "scene_label": {
-        "nl": "Het Laatste Avondmaal",
-        "en": "The Last Supper"
-    },
-    "speaker": "Evangelist, Chorus",
     "source": "Text: Picander / Music: J.S. Bach",
     "content": {
         "de": {

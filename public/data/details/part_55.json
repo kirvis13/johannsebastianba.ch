@@ -1,13 +1,4 @@
 {
-    "id": "part_55",
-    "title": "Der Landpfleger sagte",
-    "type": "Recitativo",
-    "subtype": "Secco",
-    "scene_label": {
-        "nl": "Barabbas",
-        "en": "Barabbas"
-    },
-    "speaker": "Evangelist, Pilate",
     "nba_no": "50",
     "content": {
         "de": {

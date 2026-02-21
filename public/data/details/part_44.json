@@ -1,13 +1,4 @@
 {
-    "id": "part_44",
-    "title": "Wer hat dich so geschlagen",
-    "type": "Choral",
-    "subtype": "Congregational",
-    "scene_label": {
-        "nl": "De Bespotting",
-        "en": "The Mocking"
-    },
-    "speaker": "Congregation",
     "nba_no": "39",
     "content": {
         "de": {

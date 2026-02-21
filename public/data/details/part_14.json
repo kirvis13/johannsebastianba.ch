@@ -1,13 +1,4 @@
 {
-    "id": "part_14",
-    "title": "Er antwortete und sprach",
-    "type": "Recitativo",
-    "subtype": "Secco",
-    "scene_label": {
-        "nl": "Het Laatste Avondmaal",
-        "en": "The Last Supper"
-    },
-    "speaker": "Evangelist, Jesus, Judas",
     "source": "Text: Picander / Music: J.S. Bach",
     "content": {
         "de": {

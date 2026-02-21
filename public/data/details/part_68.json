@@ -1,13 +1,4 @@
 {
-    "id": "part_68",
-    "title": "Ach Golgatha, unselges Golgatha",
-    "type": "Arioso",
-    "subtype": "Accompagnato",
-    "scene_label": {
-        "nl": "Kruisiging",
-        "en": "The Crucifixion"
-    },
-    "speaker": "Alto",
     "nba_no": "69",
     "content": {
         "de": {

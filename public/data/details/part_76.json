@@ -1,13 +1,4 @@
 {
-    "id": "part_76",
-    "title": "Mache dich, mein Herze, rein",
-    "type": "Aria",
-    "subtype": "Solo",
-    "scene_label": {
-        "nl": "De Begrafenis",
-        "en": "The Burial"
-    },
-    "speaker": "Bass",
     "nba_no": "68",
     "content": {
         "de": {

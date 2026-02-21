@@ -1,13 +1,4 @@
 {
-    "id": "part_02",
-    "title": "Da Jesus diese Rede vollendet hatte",
-    "type": "Recitativo",
-    "subtype": "Secco",
-    "scene_label": {
-        "nl": "Aankondiging van het lijden",
-        "en": "Announcement of the Passion"
-    },
-    "speaker": "Evangelist, Jesus",
     "source": "Text: Picander / Music: J.S. Bach",
     "content": {
         "de": {

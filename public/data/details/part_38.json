@@ -1,13 +1,4 @@
 {
-    "id": "part_38",
-    "title": "Mir hat die Welt trüglich gericht't",
-    "type": "Choral",
-    "subtype": "Congregational",
-    "scene_label": {
-        "nl": "Voor Kajafas",
-        "en": "Before Caiaphas"
-    },
-    "speaker": "Congregation",
     "content": {
         "de": {
             "lyrics": "Mir hat die Welt trüglich gericht't\nMit Lügen und mit falschem G'dicht,\nViel Netz und heimlich Strikken.\nHerr, nimm mein wahr in dieser Gfahr,\nB'hüt mich vor falschen Tücken!",

@@ -1,13 +1,4 @@
 {
-    "id": "part_80",
-    "title": "Wir setzen uns mit Tränen nieder",
-    "type": "Chorus",
-    "subtype": "Full",
-    "scene_label": {
-        "nl": "Slot",
-        "en": "Conclusion"
-    },
-    "speaker": "Chorus I & II",
     "nba_no": "72",
     "content": {
         "de": {

@@ -1,13 +1,4 @@
 {
-    "id": "part_59",
-    "title": "Erbarm es Gott!",
-    "type": "Arioso",
-    "subtype": "Accompagnato",
-    "scene_label": {
-        "nl": "De Geseling",
-        "en": "The Scourging"
-    },
-    "speaker": "Alto",
     "nba_no": "60",
     "content": {
         "de": {

@@ -1,13 +1,4 @@
 {
-    "id": "part_48",
-    "title": "Des Morgens aber",
-    "type": "Recitativo",
-    "subtype": "Secco",
-    "scene_label": {
-        "nl": "Judas' Einde",
-        "en": "The End of Judas"
-    },
-    "speaker": "Evangelist, Judas, Chief Priests",
     "nba_no": "43",
     "content": {
         "de": {

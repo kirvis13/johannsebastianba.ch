@@ -1,13 +1,4 @@
 {
-    "id": "part_36",
-    "title": "Ach, nun ist mein Jesus hin!",
-    "type": "Aria",
-    "subtype": "Solo_Chorus",
-    "scene_label": {
-        "nl": "Opening Deel 2",
-        "en": "Opening Part 2"
-    },
-    "speaker": "Alto, Chorus",
     "source": "Text: Picander / Music: J.S. Bach",
     "content": {
         "de": {

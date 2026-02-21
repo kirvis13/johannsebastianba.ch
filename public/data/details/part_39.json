@@ -1,13 +1,4 @@
 {
-    "id": "part_39",
-    "title": "Und wiewohl viel falsche Zeugen",
-    "type": "Recitativo",
-    "subtype": "Secco",
-    "scene_label": {
-        "nl": "Voor Kajafas",
-        "en": "Before Caiaphas"
-    },
-    "speaker": "Evangelist, Witnesses, High Priest",
     "content": {
         "de": {
             "lyrics": "Evangelist: Und wiewohl viel falsche Zeugen herzutraten, fanden sie doch keines. Zuletzt traten herzu zwei falsche Zeugen und sprachen:\nZwei Zeugen: Er hat gesagt, ich kann den Tempel Gottes abbrechen und in dreien Tagen denselben bauen.\nEvangelist: Und der Hohepriester stund auf und sprach zu ihm:\nHohepriester: Antwortest du nichts zu dem, das diese wider dich zeugen?\nEvangelist: Aber Jesus schwieg.",

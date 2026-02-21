@@ -1,13 +1,4 @@
 {
-    "id": "part_11",
-    "title": "Er sprach: Gehet hin",
-    "type": "Recitativo",
-    "subtype": "Secco",
-    "scene_label": {
-        "nl": "Het Laatste Avondmaal",
-        "en": "The Last Supper"
-    },
-    "speaker": "Evangelist, Jesus",
     "source": "Text: Picander / Music: J.S. Bach",
     "content": {
         "de": {

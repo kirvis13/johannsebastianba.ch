@@ -1,13 +1,4 @@
 {
-    "id": "part_58",
-    "title": "Sie schrieen aber noch mehr",
-    "type": "Recitativo_Chorus",
-    "subtype": "Secco",
-    "scene_label": {
-        "nl": "De Veroordeling",
-        "en": "The Condemnation"
-    },
-    "speaker": "Evangelist, Pilate, Chorus",
     "nba_no": "53",
     "content": {
         "de": {
