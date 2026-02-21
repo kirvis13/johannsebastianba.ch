@@ -1,13 +1,4 @@
 {
-    "id": "part_19",
-    "title": "Erkenne mich, mein Hüter",
-    "type": "Choral",
-    "subtype": "Congregational",
-    "scene_label": {
-        "nl": "Naar de Olijfberg",
-        "en": "To the Mount of Olives"
-    },
-    "speaker": "Congregation",
     "source": "Text: Picander / Music: J.S. Bach",
     "content": {
         "de": {

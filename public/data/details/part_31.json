@@ -1,13 +1,4 @@
 {
-    "id": "part_31",
-    "title": "Und als er noch redete",
-    "type": "Recitativo_Chorus",
-    "subtype": "Secco",
-    "scene_label": {
-        "nl": "De Arrestatie",
-        "en": "The Arrest"
-    },
-    "speaker": "Evangelist, Jesus, Judas",
     "source": "Text: Picander / Music: J.S. Bach",
     "content": {
         "de": {

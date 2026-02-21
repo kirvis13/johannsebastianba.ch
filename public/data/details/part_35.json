@@ -1,13 +1,4 @@
 {
-    "id": "part_35",
-    "title": "O Mensch, bewein dein Sünde groß",
-    "type": "Chorus",
-    "subtype": "Choral_Fantasia",
-    "scene_label": {
-        "nl": "Slotkoor Deel 1",
-        "en": "Closing Chorus Part 1"
-    },
-    "speaker": "Chorus, Ripieno",
     "content": {
         "de": {
             "lyrics": "O Mensch, bewein dein Sünde groß,\nDarum Christus seins Vaters Schoß\nÄußert und kam auf Erden;\nVon einer Jungfrau rein und zart\nFür uns er hier geboren ward,\nEr wollt der Mittler werden.\nDen Toten er das Leben gab\nUnd legt dabei all Krankheit ab,\nBis sich die Zeit herdränge,\nDass er für uns geopfert würd,\nTrüg unsrer Sünden schwere Bürd\nWohl an dem Kreuze lange.",

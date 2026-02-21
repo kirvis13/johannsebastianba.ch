@@ -1,13 +1,4 @@
 {
-    "id": "part_17",
-    "title": "Ich will dir mein Herze schenken",
-    "type": "Aria",
-    "subtype": "Solo",
-    "scene_label": {
-        "nl": "Het Laatste Avondmaal",
-        "en": "The Last Supper"
-    },
-    "speaker": "Soprano",
     "source": "Text: Picander / Music: J.S. Bach",
     "content": {
         "de": {

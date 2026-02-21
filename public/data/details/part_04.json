@@ -1,13 +1,4 @@
 {
-    "id": "part_04",
-    "title": "Da versammelten sich die Hohenpriester",
-    "type": "Recitativo_Chorus",
-    "subtype": "Secco",
-    "scene_label": {
-        "nl": "Het Complot",
-        "en": "The Conspiracy"
-    },
-    "speaker": "Evangelist, Chorus",
     "source": "Text: Picander / Music: J.S. Bach",
     "content": {
         "de": {

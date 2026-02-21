@@ -1,13 +1,4 @@
 {
-    "id": "part_26",
-    "title": "Der Heiland fällt vor seinem Vater nieder",
-    "type": "Recitativo_Accompagnato",
-    "subtype": "Accompagnato",
-    "scene_label": {
-        "nl": "Gethsemane",
-        "en": "Gethsemane"
-    },
-    "speaker": "Bass",
     "nba_no": "23",
     "content": {
         "de": {

@@ -1,13 +1,4 @@
 {
-    "id": "part_65",
-    "title": "Komm, süßes Kreuz",
-    "type": "Aria",
-    "subtype": "Solo",
-    "scene_label": {
-        "nl": "De Kruisweg",
-        "en": "Via Dolorosa"
-    },
-    "speaker": "Bass",
     "nba_no": "59",
     "content": {
         "de": {

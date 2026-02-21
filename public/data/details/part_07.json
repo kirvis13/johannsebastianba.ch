@@ -1,13 +1,4 @@
 {
-    "id": "part_07",
-    "title": "Buß und Reu",
-    "type": "Aria",
-    "subtype": "Solo",
-    "scene_label": {
-        "nl": "De zalving in Bethanië",
-        "en": "The Anointing at Bethany"
-    },
-    "speaker": "Alto",
     "source": "Text: Picander / Music: J.S. Bach",
     "content": {
         "de": {

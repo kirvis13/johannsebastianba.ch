@@ -1,13 +1,4 @@
 {
-    "id": "part_42",
-    "title": "Und der Hohepriester antwortete",
-    "type": "Recitativo",
-    "subtype": "Secco",
-    "scene_label": {
-        "nl": "Voor Kajafas",
-        "en": "Before Caiaphas"
-    },
-    "speaker": "Evangelist, High Priest, Jesus",
     "nba_no": "38a-b",
     "content": {
         "de": {

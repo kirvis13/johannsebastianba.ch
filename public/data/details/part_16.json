@@ -1,13 +1,4 @@
 {
-    "id": "part_16",
-    "title": "Wiewohl mein Herz",
-    "type": "Recitativo_Accompagnato",
-    "subtype": "Accompagnato",
-    "scene_label": {
-        "nl": "Het Laatste Avondmaal",
-        "en": "The Last Supper"
-    },
-    "speaker": "Soprano",
     "source": "Text: Picander / Music: J.S. Bach",
     "content": {
         "de": {

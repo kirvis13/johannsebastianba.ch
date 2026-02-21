@@ -1,13 +1,4 @@
 {
-    "id": "part_60",
-    "title": "Können Tränen meiner Wangen",
-    "type": "Aria",
-    "subtype": "Solo",
-    "scene_label": {
-        "nl": "De Geseling",
-        "en": "The Scourging"
-    },
-    "speaker": "Alto",
     "nba_no": "55",
     "content": {
         "de": {

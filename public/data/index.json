@@ -549,7 +549,7 @@
     {
       "id": "part_40",
       "volgorde": 40,
-      "nba_no": "40",
+      "nba_no": "34",
       "title": "Mein Jesus schweigt",
       "type": "Arioso",
       "subtype": "Accompagnato",
@@ -563,7 +563,7 @@
     {
       "id": "part_41",
       "volgorde": 41,
-      "nba_no": "37",
+      "nba_no": "35",
       "title": "Geduld, Geduld",
       "type": "Aria",
       "subtype": "Solo",
@@ -577,7 +577,7 @@
     {
       "id": "part_42",
       "volgorde": 42,
-      "nba_no": "38a-b",
+      "nba_no": "36a",
       "title": "Und der Hohepriester antwortete",
       "type": "Recitativo",
       "subtype": "Secco",
@@ -591,7 +591,7 @@
     {
       "id": "part_43",
       "volgorde": 43,
-      "nba_no": "38c",
+      "nba_no": "36b-d",
       "title": "Da speieten sie aus",
       "type": "Recitativo_Chorus",
       "subtype": "Secco",
@@ -619,7 +619,7 @@
     {
       "id": "part_45",
       "volgorde": 45,
-      "nba_no": "40",
+      "nba_no": "38a-c",
       "title": "Petrus aber saß draußen",
       "type": "Recitativo",
       "subtype": "Secco",
@@ -661,7 +661,7 @@
     {
       "id": "part_48",
       "volgorde": 48,
-      "nba_no": "43",
+      "nba_no": "41a-c",
       "title": "Des Morgens aber",
       "type": "Recitativo",
       "subtype": "Secco",
@@ -689,7 +689,7 @@
     {
       "id": "part_50",
       "volgorde": 50,
-      "nba_no": "45",
+      "nba_no": "41c",
       "title": "Sie aber hielten Rat",
       "type": "Recitativo",
       "subtype": "Secco",
@@ -731,7 +731,7 @@
     {
       "id": "part_53",
       "volgorde": 53,
-      "nba_no": "48",
+      "nba_no": "45a-b",
       "title": "Auf das Fest aber",
       "type": "Recitativo_Chorus",
       "subtype": "Secco",
@@ -759,7 +759,7 @@
     {
       "id": "part_55",
       "volgorde": 55,
-      "nba_no": "50",
+      "nba_no": "47",
       "title": "Der Landpfleger sagte",
       "type": "Recitativo",
       "subtype": "Secco",
@@ -773,7 +773,7 @@
     {
       "id": "part_56",
       "volgorde": 56,
-      "nba_no": "57",
+      "nba_no": "48",
       "title": "Er hat uns allen wohlgetan",
       "type": "Arioso",
       "subtype": "Accompagnato",
@@ -787,7 +787,7 @@
     {
       "id": "part_57",
       "volgorde": 57,
-      "nba_no": "52",
+      "nba_no": "49",
       "title": "Aus Liebe will mein Heiland sterben",
       "type": "Aria",
       "subtype": "Solo",
@@ -801,7 +801,7 @@
     {
       "id": "part_58",
       "volgorde": 58,
-      "nba_no": "53",
+      "nba_no": "50a-e",
       "title": "Sie schrieen aber noch mehr",
       "type": "Recitativo_Chorus",
       "subtype": "Secco",
@@ -815,7 +815,7 @@
     {
       "id": "part_59",
       "volgorde": 59,
-      "nba_no": "60",
+      "nba_no": "51",
       "title": "Erbarm es Gott!",
       "type": "Arioso",
       "subtype": "Accompagnato",
@@ -829,7 +829,7 @@
     {
       "id": "part_60",
       "volgorde": 60,
-      "nba_no": "55",
+      "nba_no": "52",
       "title": "Können Tränen meiner Wangen",
       "type": "Aria",
       "subtype": "Solo",
@@ -843,7 +843,7 @@
     {
       "id": "part_61",
       "volgorde": 61,
-      "nba_no": "56",
+      "nba_no": "53a-b",
       "title": "Da nahmen die Kriegsknechte",
       "type": "Recitativo_Chorus",
       "subtype": "Secco",
@@ -857,7 +857,7 @@
     {
       "id": "part_62",
       "volgorde": 62,
-      "nba_no": "57",
+      "nba_no": "53c",
       "title": "O Haupt voll Blut und Wunden",
       "type": "Choral",
       "subtype": "Congregational",
@@ -871,7 +871,7 @@
     {
       "id": "part_63",
       "volgorde": 63,
-      "nba_no": "58a",
+      "nba_no": "53d",
       "title": "Und da sie ihn verspottet hatten",
       "type": "Recitativo",
       "subtype": "Secco",
@@ -885,7 +885,7 @@
     {
       "id": "part_64",
       "volgorde": 64,
-      "nba_no": "65",
+      "nba_no": "54",
       "title": "Ja freilich will in uns das Fleisch und Blut",
       "type": "Arioso",
       "subtype": "Accompagnato",
@@ -899,7 +899,7 @@
     {
       "id": "part_65",
       "volgorde": 65,
-      "nba_no": "59",
+      "nba_no": "55",
       "title": "Komm, süßes Kreuz",
       "type": "Aria",
       "subtype": "Solo",
@@ -913,7 +913,7 @@
     {
       "id": "part_66",
       "volgorde": 66,
-      "nba_no": "60",
+      "nba_no": "56",
       "title": "Und da sie an die Stätte kamen",
       "type": "Recitativo_Chorus",
       "subtype": "Secco",
@@ -927,7 +927,7 @@
     {
       "id": "part_67",
       "volgorde": 67,
-      "nba_no": "61a-c",
+      "nba_no": "57a-c",
       "title": "Desgleichen auch die Hohenpriester",
       "type": "Recitativo_Chorus",
       "subtype": "Secco",
@@ -941,7 +941,7 @@
     {
       "id": "part_68",
       "volgorde": 68,
-      "nba_no": "69",
+      "nba_no": "58e",
       "title": "Ach Golgatha, unselges Golgotha",
       "type": "Arioso",
       "subtype": "Accompagnato",
@@ -955,7 +955,7 @@
     {
       "id": "part_69",
       "volgorde": 69,
-      "nba_no": "62",
+      "nba_no": "59",
       "title": "Sehet, Jesus hat die Hand",
       "type": "Aria",
       "subtype": "Solo_Chorus",
@@ -969,7 +969,7 @@
     {
       "id": "part_70",
       "volgorde": 70,
-      "nba_no": "63a-b",
+      "nba_no": "60",
       "title": "Und von der sechsten Stunde",
       "type": "Recitativo",
       "subtype": "Secco",
@@ -1039,7 +1039,7 @@
     {
       "id": "part_75",
       "volgorde": 75,
-      "nba_no": "74",
+      "nba_no": "64",
       "title": "Am Abend, da es kühle war",
       "type": "Arioso",
       "subtype": "Accompagnato",
@@ -1053,7 +1053,7 @@
     {
       "id": "part_76",
       "volgorde": 76,
-      "nba_no": "68",
+      "nba_no": "65",
       "title": "Mache dich, mein Herze, rein",
       "type": "Aria",
       "subtype": "Solo",
@@ -1067,7 +1067,7 @@
     {
       "id": "part_77",
       "volgorde": 77,
-      "nba_no": "69",
+      "nba_no": "66a",
       "title": "Und Joseph nahm den Leib",
       "type": "Recitativo",
       "subtype": "Secco",
@@ -1081,7 +1081,7 @@
     {
       "id": "part_78",
       "volgorde": 78,
-      "nba_no": "70",
+      "nba_no": "66b-c",
       "title": "Des anderen Tages",
       "type": "Recitativo_Chorus",
       "subtype": "Secco",
@@ -1095,7 +1095,7 @@
     {
       "id": "part_79",
       "volgorde": 79,
-      "nba_no": "71",
+      "nba_no": "67",
       "title": "Nun ist der Herr zur Ruh gebracht",
       "type": "Recitativo_Chorus",
       "subtype": "Accompagnato",
@@ -1109,7 +1109,7 @@
     {
       "id": "part_80",
       "volgorde": 80,
-      "nba_no": "72",
+      "nba_no": "68",
       "title": "Wir setzen uns mit Tränen nieder",
       "type": "Chorus",
       "subtype": "Full",

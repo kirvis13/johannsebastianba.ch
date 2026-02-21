@@ -1,13 +1,4 @@
 {
-    "id": "part_05",
-    "title": "Da nun Jesus war zu Bethanien",
-    "type": "Recitativo_Chorus",
-    "subtype": "Secco",
-    "scene_label": {
-        "nl": "De zalving in Bethanië",
-        "en": "The Anointing at Bethany"
-    },
-    "speaker": "Evangelist, Jesus, Chorus",
     "source": "Text: Picander / Music: J.S. Bach",
     "content": {
         "de": {

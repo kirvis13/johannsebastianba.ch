@@ -1,13 +1,4 @@
 {
-    "id": "part_33",
-    "title": "Sind Blitze, sind Donner",
-    "type": "Chorus",
-    "subtype": "Full",
-    "scene_label": {
-        "nl": "De Arrestatie",
-        "en": "The Arrest"
-    },
-    "speaker": "Chorus I & II",
     "content": {
         "de": {
             "lyrics": "Sind Blitze, sind Donner in Wolken verschwunden?\nEröffne den feurigen Abgrund, o Hölle,\nZertrümmre, verderbe, verschlinge, zerschelle\nMit plötzlicher Wut\nDen falschen Verräter, das mördrische Blut!",

@@ -1,13 +1,4 @@
 {
-    "id": "part_09",
-    "title": "Blute nur, du liebes Herz",
-    "type": "Aria",
-    "subtype": "Solo",
-    "scene_label": {
-        "nl": "Judas' Verraad",
-        "en": "Judas' Betrayal"
-    },
-    "speaker": "Soprano",
     "source": "Text: Picander / Music: J.S. Bach",
     "content": {
         "de": {

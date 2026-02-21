@@ -1,13 +1,4 @@
 {
-    "id": "part_01",
-    "title": "Kommt, ihr Töchter",
-    "type": "Chorus",
-    "subtype": "Full",
-    "scene_label": {
-        "nl": "Openingskoor",
-        "en": "Opening Chorus"
-    },
-    "speaker": "Chorus I & II",
     "source": "Text: Picander / Music: J.S. Bach",
     "content": {
         "de": {

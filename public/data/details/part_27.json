@@ -1,13 +1,4 @@
 {
-    "id": "part_27",
-    "title": "Gerne will ich mich bequemen",
-    "type": "Aria",
-    "subtype": "Solo",
-    "scene_label": {
-        "nl": "Gethsemane",
-        "en": "Gethsemane"
-    },
-    "speaker": "Bass",
     "nba_no": "29",
     "content": {
         "de": {

@@ -1,13 +1,4 @@
 {
-    "id": "part_13",
-    "title": "Ich bin's, ich sollte büßen",
-    "type": "Choral",
-    "subtype": "Congregational",
-    "scene_label": {
-        "nl": "Het Laatste Avondmaal",
-        "en": "The Last Supper"
-    },
-    "speaker": "Congregation",
     "source": "Text: Picander / Music: J.S. Bach",
     "content": {
         "de": {

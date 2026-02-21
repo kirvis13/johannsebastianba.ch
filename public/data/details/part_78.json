@@ -1,13 +1,4 @@
 {
-    "id": "part_78",
-    "title": "Des anderen Tages",
-    "type": "Recitativo_Chorus",
-    "subtype": "Secco",
-    "scene_label": {
-        "nl": "De Grafbewaking",
-        "en": "The Guard at the Tomb"
-    },
-    "speaker": "Evangelist, Pilate, Chorus",
     "nba_no": "70",
     "content": {
         "de": {

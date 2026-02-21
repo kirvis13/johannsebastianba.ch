@@ -1,13 +1,4 @@
 {
-    "id": "part_03",
-    "title": "Herzliebster Jesu",
-    "type": "Choral",
-    "subtype": "Congregational",
-    "scene_label": {
-        "nl": "Aankondiging van het lijden",
-        "en": "Announcement of the Passion"
-    },
-    "speaker": "Congregation",
     "source": "Text: Picander / Music: J.S. Bach",
     "content": {
         "de": {
