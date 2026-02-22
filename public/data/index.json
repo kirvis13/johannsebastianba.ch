@@ -495,7 +495,7 @@
       "volgorde": 36,
       "nba_no": "32",
       "title": "Ach, nun ist mein Jesus hin!",
-      "type": "Aria",
+      "type": "Aria_Chorus",
       "subtype": "Solo_Chorus",
       "scene_label": {
         "nl": "Opening Deel 2",
@@ -551,7 +551,7 @@
       "volgorde": 40,
       "nba_no": "34",
       "title": "Mein Jesus schweigt",
-      "type": "Arioso",
+      "type": "Aria",
       "subtype": "Accompagnato",
       "scene_label": {
         "nl": "Voor Kajafas",
@@ -775,7 +775,7 @@
       "volgorde": 56,
       "nba_no": "48",
       "title": "Er hat uns allen wohlgetan",
-      "type": "Arioso",
+      "type": "Aria",
       "subtype": "Accompagnato",
       "scene_label": {
         "nl": "Barabbas",
@@ -817,7 +817,7 @@
       "volgorde": 59,
       "nba_no": "51",
       "title": "Erbarm es Gott!",
-      "type": "Arioso",
+      "type": "Aria",
       "subtype": "Accompagnato",
       "scene_label": {
         "nl": "De Geseling",
@@ -887,7 +887,7 @@
       "volgorde": 64,
       "nba_no": "54",
       "title": "Ja freilich will in uns das Fleisch und Blut",
-      "type": "Arioso",
+      "type": "Aria",
       "subtype": "Accompagnato",
       "scene_label": {
         "nl": "De Kruisweg",
@@ -943,7 +943,7 @@
       "volgorde": 68,
       "nba_no": "58e",
       "title": "Ach Golgatha, unselges Golgotha",
-      "type": "Arioso",
+      "type": "Aria",
       "subtype": "Accompagnato",
       "scene_label": {
         "nl": "Kruisiging",
@@ -1041,7 +1041,7 @@
       "volgorde": 75,
       "nba_no": "64",
       "title": "Am Abend, da es kühle war",
-      "type": "Arioso",
+      "type": "Aria",
       "subtype": "Accompagnato",
       "scene_label": {
         "nl": "De Begrafenis",
