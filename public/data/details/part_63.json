@@ -15,6 +15,14 @@
             "modern": "After mocking him, they dress him in his own clothes and lead him away to be crucified. On the way, they force Simon of Cyrene to carry the cross for Jesus.",
             "interpretation": "A short, factual report. The 'compelling' of Simon of Cyrene sets the stage for the following aria, where this 'having to' turns into 'wanting to'."
         },
-        "trivia": []
+        "trivia": [
+            {
+                "category": "Melisma",
+                "fact": {
+                    "nl": "Op het woord 'kreuzigten' breekt Bach de sobere verteltoon van de Evangelist: in plaats van één noot per lettergreep zingt hij een lang slingerend figuur over meerdere noten (een melisma: het uitrekken van één lettergreep over een melodielijn). Het is het enige moment in dit recitatief waar het woord zwaarder weegt dan de vertelling.",
+                    "en": "On the word 'kreuzigten' Bach breaks the Evangelist's sober narrative tone: instead of one note per syllable, he sings a long winding figure across multiple notes (a melisma: stretching one syllable across a melodic line). It is the only moment in this recitative where the word outweighs the story."
+                }
+            }
+        ]
     }
 }
