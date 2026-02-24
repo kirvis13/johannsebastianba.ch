@@ -233,8 +233,18 @@ const ConcertPage = ({ chapters, currentChapter, setCurrentChapter }) => {
     return (
         <div className="bg-mp-dark h-[100dvh] overflow-hidden flex flex-col text-white font-sans">
             <SEO
-                title="Concert Mode"
-                description="Distraction-free listening mode for live performances."
+                title="Concert Mode - Matthäus-Passion Live Companion"
+                description="A distraction-free companion for live performances with synchronized text and translations."
+                schema={[
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "BreadcrumbList",
+                        "itemListElement": [
+                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://johannsebastianba.ch/" },
+                            { "@type": "ListItem", "position": 2, "name": "Concert Mode", "item": "https://johannsebastianba.ch/concert" }
+                        ]
+                    }
+                ]}
             />
 
             {/* Header - Fixed - Hidden in Landscape */}

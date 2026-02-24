@@ -98,9 +98,33 @@ const PlayerPage = ({ chapters, currentChapter, setCurrentChapter, videoPlayerRe
     return (
         <div className="flex flex-col md:flex-row h-full">
             <SEO
-                title={currentChapter ? `${currentChapter.nba_no}. ${currentChapter.title}` : "Player"}
-                description={currentChapter ? `Listen to ${currentChapter.title} - Johann Sebastian Bach.` : "Interactive Player"}
+                title={currentChapter ? `${currentChapter.nba_no}. ${currentChapter.title}` : "Interactive Player - Matthäus-Passion with Synchronized Libretto"}
+                description={currentChapter ? `Listen to ${currentChapter.title} - Johann Sebastian Bach's St. Matthew Passion.` : "Watch the Nederlandse Bachvereniging performance with synchronized German text, translations, and real-time musical commentary."}
                 image={currentChapter ? `/images/story/story_${currentChapter.id.toString().padStart(2, '0')}.webp` : undefined}
+                schema={[
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "VideoObject",
+                        "name": "Matthäus-Passion BWV 244 - Nederlandse Bachvereniging",
+                        "description": "Complete performance of Bach's St. Matthew Passion by the Nederlandse Bachvereniging, conducted by Jos van Veldhoven. Part of the All of Bach project.",
+                        "url": "https://www.youtube.com/watch?v=ZwVW1ttVhuQ",
+                        "embedUrl": "https://www.youtube.com/embed/ZwVW1ttVhuQ",
+                        "thumbnailUrl": "https://img.youtube.com/vi/ZwVW1ttVhuQ/maxresdefault.jpg",
+                        "publisher": {
+                            "@type": "Organization",
+                            "name": "Nederlandse Bachvereniging",
+                            "url": "https://www.bachvereniging.nl"
+                        }
+                    },
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "BreadcrumbList",
+                        "itemListElement": [
+                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://johannsebastianba.ch/" },
+                            { "@type": "ListItem", "position": 2, "name": "Player", "item": "https://johannsebastianba.ch/play" }
+                        ]
+                    }
+                ]}
             />
 
             {/* Left Column: Video + Interpretation (desktop) / Video only (mobile) */}

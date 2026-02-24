@@ -83,8 +83,31 @@ const DiscoverPage = ({ chapters }) => {
     return (
         <div className="min-h-screen bg-neutral-950 text-neutral-200 font-sans selection:bg-mp-gold/30">
             <SEO
-                title={t('nav_anatomy') || "Discover"}
-                description="Explore the structure, symbolism, and musical forms of the St Matthew Passion."
+                title="Discover the Matthäus-Passion - Structure, Symbolism &amp; Musical Analysis"
+                description="Explore the Three Worlds, the Halo effect, O Haupt voll Blut und Wunden, and the hidden musical codes in Bach's St. Matthew Passion."
+                schema={[
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "ScholarlyArticle",
+                        "headline": "Discover the Matthäus-Passion - Structure, Symbolism & Musical Analysis",
+                        "description": "Explore the Three Worlds, the Halo effect, O Haupt voll Blut und Wunden, and the hidden musical codes in Bach's St. Matthew Passion.",
+                        "about": {
+                            "@type": "MusicComposition",
+                            "name": "Matthäus-Passion",
+                            "alternateName": ["St. Matthew Passion", "Mattheuspassie", "BWV 244"],
+                            "composer": { "@type": "Person", "name": "Johann Sebastian Bach" }
+                        },
+                        "url": "https://johannsebastianba.ch/discover"
+                    },
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "BreadcrumbList",
+                        "itemListElement": [
+                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://johannsebastianba.ch/" },
+                            { "@type": "ListItem", "position": 2, "name": "Discover", "item": "https://johannsebastianba.ch/discover" }
+                        ]
+                    }
+                ]}
             />
 
             {/* HERO SECTION */}
