@@ -17,3 +17,6 @@ body {
   background-color: var(--color-mp-dark);
   color: var(--color-mp-text);
 }
+
+.scrollbar-hidden::-webkit-scrollbar { display: none; }
+.scrollbar-hidden { scrollbar-width: none; }

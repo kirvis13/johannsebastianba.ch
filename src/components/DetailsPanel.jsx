@@ -256,7 +256,7 @@ const DetailsPanel = ({ chapters, currentChapter, details, onChapterClick, curre
     return (
         <div
             ref={scrollRef}
-            className={`w-full flex-1 min-h-0 overflow-y-auto bg-mp-darker text-mp-text p-8 border-l border-mp-dark/50 scroll-smooth relative transition-transform duration-100 ${containerClasses}`}
+            className={`w-full flex-1 min-h-0 overflow-y-auto bg-mp-darker text-mp-text p-8 scroll-smooth relative transition-transform duration-100 ${containerClasses}`}
         >
 
             {/* Lightning Flash Overlay */}
@@ -267,7 +267,7 @@ const DetailsPanel = ({ chapters, currentChapter, details, onChapterClick, curre
             {/* Visual Effects Overlay */}
             <div className={`absolute inset-0 pointer-events-none transition-all duration-300 ease-in-out z-0 ${overlayClasses}`} />
 
-            <div className="max-w-2xl mx-auto space-y-8 animate-fadeIn pb-24 relative z-10">
+            <div className="max-w-2xl space-y-8 animate-fadeIn pb-24 relative z-10">
 
                 <PlayerHeader
                     currentChapter={currentChapter}
