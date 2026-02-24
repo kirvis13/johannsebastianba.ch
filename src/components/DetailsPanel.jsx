@@ -256,7 +256,7 @@ const DetailsPanel = ({ chapters, currentChapter, details, onChapterClick, curre
     return (
         <div
             ref={scrollRef}
-            className={`w-full flex-1 min-h-0 overflow-y-auto bg-mp-darker text-mp-text p-8 border-l border-mp-dark/50 scroll-smooth relative transition-transform duration-100 ${containerClasses}`}
+            className={`w-full flex-1 min-h-0 overflow-y-auto bg-mp-darker text-mp-text p-8 scroll-smooth relative transition-transform duration-100 ${containerClasses}`}
         >
 
             {/* Lightning Flash Overlay */}

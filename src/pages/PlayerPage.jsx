@@ -104,21 +104,23 @@ const PlayerPage = ({ chapters, currentChapter, setCurrentChapter, videoPlayerRe
             />
 
             {/* Left Column: Video + Interpretation (desktop) / Video only (mobile) */}
-            <div className="w-full md:w-1/2 flex-shrink-0 flex flex-col md:h-full md:border-r border-mp-dark/50">
+            <div className="w-full md:w-1/2 flex-shrink-0 flex flex-col md:h-full bg-mp-darker">
+                <div className="w-full md:max-w-[720px] md:ml-auto flex flex-col flex-1 min-h-0">
 
-                {/* Video Player */}
-                <div className="w-full aspect-video bg-black shadow-2xl relative z-10 flex-shrink-0">
-                    <VideoPlayer
-                        url={videoUrl}
-                        onTimeUpdate={handleTimeUpdate}
-                        ref={videoPlayerRef}
-                        className="absolute inset-0 w-full h-full"
-                    />
-                </div>
+                    {/* Video Player */}
+                    <div className="w-full aspect-video bg-black shadow-2xl relative z-10 flex-shrink-0">
+                        <VideoPlayer
+                            url={videoUrl}
+                            onTimeUpdate={handleTimeUpdate}
+                            ref={videoPlayerRef}
+                            className="absolute inset-0 w-full h-full"
+                        />
+                    </div>
 
-                {/* Interpretation Panel — desktop only, scrollable below video */}
-                <div className="hidden md:flex flex-1 overflow-y-auto bg-mp-darker relative">
-                    <InterpretationPanel details={details} />
+                    {/* Interpretation Panel — desktop only, scrollable below video */}
+                    <div className="hidden md:flex flex-1 overflow-y-auto bg-mp-darker relative min-h-0 scrollbar-hidden">
+                        <InterpretationPanel details={details} />
+                    </div>
                 </div>
             </div>
 
