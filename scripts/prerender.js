@@ -4,11 +4,30 @@
  * Run after `vite build` via `npm run prerender`.
  */
 
-import puppeteer from 'puppeteer';
+import puppeteer from 'puppeteer-core';
 import { createServer } from 'http';
 import { readFileSync, writeFileSync, mkdirSync, existsSync, statSync } from 'fs';
 import { join, dirname, extname } from 'path';
 import { fileURLToPath } from 'url';
+
+// On Vercel (and other serverless/container envs), use @sparticuz/chromium
+// which bundles all required shared libraries. Locally, use the puppeteer-managed Chrome.
+async function getBrowserOptions() {
+    if (process.env.VERCEL) {
+        const chromium = (await import('@sparticuz/chromium')).default;
+        return {
+            args: chromium.args,
+            executablePath: await chromium.executablePath(),
+            headless: chromium.headless,
+        };
+    }
+    const { executablePath } = await import('puppeteer');
+    return {
+        args: ['--no-sandbox', '--disable-setuid-sandbox'],
+        executablePath: executablePath(),
+        headless: true,
+    };
+}
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DIST_DIR = join(__dirname, '../dist');
@@ -76,9 +95,8 @@ function startServer() {
 async function prerender() {
     const server = await startServer();
 
-    const browser = await puppeteer.launch({
-        args: ['--no-sandbox', '--disable-setuid-sandbox'],
-    });
+    const browserOptions = await getBrowserOptions();
+    const browser = await puppeteer.launch(browserOptions);
 
     let failed = false;
 

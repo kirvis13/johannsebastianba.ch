@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build && node scripts/prerender.js",
-    "vercel-build": "npx puppeteer browsers install chrome && vite build && node scripts/prerender.js",
+    "vercel-build": "vite build && node scripts/prerender.js",
     "prerender": "node scripts/prerender.js",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -51,6 +51,7 @@
     "@eslint/js": "^9.39.1",
     "@prerenderer/renderer-puppeteer": "^1.2.4",
     "@prerenderer/rollup-plugin": "^0.3.12",
+    "@sparticuz/chromium": "^143.0.4",
     "@tailwindcss/postcss": "^4.1.18",
     "@types/react": "^19.2.5",
     "@types/react-dom": "^19.2.3",
