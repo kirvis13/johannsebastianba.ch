@@ -267,7 +267,7 @@ const DetailsPanel = ({ chapters, currentChapter, details, onChapterClick, curre
             {/* Visual Effects Overlay */}
             <div className={`absolute inset-0 pointer-events-none transition-all duration-300 ease-in-out z-0 ${overlayClasses}`} />
 
-            <div className="max-w-2xl mx-auto space-y-8 animate-fadeIn pb-24 relative z-10">
+            <div className="max-w-2xl space-y-8 animate-fadeIn pb-24 relative z-10">
 
                 <PlayerHeader
                     currentChapter={currentChapter}

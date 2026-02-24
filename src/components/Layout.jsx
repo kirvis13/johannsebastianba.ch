@@ -40,52 +40,54 @@ const Layout = ({ chapters, currentChapter, onChapterClick }) => {
     return (
         <div className="flex flex-col h-screen bg-mp-dark text-mp-text font-sans selection:bg-mp-gold selection:text-mp-dark">
             {/* Navbar */}
-            <nav className="h-16 border-b border-white/10 flex items-center justify-between px-6 bg-mp-darker z-50">
-                {/* Left: Logo */}
-                <Link to="/" className="text-xl font-serif tracking-widest text-mp-gold hover:text-white transition-colors">
-                    {t('title')}
-                </Link>
+            <nav className="h-16 border-b border-white/10 bg-mp-darker z-50">
+                <div className="max-w-[1440px] mx-auto h-full flex items-center justify-between px-6">
+                    {/* Left: Logo */}
+                    <Link to="/" className="text-xl font-serif tracking-widest text-mp-gold hover:text-white transition-colors">
+                        {t('title')}
+                    </Link>
 
-                {/* Center: Navigation */}
-                <div className="hidden md:flex items-center space-x-8">
-                    {projectConfig.routes.filter(item => item.inMenu).map((item) => (
-                        <NavLink
-                            key={item.id}
-                            to={item.path}
-                            className={({ isActive }) => `text-sm uppercase tracking-widest hover:text-white transition-colors ${isActive ? 'text-mp-gold font-bold' : 'text-gray-400'}`}
-                            end={item.end}
-                        >
-                            {item.label[language]}
-                        </NavLink>
-                    ))}
-                </div>
+                    {/* Center: Navigation */}
+                    <div className="hidden md:flex items-center space-x-8">
+                        {projectConfig.routes.filter(item => item.inMenu).map((item) => (
+                            <NavLink
+                                key={item.id}
+                                to={item.path}
+                                className={({ isActive }) => `text-sm uppercase tracking-widest hover:text-white transition-colors ${isActive ? 'text-mp-gold font-bold' : 'text-gray-400'}`}
+                                end={item.end}
+                            >
+                                {item.label[language]}
+                            </NavLink>
+                        ))}
+                    </div>
 
-                {/* Right: Controls */}
-                <div className="flex items-center space-x-6">
-                    {/* Language Switcher */}
-                    <button
-                        onClick={toggleLanguage}
-                        className="flex items-center space-x-2 text-sm uppercase tracking-wider hover:text-mp-gold transition-colors"
-                    >
-                        <Globe size={16} />
-                        <span>{language === 'en' ? 'EN' : 'NL'}</span>
-                    </button>
-
-                    {/* Hamburger Menu - Only on /play */}
-                    {isPlayerPage && (
+                    {/* Right: Controls */}
+                    <div className="flex items-center space-x-6">
+                        {/* Language Switcher */}
                         <button
-                            onClick={() => setIsDrawerOpen(true)}
-                            className="p-2 hover:bg-white/5 rounded-full transition-colors text-mp-gold"
-                            title="Show Chapters"
+                            onClick={toggleLanguage}
+                            className="flex items-center space-x-2 text-sm uppercase tracking-wider hover:text-mp-gold transition-colors"
                         >
-                            <List size={24} />
+                            <Globe size={16} />
+                            <span>{language === 'en' ? 'EN' : 'NL'}</span>
                         </button>
-                    )}
+
+                        {/* Hamburger Menu - Only on /play */}
+                        {isPlayerPage && (
+                            <button
+                                onClick={() => setIsDrawerOpen(true)}
+                                className="p-2 hover:bg-white/5 rounded-full transition-colors text-mp-gold"
+                                title="Show Chapters"
+                            >
+                                <List size={24} />
+                            </button>
+                        )}
+                    </div>
                 </div>
             </nav>
 
             {/* Main Content Area */}
-            <main className={`flex-1 relative ${shouldDisableScroll ? 'overflow-hidden' : 'overflow-y-auto'}`}>
+            <main className={`flex-1 relative max-w-[1440px] mx-auto w-full ${shouldDisableScroll ? 'overflow-hidden' : 'overflow-y-auto'}`}>
                 <Outlet />
             </main>
 
