@@ -32,6 +32,9 @@
                     "de": "Der Evangelist singt etwas anderes als die Bibel. Matthäus 27:46 hat \"lema *sabachtani*\" (Aramäisch), doch in der Matthäus-Passion klingt \"*lama asabthani*\" — das hebräische Original. Diese Abweichung gelangte über einen Gelehrten des 14. Jahrhunderts (Nikolaus von Lyra), Erasmus und Luther direkt in Bachs Partitur. Hätte Bach die aramäische Version gekannt, hätte er andere Noten schreiben müssen."
                 }
             }
-        ]
+        ],
+        "fr": {
+            "lyrics": "Évangéliste: Depuis la sixième heure jusqu'à la neuvième heure, il y eut des ténèbres sur toute la terre. Et vers la neuvième heure, Jésus s'écria d'une voix forte :\nJésus: Eli, Eli, lama sabachtani ?\nÉvangéliste: C'est-à-dire : « Mon Dieu, mon Dieu, pourquoi m'as-tu abandonné ? » Quelques-uns de ceux qui étaient là disaient en l'entendant :\nChœur: Il appelle Élie !\nÉvangéliste: Aussitôt l'un d'eux courut prendre une éponge qu'il imbiba de vinaigre ; et, la fixant au bout d'un roseau, il lui présenta à boire. Mais les autres dirent :\nChœur: Attends ! Voyons si Élie va venir le sauver !"
+        }
     }
 }

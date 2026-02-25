@@ -82,10 +82,39 @@ const AboutProjectPage = () => {
                     </div>
                 </div>
 
+                {/* Credits */}
+                <div className="space-y-4">
+                    <h2 className="text-2xl font-serif text-white">
+                        {t('about_project.credits_title') || "Credits & Sources"}
+                    </h2>
+                    <ul className="text-neutral-400 leading-relaxed space-y-2 text-sm">
+                        <li>
+                            <a
+                                href="https://www.allofbach.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="underline underline-offset-4 decoration-white/30 hover:decoration-white/100 hover:text-white transition-all"
+                            >
+                                {t('about_project.video_copyright') || "Video © Nederlandse Bachvereniging — allofbach.com"}
+                            </a>
+                        </li>
+                        <li>
+                            <span className="text-neutral-300">🇫🇷 </span>
+                            <a
+                                href="https://helenedecislartigau.wordpress.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="underline underline-offset-4 decoration-white/30 hover:decoration-white/100 hover:text-white transition-all"
+                            >
+                                {t('about_project.french_translation_credit') || "French translation of the libretto by Hélène Decis-Lartigau"}
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
                 {/* Footer / Credits */}
                 <div className="pt-12 text-center text-sm text-neutral-600">
                     <p>Designed & Built with passion.</p>
-                    <p className="mb-2 text-xs uppercase tracking-widest opacity-50">{t('about_project.video_copyright')}</p>
                     <p className="mt-2 text-xs uppercase tracking-widest opacity-50">© {new Date().getFullYear()} Matthäus-Passion Unraveled</p>
                 </div>
 

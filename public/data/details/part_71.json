@@ -30,6 +30,9 @@
                     "de": "Dies ist das fünfte und letzte Mal, dass diese Melodie erklingt. Bach harmonisiert sie hier so, dass sie 'unvollendet' klingt, als sei der Tod nicht das Ende, sondern ein Übergang."
                 }
             }
-        ]
+        ],
+        "fr": {
+            "lyrics": "A     Quand une fois je devrai prendre congé,\n      Ne prends pas congé de moi !\nB     Quand je devrai subir la mort,\n      Viens à mon aide !\nQuand la douleur la plus extrême\nMe serrera le cœur,\nArrache-moi à mes angoisses\nPar la force de ton angoisse et de ta douleur !"
+        }
     }
 }
