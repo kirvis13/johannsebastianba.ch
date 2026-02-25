@@ -221,6 +221,8 @@ export default {
         contribute_title: "Bijdragen",
         contribute_text: "Dit is een open source project. We verwelkomen bijdragen om vertalingen te verbeteren, muzikale inzichten toe te voegen of fouten op te lossen. Je kunt direct bijdragen via GitHub.",
         github_soon: "Bekijk op GitHub",
-        video_copyright: "Video © Nederlandse Bachvereniging - allofbach.com"
+        video_copyright: "Video © Nederlandse Bachvereniging - allofbach.com",
+        credits_title: "Credits & Bronnen",
+        french_translation_credit: "Franse vertaling van het libretto door Hélène Decis-Lartigau"
     },
 };

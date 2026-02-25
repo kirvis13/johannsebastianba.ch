@@ -221,6 +221,8 @@ export default {
         contribute_title: "Contribuer",
         contribute_text: "C'est un projet open source. Nous accueillons les contributions pour améliorer les traductions, ajouter des perspectives musicales ou corriger des bugs. Vous pouvez contribuer directement via GitHub.",
         github_soon: "Voir sur GitHub",
-        video_copyright: "Vidéo © Nederlandse Bachvereniging - allofbach.com"
+        video_copyright: "Vidéo © Nederlandse Bachvereniging - allofbach.com",
+        credits_title: "Crédits & Sources",
+        french_translation_credit: "Traduction française du livret par Hélène Decis-Lartigau"
     },
 };
