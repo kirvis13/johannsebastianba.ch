@@ -8,6 +8,8 @@ const SEO = ({
     title,
     description,
     image = '/images/story/story_01.webp',
+    imageWidth = 1920,
+    imageHeight = 1047,
     type = 'website',
     schema = null
 }) => {
@@ -55,6 +57,8 @@ const SEO = ({
             <meta property="og:title" content={fullTitle} />
             <meta property="og:description" content={description} />
             <meta property="og:image" content={fullImage} />
+            <meta property="og:image:width" content={String(imageWidth)} />
+            <meta property="og:image:height" content={String(imageHeight)} />
             <meta property="og:site_name" content={siteTitle} />
             <meta property="og:locale" content={language === 'nl' ? 'nl_NL' : (language === 'de' ? 'de_DE' : 'en_US')} />
 
