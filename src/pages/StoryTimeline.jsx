@@ -38,9 +38,19 @@ const StoryTimelineV2 = () => {
     return (
         <div className="w-full min-h-screen bg-neutral-950 text-neutral-200 font-sans relative">
             <SEO
-                title={t('nav_story') || "The Story"}
-                description="Follow the timeline of the Passion through the Gospel of Matthew."
+                title="The Passion Story - Visual Timeline of Bach's Matthäus-Passion"
+                description="Follow the dramatic narrative of Bach's St. Matthew Passion from the Last Supper to the burial, told through a visual timeline."
                 image="/images/story/story_01.webp"
+                schema={[
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "BreadcrumbList",
+                        "itemListElement": [
+                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://johannsebastianba.ch/" },
+                            { "@type": "ListItem", "position": 2, "name": "The Story", "item": "https://johannsebastianba.ch/story" }
+                        ]
+                    }
+                ]}
             />
             {/* Hero Section */}
             <header className="relative py-20 px-6 md:px-12 text-center border-b border-neutral-800 bg-gradient-to-b from-mp-gold/10 to-neutral-900">

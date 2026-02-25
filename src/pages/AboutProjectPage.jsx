@@ -9,8 +9,18 @@ const AboutProjectPage = () => {
     return (
         <div className="min-h-screen w-full bg-neutral-950 text-neutral-200 p-6 md:p-12 overflow-y-auto">
             <SEO
-                title={t('about_project.title') || "About"}
-                description="About the Matthäus-Passion Unraveled project. Open source interactive guide."
+                title="Colophon - About Matthäus-Passion Unraveled"
+                description="Credits, sources, and technical information about this interactive companion to Bach's St. Matthew Passion."
+                schema={[
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "BreadcrumbList",
+                        "itemListElement": [
+                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://johannsebastianba.ch/" },
+                            { "@type": "ListItem", "position": 2, "name": "Colophon", "item": "https://johannsebastianba.ch/colophon" }
+                        ]
+                    }
+                ]}
             />
             <div className="max-w-3xl mx-auto space-y-12 animate-in fade-in duration-700">
 

@@ -1,20 +1,26 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import { useLocation } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
+import { SITE_URL } from '../config/project';
 
 const SEO = ({
     title,
     description,
     image = '/images/story/story_01.webp',
+    imageWidth = 1920,
+    imageHeight = 1047,
     type = 'website',
     schema = null
 }) => {
     const { language } = useLanguage();
+    const location = useLocation();
     const siteTitle = "Matthäus-Passion Unraveled";
     const fullTitle = title ? `${title} | ${siteTitle}` : siteTitle;
-    const currentUrl = window.location.href;
-    const baseUrl = window.location.origin;
+    const baseUrl = SITE_URL;
+    const currentUrl = `${SITE_URL}${location.pathname}`;
     const fullImage = image.startsWith('http') ? image : `${baseUrl}${image}`;
+    const path = location.pathname;
 
     // Default JSON-LD Schema (Website)
     const defaultSchema = {
@@ -26,7 +32,9 @@ const SEO = ({
         "inLanguage": language
     };
 
-    const finalSchema = schema || defaultSchema;
+    const finalSchemas = schema
+        ? (Array.isArray(schema) ? schema : [schema])
+        : [defaultSchema];
 
     return (
         <Helmet>
@@ -35,12 +43,22 @@ const SEO = ({
             <meta name="description" content={description} />
             <html lang={language} />
 
+            {/* Canonical */}
+            <link rel="canonical" href={currentUrl} />
+
+            {/* Hreflang */}
+            <link rel="alternate" hreflang="en" href={`${SITE_URL}${path}`} />
+            <link rel="alternate" hreflang="nl" href={`${SITE_URL}${path}?lang=nl`} />
+            <link rel="alternate" hreflang="x-default" href={`${SITE_URL}${path}`} />
+
             {/* Open Graph / Facebook */}
             <meta property="og:type" content={type} />
             <meta property="og:url" content={currentUrl} />
             <meta property="og:title" content={fullTitle} />
             <meta property="og:description" content={description} />
             <meta property="og:image" content={fullImage} />
+            <meta property="og:image:width" content={String(imageWidth)} />
+            <meta property="og:image:height" content={String(imageHeight)} />
             <meta property="og:site_name" content={siteTitle} />
             <meta property="og:locale" content={language === 'nl' ? 'nl_NL' : (language === 'de' ? 'de_DE' : 'en_US')} />
 
@@ -50,10 +68,12 @@ const SEO = ({
             <meta name="twitter:description" content={description} />
             <meta name="twitter:image" content={fullImage} />
 
-            {/* JSON-LD Structured Data for GEO/AI */}
-            <script type="application/ld+json">
-                {JSON.stringify(finalSchema)}
-            </script>
+            {/* JSON-LD Structured Data */}
+            {finalSchemas.map((s, i) => (
+                <script key={i} type="application/ld+json">
+                    {JSON.stringify(s)}
+                </script>
+            ))}
         </Helmet>
     );
 };

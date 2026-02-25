@@ -1,8 +1,46 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Play, BookOpen, Music, Info, Mic2 } from 'lucide-react';
+import { Play, BookOpen, Info } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import SEO from '../components/SEO';
+
+const homeSchemas = [
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Matthäus-Passion Unraveled",
+        "url": "https://johannsebastianba.ch",
+        "description": "Interactive companion app for Bach's St. Matthew Passion BWV 244 with synchronized video, text, and musical analysis.",
+        "applicationCategory": "MusicApplication",
+        "operatingSystem": "Web",
+        "inLanguage": ["de", "nl", "en"],
+        "about": {
+            "@type": "MusicComposition",
+            "name": "Matthäus-Passion",
+            "alternateName": ["St. Matthew Passion", "Mattheuspassie", "BWV 244"],
+            "composer": {
+                "@type": "Person",
+                "name": "Johann Sebastian Bach",
+                "birthDate": "1685-03-31",
+                "deathDate": "1750-07-28"
+            },
+            "lyricist": {
+                "@type": "Person",
+                "name": "Picander",
+                "alternateName": "Christian Friedrich Henrici"
+            },
+            "dateCreated": "1727",
+            "genre": ["Passion", "Sacred oratorio", "Baroque music"]
+        }
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://johannsebastianba.ch/" }
+        ]
+    }
+];
 
 const HomePageV4 = () => {
     const { t } = useLanguage();
@@ -16,11 +54,11 @@ const HomePageV4 = () => {
         <main className="min-h-screen bg-neutral-950 text-neutral-200 flex flex-col items-center justify-center p-6 relative overflow-hidden font-sans">
 
             <SEO
-                title={t('title') || "Matthäus-Passion"}
-                description={t('subtitle') || "An interactive journey through Bach's masterpiece."}
+                title="Bach's Matthäus-Passion (St. Matthew Passion) - Interactive Guide"
+                description="Explore Bach's St. Matthew Passion BWV 244 with synchronized video, German text, Dutch and English translations, and musicological analysis."
+                schema={homeSchemas}
             />
 
-            {/* Background Texture */}
             {/* Background Video */}
             <div className="absolute inset-0 pointer-events-none overflow-hidden">
                 <video
@@ -103,6 +141,7 @@ const HomePageV4 = () => {
                     </button>
 
                 </nav>
+
             </article>
         </main>
     );
