@@ -98,14 +98,19 @@ const AboutPage = () => {
                     <h2 id="faq-heading" className="text-2xl font-serif text-mp-gold/80 tracking-wide">
                         Frequently Asked Questions
                     </h2>
-                    <dl className="space-y-6">
+                    <div className="space-y-2">
                         {FAQ_ITEMS.map((item, i) => (
-                            <div key={i}>
-                                <dt className="text-white font-medium mb-2">{item.question}</dt>
-                                <dd className="text-gray-400 leading-relaxed">{item.answer}</dd>
-                            </div>
+                            <details key={i} className="group border border-white/10 rounded-lg">
+                                <summary className="flex cursor-pointer items-center justify-between px-5 py-4 text-white font-medium list-none hover:bg-white/5 transition-colors">
+                                    {item.question}
+                                    <span className="text-mp-gold/60 ml-4 shrink-0 transition-transform group-open:rotate-180">▾</span>
+                                </summary>
+                                <p className="px-5 pb-5 pt-1 text-gray-400 leading-relaxed border-t border-white/5">
+                                    {item.answer}
+                                </p>
+                            </details>
                         ))}
-                    </dl>
+                    </div>
                 </section>
             </div>
         </div>
