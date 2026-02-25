@@ -32,6 +32,9 @@
                 "category": "symboliek",
                 "fact": "In het Duits is # (muzikaal kruisteken) = 'Kreuz' = kruis. Bij 'kreuzigen' gebruikt Bach veel kruistekens (#) in de muziek. Het woord 'kruisigen' wordt letterlijk hoorbaar en zichtbaar."
             }
-        ]
+        ],
+        "fr": {
+            "lyrics": "Évangéliste: Et ils crièrent encore plus fort et dirent :\nChœur: Fais-le crucifier !\nÉvangéliste: Pilate, voyant que cela ne servait à rien mais que la situation tournait à la révolte, prit de l'eau et se lava les mains en présence de la foule, en disant :\nPilate: Je suis innocent du sang de ce juste. Cela vous regarde.\nÉvangéliste: Et tout le peuple répondit :\nChœur: Que son sang retombe sur nous et nos enfants !\nÉvangéliste: Alors Pilate leur relâcha Barabbas, mais il fit flageller Jésus et il le livra pour être crucifié."
+        }
     }
 }

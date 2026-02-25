@@ -28,6 +28,9 @@
                 "category": "instrumentkeuze",
                 "fact": "In 1736 verving Bach de luit door de viola da gamba. De gamba was toen al een 'antiek' Renaissance-instrument. Bach kiest bewust dit verouderde, koninklijke instrument voor de aria over het tijdloze kruis."
             }
-        ]
+        ],
+        "fr": {
+            "lyrics": "Viens douce croix ; ainsi je veux le dire.\nMon Jésus, toujours donne-la-moi !\nSi la souffrance par trop me pèse,\nAlors tu m'aideras toi-même à la porter."
+        }
     }
 }
