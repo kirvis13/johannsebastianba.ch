@@ -79,7 +79,7 @@ const HomePageV4 = () => {
             <article className="z-10 max-w-5xl w-full flex flex-col items-center text-center space-y-8 animate-in fade-in duration-1000 -mt-12">
 
                 {/* Header */}
-                <header className="space-y-4">
+                <header className="space-y-4 lg:min-h-[14rem]">
                     <span className="text-mp-gold/60 uppercase tracking-[0.3em] text-xs md:text-sm font-medium">
                         Johann Sebastian Bach
                     </span>
