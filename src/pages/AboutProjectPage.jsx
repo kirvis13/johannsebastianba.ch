@@ -89,6 +89,16 @@ const AboutProjectPage = () => {
                     </h2>
                     <ul className="text-neutral-400 leading-relaxed space-y-2 text-sm">
                         <li>
+                            <a
+                                href="https://www.allofbach.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="underline underline-offset-4 decoration-white/30 hover:decoration-white/100 hover:text-white transition-all"
+                            >
+                                {t('about_project.video_copyright') || "Video © Nederlandse Bachvereniging — allofbach.com"}
+                            </a>
+                        </li>
+                        <li>
                             <span className="text-neutral-300">🇫🇷 </span>
                             <a
                                 href="https://helenedecislartigau.wordpress.com"
@@ -105,7 +115,6 @@ const AboutProjectPage = () => {
                 {/* Footer / Credits */}
                 <div className="pt-12 text-center text-sm text-neutral-600">
                     <p>Designed & Built with passion.</p>
-                    <p className="mb-2 text-xs uppercase tracking-widest opacity-50">{t('about_project.video_copyright')}</p>
                     <p className="mt-2 text-xs uppercase tracking-widest opacity-50">© {new Date().getFullYear()} Matthäus-Passion Unraveled</p>
                 </div>
 

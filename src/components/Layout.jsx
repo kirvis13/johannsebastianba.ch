@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import { Link, NavLink, Outlet, useLocation } from 'react-router-dom';
-import { Menu, X, Globe, List } from 'lucide-react';
+import { Menu, X, Globe, List, ChevronDown } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { projectConfig } from '../config/project';
 
 const Layout = ({ chapters, currentChapter, onChapterClick }) => {
-    const { language, toggleLanguage, t } = useLanguage();
+    const { language, setLanguage, availableLanguages, t } = useLanguage();
     const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+    const [langOpen, setLangOpen] = useState(false);
     const location = useLocation();
     const isPlayerPage = location.pathname === '/play';
     const isV2Page = location.pathname === '/v2';
@@ -63,13 +64,33 @@ const Layout = ({ chapters, currentChapter, onChapterClick }) => {
                 {/* Right: Controls */}
                 <div className="flex items-center space-x-6">
                     {/* Language Switcher */}
-                    <button
-                        onClick={toggleLanguage}
-                        className="flex items-center space-x-2 text-sm uppercase tracking-wider hover:text-mp-gold transition-colors"
-                    >
-                        <Globe size={16} />
-                        <span>{language.toUpperCase()}</span>
-                    </button>
+                    <div className="relative">
+                        <button
+                            onClick={() => setLangOpen(o => !o)}
+                            className="flex items-center space-x-1.5 text-sm uppercase tracking-wider hover:text-mp-gold transition-colors"
+                        >
+                            <Globe size={16} />
+                            <span>{language.toUpperCase()}</span>
+                            <ChevronDown size={12} className={`transition-transform duration-200 ${langOpen ? 'rotate-180' : ''}`} />
+                        </button>
+
+                        {langOpen && (
+                            <>
+                                <div className="fixed inset-0 z-40" onClick={() => setLangOpen(false)} />
+                                <div className="absolute right-0 top-full mt-2 bg-mp-darker border border-white/10 rounded-lg py-1 shadow-xl z-50 min-w-[80px]">
+                                    {availableLanguages.map(lang => (
+                                        <button
+                                            key={lang}
+                                            onClick={() => { setLanguage(lang); setLangOpen(false); }}
+                                            className={`w-full text-left px-4 py-2 text-sm uppercase tracking-wider hover:bg-white/5 transition-colors ${language === lang ? 'text-mp-gold font-bold' : 'text-neutral-400'}`}
+                                        >
+                                            {lang}
+                                        </button>
+                                    ))}
+                                </div>
+                            </>
+                        )}
+                    </div>
 
                     {/* Hamburger Menu - Only on /play */}
                     {isPlayerPage && (
