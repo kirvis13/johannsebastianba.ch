@@ -320,7 +320,7 @@ const legacyMatch = line.match(/^([\p{L}\s]+):(.*)/u);
                                         </div>
                                     ))}
                                 </div>
-
+                            </div>
 
                             {/* ── DESKTOP: Two-column side-by-side lyrics ── */}
                             <div className="hidden md:block space-y-4">
