@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useRef, Suspense } from 'react';
 import axios from 'axios';
-import { Routes, Route } from 'react-router-dom';
-import { functionPlaceholder } from 'react'; // placeholder to keep line count similar or just empty
+import { Routes, Route, Navigate, useNavigate } from 'react-router-dom';
 
 import Layout from './components/Layout';
 import { projectConfig } from './config/project';
 import { componentMap } from './config/componentMap';
+import { titleToSlug } from './utils/slugify';
 
 import ConcertPage from './pages/ConcertPage';
 
@@ -13,6 +13,7 @@ function App() {
   const [chapters, setChapters] = useState([]);
   const [currentChapter, setCurrentChapter] = useState(null);
   const videoPlayerRef = useRef(null);
+  const navigate = useNavigate();
 
   // Initial Data Load (Index)
   useEffect(() => {
@@ -30,6 +31,7 @@ function App() {
 
   const handleChapterClick = (chapter) => {
     setCurrentChapter(chapter);
+    navigate(`/play/${titleToSlug(chapter.title)}`);
     if (videoPlayerRef.current) {
       videoPlayerRef.current.seekTo(chapter.start);
     }
@@ -46,6 +48,7 @@ function App() {
             onChapterClick={handleChapterClick}
           />
         }>
+          <Route path="play" element={<Navigate to="/play/kommt-ihr-toechter" replace />} />
           {projectConfig.routes.filter(r => r.id !== 'concert').map(route => {
             const Component = componentMap[route.component];
             const isIndex = route.path === '/';

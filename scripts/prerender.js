@@ -33,7 +33,23 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const DIST_DIR = join(__dirname, '../dist');
 const PORT = 5179;
 const BASE_URL = `http://localhost:${PORT}`;
-const ROUTES = ['/', '/discover', '/story', '/play', '/about', '/concert', '/colophon'];
+
+const titleToSlug = (title) =>
+    title
+        .toLowerCase()
+        .replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue').replace(/ß/g, 'ss')
+        .replace(/[^a-z0-9\s]/g, '')
+        .trim()
+        .replace(/\s+/g, '-');
+
+function buildRoutes() {
+    const indexPath = join(DIST_DIR, 'data/index.json');
+    const indexData = JSON.parse(readFileSync(indexPath, 'utf-8'));
+    const chapterRoutes = indexData.chapters.map(c => `/play/${titleToSlug(c.title)}`);
+    return ['/', '/discover', '/story', '/about', '/concert', '/colophon', ...chapterRoutes];
+}
+
+const ROUTES = buildRoutes();
 
 const MIME_TYPES = {
     '.js': 'application/javascript',
@@ -145,6 +161,39 @@ async function prerender() {
     } else {
         console.log('\n✓ Pre-rendering complete!');
     }
+
+    generateSitemap();
+}
+
+function generateSitemap() {
+    const SITE_URL = 'https://johannsebastianba.ch';
+    const today = new Date().toISOString().split('T')[0];
+
+    const staticPages = [
+        { loc: '/', priority: '1.0', changefreq: 'monthly' },
+        { loc: '/discover', priority: '0.9', changefreq: 'monthly' },
+        { loc: '/story', priority: '0.9', changefreq: 'monthly' },
+        { loc: '/about', priority: '0.7', changefreq: 'monthly' },
+        { loc: '/colophon', priority: '0.5', changefreq: 'yearly' },
+    ];
+
+    const indexData = JSON.parse(readFileSync(join(DIST_DIR, 'data/index.json'), 'utf-8'));
+    const chapterPages = indexData.chapters.map(c => ({
+        loc: `/play/${titleToSlug(c.title)}`,
+        priority: '0.8',
+        changefreq: 'yearly',
+    }));
+
+    const allPages = [...staticPages, ...chapterPages];
+
+    const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${
+        allPages.map(p =>
+            `  <url>\n    <loc>${SITE_URL}${p.loc}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>${p.changefreq}</changefreq>\n    <priority>${p.priority}</priority>\n  </url>`
+        ).join('\n')
+    }\n</urlset>\n`;
+
+    writeFileSync(join(DIST_DIR, 'sitemap.xml'), xml, 'utf-8');
+    console.log('✓ sitemap.xml generated');
 }
 
 prerender().catch((err) => {

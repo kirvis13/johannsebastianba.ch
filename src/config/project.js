@@ -27,7 +27,7 @@ export const projectConfig = {
         },
         {
             id: 'player',
-            path: 'play',
+            path: 'play/:chapterSlug',
             component: 'PlayerPage',
             label: { en: 'Experience', nl: 'De Passie', fr: 'La Passion' },
             inMenu: true

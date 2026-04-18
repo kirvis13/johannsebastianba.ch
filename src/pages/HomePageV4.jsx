@@ -47,7 +47,7 @@ const HomePageV4 = () => {
     const navigate = useNavigate();
 
     const handleStart = () => {
-        navigate('/play', { state: { autoPlayPart: 'part_01' } });
+        navigate('/play/kommt-ihr-toechter');
     };
 
     return (

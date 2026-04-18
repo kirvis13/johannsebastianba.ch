@@ -1,6 +1,7 @@
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
-import { useOutletContext, useLocation } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
+import { titleToSlug } from '../utils/slugify';
 import VideoPlayer from '../components/VideoPlayer';
 import DetailsPanel from '../components/DetailsPanel';
 import InterpretationPanel from '../components/InterpretationPanel';
@@ -9,9 +10,24 @@ import SEO from '../components/SEO';
 
 const PlayerPage = ({ chapters, currentChapter, setCurrentChapter, videoPlayerRef }) => {
     const { language } = useLanguage();
+    const { chapterSlug } = useParams();
+    const navigate = useNavigate();
     const [details, setDetails] = useState(null);
     const [videoUrl] = useState("https://www.youtube.com/watch?v=ZwVW1ttVhuQ");
     const [currentTime, setCurrentTime] = useState(0);
+
+    // Sync URL slug → active chapter
+    useEffect(() => {
+        if (chapterSlug && chapters.length > 0) {
+            const target = chapters.find(c => titleToSlug(c.title) === chapterSlug);
+            if (target && target.id !== currentChapter?.id) {
+                setCurrentChapter(target);
+                if (videoPlayerRef.current) {
+                    videoPlayerRef.current.seekTo(target.start);
+                }
+            }
+        }
+    }, [chapterSlug, chapters]);
 
     // Fetch details when chapter changes
     useEffect(() => {
@@ -26,41 +42,6 @@ const PlayerPage = ({ chapters, currentChapter, setCurrentChapter, videoPlayerRe
                 });
         }
     }, [currentChapter]);
-
-    // Handle auto-play from Story Timeline
-    const location = useLocation();
-    useEffect(() => {
-        if ((location.state?.autoPlayPart || location.state?.autoplay) && chapters.length > 0) {
-
-            if (location.state?.autoPlayPart) {
-                const targetChapter = chapters.find(c => c.id === location.state.autoPlayPart);
-                if (targetChapter) {
-                    setCurrentChapter(targetChapter);
-                    setTimeout(() => {
-                        if (videoPlayerRef.current) {
-                            videoPlayerRef.current.seekTo(targetChapter.start);
-                            if (videoPlayerRef.current.internalPlayer) {
-                                videoPlayerRef.current.internalPlayer.playVideo();
-                            }
-                        }
-                    }, 500);
-                }
-            } else if (location.state?.autoplay) {
-                if (!currentChapter) {
-                    setCurrentChapter(chapters[0]);
-                }
-                setTimeout(() => {
-                    if (videoPlayerRef.current) {
-                        if (videoPlayerRef.current.internalPlayer) {
-                            videoPlayerRef.current.internalPlayer.playVideo();
-                        }
-                    }
-                }, 500);
-            }
-
-            window.history.replaceState({}, document.title);
-        }
-    }, [location.state, chapters, setCurrentChapter]);
 
     const handleTimeUpdate = useCallback((time) => {
         setCurrentTime(time);
@@ -80,8 +61,7 @@ const PlayerPage = ({ chapters, currentChapter, setCurrentChapter, videoPlayerRe
         const currentIndex = chapters.findIndex(c => c.id === currentChapter.id);
         if (currentIndex > 0) {
             const prev = chapters[currentIndex - 1];
-            setCurrentChapter(prev);
-            if (videoPlayerRef.current) videoPlayerRef.current.seekTo(prev.start);
+            navigate(`/play/${titleToSlug(prev.title)}`);
         }
     };
 
@@ -90,16 +70,19 @@ const PlayerPage = ({ chapters, currentChapter, setCurrentChapter, videoPlayerRe
         const currentIndex = chapters.findIndex(c => c.id === currentChapter.id);
         if (currentIndex < chapters.length - 1) {
             const next = chapters[currentIndex + 1];
-            setCurrentChapter(next);
-            if (videoPlayerRef.current) videoPlayerRef.current.seekTo(next.start);
+            navigate(`/play/${titleToSlug(next.title)}`);
         }
     };
 
     return (
         <div className="flex flex-col md:flex-row h-full">
             <SEO
-                title={currentChapter ? `${currentChapter.nba_no}. ${currentChapter.title}` : "Interactive Player - Matthäus-Passion with Synchronized Libretto"}
-                description={currentChapter ? `Listen to ${currentChapter.title} - Johann Sebastian Bach's St. Matthew Passion.` : "Watch the Nederlandse Bachvereniging performance with synchronized German text, translations, and real-time musical commentary."}
+                title={currentChapter
+                    ? `${currentChapter.nba_no}. ${currentChapter.title}`
+                    : "Interactive Player - Matthäus-Passion with Synchronized Libretto"}
+                description={currentChapter
+                    ? `Listen to ${currentChapter.title} – ${currentChapter.scene_label?.[language] ?? currentChapter.type}. Johann Sebastian Bach's St. Matthew Passion.`
+                    : "Watch the Nederlandse Bachvereniging performance with synchronized German text, translations, and real-time musical commentary."}
                 image={currentChapter ? `/images/story/story_${currentChapter.id.toString().padStart(2, '0')}.webp` : undefined}
                 schema={[
                     {
@@ -121,7 +104,7 @@ const PlayerPage = ({ chapters, currentChapter, setCurrentChapter, videoPlayerRe
                         "@type": "BreadcrumbList",
                         "itemListElement": [
                             { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://johannsebastianba.ch/" },
-                            { "@type": "ListItem", "position": 2, "name": "Player", "item": "https://johannsebastianba.ch/play" }
+                            { "@type": "ListItem", "position": 2, "name": currentChapter?.title ?? "Player", "item": `https://johannsebastianba.ch/play/${chapterSlug ?? ''}` }
                         ]
                     }
                 ]}
@@ -158,10 +141,7 @@ const PlayerPage = ({ chapters, currentChapter, setCurrentChapter, videoPlayerRe
                     onPrevClick={handlePrevChapter}
                     onNextClick={handleNextChapter}
                     onChapterClick={(chapter) => {
-                        setCurrentChapter(chapter);
-                        if (videoPlayerRef.current) {
-                            videoPlayerRef.current.seekTo(chapter.start);
-                        }
+                        navigate(`/play/${titleToSlug(chapter.title)}`);
                     }}
                 />
 
