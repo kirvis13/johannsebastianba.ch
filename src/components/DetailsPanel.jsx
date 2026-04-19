@@ -98,7 +98,7 @@ const ChoraleTracker = ({ meta }) => {
 };
 
 
-const DetailsPanel = ({ chapters, currentChapter, details, onChapterClick, currentTime, onPrevClick, onNextClick }) => {
+const DetailsPanel = ({ currentChapter, details, currentTime, onPrevClick, onNextClick, onOpenChapters }) => {
     const scrollRef = useRef(null);
     const { language, t } = useLanguage();
     const [showSourceModal, setShowSourceModal] = useState(false);
@@ -276,6 +276,7 @@ const legacyMatch = line.match(/^([\p{L}\s]+):(.*)/u);
                     onSourceClick={() => hasSourceData && setShowSourceModal(true)}
                     onPrevClick={onPrevClick}
                     onNextClick={onNextClick}
+                    onOpenChapters={onOpenChapters}
                 />
 
                 {details || currentChapter ? (
