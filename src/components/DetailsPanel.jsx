@@ -303,24 +303,52 @@ const legacyMatch = line.match(/^([\p{L}\s]+):(.*)/u);
                                     >
                                         {t('german')}
                                     </button>
+                                    {localizedContent?.interpretation && (
+                                        <button
+                                            onClick={() => setLyricsTab('interpretation')}
+                                            className={`flex-1 py-2 text-xs uppercase tracking-widest transition-colors ${lyricsTab === 'interpretation'
+                                                ? 'text-mp-gold border-b-2 border-mp-gold'
+                                                : 'text-gray-500'}`}
+                                        >
+                                            {t('interpretation')}
+                                        </button>
+                                    )}
                                 </div>
 
-                                {/* Single-column lyrics for active tab */}
-                                <div className="space-y-4">
-                                    {(lyricsTab === 'de' ? germanSegments : localizedSegments).map((seg, i) => (
-                                        <div key={i} className="space-y-1">
-                                            {seg.speaker && (
-                                                <div className="text-mp-gold uppercase text-xs tracking-widest font-bold opacity-80 mb-1">
-                                                    {seg.speaker}
-                                                </div>
-                                            )}
-                                            <SegmentContent
-                                                content={seg.content}
-                                                className={`font-serif text-lg leading-relaxed ${lyricsTab === 'de' ? 'text-white/90' : 'text-white/70 italic'}`}
-                                            />
-                                        </div>
-                                    ))}
-                                </div>
+                                {/* Tab content */}
+                                {lyricsTab === 'interpretation' ? (
+                                    <div className="font-serif text-base leading-relaxed font-light text-gray-300 space-y-3">
+                                        {localizedContent.interpretation.split('\n').map((line, i) => {
+                                            if (!line.trim()) return <div key={i} className="h-2" />;
+                                            const parts = line.split(/(\*\*.*?\*\*)/g);
+                                            return (
+                                                <p key={i}>
+                                                    {parts.map((part, j) =>
+                                                        part.startsWith('**') && part.endsWith('**')
+                                                            ? <strong key={j} className="text-mp-gold font-normal">{part.slice(2, -2)}</strong>
+                                                            : part
+                                                    )}
+                                                </p>
+                                            );
+                                        })}
+                                    </div>
+                                ) : (
+                                    <div className="space-y-4">
+                                        {(lyricsTab === 'de' ? germanSegments : localizedSegments).map((seg, i) => (
+                                            <div key={i} className="space-y-1">
+                                                {seg.speaker && (
+                                                    <div className="text-mp-gold uppercase text-xs tracking-widest font-bold opacity-80 mb-1">
+                                                        {seg.speaker}
+                                                    </div>
+                                                )}
+                                                <SegmentContent
+                                                    content={seg.content}
+                                                    className={`font-serif text-lg leading-relaxed ${lyricsTab === 'de' ? 'text-white/90' : 'text-white/70 italic'}`}
+                                                />
+                                            </div>
+                                        ))}
+                                    </div>
+                                )}
                             </div>
 
                             {/* ── DESKTOP: Two-column side-by-side lyrics ── */}

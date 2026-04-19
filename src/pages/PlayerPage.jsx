@@ -150,9 +150,6 @@ const PlayerPage = ({ chapters, currentChapter, setCurrentChapter, videoPlayerRe
                     onChapterClick={(chapter) => navigate(`/play/${titleToSlug(chapter.title)}`)}
                     onOpenChapters={() => setIsDrawerOpen(true)}
                 />
-                <div className="md:hidden flex-shrink-0">
-                    <InterpretationPanel details={details} collapsible={true} />
-                </div>
             </div>
 
             {/* === CHAPTERS DRAWER === */}
