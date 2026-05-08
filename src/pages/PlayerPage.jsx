@@ -65,8 +65,9 @@ const PlayerPage = ({ chapters, currentChapter, setCurrentChapter, videoPlayerRe
         });
         if (current && current.id !== currentChapter?.id) {
             setCurrentChapter(current);
+            navigate(`/play/${titleToSlug(current.title)}`, { replace: true });
         }
-    }, [chapters, currentChapter, setCurrentChapter]);
+    }, [chapters, currentChapter, setCurrentChapter, navigate]);
 
     const handlePrevChapter = () => {
         if (!chapters.length || !currentChapter) return;
