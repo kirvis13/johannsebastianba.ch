@@ -4,8 +4,9 @@ import SEO from '../components/SEO';
 import { Play, ChevronDown, ArrowLeft, ChevronLeft, ChevronRight, X, ZoomIn } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { formatText } from '../utils/textFormatter';
+import { titleToSlug } from '../utils/slugify';
 
-const StoryTimelineV2 = () => {
+const StoryTimelineV2 = ({ chapters: indexChapters = [] }) => {
     const { t } = useLanguage();
     const navigate = useNavigate();
     const chapters = t('story_page.chapters');
@@ -32,7 +33,10 @@ const StoryTimelineV2 = () => {
     }, [chapters]);
 
     const handleListenClick = (partId) => {
-        navigate('/play', { state: { autoPlayPart: partId } });
+        const chapter = indexChapters.find(c => c.id === partId);
+        if (chapter) {
+            navigate(`/play/${titleToSlug(chapter.title)}`);
+        }
     };
 
     return (

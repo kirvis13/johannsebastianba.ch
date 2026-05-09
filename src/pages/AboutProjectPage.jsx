@@ -109,6 +109,17 @@ const AboutProjectPage = () => {
                                 {t('about_project.french_translation_credit') || "French translation of the libretto by Hélène Decis-Lartigau"}
                             </a>
                         </li>
+                        <li>
+                            <span className="text-neutral-300">🇬🇧 </span>
+                            <a
+                                href="https://www.bach-cantatas.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="underline underline-offset-4 decoration-white/30 hover:decoration-white/100 hover:text-white transition-all"
+                            >
+                                English translation reference: Francis Browne — bach-cantatas.com
+                            </a>
+                        </li>
                     </ul>
                 </div>
 

@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
-import { Info, HelpCircle } from 'lucide-react';
+import { Info, HelpCircle, List } from 'lucide-react';
 import { glossary } from '../data/glossary';
 
-const PlayerHeader = ({ currentChapter, details, onSourceClick, onPrevClick, onNextClick }) => {
+const PlayerHeader = ({ currentChapter, details, onSourceClick, onPrevClick, onNextClick, onOpenChapters }) => {
     const { language, t } = useLanguage();
     const [showTooltip, setShowTooltip] = useState(false);
 
@@ -126,8 +126,8 @@ const PlayerHeader = ({ currentChapter, details, onSourceClick, onPrevClick, onN
                     )}
                 </button>
 
-                {/* --- TEMPORARY: Navigation Buttons for Testing --- */}
-                <div className="flex items-center space-x-2 ml-auto">
+                {/* Navigation controls */}
+                <div className="flex items-center gap-1 ml-auto">
                     <button
                         onClick={onPrevClick}
                         className="p-1.5 bg-mp-dark border border-mp-darker hover:bg-mp-gold hover:text-mp-dark text-gray-400 rounded transition-colors"
@@ -142,6 +142,16 @@ const PlayerHeader = ({ currentChapter, details, onSourceClick, onPrevClick, onN
                     >
                         &gt;
                     </button>
+                    {onOpenChapters && (
+                        <button
+                            onClick={onOpenChapters}
+                            className="p-1.5 bg-mp-dark border border-mp-darker hover:bg-mp-gold hover:text-mp-dark text-gray-400 rounded transition-colors ml-1"
+                            title="All chapters"
+                            aria-label="Open chapter list"
+                        >
+                            <List size={14} />
+                        </button>
+                    )}
                 </div>
             </div>
         </header>
