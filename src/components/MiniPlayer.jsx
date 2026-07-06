@@ -91,6 +91,7 @@ const MiniPlayer = ({ isOpen, onClose, start, end, title, videoId = "ZwVW1ttVhuQ
     // Effect to handle open/close (but NOT seeking/loading anymore, handled by key remount)
     useEffect(() => {
         if (!isOpen) {
+            // eslint-disable-next-line react-hooks/set-state-in-effect -- syncing local state with the imperative YouTube player on close
             setPlaying(false);
             stopProgressInterval();
             if (playerRef.current) {

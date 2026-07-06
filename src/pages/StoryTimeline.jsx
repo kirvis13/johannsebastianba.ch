@@ -93,7 +93,6 @@ const StoryTimelineV2 = ({ chapters: indexChapters = [] }) => {
                         <TimelineItemV2
                             key={chapter.id}
                             chapter={chapter}
-                            index={index}
                             isLeft={index % 2 === 0}
                             onListen={() => handleListenClick(chapter.listen_link)}
                             buttonText={t('story_page.listen_button')}
@@ -119,7 +118,6 @@ const StoryTimelineV2 = ({ chapters: indexChapters = [] }) => {
                         <TimelineItemV2
                             key={chapter.id}
                             chapter={chapter}
-                            index={index + 4}
                             isLeft={(index + 4) % 2 === 0}
                             onListen={() => handleListenClick(chapter.listen_link)}
                             buttonText={t('story_page.listen_button')}
@@ -131,7 +129,7 @@ const StoryTimelineV2 = ({ chapters: indexChapters = [] }) => {
     );
 };
 
-const TimelineItemV2 = ({ chapter, index, isLeft, onListen, buttonText }) => {
+const TimelineItemV2 = ({ chapter, isLeft, onListen, buttonText }) => {
     const itemRef = useRef(null);
     const [isVisible, setIsVisible] = React.useState(false);
 

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import MiniPlayer from '../components/MiniPlayer';
 import SEO from '../components/SEO';
@@ -44,13 +44,14 @@ const DiscoverPage = ({ chapters }) => {
         const targetChapter = chapters.find(c => c.id === partId || c.fileName === partId);
 
         if (targetChapter) {
-            setPlayerState({
+            setPlayerState(prev => ({
                 isOpen: true,
                 start: targetChapter.start + (playData.start || 0),
                 end: targetChapter.start + (playData.end || 30),
                 title: title,
-                playTrigger: Date.now()
-            });
+                // Incrementing counter forces the MiniPlayer to remount on every click
+                playTrigger: (prev.playTrigger || 0) + 1
+            }));
         } else {
             console.warn("Could not find chapter:", partId);
         }
@@ -112,7 +113,6 @@ const DiscoverPage = ({ chapters }) => {
 
             {/* HERO SECTION */}
             <header className="relative min-h-[70vh] flex flex-col items-center justify-center px-6 md:px-12 text-center border-b border-neutral-800 bg-gradient-to-b from-mp-gold/5 to-neutral-900">
-                <div className="absolute inset-0 bg-[url('/images/texture_noise.png')] opacity-10 mix-blend-overlay pointer-events-none" />
 
                 <div className="max-w-4xl mx-auto space-y-8 z-10 animate-in fade-in zoom-in duration-1000">
                     <span className="text-mp-gold/60 uppercase tracking-[0.2em] text-sm md:text-base font-medium block mb-2">

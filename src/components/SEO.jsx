@@ -46,9 +46,7 @@ const SEO = ({
             {/* Canonical */}
             <link rel="canonical" href={currentUrl} />
 
-            {/* Hreflang */}
-            <link rel="alternate" hreflang="en" href={`${SITE_URL}${path}`} />
-            <link rel="alternate" hreflang="nl" href={`${SITE_URL}${path}?lang=nl`} />
+            {/* Hreflang — language is a client-side toggle, so every locale shares one URL */}
             <link rel="alternate" hreflang="x-default" href={`${SITE_URL}${path}`} />
 
             {/* Open Graph / Facebook */}
@@ -60,7 +58,7 @@ const SEO = ({
             <meta property="og:image:width" content={String(imageWidth)} />
             <meta property="og:image:height" content={String(imageHeight)} />
             <meta property="og:site_name" content={siteTitle} />
-            <meta property="og:locale" content={language === 'nl' ? 'nl_NL' : (language === 'de' ? 'de_DE' : 'en_US')} />
+            <meta property="og:locale" content={{ nl: 'nl_NL', de: 'de_DE', fr: 'fr_FR' }[language] || 'en_US'} />
 
             {/* Twitter */}
             <meta name="twitter:card" content="summary_large_image" />

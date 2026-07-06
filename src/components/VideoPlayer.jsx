@@ -1,7 +1,7 @@
-import React, { useRef, useImperativeHandle, forwardRef, useEffect, useState } from 'react';
+import React, { useRef, useImperativeHandle, forwardRef, useEffect } from 'react';
 import YouTube from 'react-youtube';
 
-const VideoPlayer = forwardRef(({ url, playing, onTimeUpdate, onReady, className }, ref) => {
+const VideoPlayer = forwardRef(({ url, onTimeUpdate, onReady, className }, ref) => {
     const internalPlayerRef = useRef(null);
     const progressInterval = useRef(null);
 
@@ -44,7 +44,7 @@ const VideoPlayer = forwardRef(({ url, playing, onTimeUpdate, onReady, className
                     }
                 }
             }
-        }, 50); // 50ms polling for smoother visual sync
+        }, 250); // chapter granularity is seconds; 250ms keeps sync tight without re-rendering the page 20×/s
 
         return () => {
             if (progressInterval.current) clearInterval(progressInterval.current);

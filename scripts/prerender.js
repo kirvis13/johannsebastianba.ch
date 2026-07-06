@@ -9,9 +9,11 @@ import { createServer } from 'http';
 import { readFileSync, writeFileSync, mkdirSync, existsSync, statSync } from 'fs';
 import { join, dirname, extname } from 'path';
 import { fileURLToPath } from 'url';
+import { titleToSlug } from '../src/utils/slugify.js';
 
 // On Vercel (and other serverless/container envs), use @sparticuz/chromium
-// which bundles all required shared libraries. Locally, use the puppeteer-managed Chrome.
+// which bundles all required shared libraries. Locally, use the puppeteer-managed Chrome
+// (override with PUPPETEER_EXECUTABLE_PATH when no download is available).
 async function getBrowserOptions() {
     if (process.env.VERCEL) {
         const chromium = (await import('@sparticuz/chromium')).default;
@@ -21,10 +23,14 @@ async function getBrowserOptions() {
             headless: chromium.headless,
         };
     }
-    const { executablePath } = await import('puppeteer');
+    let execPath = process.env.PUPPETEER_EXECUTABLE_PATH;
+    if (!execPath) {
+        const { executablePath } = await import('puppeteer');
+        execPath = executablePath();
+    }
     return {
         args: ['--no-sandbox', '--disable-setuid-sandbox'],
-        executablePath: executablePath(),
+        executablePath: execPath,
         headless: true,
     };
 }
@@ -33,14 +39,6 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const DIST_DIR = join(__dirname, '../dist');
 const PORT = 5179;
 const BASE_URL = `http://localhost:${PORT}`;
-
-const titleToSlug = (title) =>
-    title
-        .toLowerCase()
-        .replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue').replace(/ß/g, 'ss')
-        .replace(/[^a-z0-9\s]/g, '')
-        .trim()
-        .replace(/\s+/g, '-');
 
 function buildRoutes() {
     const indexPath = join(DIST_DIR, 'data/index.json');
@@ -76,7 +74,7 @@ function startServer() {
             let urlPath = req.url.split('?')[0];
 
             // Decode URL
-            try { urlPath = decodeURIComponent(urlPath); } catch (_) {}
+            try { urlPath = decodeURIComponent(urlPath); } catch { /* keep the raw path */ }
 
             // Build candidate paths
             let filePath = join(DIST_DIR, urlPath);
