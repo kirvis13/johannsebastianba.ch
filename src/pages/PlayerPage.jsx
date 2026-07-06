@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import axios from 'axios';
 import { useParams, useNavigate } from 'react-router-dom';
 import { X, Search } from 'lucide-react';
 import { titleToSlug } from '../utils/slugify';
@@ -46,13 +45,15 @@ const PlayerPage = ({ chapters, currentChapter, setCurrentChapter, videoPlayerRe
                 }
             }
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [chapterSlug, chapters]);
 
     // Fetch details when chapter changes
     useEffect(() => {
         if (currentChapter) {
-            axios.get(`/data/details/${currentChapter.id}.json`)
-                .then(response => setDetails(response.data))
+            fetch(`/data/details/${currentChapter.id}.json`)
+                .then(response => response.json())
+                .then(data => setDetails(data))
                 .catch(() => setDetails(null));
         }
     }, [currentChapter]);
@@ -95,7 +96,6 @@ const PlayerPage = ({ chapters, currentChapter, setCurrentChapter, videoPlayerRe
                 description={currentChapter
                     ? `Listen to ${currentChapter.title} – ${currentChapter.scene_label?.[language] ?? currentChapter.type}. Johann Sebastian Bach's St. Matthew Passion.`
                     : "Watch the Nederlandse Bachvereniging performance with synchronized German text, translations, and real-time musical commentary."}
-                image={currentChapter ? `/images/story/story_${currentChapter.id.toString().padStart(2, '0')}.webp` : undefined}
                 schema={[
                     {
                         "@context": "https://schema.org",

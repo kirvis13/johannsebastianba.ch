@@ -3,9 +3,10 @@ import { X, Feather, Music } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
 const SourceModal = ({ isOpen, onClose, data }) => {
+    const { language } = useLanguage();
+
     if (!isOpen || !data) return null;
 
-    const { language, t } = useLanguage();
     const infoText = data.info?.[language] || data.info?.nl;
 
     return (

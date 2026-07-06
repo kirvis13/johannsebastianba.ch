@@ -1,12 +1,11 @@
 import React, { useState, useEffect, useRef, Suspense } from 'react';
-import axios from 'axios';
 import { Routes, Route, Navigate } from 'react-router-dom';
 
 import Layout from './components/Layout';
 import { projectConfig } from './config/project';
 import { componentMap } from './config/componentMap';
 
-import ConcertPage from './pages/ConcertPage';
+const ConcertPage = componentMap['ConcertPage'];
 
 function App() {
   const [chapters, setChapters] = useState([]);
@@ -15,13 +14,12 @@ function App() {
 
   // Initial Data Load (Index)
   useEffect(() => {
-    axios.get('/data/index.json')
-      .then(response => {
-        setChapters(response.data.chapters);
-        // Don't auto-set currentChapter immediately, let the player logic or user interaction drive it
-        // But for initial state it might be good to have the first one ready?
-        if (response.data.chapters.length > 0) {
-          setCurrentChapter(response.data.chapters[0]);
+    fetch('/data/index.json')
+      .then(response => response.json())
+      .then(data => {
+        setChapters(data.chapters);
+        if (data.chapters.length > 0) {
+          setCurrentChapter(data.chapters[0]);
         }
       })
       .catch(error => console.error("Error loading chapters:", error));

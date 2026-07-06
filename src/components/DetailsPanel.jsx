@@ -1,8 +1,9 @@
 import React, { useEffect, useRef, useState, useMemo } from 'react';
 import { useLanguage } from '../context/LanguageContext';
-import { Info, Music, BookOpen, Lightbulb } from 'lucide-react';
+import { Music, BookOpen, Lightbulb } from 'lucide-react';
 import SourceModal from './SourceModal';
 import PlayerHeader from './PlayerHeader';
+import { parseLyrics } from '../utils/parseLyrics';
 
 // --- Sub-components (could be separate files, kept here for simplicity/context) ---
 
@@ -105,9 +106,12 @@ const DetailsPanel = ({ currentChapter, details, currentTime, onPrevClick, onNex
     const [lyricsTab, setLyricsTab] = useState('translation');
 
     // Reset tab when chapter changes so we always start on translation
-    useEffect(() => {
+    // (state-adjustment-during-render pattern, see react.dev "You Might Not Need an Effect")
+    const [prevChapter, setPrevChapter] = useState(currentChapter);
+    if (currentChapter !== prevChapter) {
+        setPrevChapter(currentChapter);
         setLyricsTab('translation');
-    }, [currentChapter]);
+    }
 
     // Auto-scroll to top when chapter changes
     useEffect(() => {
@@ -159,89 +163,10 @@ const DetailsPanel = ({ currentChapter, details, currentTime, onPrevClick, onNex
 
     const { overlay: overlayClasses, container: containerClasses } = getEffectStyles(activeEffect);
 
-    // Helper to render text with markdown speakers (**Name:**)
-    const TextRenderer = ({ text, className }) => {
-        if (!text) return null;
-
-        return (
-            <div className={className}>
-                {text.split('\n').map((line, i) => {
-const legacyMatch = line.match(/^([\p{L}\s]+):(.*)/u);
-                    if (legacyMatch && !line.includes('**')) {
-                        const role = legacyMatch[1];
-                        const content = legacyMatch[2];
-                        return (
-                            <div key={i} className="mb-2">
-                                <span className="text-mp-gold uppercase text-xs tracking-widest font-bold mr-2 opacity-80">
-                                    {role}:
-                                </span>
-                                <span>{content}</span>
-                            </div>
-                        );
-                    }
-
-                    const parts = line.split(/(\*\*.*?\*\*)/g);
-                    if (parts.length > 1) {
-                        return (
-                            <div key={i} className="mb-2">
-                                {parts.map((part, j) => {
-                                    if (part.startsWith('**') && part.endsWith('**')) {
-                                        return (
-                                            <span key={j} className="text-mp-gold uppercase text-xs tracking-widest font-bold mr-2 opacity-80">
-                                                {part.slice(2, -2)}
-                                            </span>
-                                        );
-                                    }
-                                    return <span key={j}>{part}</span>;
-                                })}
-                            </div>
-                        );
-                    }
-
-                    return <div key={i} className="mb-1">{line}</div>;
-                })}
-            </div>
-        );
-    };
-
     const hasSourceData = details?.content?.original_source;
 
     const localizedContent = details?.content?.[language] || details?.content?.nl;
     const germanContent = details?.content?.de;
-
-    // --- Alignment Logic ---
-    const parseLyrics = (text) => {
-        if (!text) return [];
-        const lines = text.split('\n');
-        const segments = [];
-        let currentSegment = null;
-
-        lines.forEach(line => {
-// Match Speaker: or **Speaker:** at start of line (including & for "Soprano & Alto")
-            const match = line.match(/^([\p{L}\s&]+):(.*)/u) || line.match(/^(\*\*.*?\*\*):?(.*)/);
-            if (match && !line.includes('**') || (line.includes('**') && match)) {
-                if (currentSegment) segments.push(currentSegment);
-
-                let speaker = match[1].replace(/\*/g, '').trim();
-                let content = match[2].trim();
-
-                currentSegment = { speaker, content };
-            } else {
-                if (currentSegment) {
-                    currentSegment.content += '\n' + line;
-                } else {
-                    currentSegment = { speaker: '', content: line };
-                }
-            }
-        });
-        if (currentSegment) segments.push(currentSegment);
-
-        if (segments.length === 0 && text) {
-            return [{ speaker: '', content: text }];
-        }
-
-        return segments;
-    };
 
     const germanSegments = parseLyrics(germanContent?.lyrics || details?.german);
     const localizedSegments = parseLyrics(localizedContent?.lyrics || details?.content?.nl?.lyrics || details?.dutch);
